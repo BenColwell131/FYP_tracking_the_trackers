@@ -25,7 +25,11 @@ function interceptWebSockets() {
     addWebSocketListener.call(newWS, 'message', function(event){
       // ***RECEIVED FRAMES***
       console.log(event.data);
-      alert(event.data);
+      // console.log(event.origin);
+      // console.log(event.lastEventId);
+      // console.log(event.source);
+      // console.log(event.ports);
+      window.postMessage({type: "WS_FRAME_RECIEVED", text: event.data}, "*");
     });
 
     console.log("New WebSocket opened");
@@ -43,8 +47,16 @@ function interceptWebSockets() {
   ActualWebSocket.prototype.send = function(data) {
     // ***SENT FRAMES***
     console.log(data);
-    alert(event.data);
+    window.postMessage({type: "WS_FRAME_SENT", contents: data}, "*");
     return sendWsFrame.apply(this, arguments);
+  }
+
+  // Patch websocket close function
+  var closeWS = ActualWebSocket.prototype.close;
+  ActualWebSocket.prototype.close = function() {
+    console.log("WebSocket closed.");
+    window.postMessage({type: "WS_CLOSED"}, "*");
+    return closeWS.apply(this, arguments);
   }
 };
 
