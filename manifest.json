@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Tracking the Trackers",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Monitor WebSocket Activity",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
      "scripts": ["background.js"],
@@ -16,6 +16,14 @@
        "128": "images/get_started128.png"
      }
    },
+   "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "run_at": "document_start",
+       "js": ["contentScript.js"]
+     }
+   ],
+   "web_accessible_resources": ["webSocketPatch.js"],
    "options_page": "options.html",
    "icons": {
       "16": "images/get_started16.png",
