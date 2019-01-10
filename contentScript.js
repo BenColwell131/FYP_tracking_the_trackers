@@ -8,3 +8,9 @@ script.onload = function() {
 };
 
 (document.head || document.documentElement).appendChild(script);
+
+window.addEventListener("message", function(event) {
+  console.log("Content script has recieved a message: " + event.data.text);
+
+  chrome.runtime.sendMessage(event.data);
+});

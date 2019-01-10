@@ -29,6 +29,7 @@ function interceptWebSockets() {
     });
 
     console.log("New WebSocket opened");
+    window.postMessage({ type: "NEW_WS", text: "New web socket opened"}, "*");
     return newWS;
   };
 
