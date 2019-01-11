@@ -2,13 +2,13 @@ let numWS = document.getElementById('numWS');
 let wSFramesSent = document.getElementById('wSFramesSent');
 let wSFramesRec = document.getElementById('wSFramesRec');
 
-chrome.storage.sync.get(['numWS'], function(result) {
+chrome.storage.local.get(['numWS'], function(result) {
   numWS.innerHTML = result.numWS;
 });
-chrome.storage.sync.get(['numWSSent'], function(result) {
+chrome.storage.local.get(['numWSSent'], function(result) {
   wSFramesSent.innerHTML = result.numWSSent;
 });
-chrome.storage.sync.get(['numWSReceived'], function(result) {
+chrome.storage.local.get(['numWSReceived'], function(result) {
   wSFramesRec.innerHTML = result.numWSReceived;
 });
 

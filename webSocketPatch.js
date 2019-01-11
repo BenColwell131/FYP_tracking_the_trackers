@@ -49,7 +49,7 @@ function interceptWebSockets() {
     console.log(data);
     window.postMessage({type: "WS_FRAME_SENT", contents: data}, "*");
     return sendWsFrame.apply(this, arguments);
-  }
+  };
 
   // Patch websocket close function
   var closeWS = ActualWebSocket.prototype.close;
@@ -57,7 +57,7 @@ function interceptWebSockets() {
     console.log("WebSocket closed.");
     window.postMessage({type: "WS_CLOSED"}, "*");
     return closeWS.apply(this, arguments);
-  }
+  };
 };
 
 interceptWebSockets();
