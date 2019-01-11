@@ -10,10 +10,10 @@
    "browser_action": {
      "default_popup": "popup.html",
      "default_icon": {
-       "16": "images/ttt_16.png",
-       "32": "images/ttt_32.png",
-       "48": "images/ttt_48.png",
-       "128": "images/ttt_128.png"
+       "16": "images/ttt_v2_16.png",
+       "32": "images/ttt_v2_32.png",
+       "48": "images/ttt_v2_48.png",
+       "128": "images/ttt_v2_128.png"
      }
    },
    "content_scripts": [
@@ -26,10 +26,10 @@
    "web_accessible_resources": ["webSocketPatch.js"],
    "options_page": "options.html",
    "icons": {
-      "16": "images/ttt_16.png",
-      "32": "images/ttt_32.png",
-      "48": "images/ttt_48.png",
-      "128": "images/ttt_128.png"
+      "16": "images/ttt_v2_16.png",
+      "32": "images/ttt_v2_32.png",
+      "48": "images/ttt_v2_48.png",
+      "128": "images/ttt_v2_128.png"
     },
   "manifest_version": 2
 }
