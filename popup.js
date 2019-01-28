@@ -1,33 +1,20 @@
 let numWS = document.getElementById('numWS');
-let wSFramesSent = document.getElementById('wSFramesSent');
-let wSFramesRec = document.getElementById('wSFramesRec');
+let numWSSent = document.getElementById('numWSSent');
+let numWSReceived = document.getElementById('numWSReceived');
 
-chrome.storage.local.get(['numWS'], function(result) {
-  numWS.innerHTML = result.numWS;
-});
-chrome.storage.local.get(['numWSSent'], function(result) {
-  wSFramesSent.innerHTML = result.numWSSent;
-});
-chrome.storage.local.get(['numWSReceived'], function(result) {
-  wSFramesRec.innerHTML = result.numWSReceived;
+chrome.runtime.sendMessage({
+    type: "UPDATE_POPUP"
 });
 
-chrome.storage.onChanged.addListener(function(changes, namespace) {
-  console.log("got here 2");
-  for (key in changes) {
-    var storageChange = changes[key];
-    switch (key){
-      case "numWS":
-        numWS.innerHTML = storageChange.newValue;
-        break;
-      case "numWSSent":
-        wSFramesSent.innerHTML = storageChange.newValue;
-        break;
-      case "numWSReceived":
-        wSFramesRec.innerHTML = storageChange.newValue;
-        break;
-      default:
-        break;
+chrome.runtime.onMessage.addListener(
+  function(message, sender, sendResponse){
+    if(message.type === "POPUP_UPDATE"){
+      numWS.innerHTML = message.numWS;
+      numWSSent.innerHTML = message.numWSSent;
+      numWSReceived.innerHTML = message.numWSReceived;
+    }
+    else{
+      console.log("Uncaught message type in popup: " + message.type);
     }
   }
-});
+);

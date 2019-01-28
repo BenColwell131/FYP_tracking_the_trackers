@@ -24,7 +24,7 @@ function interceptWebSockets() {
     // Attach listener
     addWebSocketListener.call(newWS, 'message', function(event){
       // ***RECEIVED FRAMES***
-      console.log(event.data);
+      // console.log(event.data);
       // console.log(event.origin);
       // console.log(event.lastEventId);
       // console.log(event.source);
@@ -46,8 +46,9 @@ function interceptWebSockets() {
   var sendWsFrame = ActualWebSocket.prototype.send;
   ActualWebSocket.prototype.send = function(data) {
     // ***SENT FRAMES***
-    console.log(data);
-    window.postMessage({type: "WS_FRAME_SENT", contents: data}, "*");
+    // console.log(data);
+    // What's in data
+    window.postMessage({type: "WS_FRAME_SENT", text: data}, "*");
     return sendWsFrame.apply(this, arguments);
   };
 
@@ -55,7 +56,7 @@ function interceptWebSockets() {
   var closeWS = ActualWebSocket.prototype.close;
   ActualWebSocket.prototype.close = function() {
     console.log("WebSocket closed.");
-    window.postMessage({type: "WS_CLOSED"}, "*");
+    window.postMessage({type: "WS_CLOSED", text: "WebSocket closed."}, "*");
     return closeWS.apply(this, arguments);
   };
 };
