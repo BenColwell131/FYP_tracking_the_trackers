@@ -9,6 +9,7 @@ script.onload = function() {
 
 // Pass on any messages from page to background.js
 window.addEventListener("message", function(event) {
+  if(event.type)
   console.log("Content script has recieved a message: " + event.data.text);
 
   chrome.runtime.sendMessage(event.data);

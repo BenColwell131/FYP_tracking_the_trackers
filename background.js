@@ -48,7 +48,7 @@ chrome.runtime.onMessage.addListener(
           break;
 
         default:
-          console.log("Uncaught message type in background: " + message.type);
+          console.log("Uncaught message type in background: " + message);
       }
       updatePopup();
   }
