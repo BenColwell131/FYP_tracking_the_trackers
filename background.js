@@ -11,6 +11,30 @@ function updatePopup(){
   });
 }
 
+function checkFirstPartyURL(url){
+    console.log("Checking WS url: " + url);
+    // Convert to URL object for easy parsing.
+    var wsURL = new URL(url);
+
+    //Fetch tab url
+    var tabURL;
+    chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
+      tabURL = tabs[0].url;
+      console.log("Tab url: " + tabURL);
+      // Convert to URL object for easy parsing.
+      var pageURL = new URL(tabURL);
+
+      console.log("wsURL.hostname: " + wsURL.hostname);
+      console.log("pageURL.hostname: " + pageURL.hostname);
+      if(wsURL.hostname != pageURL.hostname){
+        console.log("Third Party WS Connection. Caution!");
+      }
+      else if (wsURL.hostname === pageURL.hostname){
+        console.log("First Party WS Connection. Safe to proceed.");
+      }
+    });
+}
+
 chrome.runtime.onMessage.addListener(
   function(message, sender, sendResponse){
       switch(message.type){
@@ -22,6 +46,7 @@ chrome.runtime.onMessage.addListener(
           }
           numWS++;
           console.log("New WS opened.");
+          checkFirstPartyURL(message.url);
           break;
 
         case "WS_FRAME_SENT":

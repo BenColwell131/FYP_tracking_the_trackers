@@ -24,16 +24,12 @@ function interceptWebSockets() {
     // Attach listener
     addWebSocketListener.call(newWS, 'message', function(event){
       // ***RECEIVED FRAMES***
-      // console.log(event.data);
-      // console.log(event.origin);
-      // console.log(event.lastEventId);
-      // console.log(event.source);
-      // console.log(event.ports);
-      window.postMessage({type: "WS_FRAME_RECIEVED", text: event.data}, "*");
+      window.postMessage({type: "WS_FRAME_RECIEVED", data: event.data}, "*");
     });
 
-    console.log("New WebSocket opened");
-    window.postMessage({ type: "NEW_WS", text: "New web socket opened"}, "*");
+    // TODO: Potentially need to *not* open the websocket here rather than terminate it later
+    console.log("Sending content script new WS w/ url: " + url);
+    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: url}, "*");
     return newWS;
   };
 
@@ -46,7 +42,7 @@ function interceptWebSockets() {
   var sendWsFrame = ActualWebSocket.prototype.send;
   ActualWebSocket.prototype.send = function(data) {
     // ***SENT FRAMES***
-    // console.log(data);
+    // console.log(arguments);
     // What's in data
     window.postMessage({type: "WS_FRAME_SENT", text: data}, "*");
     return sendWsFrame.apply(this, arguments);
