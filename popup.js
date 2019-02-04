@@ -1,6 +1,7 @@
 let numWS = document.getElementById('numWS');
 let numWSSent = document.getElementById('numWSSent');
 let numWSReceived = document.getElementById('numWSReceived');
+let numBlockableWS = document.getElementById('numBlockableWS');
 
 chrome.runtime.sendMessage({
     type: "UPDATE_POPUP"
@@ -12,9 +13,7 @@ chrome.runtime.onMessage.addListener(
       numWS.innerHTML = message.numWS;
       numWSSent.innerHTML = message.numWSSent;
       numWSReceived.innerHTML = message.numWSReceived;
-    }
-    else{
-      console.log("Uncaught message type in popup: " + message.type);
+      numBlockableWS.innerHTML = message.numBlockableWS;
     }
   }
 );

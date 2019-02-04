@@ -2,7 +2,7 @@
 // This lets it access the page's window object.
 
 var script = document.createElement('script');
-script.src = chrome.extension.getURL('webSocketPatch.js');
+script.src = chrome.runtime.getURL('webSocketPatch.js');
 script.onload = function() {
   this.remove;
 };

@@ -1,17 +1,43 @@
 var numWS = 0;
 var numWSSent = 0;
 var numWSReceived = 0;
+var numBlockableWS = 0;
 
 function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
     numWS: numWS,
     numWSSent: numWSSent,
-    numWSReceived: numWSReceived
+    numWSReceived: numWSReceived,
+    numBlockableWS: numBlockableWS
   });
 }
 
-function checkFirstPartyURL(url){
+function filterURL(wsURL){
+    var filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');
+    console.log("filterList: " + filterList);
+
+    // Need to synchronosly load filter list nto a string
+    const fetchFilterString = async() => {
+      filterListString = await fetch(filterList)
+                            .then(response => response.text());
+
+      console.log(filterListString);
+
+      // Using indexOf to see if hostname present
+      // TODO: implement more efficient method
+      if(filterListString.indexOf(wsURL.hostname) > -1){
+        console.log("Found url in filter list");
+        numBlockableWS++;
+      }
+      else if(filterListString.indexOf(wsURL.hostname) === -1){
+        console.log("Url not present in filter list");
+      }
+    }
+    fetchFilterString();
+}
+
+function checkFirstPartyURL(url, callback){
     console.log("Checking WS url: " + url);
     // Convert to URL object for easy parsing.
     var wsURL = new URL(url);
@@ -32,11 +58,15 @@ function checkFirstPartyURL(url){
       else if (wsURL.hostname === pageURL.hostname){
         console.log("First Party WS Connection. Safe to proceed.");
       }
+
+      callback(wsURL);
     });
 }
 
 chrome.runtime.onMessage.addListener(
   function(message, sender, sendResponse){
+    // Checks if one of our messages.
+    if(message.type){
       switch(message.type){
         case "NEW_WS":
           if(numWS === 0){
@@ -46,7 +76,7 @@ chrome.runtime.onMessage.addListener(
           }
           numWS++;
           console.log("New WS opened.");
-          checkFirstPartyURL(message.url);
+          checkFirstPartyURL(message.url, filterURL);
           break;
 
         case "WS_FRAME_SENT":
@@ -76,5 +106,6 @@ chrome.runtime.onMessage.addListener(
           console.log("Uncaught message type in background: " + message);
       }
       updatePopup();
+    }
   }
 );

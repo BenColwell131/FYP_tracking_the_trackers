@@ -10,10 +10,10 @@
    "browser_action": {
      "default_popup": "popup.html",
      "default_icon": {
-       "16": "images/ttt_v2_16.png",
-       "32": "images/ttt_v2_32.png",
-       "48": "images/ttt_v2_48.png",
-       "128": "images/ttt_v2_128.png"
+       "16": "assets/images/ttt_v2_16.png",
+       "32": "assets/images/ttt_v2_32.png",
+       "48": "assets/images/ttt_v2_48.png",
+       "128": "assets/images/ttt_v2_128.png"
      }
    },
    "content_scripts": [
@@ -23,13 +23,13 @@
        "js": ["contentScript.js"]
      }
    ],
-   "web_accessible_resources": ["webSocketPatch.js"],
+   "web_accessible_resources": ["webSocketPatch.js", "assets/filters/yoyo.txt"],
    "options_page": "options.html",
    "icons": {
-      "16": "images/ttt_v2_16.png",
-      "32": "images/ttt_v2_32.png",
-      "48": "images/ttt_v2_48.png",
-      "128": "images/ttt_v2_128.png"
+      "16": "assets/images/ttt_v2_16.png",
+      "32": "assets/images/ttt_v2_32.png",
+      "48": "assets/images/ttt_v2_48.png",
+      "128": "assets/images/ttt_v2_128.png"
     },
   "manifest_version": 2
 }
