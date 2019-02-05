@@ -1,7 +1,7 @@
-var numWS = 0;
-var numWSSent = 0;
-var numWSReceived = 0;
-var numBlockableWS = 0;
+let numWS = 0;
+let numWSSent = 0;
+let numWSReceived = 0;
+let numBlockableWS = 0;
 
 function updatePopup(){
   chrome.runtime.sendMessage({
@@ -14,57 +14,51 @@ function updatePopup(){
 }
 
 function filterURL(wsURL){
-    var filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');
-    console.log("filterList: " + filterList);
+    let filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');
 
-    // Need to synchronosly load filter list nto a string
-    const fetchFilterString = async() => {
-      filterListString = await fetch(filterList)
-                            .then(response => response.text());
-
-      console.log(filterListString);
-
-      // Using indexOf to see if hostname present
-      // TODO: implement more efficient method
-      if(filterListString.indexOf(wsURL.hostname) > -1){
-        console.log("Found url in filter list");
-        numBlockableWS++;
-      }
-      else if(filterListString.indexOf(wsURL.hostname) === -1){
-        console.log("Url not present in filter list");
-      }
-    }
-    fetchFilterString();
+    fetch(filterList)
+      .then(response => response.text())
+      .then(filterListString => {
+          // Using indexOf to see if hostname present
+          // TODO: implement more efficient method
+          if(filterListString.indexOf(wsURL.hostname) > -1){
+            console.log("Found url in filter list");
+            numBlockableWS++;
+          }
+          else if(filterListString.indexOf(wsURL.hostname) === -1){
+            console.log("Url not present in filter list");
+          }
+      })
+      .catch(err => console.log(err));
 }
 
-function checkFirstPartyURL(url, callback){
-    console.log("Checking WS url: " + url);
-    // Convert to URL object for easy parsing.
-    var wsURL = new URL(url);
+function checkFirstPartyURL(wsURL){
+    return new Promise((resolve, reject) => {
+      console.log("Checking WS url: " + wsURL);
 
-    //Fetch tab url
-    var tabURL;
-    chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
-      tabURL = tabs[0].url;
-      console.log("Tab url: " + tabURL);
-      // Convert to URL object for easy parsing.
-      var pageURL = new URL(tabURL);
+      //Fetch tab url
+      let tabURL;
+      chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
+        tabURL = tabs[0].url;
+        // Convert to URL object for easy parsing.
+        tabURL = new URL(tabURL);
 
-      console.log("wsURL.hostname: " + wsURL.hostname);
-      console.log("pageURL.hostname: " + pageURL.hostname);
-      if(wsURL.hostname != pageURL.hostname){
-        console.log("Third Party WS Connection. Caution!");
-      }
-      else if (wsURL.hostname === pageURL.hostname){
-        console.log("First Party WS Connection. Safe to proceed.");
-      }
+        console.log("wsURL.hostname: " + wsURL.hostname);
+        console.log("tabURL.hostname: " + tabURL.hostname);
+        if(wsURL.hostname != tabURL.hostname){
+          console.log("Third Party WS Connection. Caution!");
+        }
+        else if (wsURL.hostname === tabURL.hostname){
+          console.log("First Party WS Connection. Safe to proceed.");
+        }
 
-      callback(wsURL);
+        resolve('End of tabs.query');
+      });
     });
 }
 
 chrome.runtime.onMessage.addListener(
-  function(message, sender, sendResponse){
+  (message, sender, sendResponse) => {
     // Checks if one of our messages.
     if(message.type){
       switch(message.type){
@@ -76,17 +70,22 @@ chrome.runtime.onMessage.addListener(
           }
           numWS++;
           console.log("New WS opened.");
-          checkFirstPartyURL(message.url, filterURL);
+
+          // Convert to URL object for easy parsing.
+          let wsURL = new URL(message.url);
+          checkFirstPartyURL(wsURL)
+            .then(filterURL(wsURL));
+
           break;
 
         case "WS_FRAME_SENT":
           numWSSent++;
-          console.log("WS frame sent. #" + numWSSent);
+          // console.log("WS frame sent. #" + numWSSent);
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
-          console.log("WS frame received. #" + numWSReceived);
+          // console.log("WS frame received. #" + numWSReceived);
           break;
 
         case "WS_CLOSED":
