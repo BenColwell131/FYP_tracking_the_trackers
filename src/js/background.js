@@ -3,6 +3,7 @@ let numWSSent = 0;
 let numWSReceived = 0;
 let numBlockableWS = 0;
 
+//TODO: fix this
 function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
