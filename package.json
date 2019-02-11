@@ -26,5 +26,7 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "abp-filter-parser": "^0.2.0"
+  }
 }

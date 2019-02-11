@@ -1,9 +1,13 @@
+// Imports
+let ABPFilterParser = require('abp-filter-parser');
+
+// Global variables
 let numWS = 0;
 let numWSSent = 0;
 let numWSReceived = 0;
 let numBlockableWS = 0;
 
-//TODO: fix this
+
 function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
@@ -15,20 +19,26 @@ function updatePopup(){
 }
 
 function filterURL(wsURL){
-    let filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');
-
-    fetch(filterList)
+    let filterListURL = chrome.runtime.getURL('assets/filters/easyprivacy.txt');
+    fetch(filterListURL)
       .then(response => response.text())
-      .then(filterListString => {
-          // Using indexOf to see if hostname present
-          // TODO: implement more efficient method
-          if(filterListString.indexOf(wsURL.hostname) > -1){
-            console.log("Found url in filter list");
-            numBlockableWS++;
-          }
-          else if(filterListString.indexOf(wsURL.hostname) === -1){
-            console.log("Url not present in filter list");
-          }
+      .then(filterList => {
+        let parsedFilterList = {};
+        ABPFilterParser.parse(filterList, parsedFilterList);
+        // Can add more filter lists here.
+        // ABPFilterParser.parse(someOtherListOfFilters, parsedFilterList);
+
+        //TODO
+        let wsURLString = wsURL.toString();
+        if (ABPFilterParser.matches(parsedFilterList, wsURLString, {
+          // domain: //TODO
+          elementTypeMask: ABPFilterParser.elementTypes.SCRIPT
+        })) {
+          console.log("Matched URL to list. You should block this URL!");
+        }
+        else {
+          console.log("Didn't match URL to list. Safe to proceed.");
+        }
       })
       .catch(err => console.log(err));
 }

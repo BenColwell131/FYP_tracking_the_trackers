@@ -22,7 +22,7 @@
        "js": ["contentScript.bundle.js"]
      }
    ],
-   "web_accessible_resources": ["webSocketPatch.bundle.js", "assets/filters/yoyo.txt"],
+   "web_accessible_resources": ["webSocketPatch.bundle.js", "assets/filters/easyprivacy.txt", "assets/filters/easylist.txt"],
    "options_page": "options.html",
    "icons": {
       "16": "assets/images/ttt_v2_16.png",
