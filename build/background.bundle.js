@@ -1038,6 +1038,7 @@ let numWSSent = 0;
 let numWSReceived = 0;
 let numBlockableWS = 0;
 
+let parsedFilterList = {};
 
 function updatePopup(){
   chrome.runtime.sendMessage({
@@ -1049,29 +1050,41 @@ function updatePopup(){
   });
 }
 
-function filterURL(wsURL){
-    let filterListURL = chrome.runtime.getURL('assets/filters/easyprivacy.txt');
-    fetch(filterListURL)
-      .then(response => response.text())
-      .then(filterList => {
-        let parsedFilterList = {};
-        ABPFilterParser.parse(filterList, parsedFilterList);
-        // Can add more filter lists here.
-        // ABPFilterParser.parse(someOtherListOfFilters, parsedFilterList);
+function fetchFilterLists(){
+  console.time("Fetching lists & parsing");
+  let easyprivacyURL = chrome.runtime.getURL('assets/filters/easyprivacy.txt');
+  const fetch1 = fetch(easyprivacyURL).then(response => response.text());
 
-        //TODO
-        let wsURLString = wsURL.toString();
-        if (ABPFilterParser.matches(parsedFilterList, wsURLString, {
-          // domain: //TODO
-          elementTypeMask: ABPFilterParser.elementTypes.SCRIPT
-        })) {
-          console.log("Matched URL to list. You shoudl block this URL!");
-        }
-        else {
-          console.log("Didn't match URL to list. Safe to proceed.");
-        }
-      })
-      .catch(err => console.log(err));
+  let easylistURL = chrome.runtime.getURL('assets/filters/easylist.txt');
+  const fetch2 = fetch(easylistURL).then(response => response.text());
+
+  Promise.all([fetch1, fetch2])
+    .then(filterLists => {
+      //Add each list to the parsed list
+      filterLists.forEach(filterList => {
+        ABPFilterParser.parse(filterList, parsedFilterList);
+      });
+      console.timeEnd("Fetching lists & parsing");
+    })
+    .catch(err => console.log(err));
+}
+//TODO: not sure when this should be called.
+fetchFilterLists();
+
+function filterURL(wsURL){
+      // Check Websocket URL against our lists.
+      let wsURLString = wsURL.toString();
+      console.time("Filter matching");
+      if (ABPFilterParser.matches(parsedFilterList, wsURLString, {
+        // domain: //TODO
+        elementTypeMask: ABPFilterParser.elementTypes.SCRIPT
+      })) {
+        console.log("Matched URL to list. You should block this URL!");
+      }
+      else {
+        console.log("Didn't match URL to list. Safe to proceed.");
+      }
+      console.timeEnd("Filter matching");
 }
 
 function checkFirstPartyURL(wsURL){
