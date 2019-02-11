@@ -81,38 +81,41 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/options.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/contentScript.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/options.js":
-/*!***************************!*\
-  !*** ./src/js/options.js ***!
-  \***************************/
+/***/ "./src/js/contentScript.js":
+/*!*********************************!*\
+  !*** ./src/js/contentScript.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// let page = document.getElementById('buttonDiv');
-//  const kButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1'];
-//  function constructOptions(kButtonColors) {
-//    for (let item of kButtonColors) {
-//      let button = document.createElement('button');
-//      button.style.backgroundColor = item;
-//      button.addEventListener('click', function() {
-//        chrome.storage.sync.set({color: item}, function() {
-//          console.log('color is ' + item);
-//        })
-//      });
-//      page.appendChild(button);
-//    }
-//  }
-//  constructOptions(kButtonColors);
+// Injects webSocketPatch into actual page inside a script tag.
+// This lets it access the page's window object.
 
-// TODO
+var script = document.createElement('script');
+script.src = chrome.runtime.getURL('webSocketPatch.bundle.js');
+script.onload = function() {
+  this.remove;
+};
+(document.head || document.documentElement).appendChild(script);
+
+// Pass on any messages from page to background.js
+window.addEventListener("message", function(event) {
+    // console.log("Content script has recieved a message: " + JSON.stringify(event.data));
+    console.log("Message type: " + event.data.type);
+
+
+    // As contentScript does not have access to the chrome.tabs API checks must be done in background.js.
+
+    chrome.runtime.sendMessage(event.data);
+});
 
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=options.bundle.js.map
+//# sourceMappingURL=contentScript.bundle.js.map

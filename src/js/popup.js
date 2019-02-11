@@ -1,3 +1,5 @@
+import "../css/popup.css";
+
 let numWS = document.getElementById('numWS');
 let numWSSent = document.getElementById('numWSSent');
 let numWSReceived = document.getElementById('numWSReceived');

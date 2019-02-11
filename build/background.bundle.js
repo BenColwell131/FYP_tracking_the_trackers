@@ -93,8 +93,120 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("let numWS = 0;\r\nlet numWSSent = 0;\r\nlet numWSReceived = 0;\r\nlet numBlockableWS = 0;\r\n\r\n//TODO: fix this\r\nfunction updatePopup(){\r\n  chrome.runtime.sendMessage({\r\n    type: \"POPUP_UPDATE\",\r\n    numWS: numWS,\r\n    numWSSent: numWSSent,\r\n    numWSReceived: numWSReceived,\r\n    numBlockableWS: numBlockableWS\r\n  });\r\n}\r\n\r\nfunction filterURL(wsURL){\r\n    let filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');\r\n\r\n    fetch(filterList)\r\n      .then(response => response.text())\r\n      .then(filterListString => {\r\n          // Using indexOf to see if hostname present\r\n          // TODO: implement more efficient method\r\n          if(filterListString.indexOf(wsURL.hostname) > -1){\r\n            console.log(\"Found url in filter list\");\r\n            numBlockableWS++;\r\n          }\r\n          else if(filterListString.indexOf(wsURL.hostname) === -1){\r\n            console.log(\"Url not present in filter list\");\r\n          }\r\n      })\r\n      .catch(err => console.log(err));\r\n}\r\n\r\nfunction checkFirstPartyURL(wsURL){\r\n    return new Promise((resolve, reject) => {\r\n      console.log(\"Checking WS url: \" + wsURL);\r\n\r\n      //Fetch tab url\r\n      let tabURL;\r\n      chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){\r\n        tabURL = tabs[0].url;\r\n        // Convert to URL object for easy parsing.\r\n        tabURL = new URL(tabURL);\r\n\r\n        console.log(\"wsURL.hostname: \" + wsURL.hostname);\r\n        console.log(\"tabURL.hostname: \" + tabURL.hostname);\r\n        if(wsURL.hostname != tabURL.hostname){\r\n          console.log(\"Third Party WS Connection. Caution!\");\r\n        }\r\n        else if (wsURL.hostname === tabURL.hostname){\r\n          console.log(\"First Party WS Connection. Safe to proceed.\");\r\n        }\r\n\r\n        resolve('End of tabs.query');\r\n      });\r\n    });\r\n}\r\n\r\nchrome.runtime.onMessage.addListener(\r\n  (message, sender, sendResponse) => {\r\n    // Checks if one of our messages.\r\n    if(message.type){\r\n      switch(message.type){\r\n        case \"NEW_WS\":\r\n          if(numWS === 0){\r\n            // Alter UI Badge\r\n            chrome.browserAction.setBadgeText({text: '!'});\r\n            chrome.browserAction.setBadgeBackgroundColor({color: '#2aa4ff'});\r\n          }\r\n          numWS++;\r\n          console.log(\"New WS opened.\");\r\n\r\n          // Convert to URL object for easy parsing.\r\n          let wsURL = new URL(message.url);\r\n          checkFirstPartyURL(wsURL)\r\n            .then(filterURL(wsURL));\r\n\r\n          break;\r\n\r\n        case \"WS_FRAME_SENT\":\r\n          numWSSent++;\r\n          // console.log(\"WS frame sent. #\" + numWSSent);\r\n          break;\r\n\r\n        case \"WS_FRAME_RECIEVED\":\r\n          numWSReceived++;\r\n          // console.log(\"WS frame received. #\" + numWSReceived);\r\n          break;\r\n\r\n        case \"WS_CLOSED\":\r\n          if(numWS === 1){\r\n            // Alter UI Badge\r\n            chrome.browserAction.setBadgeText({text: ''});\r\n          }\r\n          numWS--;\r\n          console.log(\"WS Closed.\");\r\n          break;\r\n\r\n        case \"UPDATE_POPUP\":\r\n          // Done by default in all cases so nothing to do here.\r\n          break;\r\n\r\n        default:\r\n          console.log(\"Uncaught message type in background: \" + message);\r\n      }\r\n      updatePopup();\r\n    }\r\n  }\r\n);\r\n\n\n//# sourceURL=webpack:///./src/js/background.js?");
+let numWS = 0;
+let numWSSent = 0;
+let numWSReceived = 0;
+let numBlockableWS = 0;
+
+//TODO: fix this
+function updatePopup(){
+  chrome.runtime.sendMessage({
+    type: "POPUP_UPDATE",
+    numWS: numWS,
+    numWSSent: numWSSent,
+    numWSReceived: numWSReceived,
+    numBlockableWS: numBlockableWS
+  });
+}
+
+function filterURL(wsURL){
+    let filterList = chrome.runtime.getURL('assets/filters/yoyo.txt');
+
+    fetch(filterList)
+      .then(response => response.text())
+      .then(filterListString => {
+          // Using indexOf to see if hostname present
+          // TODO: implement more efficient method
+          if(filterListString.indexOf(wsURL.hostname) > -1){
+            console.log("Found url in filter list");
+            numBlockableWS++;
+          }
+          else if(filterListString.indexOf(wsURL.hostname) === -1){
+            console.log("Url not present in filter list");
+          }
+      })
+      .catch(err => console.log(err));
+}
+
+function checkFirstPartyURL(wsURL){
+    return new Promise((resolve, reject) => {
+      console.log("Checking WS url: " + wsURL);
+
+      //Fetch tab url
+      let tabURL;
+      chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
+        tabURL = tabs[0].url;
+        // Convert to URL object for easy parsing.
+        tabURL = new URL(tabURL);
+
+        console.log("wsURL.hostname: " + wsURL.hostname);
+        console.log("tabURL.hostname: " + tabURL.hostname);
+        if(wsURL.hostname != tabURL.hostname){
+          console.log("Third Party WS Connection. Caution!");
+        }
+        else if (wsURL.hostname === tabURL.hostname){
+          console.log("First Party WS Connection. Safe to proceed.");
+        }
+
+        resolve('End of tabs.query');
+      });
+    });
+}
+
+chrome.runtime.onMessage.addListener(
+  (message, sender, sendResponse) => {
+    // Checks if one of our messages.
+    if(message.type){
+      switch(message.type){
+        case "NEW_WS":
+          if(numWS === 0){
+            // Alter UI Badge
+            chrome.browserAction.setBadgeText({text: '!'});
+            chrome.browserAction.setBadgeBackgroundColor({color: '#2aa4ff'});
+          }
+          numWS++;
+          console.log("New WS opened.");
+
+          // Convert to URL object for easy parsing.
+          let wsURL = new URL(message.url);
+          checkFirstPartyURL(wsURL)
+            .then(filterURL(wsURL));
+
+          break;
+
+        case "WS_FRAME_SENT":
+          numWSSent++;
+          // console.log("WS frame sent. #" + numWSSent);
+          break;
+
+        case "WS_FRAME_RECIEVED":
+          numWSReceived++;
+          // console.log("WS frame received. #" + numWSReceived);
+          break;
+
+        case "WS_CLOSED":
+          if(numWS === 1){
+            // Alter UI Badge
+            chrome.browserAction.setBadgeText({text: ''});
+          }
+          numWS--;
+          console.log("WS Closed.");
+          break;
+
+        case "UPDATE_POPUP":
+          // Done by default in all cases so nothing to do here.
+          break;
+
+        default:
+          console.log("Uncaught message type in background: " + message);
+      }
+      updatePopup();
+    }
+  }
+);
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=background.bundle.js.map

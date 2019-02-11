@@ -4,11 +4,10 @@
   "description": "Monitor WebSocket Activity",
   "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
   "background": {
-     "scripts": ["js/background.js"],
-     "persistent": false
+     "page": "background.html"
    },
    "browser_action": {
-     "default_popup": "html/popup.html",
+     "default_popup": "popup.html",
      "default_icon": {
        "16": "assets/images/ttt_v2_16.png",
        "32": "assets/images/ttt_v2_32.png",
@@ -20,11 +19,11 @@
      {
        "matches": ["<all_urls>"],
        "run_at": "document_start",
-       "js": ["js/contentScript.js"]
+       "js": ["contentScript.bundle.js"]
      }
    ],
-   "web_accessible_resources": ["js/webSocketPatch.js", "assets/filters/yoyo.txt"],
-   "options_page": "html/options.html",
+   "web_accessible_resources": ["webSocketPatch.bundle.js", "assets/filters/yoyo.txt"],
+   "options_page": "options.html",
    "icons": {
       "16": "assets/images/ttt_v2_16.png",
       "32": "assets/images/ttt_v2_32.png",
