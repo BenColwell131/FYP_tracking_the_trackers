@@ -1,13 +1,17 @@
 // Imports
 let ABPFilterParser = require('abp-filter-parser');
 
-// Global variables
-let numWS = 0;
-let numWSSent = 0;
-let numWSReceived = 0;
-let numBlockableWS = 0;
+// *** Global variables *** //
+  //Popup variables
+  let numWS = 0;
+  let numWSSent = 0;
+  let numWSReceived = 0;
+  let numBlockableWS = 0;
+  let popupOpen = false;
 
-let parsedFilterList = {};
+  //Filtering variables
+  let parsedFilterList = {};
+
 
 function updatePopup(){
   chrome.runtime.sendMessage({
@@ -18,6 +22,16 @@ function updatePopup(){
     numBlockableWS: numBlockableWS
   });
 }
+
+// Detecting popup open/close
+chrome.runtime.onConnect.addListener( (port) => {
+  port.onDisconnect.addListener( () => {
+    console.log("Popup closed.");
+    popupOpen = false;
+  });
+  console.log("Popup opened and connected.");
+  popupOpen = true;
+})
 
 function fetchFilterLists(){
   console.time("Fetching lists & parsing");
@@ -122,13 +136,16 @@ chrome.runtime.onMessage.addListener(
           break;
 
         case "UPDATE_POPUP":
-          // Done by default in all cases so nothing to do here.
+          // Popup update done by default when popup open so no need to do anything.
+          updatePopup();
           break;
 
         default:
           console.log("Uncaught message type in background: " + message);
       }
-      updatePopup();
+      if(popupOpen){
+        updatePopup();
+      }
     }
   }
 );

@@ -9,6 +9,9 @@ chrome.runtime.sendMessage({
     type: "UPDATE_POPUP"
 });
 
+// Connect to background.js so that popup close can be detected.
+let port = chrome.runtime.connect();
+
 chrome.runtime.onMessage.addListener(
   function(message, sender, sendResponse){
     if(message.type === "POPUP_UPDATE"){
