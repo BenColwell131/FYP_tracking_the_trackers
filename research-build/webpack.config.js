@@ -50,7 +50,7 @@ var options = {
     }]),
     // Copy over assets folder.
     new CopyWebpackPlugin([{
-      from: "src/assets",
+      from: "assets",
       to: "assets"
     }]),
     // Generate HTML documents.
