@@ -1,0 +1,32 @@
+{
+  "name": "fyp_tracking_the_trackers",
+  "version": "1.0.0",
+  "description": "Final Year Project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenColwell131/FYP_tracking_the_trackers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenColwell131/FYP_tracking_the_trackers/issues"
+  },
+  "homepage": "https://github.com/BenColwell131/FYP_tracking_the_trackers#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "abp-filter-parser": "^0.2.0"
+  }
+}
