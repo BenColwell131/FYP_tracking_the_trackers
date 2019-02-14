@@ -4,6 +4,8 @@ const path = require('path'),
       CopyWebpackPlugin = require("copy-webpack-plugin"),
       HtmlWebpackPlugin = require("html-webpack-plugin");
 
+
+
 var minifyOptions = {
   collapseWhitespace: true,
   removeComments: true,
@@ -39,6 +41,9 @@ var options = {
         exclude: /node_modules/
       }
     ]
+  },
+  node: {
+    fs: 'empty'
   },
   plugins: [
     // Clean build directory.

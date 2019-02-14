@@ -1,7 +1,7 @@
 {
-  "name": "Tracking the Trackers",
+  "name": "Websocket Research Tool",
   "version": "1.0",
-  "description": "Monitor WebSocket Activity",
+  "description": "Used to record information on how websites use websockets",
   "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
   "background": {
      "page": "background.html"

@@ -12,7 +12,12 @@ let ABPFilterParser = require('abp-filter-parser');
   //Filtering variables
   let parsedFilterList = {};
 
+  //Log variables
+  let log = [];
+  let logIndex = 0;
+  let logStoreURL = "https://api.jsonbin.io/b/5c643bcfad5128320afa62cc";
 
+/* Testing functions
 function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
@@ -94,6 +99,26 @@ function checkFirstPartyURL(wsURL){
       });
     });
 }
+*/
+
+function updateLog(url){
+  log.push({index: logIndex, url: url});
+  logIndex++;
+
+  fetch(logStoreURL, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "secret-key": "$2a$10$T4XtdsCIyyvRWsX405i5N.9OF.gAbgWK0zg47sCAZkWoN6BrZ3zVO",
+      "versioning": "false"
+    },
+    body: JSON.stringify(log)
+  })
+  .then(response => response.json())
+  .then(response => console.log(response));
+
+  console.log("PUT request sent.");
+}
 
 chrome.runtime.onMessage.addListener(
   (message, sender, sendResponse) => {
@@ -109,11 +134,7 @@ chrome.runtime.onMessage.addListener(
           numWS++;
           console.log("New WS opened.");
 
-          // Convert to URL object for easy parsing.
-          let wsURL = new URL(message.url);
-          checkFirstPartyURL(wsURL)
-            .then(filterURL(wsURL));
-
+          updateLog(message.url);
           break;
 
         case "WS_FRAME_SENT":
@@ -137,15 +158,15 @@ chrome.runtime.onMessage.addListener(
 
         case "UPDATE_POPUP":
           // Popup update done by default when popup open so no need to do anything.
-          updatePopup();
+          // updatePopup();
           break;
 
         default:
           console.log("Uncaught message type in background: " + message);
       }
-      if(popupOpen){
-        updatePopup();
-      }
+      // if(popupOpen){
+      //   updatePopup();
+      // }
     }
   }
 );
