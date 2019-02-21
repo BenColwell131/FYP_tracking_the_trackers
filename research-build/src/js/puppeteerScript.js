@@ -1,7 +1,28 @@
+// Imports
 const puppeteer = require('puppeteer');
+const fs = require('fs');
+const path = require('path');
+
+// Settings:
+const COUNTRY = 'ireland';
+
+// Globals:
+let domainList = [];
+
+// Functions
+function loadDomainList() {
+  domainList = fs.readFileSync(path.join(__dirname, '../../', "assets", "top-sites", COUNTRY + ".txt"))
+                 .toString()
+                 .split('\r\n');
+  console.log(domainList);
+}
+
+// TODO: comment
+const delay = ms => new Promise(res => setTimeout(res, ms));
 
 (async() => {
-  const pathToExtension = require('path').join(__dirname, '../../', 'build');
+  await loadDomainList();
+  const pathToExtension = path.join(__dirname, '../../', 'build');
   const browser = await puppeteer.launch({
     headless: false,
     args: [
@@ -10,17 +31,20 @@ const puppeteer = require('puppeteer');
    ]
   });
   const page = await browser.newPage();
-  await page.goto('https://www.marketwatch.com/investing/stock/live');
 
+  // Visit all domains in list.
   const pageLoad = page.waitForFunction('document.readyState === "complete"');
-  await pageLoad;
 
-  await page.evaluate(() => {
-    console.log(document.readyState);
-  });
+  // TODO: Limited to first 4 sites atm
+  for(let i = 0; i < 4; i++){
+      await page.goto('https://' + domainList[i], {waitUntil: ['networkidle0', 'load', 'domcontentloaded']});
+      await pageLoad;
+      await delay(3000);
+      console.log("Visited: https://" + domainList[i]);
+  }
 
-  setTimeout(() => {browser.close({waitUntil: 'networkidle0'})}, 3000);
-  // browser.close({waitUntil: 'networkidle0'});
-
-
+  console.log("Test");
+  // TODO: Fetch gathered data from jsonbin
+  // TODO: Post process data
+  // TODO: Close browser
 })();
