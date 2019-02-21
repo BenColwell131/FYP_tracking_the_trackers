@@ -56,7 +56,6 @@ function fetchFilterLists(){
     })
     .catch(err => console.log(err));
 }
-//TODO: not sure when this should be called.
 fetchFilterLists();
 
 function filterURL(wsURL){
