@@ -1,0 +1,38 @@
+{
+  "sitename1" : {
+      "numberWS" : 2,
+      "WSConnections" : [
+        {
+          "id": 0,
+          "url": "example.com",
+          "frames": [
+            {
+              "direction" : "sent",
+              "payload" : "xyz"
+            },
+            {
+              "direction" : "received",
+              "payload" : "abc"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "url": "example2.com",
+          "frames": [
+            {
+              "direction" : "sent",
+              "payload" : "xyz"
+            },
+            {
+              "direction" : "received",
+              "payload" : "abc"
+            }
+          ]
+        }
+      ]
+  },
+  "sitename2" : {
+
+  }
+}
