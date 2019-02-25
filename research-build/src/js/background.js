@@ -13,8 +13,11 @@ let ABPFilterParser = require('abp-filter-parser');
   let parsedFilterList = {};
 
   //Log variables
-  let log = [];
-  let logIndex = 0;
+  let log = {
+    "totalNumSitesVisited": 0,
+    "totalWSConnections" : 0,
+    "details" : {}
+  };
   let logStoreURL = "https://api.jsonbin.io/b/5c643bcfad5128320afa62cc";
 
 /* Testing functions
@@ -100,24 +103,67 @@ function checkFirstPartyURL(wsURL){
 }
 */
 
-function updateLog(url){
-  log.push({index: logIndex, url: url});
-  logIndex++;
+function getTabUrl() {
+  return new Promise((resolve, reject) => {
+    chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
+      tabURL = tabs[0].url;
+      resolve(tabURL);
+    });
+  });
+};
 
-  fetch(logStoreURL, {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json",
-      "secret-key": "$2a$10$T4XtdsCIyyvRWsX405i5N.9OF.gAbgWK0zg47sCAZkWoN6BrZ3zVO",
-      "versioning": "false"
-    },
-    body: JSON.stringify(log)
-  })
-  .then(response => response.json())
-  .then(response => console.log(response));
+function updateLog(type, data){
+  switch(type){
+    case "NEW_SITE":
+      log.totalNumSitesVisited++;
+      log.details[data.url] = {
+        "title" : data.title,
+        "numberWS" : 0,
+        "WSConnections" : []
+      };
+      break;
 
-  console.log("PUT request sent.");
+    case "NEW_WS":
+      log.totalWSConnections++;
+      getTabUrl().then((sitename) => {
+
+        let id = log.details[sitename].numberWS++; // TODO: Check increment
+        log.details[sitename].WSConnections[id] = {
+          "url" : data.url,
+          "numFramesSent" : 0,
+          "numFramesReceieved" : 0,
+          "framesSent" : {},
+          "framesReceived" : {}
+        };
+      });
+      console.log(log);
+      break;
+  }
+
+  // fetch(logStoreURL, {
+  //   method: "PUT",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //     "secret-key": "$2a$10$T4XtdsCIyyvRWsX405i5N.9OF.gAbgWK0zg47sCAZkWoN6BrZ3zVO",
+  //     "versioning": "false"
+  //   },
+  //   body: JSON.stringify(log)
+  // })
+  // .then(response => response.json())
+  // .then(response => console.log(response));
+  // console.log("Log updated.");
 }
+
+//Detect page changes
+chrome.tabs.onUpdated.addListener(
+  (tabId, changeInfo, tab) => {
+    //No use for tabId or changeInfo
+    if(!log.details[tab.url]){
+      updateLog("NEW_SITE", {url: tab.url, title: tab.title});
+    }
+  }
+);
+
 
 chrome.runtime.onMessage.addListener(
   (message, sender, sendResponse) => {
@@ -132,8 +178,8 @@ chrome.runtime.onMessage.addListener(
           }
           numWS++;
           console.log("New WS opened.");
+          updateLog("NEW_WS", {url: message.url});
 
-          updateLog(message.url);
           break;
 
         case "WS_FRAME_SENT":
@@ -156,8 +202,7 @@ chrome.runtime.onMessage.addListener(
           break;
 
         case "UPDATE_POPUP":
-          // Popup update done by default when popup open so no need to do anything.
-          // updatePopup();
+          // No need in logging version
           break;
 
         default:

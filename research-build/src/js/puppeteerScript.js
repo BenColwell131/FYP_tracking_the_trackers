@@ -17,7 +17,7 @@ function loadDomainList() {
   console.log(domainList);
 }
 
-// TODO: comment
+// Simple helper function to add delays
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 (async() => {

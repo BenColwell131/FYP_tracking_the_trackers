@@ -27,8 +27,6 @@ function interceptWebSockets() {
 
     // TODO: Potentially need to *not* open the websocket here rather than terminate it later
     // console.log("New WS Opened: " + url);
-    console.log(arguments);
-    console.log(protocols);
     window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: url}, "*");
     return newWS;
   };

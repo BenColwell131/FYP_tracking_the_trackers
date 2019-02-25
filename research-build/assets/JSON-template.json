@@ -1,9 +1,12 @@
 {
-  "sitename1" : {
+  "totalNumSitesVisited": 2,
+  "totalWSConnections" : 3,
+  "details" : {
+    "sitename1.com": {
+      "title" : "Example title here",
       "numberWS" : 2,
-      "WSConnections" : [
-        {
-          "id": 0,
+      "WSConnections" : {
+        "0" : {
           "url": "example.com",
           "frames": [
             {
@@ -16,8 +19,7 @@
             }
           ]
         },
-        {
-          "id": 1,
+        "1" : {
           "url": "example2.com",
           "frames": [
             {
@@ -30,9 +32,26 @@
             }
           ]
         }
-      ]
-  },
-  "sitename2" : {
-
+      }
+    },
+    "sitename2.com": {
+      "title" : "Example title here",
+      "numberWS" : 1,
+      "WSConnections" : {
+        "0" : {
+          "url": "example.com",
+          "frames": [
+            {
+              "direction" : "sent",
+              "payload" : "xyz"
+            },
+            {
+              "direction" : "received",
+              "payload" : "abc"
+            }
+          ]
+        }
+      }
+    }
   }
 }
