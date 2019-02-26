@@ -1,36 +1,43 @@
 {
+  "country" : "Ireland",
   "totalNumSitesVisited": 2,
   "totalWSConnections" : 3,
+  "totalFramesSent" : 12,
+  "totalFramesReceieved" : 34,
   "details" : {
     "sitename1.com": {
       "title" : "Example title here",
       "numberWS" : 2,
       "WSConnections" : {
-        "0" : {
-          "url": "example.com",
-          "frames": [
-            {
-              "direction" : "sent",
-              "payload" : "xyz"
-            },
-            {
-              "direction" : "received",
-              "payload" : "abc"
+        "example1.com" : {
+          "numFramesSent" : 1,
+          "numFramesReceieved" : 1,
+          "framesSent" : {
+            "0" : {
+              "payload" : "example example example"
             }
-          ]
+          },
+          "framesReceived" : {
+            "0" : {
+              "payload" : "example example example",
+              "origin" : "example.com"
+            }
+          }
         },
-        "1" : {
-          "url": "example2.com",
-          "frames": [
-            {
-              "direction" : "sent",
-              "payload" : "xyz"
-            },
-            {
-              "direction" : "received",
-              "payload" : "abc"
+        "example2.com" : {
+          "numFramesSent" : 1,
+          "numFramesReceieved" : 1,
+          "framesSent" : {
+            "0" : {
+              "payload" : "example example example"
             }
-          ]
+          },
+          "framesReceived" : {
+            "0" : {
+              "payload" : "example example example",
+              "origin" : "example.com"
+            }
+          }
         }
       }
     },
@@ -38,19 +45,21 @@
       "title" : "Example title here",
       "numberWS" : 1,
       "WSConnections" : {
-        "0" : {
-          "url": "example.com",
-          "frames": [
-            {
-              "direction" : "sent",
-              "payload" : "xyz"
-            },
-            {
-              "direction" : "received",
-              "payload" : "abc"
+        "example1.com" : {
+          "numFramesSent" : 1,
+          "numFramesReceieved" : 1,
+          "framesSent" : {
+            "0" : {
+              "payload" : "example example example"
             }
-          ]
-        }
+          },
+          "framesReceived" : {
+            "0" : {
+              "payload" : "example example example",
+              "origin" : "example.com"
+            }
+          }
+        },
       }
     }
   }

@@ -14,6 +14,7 @@ let ABPFilterParser = require('abp-filter-parser');
 
   //Log variables
   let log = {
+    "country" : "Ireland",
     "totalNumSitesVisited": 0,
     "totalWSConnections" : 0,
     "details" : {}
@@ -126,18 +127,39 @@ function updateLog(type, data){
     case "NEW_WS":
       log.totalWSConnections++;
       getTabUrl().then((sitename) => {
-
-        let id = log.details[sitename].numberWS++; // TODO: Check increment
-        log.details[sitename].WSConnections[id] = {
-          "url" : data.url,
+        log.details[sitename].numberWS++;
+        log.details[sitename].WSConnections[data.url] = {
           "numFramesSent" : 0,
           "numFramesReceieved" : 0,
           "framesSent" : {},
           "framesReceived" : {}
         };
       });
-      console.log(log);
       break;
+
+      case "WS_FRAME_SENT":
+        log.totalFramesSent++;
+        getTabUrl().then((sitename) => {
+          let WSConnection = log.details[sitename].WSConnections[data.webSocketURL];
+          let id = WSConnection.numFramesSent++;
+          WSConnection.framesSent[id] = {
+            "payload" : data.payload
+          };
+        });
+        break;
+
+      case "WS_FRAME_RECIEVED":
+        log.totalFramesReceieved++;
+        getTabUrl().then((sitename) => {
+          let WSConnection = log.details[sitename].WSConnection[data.webSocketURL];
+          let id = WSConnection.numFramesReceieved++;
+          WSConnection.framesReceived[id] = {
+            "payload" : data.payload,
+            "origin" : data.origin
+          };
+        });
+        break;
+
   }
 
   // fetch(logStoreURL, {
@@ -184,12 +206,16 @@ chrome.runtime.onMessage.addListener(
 
         case "WS_FRAME_SENT":
           numWSSent++;
-          // console.log("WS frame sent. #" + numWSSent);
+          console.log("Frame sent");
+          // console.log(message.data);
+          updateLog("WS_FRAME_SENT", {payload: message.payload});
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
-          // console.log("WS frame received. #" + numWSReceived);
+          console.log("Frame Recieved");
+          // console.log(message.data);
+          updateLog("WS_FRAME_RECIEVED", {payload: message.payload});
           break;
 
         case "WS_CLOSED":
