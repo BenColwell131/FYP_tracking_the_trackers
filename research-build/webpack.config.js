@@ -56,6 +56,11 @@ var options = {
       from: "assets",
       to: "assets"
     }]),
+    // Copy over data folder.
+    new CopyWebpackPlugin([{
+      from: "data",
+      to: "data"
+    }]),
     // Generate HTML documents.
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "html", "popup.html"),

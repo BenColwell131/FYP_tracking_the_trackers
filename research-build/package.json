@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "npx webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "puppeteer": "node src/js/puppeteerScript.js" 
   },
   "repository": {
     "type": "git",

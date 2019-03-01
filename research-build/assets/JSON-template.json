@@ -12,32 +12,32 @@
         "example1.com" : {
           "numFramesSent" : 1,
           "numFramesReceieved" : 1,
-          "framesSent" : {
-            "0" : {
+          "framesSent" : [
+            {
               "payload" : "example example example"
             }
-          },
-          "framesReceived" : {
-            "0" : {
+          ],
+          "framesReceived" : [
+            {
               "payload" : "example example example",
               "origin" : "example.com"
             }
-          }
+          ]
         },
         "example2.com" : {
           "numFramesSent" : 1,
           "numFramesReceieved" : 1,
-          "framesSent" : {
-            "0" : {
+          "framesSent" :[
+            {
               "payload" : "example example example"
             }
-          },
-          "framesReceived" : {
-            "0" : {
+          ],
+          "framesReceived" : [
+            {
               "payload" : "example example example",
               "origin" : "example.com"
             }
-          }
+          ]
         }
       }
     },
@@ -48,18 +48,18 @@
         "example1.com" : {
           "numFramesSent" : 1,
           "numFramesReceieved" : 1,
-          "framesSent" : {
-            "0" : {
+          "framesSent" : [
+            {
               "payload" : "example example example"
             }
-          },
-          "framesReceived" : {
-            "0" : {
+          ],
+          "framesReceived" : [
+            {
               "payload" : "example example example",
               "origin" : "example.com"
             }
-          }
-        },
+          ]
+        }
       }
     }
   }

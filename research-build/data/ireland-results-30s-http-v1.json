@@ -1,0 +1,958 @@
+{
+  "country": "Ireland",
+  "totalNumSitesVisited": 100,
+  "totalWSConnections": 23,
+  "totalFramesSent": 130,
+  "totalFramesReceieved": 108,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ie/": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "Twitter. It's what's happening.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.independent.ie/": {
+      "title": "Breaking News Ireland - Latest World News Headlines - Independent.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rte.ie/": {
+      "title": "RTÉ Ireland's National Television and Radio Broadcaster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.uk/": {
+      "title": "Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "Netflix Ireland – Watch TV Programmes Online, Watch Films Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "reddit: the front page of the internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.donedeal.ie/": {
+      "title": "DoneDeal.ie - Ireland's biggest classifieds site",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_0f4f0456-b294-4e62-9674-4a33bb036dc6&lang=en-IE&inline=false": {
+      "title": "Yahoo is now a part of Oath",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "Outlook.com - Microsoft free personal email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "BBC - Homepage",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ampproject.org/": {
+      "title": "Accelerated Mobile Pages Project – AMP",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irishtimes.com/": {
+      "title": "Breaking News | Irish & International Headlines | The Irish Times",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.thejournal.ie/": {
+      "title": "TheJournal.ie - Read, Share and Shape the News",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rip.ie/": {
+      "title": "RIP.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xnxx.com/": {
+      "title": "Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies - XNXX.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://aib.ie/": {
+      "title": "AIB Personal Banking – Allied Irish Banks",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.ie/": {
+      "title": "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://365online.com/": {
+      "title": "365online.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.theguardian.com/international": {
+      "title": "News, sport and opinion from the Guardian's global edition | The Guardian",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymail.co.uk/home/index.html": {
+      "title": "UK Home | Daily Mail Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "LinkedIn: Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.daft.ie/": {
+      "title": "Search Ireland's No. 1 Property Website | Daft.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.three.ie/": {
+      "title": "Great Phone Offers With All You Can Eat Data | Three.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eir.ie/": {
+      "title": "Ireland's Best Value Broadband, Phone, TV and Mobile Bundles | eir.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irishmirror.ie/": {
+      "title": "Irish Mirror: the latest news, showbiz, football and sport",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "IMDb - Movies, TV and Celebrities - IMDb",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lottery.ie/": {
+      "title": "Home | Irish National Lottery",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wp.pl/": {
+      "title": "Wirtualna Polska - Wszystko co ważne - www.wp.pl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "Office 365 Login | Microsoft Office",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "Booking.com: 28,492,753 hotel and property listings worldwide. 173+ million hotel reviews.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.her.ie/": {
+      "title": "Her.ie - The website for Irish women",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.indeed.com/?r=us": {
+      "title": "Job Search | Indeed",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.skysports.com/roi": {
+      "title": "Sky Sports - Sports News, Transfers, Scores | Watch Live Sport",
+      "numberWS": 9,
+      "WSConnections": {
+        "wss://zagent1642.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"__id\":0,\"cmd\":\"get_links_info\",\"route\":{\"ver\":\"1.125.60\",\"customer\":\"sky_uk\",\"url\":\"https://www.skysports.com/roi\"},\"data\":{\"items\":[{\"url\":\"https://www.skysports.com/football/news/11681/11650659/claudio-ranieri-sacked-by-fulham-after-southampton-defeat\",\"type\":\"page\",\"size\":\"694x390\",\"nat_size\":\"614x345\",\"poster\":\"https://e0.365dm.com/19/02/768x432/skysports-claudio-ranieri-fulham_4592647.jpg?20190228170217\",\"description\":\"Football Ranieri sacked by Fulham 'Selection policy cost Ranieri' Ranieri sacking saddens Hodgson\"},{\"url\":\"https://www.skysports.com/football/news/11675/11650937/tottenhams-harry-kane-faces-no-fa-action-following-incident-in-chelsea\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Kane escapes FA action\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11650982/sterling-city-have-the-belief\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Sterling: City have the belief\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11651192/gasly-crash-all-angles\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Gasly crash - all angles\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11650746/pavans-tee-nightmare\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Pavan's tee nightmare!\"},{\"url\":\"https://www.skysports.com/football/news/11787/11650072/brendan-rodgers-what-is-the-new-leicester-managers-celtic-legacy\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football What is Rodgers' Celtic legacy?\"},{\"url\":\"https://www.skysports.com/darts/news/12288/11650909/james-wade-inflicts-michael-van-gerwens-first-premier-league-defeat-of-the-season-in-exeter\",\"type\":\"page\",\"size\":\"330x186\",\"nat_size\":\"288x162\",\"poster\":\"https://e1.365dm.com/19/02/768x432/skysports-james-wade-darts_4593294.jpg?20190228221552\",\"description\":\"Darts Wonderful Wade stuns MVG in Exeter\"}]}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"cmd\":\"get_links_info\",\"res\":{\"https://www.skysports.com/darts/news/12288/11650909/james-wade-inflicts-michael-van-gerwens-first-premier-league-defeat-of-the-season-in-exeter\":{\"description\":\"Darts Wonderful Wade stuns MVG in Exeter\",\"poster\":\"https://e1.365dm.com/19/02/768x432/skysports-james-wade-darts_4593294.jpg?20190228221552\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"videos\":[]},\"https://www.skysports.com/football/news/11681/11650659/claudio-ranieri-sacked-by-fulham-after-southampton-defeat\":{\"description\":\"Football Ranieri sacked by Fulham 'Selection policy cost Ranieri' Ranieri sacking saddens Hodgson\",\"poster\":\"https://e0.365dm.com/19/02/768x432/skysports-claudio-ranieri-fulham_4592647.jpg?20190228170217\",\"poster_size\":\"375x211\",\"poster_nat_size\":\"768x432\",\"videos\":[]},\"https://www.skysports.com/football/news/11675/11650937/tottenhams-harry-kane-faces-no-fa-action-following-incident-in-chelsea\":{\"description\":\"Football Kane escapes FA action\",\"poster\":\"https://e2.365dm.com/19/02/384x216/skysports-harry-kane-cesar-azpilicueta_4592404.jpg?20190227234002\",\"poster_size\":\"177x99\",\"poster_nat_size\":\"384x216\",\"video_poster\":\"https://e1.365dm.com/19/02/150x150/skysports-harry-kane-cesar-azpilicueta_4592404.jpg\",\"video_title\":\"Tottenham's Harry Kane faces no FA action following incident in Chelsea\",\"video_size\":\"1536x864\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/tmaWNjaDE6mLyWpotZFYPJjjPQ8DN5Se.m3u8\",\"duration\":49.946144,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FtmaWNjaDE6mLyWpotZFYPJjjPQ8DN5Se.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DSUlmT1pyV3BTSTV1M1pkNitRVnZJR0lCN2R3T1YxTVRTZHI0WEkxTUNHdmFQRGRzVkRjUU1sU25GcU5GCkJoSU1zcS9CQjl1QmN2SEhHTXliWXFqUTVnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"142.44.212.29\",\"hostname\":\"zagent1644.h-cdn.com\"},{\"host\":\"54.36.176.168\",\"hostname\":\"zagent1668.h-cdn.com\"},{\"host\":\"209.58.130.220\",\"hostname\":\"zagent878.h-cdn.com\"}]}},\"https://www.skysports.com/watch/video/sports/11650982/sterling-city-have-the-belief\":{\"description\":\"Sterling: City have the belief\",\"poster\":\"https://e2.365dm.com/19/02/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4592874.jpg?20190228145856\",\"poster_size\":\"299x168\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e3.365dm.com/19/02/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4592874.jpg?20190228145856\",\"video_title\":\"Sterling: City have the belief\",\"video_size\":\"996x560\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/Q4eWhjaDE6LHb5B36CGhsCor5O2Et90L.m3u8\",\"duration\":123,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FQ4eWhjaDE6LHb5B36CGhsCor5O2Et90L.m3u8%3FtargetBitrate%3D2000%26ssl%3Dtrue%26secure_ios_token%3DS2g4d2NWTW9iVHVpZFFROGpmVmk1SDFPcUhnZG10Ni9QNlFKelZBeURlSVR3dXRVTGhYcitoakdjYlFKCnFseGV6K3JCbXJiS093U1JpNVBMb2tsVHBBPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"209.58.147.205\",\"hostname\":\"zagent885.h-cdn.com\"},{\"host\":\"142.44.212.29\",\"hostname\":\"zagent1644.h-cdn.com\"},{\"host\":\"88.212.245.12\",\"hostname\":\"zagent364.h-cdn.com\"}]}},\"https://www.skysports.com/watch/video/sports/11651192/gasly-crash-all-angles\":{\"description\":\"Gasly crash - all angles\",\"poster\":\"https://e2.365dm.com/19/02/768x432/598be9a2d8f3f3d51f4d74718619a5cb98d59d024793bd7234e4149470cf814e_4593174.jpg?20190228194237\",\"poster_size\":\"299x168\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e3.365dm.com/19/02/768x432/598be9a2d8f3f3d51f4d74718619a5cb98d59d024793bd7234e4149470cf814e_4593174.jpg?20190228194237\",\"video_title\":\"Gasly crash - all angles\",\"video_size\":\"360x202\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/hkcmpjaDE6OVUlY1gz8KdE0zcbmFOPmT.m3u8\",\"duration\":136,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FhkcmpjaDE6OVUlY1gz8KdE0zcbmFOPmT.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DN0lDOFBpMVZkMUlBNTlsY1l4S2JQOWs0T212UExKdWRaaU9GakFOREdXakRVZWZqYW5IWFB1c1EvQmFqClpEU3Y2UlZseHRIQW03cmxabWhkWTRYenNnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"95.141.32.92\",\"hostname\":\"zagent11.h-cdn.com\"},{\"host\":\"145.239.8.193\",\"hostname\":\"zagent1642.h-cdn.com\"},{\"host\":\"199.115.115.133\",\"hostname\":\"zagent1606.h-cdn.com\"}]}},\"https://www.skysports.com/watch/video/sports/11650746/pavans-tee-nightmare\":{\"description\":\"Pavan's tee nightmare!\",\"poster\":\"https://e0.365dm.com/19/02/768x432/aa63fbe7de3e81b8c0abc8803084504319fd0c14a3b115728f5f7a203158a2ef_4592788.jpg?20190228124710\",\"poster_size\":\"299x168\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e3.365dm.com/19/02/768x432/aa63fbe7de3e81b8c0abc8803084504319fd0c14a3b115728f5f7a203158a2ef_4592788.jpg?20190228124710\",\"video_title\":\"Pavan's tee nightmare!\",\"video_size\":\"360x202\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/Roa2djaDE6Cv-K12E2fOYz4evkBPOONc.m3u8\",\"duration\":28.467686,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FRoa2djaDE6Cv-K12E2fOYz4evkBPOONc.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DTjJ6RUl5Q1d6NjlTODhHYUxKbVExSGhDb25teGt6by8xNFBLclp0UVUxaWVteEYvckxJcDFiMkxSU1FOCno2b3NqZXRWZXVrcTJSNjdlUi9TYk5IeGZnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"23.108.191.211\",\"hostname\":\"zagent892.h-cdn.com\"},{\"host\":\"88.212.232.36\",\"hostname\":\"zagent403.h-cdn.com\"},{\"host\":\"54.36.176.168\",\"hostname\":\"zagent1668.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11787/11650072/brendan-rodgers-what-is-the-new-leicester-managers-celtic-legacy\":{\"description\":\"Football What is Rodgers' Celtic legacy?\",\"poster\":\"https://e2.365dm.com/18/04/768x432/skysports-brendan-rodgers-celtic_4292262.jpg?20180425123534\",\"poster_size\":\"299x168\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e0.365dm.com/18/04/150x150/skysports-brendan-rodgers-celtic_4292262.jpg\",\"video_title\":\"Brendan Rodgers: What is the new Leicester manager's Celtic legacy?\",\"video_size\":\"375x210\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/dyZjVjaDE68mqTQIbYcxbnwfA4G_24Tr.m3u8\",\"duration\":1.0216666666666667,\"videos\":[{\"url\":\"/hls/player/all/IzdDVjaDE6agITQkSBMMaMHKDpxLYL-s.m3u8\",\"duration\":114},{\"url\":\"/hls/player/all/IzdDVjaDE6agITQkSBMMaMHKDpxLYL-s.m3u8\",\"duration\":0.1},{\"url\":\"/hls/player/all/J0NzVjaDE6CZ-wlhAWivpWIdIr6EkCpD.m3u8\",\"duration\":31.021881}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FdyZjVjaDE68mqTQIbYcxbnwfA4G_24Tr.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3Da3c2LytQYnRhdTVHNlAvQnluUWtPVTJydlVXcytFTFYyNUNieHh4K2hmcjErdS9TK1QzMXhhaVpoMGp0Ck5MRnBMQmJhTFNwWUdOcEJwakhsVDJoSktRPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"54.36.176.169\",\"hostname\":\"zagent1669.h-cdn.com\"},{\"host\":\"209.58.147.205\",\"hostname\":\"zagent885.h-cdn.com\"},{\"host\":\"81.171.3.167\",\"hostname\":\"zagent898.h-cdn.com\"}]}}},\"opt\":{\"__id\":0,\"items\":[{\"url\":\"https://www.skysports.com/football/news/11681/11650659/claudio-ranieri-sacked-by-fulham-after-southampton-defeat\",\"type\":\"page\",\"size\":\"694x390\",\"nat_size\":\"614x345\",\"poster\":\"https://e0.365dm.com/19/02/768x432/skysports-claudio-ranieri-fulham_4592647.jpg?20190228170217\",\"description\":\"Football Ranieri sacked by Fulham 'Selection policy cost Ranieri' Ranieri sacking saddens Hodgson\"},{\"url\":\"https://www.skysports.com/football/news/11675/11650937/tottenhams-harry-kane-faces-no-fa-action-following-incident-in-chelsea\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Kane escapes FA action\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11650982/sterling-city-have-the-belief\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Sterling: City have the belief\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11651192/gasly-crash-all-angles\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Gasly crash - all angles\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11650746/pavans-tee-nightmare\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Pavan's tee nightmare!\"},{\"url\":\"https://www.skysports.com/football/news/11787/11650072/brendan-rodgers-what-is-the-new-leicester-managers-celtic-legacy\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football What is Rodgers' Celtic legacy?\"},{\"url\":\"https://www.skysports.com/darts/news/12288/11650909/james-wade-inflicts-michael-van-gerwens-first-premier-league-defeat-of-the-season-in-exeter\",\"type\":\"page\",\"size\":\"330x186\",\"nat_size\":\"288x162\",\"poster\":\"https://e1.365dm.com/19/02/768x432/skysports-james-wade-darts_4593294.jpg?20190228221552\",\"description\":\"Darts Wonderful Wade stuns MVG in Exeter\"}]},\"__id\":0}",
+              "origin": "wss://zagent1642.h-cdn.com"
+            }
+          ]
+        },
+        "wss://zagent891.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent897.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent1356.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent87.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent364.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent870.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent11.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent871.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.accuweather.com/en/ie/ireland-weather": {
+      "title": "Ireland Weather - AccuWeather.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.onet.pl/": {
+      "title": "Onet – Jesteś na bieżąco",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ryanair.com/ie/en/": {
+      "title": "Ryanair",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.argos.ie/": {
+      "title": "Argos Ireland | Furniture | Laptops | Toys | Games",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://microsoftonline.com/": {
+      "title": "microsoftonline.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "Twitch",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.boards.ie/": {
+      "title": "boards.ie - Now Ye're Talkin'",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.thesun.ie/": {
+      "title": "The Irish Sun - latest news, sport, celebrities and videos",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adverts.ie/": {
+      "title": "Adverts.ie | Buy and Sell Everything on Ireland's Trusted Marketplace",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "Quora - A place to share knowledge and better understand the world",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.co.uk/": {
+      "title": "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "Send Money, Pay Online or Set Up a Merchant Account - PayPal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.co.uk/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irishexaminer.com/": {
+      "title": "Irish Examiner | Irish Examiner",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.vodafone.com/content/index.html": {
+      "title": "Welcome to Vodafone",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tripadvisor.ie/": {
+      "title": "TripAdvisor: Read Reviews, Compare Prices & Book",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.joe.ie/": {
+      "title": "JOE is the voice of Irish people at home and abroad",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sky.com/": {
+      "title": "Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://open24.ie/": {
+      "title": "Permanent tsb Online Banking",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.breakingnews.ie/": {
+      "title": "BreakingNews.ie | Irish News | Breaking News from Ireland",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "Pinterest",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://n.vodafone.ie/en.html": {
+      "title": "Great deals on latest smartphones, broadband and TV | Vodafone",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/": {
+      "title": "https://www.ros.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/oidc/login?client_id=rosint_rp": {
+      "title": "ROS - Log In",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/oidc/login/noCertsFound?lang=en&client_id=rosint_rp": {
+      "title": "ROS - Log In",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.redtube.com/": {
+      "title": "Free Porn Sex Videos - Redtube - XXX Movies - Home of Videos Porno",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "WhatsApp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.interia.pl/": {
+      "title": "Interia - Polska i świat: informacje, sport, gwiazdy.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://duckduckgo.com/": {
+      "title": "DuckDuckGo — Privacy, simplified.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.express.co.uk/": {
+      "title": "Latest UK and World News, Sport and Comment | Express.co.uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://revenue.ie/en/Home.aspx": {
+      "title": "Welcome to revenue.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "Imgur: The magic of the Internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paddypower.com/bet": {
+      "title": "Online Betting & Odds | Bet with Paddy Power Sports",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://ws.paddypower.com/fanout/?x-application=vsd0Rm5ph2sS2uaK&EIO=3&transport=websocket": {
+          "numFramesSent": 4,
+          "numFramesReceived": 10,
+          "framesSent": [
+            {
+              "payload": "40/raceStatus"
+            },
+            {
+              "payload": "42/raceStatus,[\"sub\",\"29155246.2242,29155224.2251,29155322.2300\"]"
+            },
+            {
+              "payload": "42/raceStatus,[\"sub\",\"29155008.0025,29155008.0038,29155008.0051\"]"
+            },
+            {
+              "payload": "2"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"yGXjbu1FfS9b1kO6-New\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "40/raceStatus",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155246.2242\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155224.2251\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155322.2300\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155008.0025\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155008.0038\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "42/raceStatus,[\"29155008.0051\",{\"data\":null}]",
+              "origin": "wss://ws.paddypower.com"
+            },
+            {
+              "payload": "3",
+              "origin": "wss://ws.paddypower.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "MSN Ireland | Breaking News, Sports, Weather, Hotmail & Outlook email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.premierleague.com/": {
+      "title": "Premier League Football News, Fixtures, Scores & Results",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.littlewoodsireland.ie/": {
+      "title": "Littlewoods Ireland | Online Shopping | Fashion & Homeware",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "Microsoft - Official Home Page",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.escort-ireland.com/": {
+      "title": "Escort-Ireland.com | #1 For Escorts, Massage & Domination in Ireland",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.met.ie/": {
+      "title": "Met Éireann Forecast - The Irish Meteorological Service",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aliexpress.com/": {
+      "title": "AliExpress.com - Online Shopping for Popular Electronics, Fashion, Home & Garden, Toys & Sports, Automobiles and More.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "Live Sex Cam Shows, FREE Chat with Webcam Girls | LiveJasmin",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=56113717597568769203352463633594": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminDorothyxx428903d2dd5e63e99d50dcc999e04849\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"573e364c0b702f4cdb99a3dd12e09a21\",\"jsm2SessionId\":\"gf0c2eb321fc7289580e7e073d791e810\",\"userType\":\"user\",\"performerId\":\"Dorothyxx\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"4493087086675431159610862958812\",\"armaVersion\":\"34.13.10\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[{\"streamwidth\":960,\"streamheight\":528}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[\"guest24\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"Dorothyxx is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"winni74\",\"spending\":1}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":511874},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":904,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":960}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":112},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"640x360|960x540|1024x576|1280x720\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":528,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":880,\"type\":\"nano\",\"width\":960}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[{\"bitrate\":850,\"height\":540,\"isDefault\":true,\"name\":\"stream_960_540_850\",\"streamNameWithFolder\":\"published/stream_960_540_850\",\"width\":960}]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":904,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":960},\"newValue\":{\"bitrate\":896,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":960}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"ue8ynnaaxjh9y5p4vol3w74xavznxjtyisj9s03ezfyt5d79qc21240v4u99sbgb\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":112,\"newValue\":114}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-44.dditscdn.com/?random=25455423818517955087948434681264": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminNatalieRey67b1c916a68a88ee7162afb36eeef1bc\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"31e464a6e0dc91f1eb0c3b7c633847f1\",\"jsm2SessionId\":\"gf0c2eb321fc7289580e7e073d791e810\",\"userType\":\"user\",\"performerId\":\"NatalieRey\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"4493087086675431159610862958812\",\"armaVersion\":\"34.13.10\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[{\"streamwidth\":848,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[\"guest47\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"NatalieRey is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"pppp11223344\",\"spending\":10}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":504336},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":824,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":848}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":103},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":777,\"type\":\"nano\",\"width\":848}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[{\"brandID\":\"jasmin\",\"id\":\"442849\",\"jasminSpamResult\":false,\"msg\":\"yes Netfox \",\"performerID\":\"NatalieRey\",\"type\":\"performer\",\"userNick\":\"NatalieRey\",\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"zts123703nknnq7a12hqbpzo35lfwh8ylluxxv9nrpqz0pedda1vca8s8jnoisdm\",\"data\":[{\"msg\":\"I´m also fine - thanks.\",\"broadcastOnly\":true,\"id\":\"445639\",\"memberType\":\"activeMember\",\"isFanClubMember\":false,\"ismobile\":0,\"performerID\":\"NatalieRey\",\"type\":\"member\",\"userNick\":\"sohornyfranky\",\"sid\":\"a3dp761pn9m3d3au1m384ak3268gg669959n1ela8c6ft5e4djg9u7lx7j6izm4o\",\"platform\":\"desktop\",\"brandID\":\"jasmin\",\"senderLanguage\":null,\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":4}]}",
+              "origin": "wss://dss-relay-109-71-162-44.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=9368158879341510757340843281275": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminJuliaAmbitchous7a9c787e9230449528ed65cf48a1c94b\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"31e464a6e0dc91f1eb0c3b7c633847f1\",\"jsm2SessionId\":\"gf0c2eb321fc7289580e7e073d791e810\",\"userType\":\"user\",\"performerId\":\"JuliaAmbitchous\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"4493087086675431159610862958812\",\"armaVersion\":\"34.13.10\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[{\"streamwidth\":1280,\"streamheight\":720}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[\"guest26\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"JuliaAmbitchous is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"NoNoNON0\",\"spending\":19}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":504884},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":896,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":114},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"864x480|1280x720\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":720,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":1173,\"type\":\"nano\",\"width\":1280}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[{\"bitrate\":2000,\"height\":720,\"isDefault\":false,\"name\":\"stream_1280_720_2000\",\"streamNameWithFolder\":\"published/stream_1280_720_2000\",\"width\":1280},{\"bitrate\":850,\"height\":480,\"isDefault\":true,\"name\":\"stream_864_480_850\",\"streamNameWithFolder\":\"published/stream_864_480_850\",\"width\":864}]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"qrab2bj27842t0kbq2wnlwrsj4pkfsi9vslgjgt0pjbbixl6j4ycs0qmihthw20d\",\"data\":[{\"msg\":\"you look amazing\",\"broadcastOnly\":true,\"id\":\"449619\",\"memberType\":\"activeMember\",\"isFanClubMember\":false,\"ismobile\":0,\"performerID\":\"JuliaAmbitchous\",\"type\":\"member\",\"userNick\":\"iraellis\",\"sid\":\"r8o3a63m2205118b5rg2y5kgw769hci6oq335xwi8ugb8618cj452n5qh3748dtl\",\"platform\":\"desktop\",\"brandID\":\"jasmin\",\"senderLanguage\":null,\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":1}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-47.dditscdn.com/?random=858800387471819077863330800906": {
+          "numFramesSent": 6,
+          "numFramesReceived": 12,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminGreatTeenSexxx5cac9325ae993d7f0eaac2d29ef6ca52\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"31e464a6e0dc91f1eb0c3b7c633847f1\",\"jsm2SessionId\":\"gf0c2eb321fc7289580e7e073d791e810\",\"userType\":\"user\",\"performerId\":\"GreatTeenSexxx\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"4493087086675431159610862958812\",\"armaVersion\":\"34.13.10\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[\"guest201\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"GreatTeenSexxx is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"darklegend662002\",\"spending\":2}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":504906},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":824,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":103},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":792,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"dcpx72g9bjbwstrknfjuvi56cbzm0poch8qf27yowlf27e8cp3ycs96cnsiipxlx\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.google.pl/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toWww=1&redig=CD91A51441494F08A6ACA03CEA39F45D": {
+      "title": "Bing",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.taboola.com/": {
+      "title": "Content Discovery & Native Advertising Platform | Taboola.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bet365.com/en/": {
+      "title": "bet365 - Sports Betting, Premier League and Champions League Football Odds, Horse Racing Prices plus Grand Slam Tennis Betting, Casino, Poker, Games, Vegas, Bingo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://bitly.com/": {
+      "title": "Bitly | URL Shortener, Custom Branded URLs, API & Link Management",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youporn.com/": {
+      "title": "Free Porn Videos - HD Porno Tube & XXX Sex Videos | YouPorn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mirror.co.uk/": {
+      "title": "Mirror Online: The intelligent tabloid. #madeuthink",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.sky.com/": {
+      "title": "The Latest News from the UK and Around the World | Sky News",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikia.com/explore": {
+      "title": "Explore | FANDOM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "The world’s leading software development platform · GitHub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fabswingers.com/": {
+      "title": "Fab Swingers: Free swingers site for UK and USA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aerlingus.com/html/en-US/home.html": {
+      "title": "Cheap Flights - To and from Dublin, Europe, Britain & North America - Aer Lingus",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.outbrain.com/": {
+      "title": "Performance-Based Native Advertising Platform | Outbrain.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.football365.com/": {
+      "title": "Football365 - Football News, Views, Gossip and much more....",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.google.com/?hl=en-IE&gl=IE&ceid=IE:en": {
+      "title": "Google News",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

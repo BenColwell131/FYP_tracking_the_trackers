@@ -17,9 +17,12 @@ let ABPFilterParser = require('abp-filter-parser');
     "country" : "Ireland",
     "totalNumSitesVisited": 0,
     "totalWSConnections" : 0,
+    "totalFramesSent" : 0,
+    "totalFramesReceieved" : 0,
     "details" : {}
   };
-  let logStoreURL = "https://api.jsonbin.io/b/5c643bcfad5128320afa62cc";
+  let logStoreURL = "https://api.jsonbin.io/b/5c76af4dc1a6cc3f8968ccd2";
+  let jsonbinSecret = "$2a$10$dRvEOWuD9KwUlBLj28nQQuIgbJAc9hwF.m7YbxXrjdgIFJ0apQdLW";
 
 /* Testing functions
 function updatePopup(){
@@ -103,7 +106,6 @@ function checkFirstPartyURL(wsURL){
     });
 }
 */
-
 function getTabUrl() {
   return new Promise((resolve, reject) => {
     chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
@@ -120,7 +122,7 @@ function updateLog(type, data){
       log.details[data.url] = {
         "title" : data.title,
         "numberWS" : 0,
-        "WSConnections" : []
+        "WSConnections" : {}
       };
       break;
 
@@ -130,9 +132,9 @@ function updateLog(type, data){
         log.details[sitename].numberWS++;
         log.details[sitename].WSConnections[data.url] = {
           "numFramesSent" : 0,
-          "numFramesReceieved" : 0,
-          "framesSent" : {},
-          "framesReceived" : {}
+          "numFramesReceived" : 0,
+          "framesSent" : [],
+          "framesReceived" : []
         };
       });
       break;
@@ -140,9 +142,8 @@ function updateLog(type, data){
       case "WS_FRAME_SENT":
         log.totalFramesSent++;
         getTabUrl().then((sitename) => {
-          let WSConnection = log.details[sitename].WSConnections[data.webSocketURL];
-          let id = WSConnection.numFramesSent++;
-          WSConnection.framesSent[id] = {
+          let id = log.details[sitename].WSConnections[data.webSocketURL].numFramesSent++;
+          log.details[sitename].WSConnections[data.webSocketURL].framesSent[id] = {
             "payload" : data.payload
           };
         });
@@ -151,9 +152,8 @@ function updateLog(type, data){
       case "WS_FRAME_RECIEVED":
         log.totalFramesReceieved++;
         getTabUrl().then((sitename) => {
-          let WSConnection = log.details[sitename].WSConnection[data.webSocketURL];
-          let id = WSConnection.numFramesReceieved++;
-          WSConnection.framesReceived[id] = {
+          let id = log.details[sitename].WSConnections[data.webSocketURL].numFramesReceived++;
+          log.details[sitename].WSConnections[data.webSocketURL].framesReceived[id] = {
             "payload" : data.payload,
             "origin" : data.origin
           };
@@ -162,26 +162,21 @@ function updateLog(type, data){
 
   }
 
-  // fetch(logStoreURL, {
-  //   method: "PUT",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //     "secret-key": "$2a$10$T4XtdsCIyyvRWsX405i5N.9OF.gAbgWK0zg47sCAZkWoN6BrZ3zVO",
-  //     "versioning": "false"
-  //   },
-  //   body: JSON.stringify(log)
-  // })
-  // .then(response => response.json())
-  // .then(response => console.log(response));
-  // console.log("Log updated.");
+  if(log.totalNumSitesVisited >= 90){ //Only send towards the end of list  (@90 in case of a few failed visits)
+    console.log(log);
+    window.sendToPuppeteer(JSON.stringify(log));
+  }
 }
 
 //Detect page changes
 chrome.tabs.onUpdated.addListener(
   (tabId, changeInfo, tab) => {
+    console.log(tab);
     //No use for tabId or changeInfo
-    if(!log.details[tab.url]){
-      updateLog("NEW_SITE", {url: tab.url, title: tab.title});
+    if(tab.status === "complete"){
+      if(!log.details[tab.url]){
+        updateLog("NEW_SITE", {url: tab.url, title: tab.title});
+      }
     }
   }
 );
@@ -208,14 +203,17 @@ chrome.runtime.onMessage.addListener(
           numWSSent++;
           console.log("Frame sent");
           // console.log(message.data);
-          updateLog("WS_FRAME_SENT", {payload: message.payload});
+          updateLog("WS_FRAME_SENT", {payload: message.payload,
+                                      webSocketURL: message.webSocketURL});
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
           console.log("Frame Recieved");
           // console.log(message.data);
-          updateLog("WS_FRAME_RECIEVED", {payload: message.payload});
+          updateLog("WS_FRAME_RECIEVED", {payload: message.payload,
+                                          webSocketURL: message.webSocketURL,
+                                          origin: message.origin});
           break;
 
         case "WS_CLOSED":

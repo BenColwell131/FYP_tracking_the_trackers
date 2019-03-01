@@ -33,7 +33,7 @@ function interceptWebSockets() {
 
     // TODO: Potentially need to *not* open the websocket here rather than terminate it later
     console.log(newWS);
-    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: url}, "*");
+    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: newWS.url}, "*");
     return newWS;
   };
 
