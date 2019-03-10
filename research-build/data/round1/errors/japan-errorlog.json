@@ -1,0 +1,46 @@
+[
+  {
+    "domain": "Japanpost.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Japanpost.jp"
+  },
+  {
+    "domain": "Nhk.or.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Nhk.or.jp"
+  },
+  {
+    "domain": "Doorblog.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Doorblog.jp"
+  },
+  {
+    "domain": "Jd.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Microsoftonline.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Exosrv.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Exosrv.com"
+  },
+  {
+    "domain": "Livedoor.biz",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Livedoor.biz"
+  },
+  {
+    "domain": "Nta.go.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Nta.go.jp"
+  },
+  {
+    "domain": "Mufg.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Mufg.jp"
+  },
+  {
+    "domain": "Twimg.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Twimg.com"
+  },
+  {
+    "domain": "Kuronekoyamato.co.jp",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Kuronekoyamato.co.jp"
+  }
+]

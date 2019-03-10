@@ -1,0 +1,555 @@
+{
+  "country": "Russia",
+  "totalNumSitesVisited": 96,
+  "totalWSConnections": 11,
+  "totalFramesSent": 18,
+  "totalFramesReceieved": 28,
+  "details": {
+    "https://yandex.ru/": {
+      "title": "Яндекс",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/": {
+      "title": "Welcome! | VK",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mail.ru/": {
+      "title": "Mail.Ru: почта, поиск в интернете, новости, игры",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ok.ru/": {
+      "title": "OK.RU",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.yandex.ru/": {
+      "title": "Яндекс.Новости: Главные новости сегодня, самые свежие и последние новости России онлайн",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.avito.ru/rossiya": {
+      "title": "Авито — объявления в России",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.mail.ru/": {
+      "title": "Mail.ru Новости: Последние новости России и мира - Mail.ru Новости",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aliexpress.com/": {
+      "title": "AliExpress.com - Online Shopping for Popular Electronics, Fashion, Home & Garden, Toys & Sports, Automobiles and More.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gismeteo.ru/": {
+      "title": "GISMETEO: погода в России — прогноз погоды на сегодня, завтра, 3 дня, выходные, неделю, 10 дней, месяц.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rambler.ru/": {
+      "title": "Рамблер/новости, почта и поиск — медийный портал: новости России и мира, электронная почта, погода, развлекательные и коммуникационные сервисы. Новости сегодня и сейчас",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://market.yandex.ru/": {
+      "title": "Яндекс.Маркет — выбор и покупка товаров из проверенных интернет-магазинов",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejournal.com/": {
+      "title": "LiveJournal: Discover global communities of friends who share your unique passions and interests.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sberbank.ru/en/individualclients": {
+      "title": "«Сбербанк» - Individual Clients",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lenta.ru/": {
+      "title": "Lenta.ru - Новости России и мира сегодня",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kinopoisk.ru/": {
+      "title": "КиноПоиск — Все фильмы планеты",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://pikabu.ru/": {
+      "title": "Горячее",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drom.ru/": {
+      "title": "Дром.ру - цены на машины. Автомобильный портал России",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.vesti.ru/": {
+      "title": "Вести.Ru: новости, видео и фото дня",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rbc.ru/": {
+      "title": "РБК — новости, акции, курсы валют, доллар, евро",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gosuslugi.ru/": {
+      "title": "Портал государственных услуг Российской Федерации",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "Twitter. It's what's happening.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.rambler.ru/": {
+      "title": "Новости сегодня: самые свежие и последние новости России и мира — Рамблер/новости",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://seasonvar.ru/": {
+      "title": "Сериалы ТУТ! Сериалы онлайн смотреть бесплатно. Смотреть онлайн",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "Twitch",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        }
+      }
+    },
+    "https://rp5.ru/": {
+      "title": "Weather for 243 countries of the world",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://music.yandex.ru/home": {
+      "title": "Яндекс.Музыка",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ivi.tv/": {
+      "title": "Смотреть фильмы онлайн в хорошем качестве, кино и видео фильмы можно смотреть у нас на сайте. Не можете скачать новинки – смотрите фильмы в онлайн кинотеатре ivi прямо сейчас!",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wildberries.ru/": {
+      "title": "WildBerries.ru – Интернет-магазин модной одежды и обуви",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kp.ru/": {
+      "title": "Новости России. Комсомольская Правда в РФ - газета, радио и сайт // WWW.KP.RU",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lady.mail.ru/": {
+      "title": "Женский журнал | Мода, красота и здоровье, светская жизнь, диеты и рецепты - Mail.ru Леди",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hdlava.me/main2": {
+      "title": "Смотреть фильмы, сериалы и мультфильмы онлайн бесплатно в хорошем качестве",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hh.ru/": {
+      "title": "Работа, вакансии, база резюме, поиск работы на HeadHunter (hh.ru)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rt.com/": {
+      "title": "RT",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drive2.ru/": {
+      "title": "DRIVE2.RU",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://fb.ru/": {
+      "title": "FB.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/": {
+      "title": "Карта городов России: Москва, Тула, Санкт-Петербург, Калининград и ещё 423 города — 2ГИС",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/moscow": {
+      "title": "Карта Москвы: улицы, дома и организации города — 2ГИС",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://znanija.com/": {
+      "title": "Школьные Знания.com - Решаем домашнее задание вместе",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dns-shop.ru/": {
+      "title": "DNS – интернет магазин цифровой и бытовой техники по доступным ценам.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mk.ru/": {
+      "title": "Новости России и мира - Новостной портал Московский Комсомолец - МК",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gazeta.ru/": {
+      "title": "Главные новости - Газета.Ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ozon.ru/": {
+      "title": "Интернет-магазин OZON.ru — более 5 000 000 товаров по выгодным ценам",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://disk.yandex.com/": {
+      "title": "Yandex.Disk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://tapclap.com/": {
+      "title": "TAPCLAP - games on HTML5",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://moskva.mts.ru/personal": {
+      "title": "Частным клиентам - Москва",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dni.ru/": {
+      "title": "Последние новости – Дни.ру",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rg.ru/": {
+      "title": "Российская газета",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://moskva.beeline.ru/customers/products/": {
+      "title": "«Билайн» частным лицам: продукты, тарифы и услуги. Официальный сайт оператора - Москва",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://auto.ru/": {
+      "title": "auto.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ficbook.net/": {
+      "title": "Книга Фанфиков",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ampproject.org/": {
+      "title": "Accelerated Mobile Pages Project – AMP",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dnevnik.ru/": {
+      "title": "Дневник.ру",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.championat.com/": {
+      "title": "Чемпионат.com: новости спорта - Чемпионат",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "WhatsApp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://echo.msk.ru/": {
+      "title": "Эхо Москвы - новости, радио, политика, экономика, особое мнение",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://life.ru/": {
+      "title": "«Life.ru» — информационный портал",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.yaplakal.com/": {
+      "title": "ЯПлакалъ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.stoloto.ru/": {
+      "title": "Столото — лотерейный супермаркет: билеты государственных лотерей онлайн — Спортлото, Гослото и другие российские лотереи на официальном сайте",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://sportmail.ru/": {
+      "title": "Все новости спорта, фото и видео, трансляции и репортажи, статистика и результаты матчей - Mail.ru Спорт",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pochta.ru/": {
+      "title": "Почта России",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://auto.mail.ru/": {
+      "title": "auto.mail.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://4pda.ru/": {
+      "title": "4PDA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://youla.ru/": {
+      "title": "Юла - доска объявлений, бесплатные частные объявления",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mvideo.ru/": {
+      "title": "М.Видео - интернет-магазин цифровой и бытовой техники и электроники, низкие цены, большой каталог, отзывы. - Москва",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://iz.ru/": {
+      "title": "Известия – новости политики, экономики, спорта, культуры | IZ.RU",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mos.ru/": {
+      "title": "Официальный сайт Мэра Москвы",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://cloud.mail.ru/": {
+      "title": "Облако Mail.Ru - облачное хранилище файлов",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://rutracker.org/forum/index.php": {
+      "title": "BitTorrent трекер RuTracker.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://smi2.ru/": {
+      "title": "СМИ2 - Главные новости",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://megaresheba.ru/": {
+      "title": "ГДЗ - готовые домашние задания и решебники",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://otzovik.com/": {
+      "title": "Отзовик - отзывы туристов об отелях и отдыхе, владельцев об авто, пользователей о ноутбуках, модниц о косметике, родителей о детских товарах и многое другое!",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hi-tech.mail.ru/": {
+      "title": "Новости высоких технологий, обзоры смартфонов, гаджетов и бытовой техники - Mail.ru Hi-Tech",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sports.ru/": {
+      "title": "Спорт: футбол, хоккей, баскетбол, теннис, бокс, Формула-1 — все новости спорта на Sports.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.citilink.ru/": {
+      "title": "Бытовая техника и электроника в интернет-магазине Ситилинк",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://irecommend.ru/": {
+      "title": "IRecommend.ru | Отзывы покупателей",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fotostrana.ru/signup/": {
+      "title": "Фотострана: сайт знакомств без регистрации, фото девушек и парней",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://msk.tele2.ru/?pageParams=askForRegion%3Dtrue": {
+      "title": "Выгодная мобильная связь Tele2, оператор сотовой связи Москва и Московская область",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://tele2.omnichat.ru/webChat/WebSocket": {
+          "numFramesSent": 5,
+          "numFramesReceived": 5,
+          "framesSent": [
+            {
+              "payload": "{\"action\":\"ping\"}"
+            },
+            {
+              "payload": "{\"action\":\"ping\"}"
+            },
+            {
+              "payload": "{\"action\":\"ping\"}"
+            },
+            {
+              "payload": "{\"action\":\"ping\"}"
+            },
+            {
+              "payload": "{\"action\":\"ping\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"action\":\"pong\"}",
+              "origin": "wss://tele2.omnichat.ru"
+            },
+            {
+              "payload": "{\"action\":\"pong\"}",
+              "origin": "wss://tele2.omnichat.ru"
+            },
+            {
+              "payload": "{\"action\":\"pong\"}",
+              "origin": "wss://tele2.omnichat.ru"
+            },
+            {
+              "payload": "{\"action\":\"pong\"}",
+              "origin": "wss://tele2.omnichat.ru"
+            },
+            {
+              "payload": "{\"action\":\"pong\"}",
+              "origin": "wss://tele2.omnichat.ru"
+            }
+          ]
+        }
+      }
+    },
+    "http://porno365.sex/": {
+      "title": "Порно 365 - новое порно каждый день. Порнуха в HD.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.sportbox.ru/": {
+      "title": "Новости спорта, Спортивная аналитика, Видео",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rutube.ru/": {
+      "title": "Видеохостинг Rutube. Смотрите видео онлайн, бесплатно",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ru/": {
+      "title": "Pinterest",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://animevost.org/": {
+      "title": "База №1 по просмотру аниме онлайн бесплатно",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://infourok.ru/": {
+      "title": "Официальный сайт проекта «ИНФОУРОК» - курсы, тесты, видеолекции, материалы для учителей",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.aif.ru/": {
+      "title": "Аргументы и Факты: новости России и мира",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.samsung.com/ie/": {
+      "title": "Samsung Ireland | Mobile | Home Electronics | Home Appliances | TV",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://auto.drom.ru/": {
+      "title": "Продажа автомобилей в России. Подержанные авто, новые. Купить автомобиль б/у, цены.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://svr.megafon.ru/": {
+      "title": "Официальный сайт МегаФона, Свердловская область",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

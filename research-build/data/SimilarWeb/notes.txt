@@ -1,0 +1,3 @@
+This batch was done visiting sites
+  - via http protocol (mostly upgraded to https)
+  - staying on the site for 1 minute.

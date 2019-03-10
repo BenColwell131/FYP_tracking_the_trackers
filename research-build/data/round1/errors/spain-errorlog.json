@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "Microsoftonline.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Redsys.es",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Redsys.es"
+  },
+  {
+    "domain": "Exosrv.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Exosrv.com"
+  },
+  {
+    "domain": "Googleusercontent.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://Googleusercontent.com"
+  },
+  {
+    "domain": "Mail.ru",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Loteriasyapuestas.es",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  }
+]

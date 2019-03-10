@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "puppeteer": "node src/js/puppeteerScript.js" 
+    "puppeteer": "node src/js/puppeteerScript.js",
+    "puppeteer-all": "node src/js/puppeteerScript.js hong-kong && node src/js/puppeteerScript.js ireland && node src/js/puppeteerScript.js japan && node src/js/puppeteerScript.js russia && node src/js/puppeteerScript.js spain && node src/js/puppeteerScript.js usa"
   },
   "repository": {
     "type": "git",

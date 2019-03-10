@@ -1,0 +1,546 @@
+{
+  "country": "Hong-Kong",
+  "totalNumSitesVisited": 103,
+  "totalWSConnections": 9,
+  "totalFramesSent": 16,
+  "totalFramesReceieved": 27,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com.hk/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.discuss.com.hk/": {
+      "title": "香港討論區 Discuss.com.hk - 香討．香港 No.1",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_ccb967f2-903f-4984-95de-e0b49193d206&lang=en-IE&inline=false": {
+      "title": "Yahoo is now a part of Oath",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://baidu.com/": {
+      "title": "baidu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.baidu.com/": {
+      "title": "百度一下，你就知道",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pixnet.net/": {
+      "title": "痞客邦",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://world.taobao.com/": {
+      "title": "淘宝网(淘寶網)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.aastocks.com/": {
+      "title": "阿斯達克財經網 (阿思達克財經網) AASTOCKS.com - 免費即時股票及港股報價 HK Free Stock Quote",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hkgolden.com/": {
+      "title": "香港高登 - 全港最受歡迎o既電腦資訊網站",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hk.appledaily.com/": {
+      "title": "蘋果日報 | 首頁",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bastillepost.com/hongkong/": {
+      "title": "巴士的報",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.qq.com/?fromdefault": {
+      "title": "腾讯首页",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dcfever.com/": {
+      "title": "DCFever.com 香港最受歡迎數碼產品資訊互動平台",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.price.com.hk/": {
+      "title": "香港格價網 Price.com.hk - 全港No.1格價平台",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.etnet.com.hk/www/tc/home/index.php": {
+      "title": "經濟通ET Net財經生活網 - 港股基金MPF 免費即時股票及期指報價 HK Free Real Time Stock & Futures Quote",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tmall.com/": {
+      "title": "天猫tmall.com--理想生活上天猫",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "Outlook.com - Microsoft free personal email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hsbc.com.hk/": {
+      "title": "HSBC Hong Kong - Credit Cards, Mortgage, Insurance, Deposits, Loans",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hk.on.cc/hk/news/index.html": {
+      "title": "即時新聞｜港澳｜on.cc東網｜東方報業集團",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ettoday.net/": {
+      "title": "ETtoday新聞雲 | Today is my day",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://presslogic.com/": {
+      "title": "PressLogic | Continually Evolving",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hk01.com/": {
+      "title": "香港01｜hk01.com 倡議型媒體",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "Blogger.com - Create a unique and beautiful blog. It’s easy and free.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hangseng.com/en-hk/home/": {
+      "title": "Hang Seng Bank Limited",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "WhatsApp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "LinkedIn: Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bilibili.com/": {
+      "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hkjc.com/home/chinese/index.aspx": {
+      "title": "香港賽馬會",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://unwire.hk/": {
+      "title": "主頁 | 香港 UNWIRE.HK 玩生活．樂科技",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weibo.com/overseas": {
+      "title": "微博国际",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sina.com.cn/?from=kandian": {
+      "title": "新浪首页",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gamer.com.tw/": {
+      "title": "巴哈姆特電玩資訊站",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "Twitch",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "Netflix Ireland – Watch TV Programmes Online, Watch Films Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://menclub.hk/": {
+      "title": "Menclub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://detail.tmall.com/": {
+      "title": "detail.tmall.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "reddit: the front page of the internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "Apple",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.coco02.net/": {
+      "title": "首頁 - COCO01",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lihkg.com/": {
+      "title": "LIHKG",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lihkg.com/category/1": {
+      "title": "LIHKG",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://bochk.com/": {
+      "title": "bochk.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ulifestyle.com.hk/": {
+      "title": "首頁 | U Lifestyle",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.uwants.com/": {
+      "title": "Uwants.com - 香港動漫手遊討論平台",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://microsoftonline.com/": {
+      "title": "microsoftonline.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jd.com/": {
+      "title": "京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.alipay.com/": {
+      "title": "支付宝 知托付！",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "Microsoft - Official Home Page",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ppshk.com/": {
+      "title": "Welcome to PPS on Internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ppshk.com/index_c.html": {
+      "title": "Welcome to PPS on Internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "Office 365 Login | Microsoft Office",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://kknews.cc/": {
+      "title": "每日頭條 - 每日新鮮頭條一網打盡",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://avgle.com/": {
+      "title": "Avgle",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://8maple.ru/": {
+      "title": "8Maple楓林網頁面加載中...",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zhihu.com/signup?next=%2F": {
+      "title": "知乎 - 有问题，上知乎",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "The world’s leading software development platform · GitHub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.google.cn/": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hku.hk/": {
+      "title": "The University of Hong Kong (HKU)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mytvsuper.com/tc": {
+      "title": "myTV SUPER - 主頁",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mingpao.com/": {
+      "title": "明報網站 | 明報",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://beautyexchange.com.hk/": {
+      "title": "BeautyExchange.com - all about beauty, fashion, lifestyle and more...",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "Pinterest",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hket.com/": {
+      "title": "香港經濟日報HKET | 即時新聞, 頭條新聞, 財經, 地產, 科技",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://cuhk.edu.hk/": {
+      "title": "The Chinese University of Hong Kong",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://cuhk.edu.hk/english/index.html": {
+      "title": "The Chinese University of Hong Kong",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://thestandnews.com/": {
+      "title": "Stand News 立場新聞",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.sohu.com/": {
+      "title": "搜狐",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hktvmall.com/": {
+      "title": "香港電視 HKTVmall 網上購物",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://hko.gov.hk/": {
+      "title": "hko.gov.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "Ratings and Reviews for New Movies and TV Shows - IMDb",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://tvboxnow.com/": {
+      "title": "TVBnow.COM Official Site",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "BBC - Homepage",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://exosrv.com/": {
+      "title": "exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://t.co/": {
+      "title": "t.co / Twitter",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.manhuagui.com/": {
+      "title": "在线看漫画_飒漫乐画_妃夕妍雪 - 看漫画",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "Send Money, Pay Online or Set Up a Merchant Account - PayPal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cambridge.org/": {
+      "title": "Home | Cambridge University Press",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.r18.com/": {
+      "title": "R18.com: The Largest Japanese Adult Site",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.javjunkies.com/main/attention/": {
+      "title": "JAVJunkies » !!ATTENTION!!",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "FANDOM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jobsdb.com/": {
+      "title": "jobsDB - Jobs in Hong Kong, Indonesia, Singapore, Thailand",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://myshopify.com/": {
+      "title": "Create an Ecommerce Website and Sell Online! Ecommerce Software by Shopify",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "Dropbox",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.koreastardaily.com/": {
+      "title": "KSD 韓星網",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.douban.com/": {
+      "title": "豆瓣",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "WordPress.com: Create a Free Website or Blog",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.jp/": {
+      "title": "Amazon | 本, ファッション, 家電から食品まで | アマゾン",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.csdn.net/": {
+      "title": "CSDN-专业IT技术社区",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "Quora - A place to share knowledge and better understand the world",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "Adobe: Creative, marketing and document management solutions",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://tvb.com/": {
+      "title": "tvb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://cathaypacific.com/": {
+      "title": "cathaypacific.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

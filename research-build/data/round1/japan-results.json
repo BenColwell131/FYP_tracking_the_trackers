@@ -1,0 +1,546 @@
+{
+  "country": "Japan",
+  "totalNumSitesVisited": 103,
+  "totalWSConnections": 8,
+  "totalFramesSent": 9,
+  "totalFramesReceieved": 22,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yahoo.co.jp/": {
+      "title": "Yahoo! JAPAN",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.jp/": {
+      "title": "Amazon | 本, ファッション, 家電から食品まで | アマゾン",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.co.jp/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "Twitter. It's what's happening.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rakuten.co.jp/": {
+      "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nicovideo.jp/": {
+      "title": "niconico(ニコニコ)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fc2.com/": {
+      "title": "FC2 - Free Website, Analyzer, Blog, Rental Server, SEO Countermeasures, etc. -",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://t.co/": {
+      "title": "t.co / Twitter",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://kakaku.com/": {
+      "title": "価格.com - 「買ってよかった」をすべてのひとに。",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.livedoor.com/": {
+      "title": "livedoor",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://baidu.com/": {
+      "title": "baidu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.baidu.com/": {
+      "title": "百度一下，你就知道",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ameblo.jp/": {
+      "title": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.dmm.co.jp/": {
+      "title": "年齢認証 - FANZA（旧DMM.R18）",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.goo.ne.jp/": {
+      "title": "goo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://blog.jp/": {
+      "title": "blog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "Outlook.com - Microsoft free personal email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hatenablog.com/": {
+      "title": "Hatena Blog",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.qq.com/?fromdefault": {
+      "title": "腾讯首页",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weblio.jp/": {
+      "title": "辞典・百科事典の検索サービス - Weblio辞書",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "The world’s leading software development platform · GitHub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "Blogger.com - Create a unique and beautiful blog. It’s easy and free.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mercari.com/": {
+      "title": "Mercari: The Selling App | Mercari",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "Apple",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pixiv.net/": {
+      "title": "Online community for artists [pixiv]",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tmall.com/": {
+      "title": "天猫tmall.com--理想生活上天猫",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "MSN Ireland | Breaking News, Sports, Weather, Hotmail & Outlook email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "Microsoft - Official Home Page",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "Netflix Ireland – Watch TV Programmes Online, Watch Films Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_50dcd25f-bac7-4dfd-9a5c-3cf5f473e39d&lang=en-IE&inline=false": {
+      "title": "Yahoo is now a part of Oath",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://5ch.net/": {
+      "title": "５ちゃんねる掲示板へようこそ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://world.taobao.com/": {
+      "title": "淘宝网(淘寶網)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.impress.co.jp/": {
+      "title": "株式会社インプレス",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://japanpost.jp/": {
+      "title": "japanpost.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dmm.com/": {
+      "title": "DMM.com - ゲーム・動画・電子書籍・英会話・FX等の総合サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nikkei.com/": {
+      "title": "経済、株価、ビジネス、政治のニュース:日経電子版",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://matome.naver.jp/": {
+      "title": "NAVER まとめ[情報をデザインする。キュレーションプラットフォーム]",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://nhk.or.jp/": {
+      "title": "nhk.or.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tabelog.com/": {
+      "title": "食べログ - ランキングと口コミで探せるグルメサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://line.me/en-US/": {
+      "title": "LINE : Free Calls & Messages",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "Office 365 Login | Microsoft Office",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.asahi.com/": {
+      "title": "朝日新聞デジタル：朝日新聞社のニュースサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://doorblog.jp/": {
+      "title": "doorblog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "Send Money, Pay Online or Set Up a Merchant Account - PayPal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.hatena.ne.jp/": {
+      "title": "Hatena",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "Adobe: Creative, marketing and document management solutions",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://go.chatwork.com/": {
+      "title": "Chatwork | Group chat for global teams",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.sohu.com/": {
+      "title": "搜狐",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "Dropbox",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://avgle.com/": {
+      "title": "Avgle",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.itmedia.co.jp/": {
+      "title": "IT総合情報ポータル「ITmedia」Home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "LinkedIn: Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jd.com/": {
+      "title": "京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weibo.com/overseas": {
+      "title": "微博国际",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yodobashi.com/": {
+      "title": "ヨドバシ.com - ヨドバシカメラの公式通販サイト【全品無料配達】",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://microsoftonline.com/": {
+      "title": "microsoftonline.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://exosrv.com/": {
+      "title": "exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sina.com.cn/": {
+      "title": "新浪首页",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://livedoor.biz/": {
+      "title": "livedoor.biz",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toWww=1&redig=E480D62A0C61435CAD19B29DB4464519": {
+      "title": "Bing",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mynavi.jp/": {
+      "title": "「マイナビ」企業サイトへようこそ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://nyaa.si/": {
+      "title": "Browse :: Nyaa",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "Twitch",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        }
+      }
+    },
+    "http://himado.in/": {
+      "title": "ひまわり動画",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "Imgur: The magic of the Internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/eu/?ir=1": {
+      "title": "CRM Software & Cloud Computing Solutions - Salesforce EMEA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "reddit: the front page of the internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nifty.com/": {
+      "title": "@nifty",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://login.tmall.com/": {
+      "title": "理想生活上天猫",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://eroterest.net/": {
+      "title": "エロ動画 - 動画エロタレスト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tenki.jp/": {
+      "title": "日本気象協会 tenki.jp【公式】 / 天気・地震・台風",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://syosetu.com/": {
+      "title": "小説家になろう - みんなのための小説投稿サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://nta.go.jp/": {
+      "title": "nta.go.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ameba.jp/": {
+      "title": "Ameba (アメーバ)｜ブログ&ゲーム 1万人以上の芸能人ブログや定番アメーバピグで遊ぼう♪",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bilibili.com/": {
+      "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.asos.com/": {
+      "title": "ASOS | Online Shopping for the Latest Clothes & Fashion",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://mufg.jp/": {
+      "title": "mufg.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.valuecommerce.co.jp/en/": {
+      "title": "ValueCommerce Co., Ltd.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://biglobe.ne.jp/": {
+      "title": "BIGLOBE",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.biglobe.ne.jp/": {
+      "title": "BIGLOBE",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://twimg.com/": {
+      "title": "twimg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "WordPress.com: Create a Free Website or Blog",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tumblr.com/": {
+      "title": "Sign up | Tumblr",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.360.cn/": {
+      "title": "360官网 - 360安全软件 - 360智能硬件 - 360智能家居 - 360企业服务",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://b9good.com/": {
+      "title": "B9GOODアニメ 元ドメインb9dm",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tver.jp/check.html": {
+      "title": "https://tver.jp/check.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tver.jp/": {
+      "title": "民放公式テレビポータル「TVer（ティーバー）」",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymotion.com/": {
+      "title": "Dailymotion - Explore and watch videos online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymotion.com/us": {
+      "title": "Dailymotion - Explore and watch videos online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://kuronekoyamato.co.jp/": {
+      "title": "kuronekoyamato.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://abema.tv/": {
+      "title": "AbemaTV｜国内最大の無料インターネットテレビ局",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sakura.ne.jp/": {
+      "title": "さくらのレンタルサーバ | 高速・安定WordPressなら！無料2週間お試し",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

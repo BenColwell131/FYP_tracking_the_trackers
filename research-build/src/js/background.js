@@ -14,7 +14,7 @@ let ABPFilterParser = require('abp-filter-parser');
 
   //Log variables
   let log = {
-    "country" : "Ireland",
+    "country" : "Russia",
     "totalNumSitesVisited": 0,
     "totalWSConnections" : 0,
     "totalFramesSent" : 0,
@@ -106,18 +106,11 @@ function checkFirstPartyURL(wsURL){
     });
 }
 */
-function getTabUrl() {
-  return new Promise((resolve, reject) => {
-    chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
-      tabURL = tabs[0].url;
-      resolve(tabURL);
-    });
-  });
-};
 
 function updateLog(type, data){
   switch(type){
     case "NEW_SITE":
+      console.log("New site: ", data.url);
       log.totalNumSitesVisited++;
       log.details[data.url] = {
         "title" : data.title,
@@ -128,42 +121,36 @@ function updateLog(type, data){
 
     case "NEW_WS":
       log.totalWSConnections++;
-      getTabUrl().then((sitename) => {
-        log.details[sitename].numberWS++;
-        log.details[sitename].WSConnections[data.url] = {
+      log.details[data.tabURL].numberWS++;
+      log.details[data.tabURL].WSConnections[data.url] = {
           "numFramesSent" : 0,
           "numFramesReceived" : 0,
           "framesSent" : [],
           "framesReceived" : []
-        };
-      });
+      };
       break;
 
-      case "WS_FRAME_SENT":
-        log.totalFramesSent++;
-        getTabUrl().then((sitename) => {
-          let id = log.details[sitename].WSConnections[data.webSocketURL].numFramesSent++;
-          log.details[sitename].WSConnections[data.webSocketURL].framesSent[id] = {
-            "payload" : data.payload
-          };
-        });
-        break;
+    case "WS_FRAME_SENT":
+      log.totalFramesSent++;
+      let id = log.details[data.tabURL].WSConnections[data.webSocketURL].numFramesSent++;
+      log.details[data.tabURL].WSConnections[data.webSocketURL].framesSent[id] = {
+        "payload" : data.payload
+      };
+      break;
 
-      case "WS_FRAME_RECIEVED":
-        log.totalFramesReceieved++;
-        getTabUrl().then((sitename) => {
-          let id = log.details[sitename].WSConnections[data.webSocketURL].numFramesReceived++;
-          log.details[sitename].WSConnections[data.webSocketURL].framesReceived[id] = {
-            "payload" : data.payload,
-            "origin" : data.origin
-          };
-        });
-        break;
+    case "WS_FRAME_RECIEVED":
+      log.totalFramesReceieved++;
+      let id2 = log.details[data.tabURL].WSConnections[data.webSocketURL].numFramesReceived++;
+      log.details[data.tabURL].WSConnections[data.webSocketURL].framesReceived[id2] = {
+        "payload" : data.payload,
+        "origin" : data.origin
+      };
+      break;
 
   }
 
   if(log.totalNumSitesVisited >= 90){ //Only send towards the end of list  (@90 in case of a few failed visits)
-    console.log(log);
+    // console.log(log);
     window.sendToPuppeteer(JSON.stringify(log));
   }
 }
@@ -171,13 +158,12 @@ function updateLog(type, data){
 //Detect page changes
 chrome.tabs.onUpdated.addListener(
   (tabId, changeInfo, tab) => {
-    console.log(tab);
     //No use for tabId or changeInfo
-    if(tab.status === "complete"){
+    // if(tab.status === "complete"){
       if(!log.details[tab.url]){
         updateLog("NEW_SITE", {url: tab.url, title: tab.title});
       }
-    }
+    // }
   }
 );
 
@@ -194,26 +180,32 @@ chrome.runtime.onMessage.addListener(
             chrome.browserAction.setBadgeBackgroundColor({color: '#2aa4ff'});
           }
           numWS++;
-          console.log("New WS opened.");
-          updateLog("NEW_WS", {url: message.url});
 
+          // console.log("New WS opened.");
+          // console.log("tabURL: ", message.tabURL);
+          updateLog("NEW_WS", {url: message.url,
+                               tabURL: message.tabURL});
           break;
 
         case "WS_FRAME_SENT":
           numWSSent++;
-          console.log("Frame sent");
+          // console.log("Frame sent");
+          // console.log("tabURL: ", message.tabURL);
           // console.log(message.data);
           updateLog("WS_FRAME_SENT", {payload: message.payload,
-                                      webSocketURL: message.webSocketURL});
+                                      webSocketURL: message.webSocketURL,
+                                      tabURL: message.tabURL});
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
-          console.log("Frame Recieved");
+          // console.log("Frame Recieved");
+          // console.log("tabURL: ", message.tabURL);
           // console.log(message.data);
           updateLog("WS_FRAME_RECIEVED", {payload: message.payload,
                                           webSocketURL: message.webSocketURL,
-                                          origin: message.origin});
+                                          origin: message.origin,
+                                          tabURL: message.tabURL});
           break;
 
         case "WS_CLOSED":
@@ -222,7 +214,7 @@ chrome.runtime.onMessage.addListener(
             chrome.browserAction.setBadgeText({text: ''});
           }
           numWS--;
-          console.log("WS Closed.");
+          // console.log("WS Closed.");
           break;
 
         case "UPDATE_POPUP":
@@ -230,7 +222,7 @@ chrome.runtime.onMessage.addListener(
           break;
 
         default:
-          console.log("Uncaught message type in background: " + message);
+          // console.log("Uncaught message type in background: " + message);
       }
       // if(popupOpen){
       //   updatePopup();

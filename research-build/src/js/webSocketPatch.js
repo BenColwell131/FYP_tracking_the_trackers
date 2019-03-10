@@ -25,7 +25,8 @@ function interceptWebSockets() {
       window.postMessage({type: "WS_FRAME_RECIEVED",
                           payload: event.data,
                           origin: event.origin,
-                          webSocketURL: newWS.url
+                          webSocketURL: newWS.url,
+                          tabURL: window.location.href
                          }, "*");
       // console.log(event);
       // console.log(newWS.url);
@@ -33,7 +34,7 @@ function interceptWebSockets() {
 
     // TODO: Potentially need to *not* open the websocket here rather than terminate it later
     console.log(newWS);
-    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: newWS.url}, "*");
+    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: newWS.url, tabURL: window.location.href}, "*");
     return newWS;
   };
 
@@ -43,7 +44,8 @@ function interceptWebSockets() {
     // ***SENT FRAMES***
     window.postMessage({type: "WS_FRAME_SENT",
                         payload: data,
-                        webSocketURL: this.url
+                        webSocketURL: this.url,
+                        tabURL: window.location.href
                        }, "*");
     // console.log(arguments);
     return sendWsFrame.apply(this, arguments);

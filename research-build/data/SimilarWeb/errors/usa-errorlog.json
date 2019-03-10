@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "microsoftonline.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "tsyndicate.com",
+    "error": "Error: net::ERR_ABORTED at http://tsyndicate.com"
+  },
+  {
+    "domain": "sprintpcs.com",
+    "error": "Error: net::ERR_CONNECTION_TIMED_OUT at http://sprintpcs.com"
+  }
+]

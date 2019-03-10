@@ -1,0 +1,559 @@
+{
+  "country": "Japan",
+  "totalNumSitesVisited": 99,
+  "totalWSConnections": 2,
+  "totalFramesSent": 12,
+  "totalFramesReceieved": 14,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yahoo.co.jp/": {
+      "title": "Yahoo! JAPAN",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://docomo.ne.jp/": {
+      "title": "docomo.ne.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "Twitter. It's what's happening.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.co.jp/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.jp/": {
+      "title": "Amazon | 本, ファッション, 家電から食品まで | アマゾン",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.yahoo.co.jp/": {
+      "title": "Yahoo!ニュース",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fc2.com/": {
+      "title": "FC2 - Free Website, Analyzer, Blog, Rental Server, SEO Countermeasures, etc. -",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rakuten.co.jp/": {
+      "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.livedoor.com/": {
+      "title": "livedoor",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://portal.auone.jp/": {
+      "title": "au Webポータル|最新の国内外ニュースをリアルタイムに配信",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.dmm.co.jp/": {
+      "title": "年齢認証 - FANZA（旧DMM.R18）",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ameblo.jp/": {
+      "title": "アメーバブログ（アメブロ）｜Amebaで無料ブログを始めよう",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nicovideo.jp/": {
+      "title": "niconico(ニコニコ)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://blog.jp/": {
+      "title": "blog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.goo.ne.jp/": {
+      "title": "goo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://syosetu.com/": {
+      "title": "小説家になろう - みんなのための小説投稿サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pixiv.net/": {
+      "title": "Online community for artists [pixiv]",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://matome.naver.jp/": {
+      "title": "NAVER まとめ[情報をデザインする。キュレーションプラットフォーム]",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ampproject.org/": {
+      "title": "Accelerated Mobile Pages Project – AMP",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://news.livedoor.com/": {
+      "title": "ライブドアニュース（livedoor ニュース）",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://5ch.net/": {
+      "title": "５ちゃんねる掲示板へようこそ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://kakaku.com/": {
+      "title": "価格.com - 「買ってよかった」をすべてのひとに。",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://doorblog.jp/": {
+      "title": "doorblog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dmm.com/": {
+      "title": "DMM.com - ゲーム・動画・電子書籍・英会話・FX等の総合サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://line.me/en-US/": {
+      "title": "LINE : Free Calls & Messages",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://eroterest.net/": {
+      "title": "エロ動画 - 動画エロタレスト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://shopping.yahoo.co.jp/": {
+      "title": "Yahoo!ショッピング - Ｔポイントが貯まる！使える！ネット通販",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://movie.eroterest.net/": {
+      "title": "エロ動画 - 動画エロタレスト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://livedoor.biz/": {
+      "title": "livedoor.biz",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://gamewith.jp/": {
+      "title": "GameWith - 国内最大級のゲームアプリ情報・攻略サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hatenablog.com/": {
+      "title": "Hatena Blog",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cityheaven.net/": {
+      "title": "シティヘブンネット - 全国の風俗情報サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mbga.jp/": {
+      "title": "Mobage（モバゲー）by DeNA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://hitomoti.com/": {
+      "title": "hitomoti.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nifty.com/": {
+      "title": "@nifty",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tabelog.com/": {
+      "title": "食べログ - ランキングと口コミで探せるグルメサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://cookpad.com/": {
+      "title": "レシピ検索No.1／料理レシピ載せるなら クックパッド",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://weather.yahoo.co.jp/weather/": {
+      "title": "Yahoo!天気・災害 - 天気予報 / 防災情報",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://dmkt-sp.jp/": {
+      "title": "dmkt-sp.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ameba.jp/": {
+      "title": "Ameba (アメーバ)｜ブログ&ゲーム 1万人以上の芸能人ブログや定番アメーバピグで遊ぼう♪",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://sports.yahoo.co.jp/": {
+      "title": "スポーツナビ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://gsspat.jp/": {
+      "title": "gsspat.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yomiuri.co.jp/": {
+      "title": "読売新聞オンライン : ニュース＆お得サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.asahi.com/": {
+      "title": "朝日新聞デジタル：朝日新聞社のニュースサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://nhk.or.jp/": {
+      "title": "nhk.or.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://xbooks.to/": {
+      "title": "X BOOKS (エックスブックス)│同人誌を閲覧できる無料投稿サイト X BOOKS",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://focas.jp/": {
+      "title": "focas.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://japanpost.jp/": {
+      "title": "japanpost.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nikkei.com/": {
+      "title": "経済、株価、ビジネス、政治のニュース:日経電子版",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://share-videos.se/": {
+      "title": "Share Videos 動画のシェアでお金稼ぎできるサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://blogimg.jp/": {
+      "title": "blogimg.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toWww=1&redig=F591D70F7F70408BB42AB989DBF0EBA5": {
+      "title": "Bing",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.impress.co.jp/": {
+      "title": "株式会社インプレス",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "Outlook.com - Microsoft free personal email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.itmedia.co.jp/": {
+      "title": "IT総合情報ポータル「ITmedia」Home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://nttdocomo.co.jp/": {
+      "title": "nttdocomo.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://biglobe.ne.jp/": {
+      "title": "BIGLOBE",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.biglobe.ne.jp/": {
+      "title": "BIGLOBE",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://2chblog.jp/": {
+      "title": "2chblog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://syosetu.org/": {
+      "title": "ハーメルン - SS･小説投稿サイト-",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://bakusai.com/": {
+      "title": "爆サイ.com－日本最大級のローカルコミュニティ掲示板",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tube8.com/": {
+      "title": "Free Porn Videos : Hot Sex Tube Movies | Tube8",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://jin115.com/": {
+      "title": "オレ的ゲーム速報＠刃",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tenki.jp/": {
+      "title": "日本気象協会 tenki.jp【公式】 / 天気・地震・台風",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cmoa.jp/": {
+      "title": "漫画・電子書籍ならコミックシーモア｜無料で楽しめる！",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mercari.com/": {
+      "title": "Mercari: The Selling App | Mercari",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.taboola.com/": {
+      "title": "Content Discovery & Native Advertising Platform | Taboola.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://nikkansports.com/": {
+      "title": "404 Not Found",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mynavi.jp/": {
+      "title": "「マイナビ」企業サイトへようこそ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://game8.jp/": {
+      "title": "Game8 [ゲームエイト]｜【日本最大級】ゲーム・アプリの総合攻略サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dlsite.com/": {
+      "title": "DLsite：同人誌、同人ゲームからPCソフト、コミックまで二次元総合ダウンロードショップ | DLsite 総合トップページ",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://zozo.jp/": {
+      "title": "ファッション通販ZOZOTOWN",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://news.nifty.com/": {
+      "title": "ニフティニュース(@niftyニュース)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hotpepper.jp/": {
+      "title": "ホットペッパーグルメ 【ネット予約可能店舗数No.1】",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wikiwiki.jp/": {
+      "title": "無料 レンタル Wiki サービス WIKIWIKI",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://2ch-c.net/": {
+      "title": "しぃアンテナ(*ﾟーﾟ)",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weblio.jp/": {
+      "title": "辞典・百科事典の検索サービス - Weblio辞書",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://finance.yahoo.co.jp/": {
+      "title": "Yahoo!ファイナンス - 株価やニュース、企業情報などを配信する投資・マネーの総合サイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "MSN Ireland | Breaking News, Sports, Weather, Hotmail & Outlook email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://tsite.jp/": {
+      "title": "Tサイト［Tポイント/Tカード］",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.hatena.ne.jp/": {
+      "title": "Hatena",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://gree.jp/": {
+      "title": "GREE（グリー）",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.infoseek.co.jp/": {
+      "title": "Infoseek[インフォシーク] - 楽天が運営するポータルサイト",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sakura.ne.jp/": {
+      "title": "さくらのレンタルサーバ | 高速・安定WordPressなら！無料2週間お試し",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://dcm-b.jp/": {
+      "title": "dcm-b.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://twimg.com/": {
+      "title": "twimg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jalan.net/": {
+      "title": "宿・ホテル予約 - 旅行ならじゃらんnet",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://visitor-fleet.zenclerk.com/socket.io/?EIO=3&transport=websocket": {
+          "numFramesSent": 6,
+          "numFramesReceived": 7,
+          "framesSent": [
+            {
+              "payload": "40/jalan"
+            },
+            {
+              "payload": "42/jalan,0[\"init\",{\"apikey\":\"jalan\",\"assigned_percent\":93,\"is_control\":false,\"is_private\":false,\"serverTime\":1551805476933,\"browserTime\":1551807130377,\"loading_at\":1551807130470,\"support_status\":\"full\",\"reconnect\":false,\"uuid_version\":\"3\",\"url\":\"https://www.jalan.net/\",\"title\":\"宿・ホテル予約 - 旅行ならじゃらんnet\",\"description\":\"宿・ホテル予約ならじゃらんnet。当日予約や今だけのじゃらん限定プランも。航空券や新幹線と宿泊のセットでさらにお得に。リッチな温泉旅館から便利なビジネスホテルまで目的に合わせて簡単検索。豊富な観光情報と口コミであなたの旅行をサポートします。\",\"referrer\":\"\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"utma\":{\"first_visit_at\":1551807119000,\"last_visit_at\":1551807119000,\"session_count\":1},\"is_reset_session\":false,\"is_login\":false,\"is_advertising\":false,\"is_newsletter\":false,\"history_count\":1,\"excludeUrlParams\":[\"zenclerk\",\"zenclerk_us\",\"zenclerk_store\",\"zenclerk_ab\",\"zenclerk_exp\",\"__utma\",\"__utmb\",\"__utmc\",\"__utmz\",\"__utmv\",\"_ga\"],\"page_types\":[\"top\",\"yad\"],\"canonical\":\"https://www.jalan.net/\",\"cookie_size\":2331,\"cookie_count\":33,\"session_expire\":7200000,\"custom_segments\":{},\"is_back_compat\":false,\"performance_now\":19167.085000000952,\"is_back_forward\":false,\"status\":{\"force_track_session\":true}}]"
+            },
+            {
+              "payload": "2"
+            },
+            {
+              "payload": "42/jalan,[\"change_state\",{\"is_active\":false}]"
+            },
+            {
+              "payload": "42/jalan,[\"user_behavior\",[\"[1551807161336,{\\\"afk\\\":true},\\\"hidden\\\",4105,1095,583,783,null,null,null,null,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,\\\"leave\\\",null,null,false,null,null,false,false,false,false]\"]]"
+            },
+            {
+              "payload": "2"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"5LNS-yk6NNM555FOAyO1\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "40/jalan",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "43/jalan,0[{\"uuid\":\"5c7eb29e2976f30f06fa340a\",\"usid\":\"5c7eb29e2976f30f06fa340b\",\"sid\":\"5c7eb29e2976f30f06fa340c\",\"agent\":{\"family\":\"Chrome\",\"major\":\"73\",\"minor\":\"0\",\"patch\":\"3679\",\"device\":{\"family\":\"Other\",\"major\":\"0\",\"minor\":\"0\",\"patch\":\"0\"},\"os\":{\"family\":\"Windows 10\",\"major\":\"0\",\"minor\":\"0\",\"patch\":\"0\"}},\"opened_at\":1551807133859,\"session_opened_at\":1551807133859,\"is_reconnect\":false,\"is_conversion\":false,\"is_control\":false,\"assigned_percent\":93,\"is_exclude\":false,\"is_raw\":false,\"is_dump\":false,\"is_console\":false,\"assigned_number\":0.3769484603849629,\"abc_rand\":0.7237817719644297,\"is_cart_button_click\":false,\"behavior_suppression\":false,\"iwKeyURL\":\"https://www.jalan.net/\"}]",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "42/jalan,[\"after_save\",{\"t\":\"a34c4b99edba2ee6edf194c29de2301d7219391b285e9aa973dcc3f75bf2fef790094f846ff9d8442c23e5760f0666b5a0b582b5bfe3eb227b98855684514f530c927871bd2b022146d6d6d4b38dd9a1394a4aed23d9bd2f0af4231260181d07ab16bed6b03a\"}]",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "3",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            },
+            {
+              "payload": "3",
+              "origin": "wss://visitor-fleet.zenclerk.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "Microsoft - Official Home Page",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.so-net.ne.jp/": {
+      "title": "So-net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://bitly.com/": {
+      "title": "Bitly | URL Shortener, Custom Branded URLs, API & Link Management",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://jra.go.jp/": {
+      "title": "jra.go.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

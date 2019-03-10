@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "365online.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://365online.com"
+  },
+  {
+    "domain": "microsoftonline.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "sky.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "tsyndicate.com",
+    "error": "Error: net::ERR_ABORTED at http://tsyndicate.com"
+  },
+  {
+    "domain": "news.sky.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "football365.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  }
+]

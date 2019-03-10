@@ -1,0 +1,1882 @@
+{
+  "country": "Spain",
+  "totalNumSitesVisited": 101,
+  "totalWSConnections": 94,
+  "totalFramesSent": 81,
+  "totalFramesReceieved": 197,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "YouTube",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.es/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "Facebook - Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.es/": {
+      "title": "Amazon.es: compra online de electrónica, libros, deporte, hogar, moda y mucho más.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "Wikipedia",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "Outlook.com - Microsoft free personal email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://okdiario.com/": {
+      "title": "OKDIARIO - El sitio de los inconformistas",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "Twitter. It's what's happening.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "Blogger.com - Create a unique and beautiful blog. It’s easy and free.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://elpais.com/": {
+      "title": "EL PAÍS: el periódico global",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_a26e3d2b-1846-4c62-b46d-2d87f6caade3&lang=en-IE&inline=false": {
+      "title": "Yahoo is now a part of Oath",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aliexpress.com/": {
+      "title": "AliExpress.com - Online Shopping for Popular Electronics, Fashion, Home & Garden, Toys & Sports, Automobiles and More.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.marca.com/": {
+      "title": "MARCA - Diario online líder en información deportiva",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elmundo.es/": {
+      "title": "EL MUNDO - Diario online líder de información en español",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "Instagram",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://as.com/": {
+      "title": "AS.com - Diario online deportivo. Fútbol, motor y mucho más",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "Live Sex Cam Shows, FREE Chat with Webcam Girls | LiveJasmin",
+      "numberWS": 7,
+      "WSConnections": {
+        "wss://dss-relay-109-71-162-86.dditscdn.com/?random=49398684474296547619811767757232": {
+          "numFramesSent": 6,
+          "numFramesReceived": 16,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminEmilyThomsoma97dca8dfabefdb66bbb521af0fd471c\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"2ffb8132eee390d97d2186f9501a585e\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"EmilyThomsom\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"EmilyThomsom is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"AC1979\",\"spending\":35}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":552998},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":99},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":1,\"qualityScore\":792,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[\"guest110\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":99,\"newValue\":101}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864},\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":29,\"new_quality\":94.7,\"resolution\":864}}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[{\"msg\":\"Ahora mucho mejor\",\"msgCheck\":\"\",\"broadcastOnly\":true,\"id\":\"037667\",\"memberType\":\"activeMember\",\"isFanClubMember\":false,\"ismobile\":1,\"performerID\":\"EmilyThomsom\",\"type\":\"member\",\"userNick\":\"Nizas985\",\"sid\":\"ga5h25ny31oe92ed836478ertklc8qb80587pb562b5u0fnls84l95ob3136vzo4\",\"platform\":\"mobile\",\"brandID\":\"jasmin\",\"senderLanguage\":null,\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":3}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"bee8z18px24az1l58vonh9ujnv4w9iwmmr7eus5v5pywnswkjc3u4g1s21nxnuhl\",\"data\":[{\"msg\":\"Show you ass please\",\"msgCheck\":\"\",\"broadcastOnly\":true,\"id\":\"039771\",\"memberType\":\"guest\",\"isFanClubMember\":false,\"ismobile\":1,\"type\":\"guest\",\"userNick\":\"guest113\",\"performerID\":\"EmilyThomsom\",\"platform\":\"mobile\",\"sid\":\"fj785bdw340vj5s33jqutffjo04160a57pl3h98luo596s57w89rd43o174prtme\",\"brandID\":\"jasmin\",\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-47.dditscdn.com/?random=09215938824131075691483318976598": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminShantalHarrys9dc51791330bdec592566183054c7f8a\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"ShantalHarrys\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[{\"streamwidth\":800,\"streamheight\":450}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"awanata10\",\"spending\":16}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":562108},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":824,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":100},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|800x450|864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":450,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[\"guest1\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"uhq1em5spzzfp1b56dibe81g6z5di6xxbnh6pu0qe9pffushahzs0fqdggdshihv\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":100,\"newValue\":102}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-24.dditscdn.com/?random=20039049223232438216020141468294": {
+          "numFramesSent": 6,
+          "numFramesReceived": 12,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminAnacondaWild652ccaa1527d9ee1fcf65d0f7ed33404\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"AnacondaWild\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[{\"streamwidth\":800,\"streamheight\":448}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[\"guest30\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"AnacondaWild is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"saintpatty\",\"spending\":100}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":558622},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":101},{\"name\":\"remoteDeviceStatus\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"available\":true,\"memberId\":\"\",\"prevMemberId\":\"\",\"prevPublicSessionId\":\"\",\"price\":1,\"publicSessionId\":\"\",\"remoteDeviceSessionId\":\"\",\"selectedDeviceMac\":\"001304844BE0\",\"socketIp\":\"\"}},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":448,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":1,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"w2o6nr514rargtj1488cprxd7rj4781f344emk951dcr2e59nivilfpqgwact1zb\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-33.dditscdn.com/?random=07666142541316250312635803845118": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminKiaraParker0bac030ab577b9cfbbf52b97625ae333\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"KiaraParker\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[3]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"KiaraParker is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"thatoneguy1278\",\"spending\":25}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":552948},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":792,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":105},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|864x480\",\"bandwidth\":848,\"bitrate\":848,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":6,\"qualityScore\":790,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[\"guest11\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":105,\"newValue\":101}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"krlg6so2cla4ql1xcghpeobav6ta9t4xwz0k0lk4aa77zbgnguzf1pq3y86ivfs2\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":792,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864},\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-50.dditscdn.com/?random=61013731896662372319062544456258": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminMarianaBossi6f92c719b1fea415f1bca248b6719481\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"MarianaBossi\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[\"guest156\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"MarianaBossi is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"heydude63\",\"spending\":5}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":559352},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":107},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|800x450|864x480\",\"bandwidth\":848,\"bitrate\":848,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":6,\"qualityScore\":790,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"tt4z17rk2ghuomj30399jkn4j1ixazlz9rbju1vzu5km01cuuaizibn5gf9goxiw\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":107,\"newValue\":100}]}",
+              "origin": "wss://dss-relay-109-71-162-50.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-24.dditscdn.com/?random=54524282949560551905811881246171": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminAnacondaWild652ccaa1527d9ee1fcf65d0f7ed33404\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"AnacondaWild\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[{\"streamwidth\":800,\"streamheight\":448}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[\"guest58\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"AnacondaWild is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"saintpatty\",\"spending\":100}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":558622},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":102},{\"name\":\"remoteDeviceStatus\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"available\":true,\"memberId\":\"\",\"prevMemberId\":\"\",\"prevPublicSessionId\":\"\",\"price\":1,\"publicSessionId\":\"\",\"remoteDeviceSessionId\":\"\",\"selectedDeviceMac\":\"001304844BE0\",\"socketIp\":\"\"}},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":448,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":1,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800},\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"zxgn71k1l79wwhprcgpw3hpv5emryz1cti0hklt1jgvqd82yynizu3s35avk3pq9\",\"data\":[{\"brandID\":\"jasmin\",\"broadcastOnly\":false,\"id\":\"087572\",\"isFanClubMember\":false,\"ismobile\":0,\"jasminSpamResult\":false,\"memberType\":\"activeMember\",\"msg\":\"You are well self educated darling and you impress me with your intelligence all the time\",\"performerID\":\"AnacondaWild\",\"platform\":\"desktop\",\"senderLanguage\":\"en\",\"sid\":\"3714rnqhob9464q652u35ml2m974j1e26e1131684n327m6c73yc764neg4r881t\",\"type\":\"member\",\"userNick\":\"Erich1947\",\"translated\":0,\"loyaltyLevel\":3}]}",
+              "origin": "wss://dss-relay-109-71-162-24.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-47.dditscdn.com/?random=35815409533593437099272842128905": {
+          "numFramesSent": 6,
+          "numFramesReceived": 12,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminShantalHarrys9dc51791330bdec592566183054c7f8a\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"bf9b9d78339cddf023ccc6c290243ea5\",\"jsm2SessionId\":\"gd02bf8889c6de9124a9fd6ccf3a261bb\",\"userType\":\"user\",\"performerId\":\"ShantalHarrys\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"11539109963234614963420820375863\",\"armaVersion\":\"34.13.11-AR5916-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[{\"streamwidth\":800,\"streamheight\":450}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"awanata10\",\"spending\":16}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":562108},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":101},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|800x450|864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":450,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[\"guest2\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"8d4kvjxtnu6kg88ku4pxf1ap4n5u7kyh1vmf10v9fob254esy9og453g8ls6xo02\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-47.dditscdn.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.pornhub.com/": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "Free Porn Videos - XVIDEOS.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.milanuncios.com/": {
+      "title": "MIL ANUNCIOS.COM: segunda mano, anuncios gratis, empleo, clasificados...",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.caixabank.es/index_es.html": {
+      "title": "CaixaBank - Particulares, Empresas | \"la Caixa\"",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.es/": {
+      "title": "Comprar y Vender Electrónica, Moda, Móviles y mucho más | eBay",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "WordPress.com: Create a Free Website or Blog",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://t.co/": {
+      "title": "t.co / Twitter",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/": {
+      "title": "Welcome! | VK",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.abc.es/": {
+      "title": "ABC - Tu diario en español - ABC.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "Netflix Ireland – Watch TV Programmes Online, Watch Films Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "MSN Ireland | Breaking News, Sports, Weather, Hotmail & Outlook email",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "LinkedIn: Log In or Sign Up",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lavanguardia.com/": {
+      "title": "Últimas noticias, actualidad y última hora en Catalunya, España y el mundo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "WhatsApp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.mejortorrent.org/": {
+      "title": "Torrents para descargar en Mejor Torrent",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elconfidencial.com/": {
+      "title": "El Confidencial - El diario de los lectores influyentes",
+      "numberWS": 5,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=A0B351466A960269&cId=FD1D&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=xHIWt2tPU4m6-udAELAPzg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=A0B351466A960269&cId=FD1D&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=0X_znoq9w1dQbEcLfkVyDg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=A0B351466A960269&cId=FD1D&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=5FKvoQgNBv9eQVxyrNPQXw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=A0B351466A960269&cId=FD1D&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=zFiCmKM03aXpcGYfgPkyaw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=A0B351466A960269&cId=FD1D&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=b65U3VCUOC6qs2VVls837g": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.divxtotal3.net/": {
+      "title": "DivxTotaL - Descargar Torrent Peliculas Series Programas gratis",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elitetorrent.biz/": {
+      "title": "Elitetorrent - Descargar Torrent sin Limites",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "Booking.com: 28,362,392 hotel and property listings worldwide. 173+ million hotel reviews.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.wordreference.com/": {
+      "title": "English to French, Italian, German & Spanish Dictionary - WordReference.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "Twitch",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.idealista.com/": {
+      "title": "idealista — Casas y pisos, alquiler y venta. Anuncios gratis",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.filmaffinity.com/en/main.html": {
+      "title": "FilmAffinity",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.20minutos.es/": {
+      "title": "20minutos.es - El medio social - Última hora, local, España y el mundo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eldiario.es/": {
+      "title": "eldiario.es - Periodismo a pesar de todo",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=98&sId=A0B351466A960269&cId=CA75&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=A2hKzIUBGOiJnFIVTJ7zgg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=98&sId=A0B351466A960269&cId=CA75&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=SL1j9_SYMzF4iyJSGXbqHA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=98&sId=A0B351466A960269&cId=CA75&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=ECJDQ06vltFT_dQlnH9HRw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=98&sId=A0B351466A960269&cId=CA75&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=fqAZ2u5YflErLRMzY7O-FA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://yandex.ru/": {
+      "title": "Яндекс",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "Microsoft - Official Home Page",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.juntadeandalucia.es/": {
+      "title": "Junta de Andalucía",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.rtve.es/": {
+      "title": "Noticias de última hora, programas y series de televisión - RTVE.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wease.im/": {
+      "title": "Wease Messenger | Simple and fast messaging\u200e",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.popads.net/": {
+      "title": "PopAds - Home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbva.es/particulares/index.jsp": {
+      "title": "Banca Online de BBVA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elespanol.com/": {
+      "title": "EL ESPAÑOL - Diario digital, plural, libre, indomable, tuyo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://microsoftonline.com/": {
+      "title": "microsoftonline.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.es/": {
+      "title": "Pinterest",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mundodeportivo.com/": {
+      "title": "Mundo Deportivo el diario deportivo Online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wallapop.com/": {
+      "title": "wallapop, Local Free Classified Ads",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "Office 365 Login | Microsoft Office",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sport.es/es/": {
+      "title": "SPORT | Noticias del Barça, La Liga, fútbol y otros deportes",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.forocoches.com/": {
+      "title": "ForoCoches.com",
+      "numberWS": 3,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=82&sId=A0B351466A960269&cId=14F6&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=-EJXZuHBuFn45qbd_1GfIg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=82&sId=A0B351466A960269&cId=14F6&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=1d0jGYYZJFHK169W763A0Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=82&sId=A0B351466A960269&cId=14F6&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=SuBaW-BoOMNqiggnfJs1GQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "http://www.elcorteingles.es/": {
+      "title": "El Corte Inglés: Comprar moda, electrónica, informática, libros online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "reddit: the front page of the internet",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancsabadell.com/": {
+      "title": "https://www.bancsabadell.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancsabadell.com/cs/Satellite/SabAtl/": {
+      "title": "Personal - BANCO SABADELL",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://bongacams.com/": {
+      "title": "Free Live Sex Cams - Live Sex Chat and XXX Live Porn Shows",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "Send Money, Pay Online or Set Up a Merchant Account - PayPal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.resultados-futbol.com/": {
+      "title": "Resultados de Fútbol",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://grantorrent.net/": {
+      "title": "GranTorrent.net - Descargar peliculas y estrenos torrent gratis",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "Ratings and Reviews for New Movies and TV Shows - IMDb",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://redsys.es/": {
+      "title": "redsys.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://exosrv.com/": {
+      "title": "exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bankia.es/es/particulares": {
+      "title": "Particulares - Bankia.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wetransfer.com/": {
+      "title": "WeTransfer",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toWww=1&redig=696AAAF798DD44E4927F40B22823470B": {
+      "title": "Bing",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://porn555.com/": {
+      "title": "Free Porn Tube, Sex Videos & XXX Porno Movies ~ porn555.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.gva.es/va/inicio/presentacion;jsessionid=Wnp5cCVMQ97yn6hmTyCv4LLv8tQvMf6t53d2Pn6vjyGDM1N1gQMv!1152315631!1552061708553": {
+      "title": "Generalitat: Benvinguda",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xnxx.com/": {
+      "title": "Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies - XNXX.COM",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.megadede.com/": {
+      "title": "megadede | tu web de series y películas",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.escapadarural.com/": {
+      "title": "Casas rurales en EscapadaRural.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancosantander.es/es/particulares": {
+      "title": "Particulares - Banco Santander",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "The world’s leading software development platform · GitHub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "Dropbox",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://googleusercontent.com/": {
+      "title": "googleusercontent.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mail.ru/": {
+      "title": "Mail.Ru: почта, поиск в интернете, новости, игры",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mega.nz/": {
+      "title": "MEGA",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eltiempo.es/": {
+      "title": "El Tiempo",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vimeo.com/": {
+      "title": "Vimeo | We’ve got a thing for video.",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/?gws_rd=ssl": {
+      "title": "Google",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://infojobs.net/": {
+      "title": "infojobs.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.libertaddigital.com/": {
+      "title": "Diario online con noticias de última hora y opinión- Libertad Digital",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xataka.com/": {
+      "title": "Xataka - Tecnología y gadgets, móviles, informática, electrónica",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "Adobe: Creative, marketing and document management solutions",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.movistar.es/particulares/movistarplus": {
+      "title": "Movistar Plus ¡Premium GRATIS hasta 2019! 900 103 023 - Movistar+",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://aws.amazon.com/": {
+      "title": "Amazon Web Services (AWS) - Cloud Computing Services",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://loteriasyapuestas.es/": {
+      "title": "loteriasyapuestas.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.movistar.es/": {
+      "title": "Movistar: Internet, Móvil, TV y ¡Ofertas exclusivas! 900 104 871",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://openload.co/": {
+      "title": "openload | share free without limits",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elperiodico.com/es/": {
+      "title": "El Periódico - Noticias y última hora para gente comprometida",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.publico.es/": {
+      "title": "Público",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eleconomista.es/": {
+      "title": "Líder en noticias de economía, bolsa y finanzas. - elEconomista.es",
+      "numberWS": 65,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=9Hm8LkkVdSeoozaqzjcGKA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=PSmIYAx1TrtzV0HEDoJoAw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=aVwnf41MaAY0ZRd11ruvqw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=mghFjTgEg0Qyzb-uFW0B1Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=P-_6rwuzNkzt9WUVOu02gA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=KxvnrnPjmfP3S3AJ-5UBVw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=0GJNz89x0N8BRjXQ_onJ_w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=rWwp6Nm1sijYmMeH8RCMRQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=sm4nDqAQGz40pRSkJiuuMg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=SVHJewO0qLDlMwpaXGbIVw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=BXoNO5ksDVwmL2ShTOnq7w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=qrmgTsKKidbsV7lIf2q9Hg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=3mT-EF0bmgu9HfiVyZMBbw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=UNciH_sJzOFI_XeyfAxyqg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=FhFwCk8C67yiz-hJ6LsQUg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=QLX_DYH3nRhr4CAJl-fK2g": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=tIjd3Hs9kqOv4sW-BShFXg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3983&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=IJl_kkFXizJHx-tPUfqbmw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=riufyXqD371Mo5I89agldQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=w7lz2cPYwYj5WCZXEvzeBA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=7eN2H714KYsqJFprzvG2yw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=u9S2gbI8n0gtsy3Ib514Fw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=lE-4jvdXNHoas56ei3G-jQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=qUcx9qtO103WM50hAw99Pg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=i8y4fp1h_YtbHy9WQrhq0g": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=WyahCYtYA4Odw8esaWAe9Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=81E2voY263opyMmKOMh1ng": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=llcDOrxJQrMH3QXREISCEw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=UUDQU5sA12OBW1hcXf8CYg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=sqX-HWykrWLOjKdxV1mT-w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=JQokd_GyooCI--sGJSsSTA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=EbxW68jN7ouFjZfsu_wwkw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=uEMKBiHiMoK99b6kd3vPKg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=dTLNguUi3aSe9YJWCkM2vw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=qR2QWKzZ3CJLAYwuqMVdvw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=Jn0rlTjd_BCTeYwlSZpEdg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=3A34&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=rvDT1x-3zRFbA65BPpAs9Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=0b_vEOiETeV8PtGfPHOVQw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=ubvhthy8G6zl53wY6RaGXg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=5FGCmDppoxHykaMrqHhETg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=ji4O_56B6taNmfao6Z8Ojg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=da468_-Cuesmcca0iMkY6g": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=71Z8sBvC62sQykKx-YBwAQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=atKZNr8qjtyS-JnniVAz7w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=D2ROignrl3gKRwLFrzPTpw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=d2VECDA0359dZTs9U7K8Hw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=O1NJGPZ5Cc36ycd97XOd9g": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=Ad5wgXxmSOgLI7ypkuQpCQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=VYS8mHkBygEvnyK4tB1Gtw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=Clu8ZXRfqaHl25Uxy_hgtA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=U9P2eTCSTiyBAuxrlRopyA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=PDoi9M09AxKGjkZ7XHJh6w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=8XP-WF7D5CeGhMN6VX4iyA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=JHkUPPgTPd5ONUaFQtq5cw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=XmXK9CglRdLn2AAjif8zHQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=FAB7&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=TLG6VgAE77D3dxUZX1BifA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=HbZBZhNP1XXn9RiQs4etCQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=ZCSp-UXhyXxCyv2K1Nlr0Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=GfkJAVedJdJyZhwqlYO4xg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=-YnYQ16RogUuDHv4WRafmQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=y-jLKkmsTXo3MzYHx6Yiqw": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=wHKjUacNsPKEDkB4Mzjk6w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=BvN4YQl_RhoW4dhIQl7OMQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=gsqnnZG3aD5rV8iQa787vg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=308&sId=A0B351466A960269&cId=1372&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=pbjVmQP7VlQE18fzhznkMg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    }
+  }
+}
