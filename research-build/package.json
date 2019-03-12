@@ -6,8 +6,10 @@
   "scripts": {
     "build": "npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "puppeteer": "node src/js/puppeteerScript.js",
-    "puppeteer-all": "node src/js/puppeteerScript.js hong-kong && node src/js/puppeteerScript.js ireland && node src/js/puppeteerScript.js japan && node src/js/puppeteerScript.js russia && node src/js/puppeteerScript.js spain && node src/js/puppeteerScript.js usa"
+    "puppeteer": "node src/utils/puppeteerScript.js",
+    "puppeteer-all": "node src/utils/puppeteerScript.js hong-kong && node src/utils/puppeteerScript.js ireland && node src/utils/puppeteerScript.js japan && node src/utils/puppeteerScript.js russia && node src/utils/puppeteerScript.js spain && node src/utils/puppeteerScript.js usa",
+    "validate-data": "node src/utils/validateData.js",
+    "post-process": "node src/utils/postProcessData.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
   },
   "dependencies": {
     "abp-filter-parser": "^0.2.0",
+    "psl": "^1.1.31",
     "puppeteer": "^1.12.2"
   }
 }

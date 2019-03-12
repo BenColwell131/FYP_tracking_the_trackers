@@ -1,17 +1,12 @@
 {
   "country": "Ireland",
   "totalNumSitesVisited": 106,
-  "totalWSConnections": 20,
-  "totalFramesSent": 50,
-  "totalFramesReceieved": 50,
+  "totalWSConnections": 29,
+  "totalFramesSent": 108,
+  "totalFramesReceieved": 167,
   "details": {
     "https://www.google.com/?gws_rd=ssl": {
       "title": "https://www.google.com/?gws_rd=ssl",
-      "numberWS": 0,
-      "WSConnections": {}
-    },
-    "chrome://extensions/": {
-      "title": "chrome://extensions",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -70,13 +65,18 @@
       "numberWS": 0,
       "WSConnections": {}
     },
-    "https://consent.yahoo.com/collectConsent?sessionId=3_cc-session_943865a5-9584-4352-834e-6432fdc8873b&lang=en-IE&inline=false": {
-      "title": "https://consent.yahoo.com/collectConsent?sessionId=3_cc-session_943865a5-9584-4352-834e-6432fdc8873b&lang=en-IE&inline=false",
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_769a8bdc-b1e1-44c5-ae78-239b15eeed91&lang=en-IE&inline=false": {
+      "title": "https://guce.oath.com/collectConsent?sessionId=3_cc-session_769a8bdc-b1e1-44c5-ae78-239b15eeed91&lang=en-IE&inline=false",
       "numberWS": 0,
       "WSConnections": {}
     },
     "https://www.bbc.com/": {
       "title": "https://www.bbc.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.microsoftonline.com/": {
+      "title": "www.microsoftonline.com",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -102,7 +102,7 @@
     },
     "https://www.twitch.tv/": {
       "title": "https://www.twitch.tv",
-      "numberWS": 2,
+      "numberWS": 6,
       "WSConnections": {
         "wss://pubsub-edge.twitch.tv/v1": {
           "numFramesSent": 1,
@@ -137,32 +137,32 @@
       "numberWS": 2,
       "WSConnections": {
         "wss://sub.viafoura.co/?site_uuid=00000000-0000-4000-8000-077217628b05": {
-          "numFramesSent": 13,
-          "numFramesReceived": 13,
+          "numFramesSent": 17,
+          "numFramesReceived": 17,
           "framesSent": [
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
-              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":null}}"
+              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":null}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"b69945ab-9c73-c0e1-a7dd-7bb6eb94e700\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"826d683c-0c3c-a993-2b6b-b630cca17729\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
-              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":null}}"
+              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":null}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"0c77424b-2fbe-4023-7dde-3f576e6d2e8e\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"491fbb18-173f-584c-43ba-2bd0452ffabf\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
             },
             {
               "payload": "{\"action\":\"subscribe\",\"filters\":{\"2669000018907:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-026d6ccc4bdb\"],\"event_type\":[\"comment.enable\"]}}}"
@@ -177,40 +177,52 @@
               "payload": "{\"action\":\"subscribe\",\"filters\":{\"7777200018781:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-0712c53e955d\"],\"event_type\":[\"comment.enable\"]}}}"
             },
             {
-              "payload": "{\"action\":\"subscribe\",\"filters\":{\"1388700033343:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-014354f8e13f\"],\"event_type\":[\"comment.enable\"]}}}"
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"1685100018518:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-018857c9bb56\"],\"event_type\":[\"comment.enable\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"ping\",\"time\":1552252371145}"
+            },
+            {
+              "payload": "{\"action\":\"ping\",\"time\":1552252371408}"
+            },
+            {
+              "payload": "{\"action\":\"ping\",\"time\":1552252401144}"
+            },
+            {
+              "payload": "{\"action\":\"ping\",\"time\":1552252401408}"
             }
           ],
           "framesReceived": [
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"b69945ab-9c73-c0e1-a7dd-7bb6eb94e700\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"826d683c-0c3c-a993-2b6b-b630cca17729\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"90372530-89d4-be0d-c3d2-e22df05793cf\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"ecdc3320-93bd-d108-3034-f9d8e6c4cad5\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"0c77424b-2fbe-4023-7dde-3f576e6d2e8e\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"491fbb18-173f-584c-43ba-2bd0452ffabf\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"cbcd6467-366d-82eb-8c87-de50b4569216\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"9fb6edda-eebe-c39e-6eae-dc859b30b59d\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
               "origin": "wss://sub.viafoura.co"
             },
             {
@@ -230,7 +242,23 @@
               "origin": "wss://sub.viafoura.co"
             },
             {
-              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"1388700033343:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"1685100018518:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"action\":\"pong\",\"sub_msgtype\":\"ping\",\"time\":1552252371145}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"action\":\"pong\",\"sub_msgtype\":\"ping\",\"time\":1552252371408}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"action\":\"pong\",\"sub_msgtype\":\"ping\",\"time\":1552252401144}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"action\":\"pong\",\"sub_msgtype\":\"ping\",\"time\":1552252401408}",
               "origin": "wss://sub.viafoura.co"
             }
           ]
@@ -251,32 +279,26 @@
       "title": "www.ladbible.com",
       "numberWS": 1,
       "WSConnections": {
-        "wss://api.native.ai/socket.io/?installationId=65e79a94-eb71-4825-b10a-c0a906ad770f&appKey=6423c747-769b-4ea3-9215-643ae48aec6f&EIO=3&transport=websocket": {
-          "numFramesSent": 6,
-          "numFramesReceived": 8,
+        "wss://api.native.ai/socket.io/?installationId=a154cbd0-a155-4e79-b9ea-72b43aa294d0&appKey=6423c747-769b-4ea3-9215-643ae48aec6f&EIO=3&transport=websocket": {
+          "numFramesSent": 4,
+          "numFramesReceived": 6,
           "framesSent": [
             {
-              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241905539,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
+              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"a154cbd0-a155-4e79-b9ea-72b43aa294d0\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552252540725,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
             },
             {
-              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241905765,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1552241903033,\"scriptLoadStart\":1552241903850,\"scriptLoadEnd\":1552241904689,\"scriptInitStart\":1552241904692,\"settingsLoadStart\":1552241904694,\"settingsLoadEnd\":1552241905763}}]"
+              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"a154cbd0-a155-4e79-b9ea-72b43aa294d0\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552252540913,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1552252530442,\"scriptLoadStart\":1552252531538,\"scriptLoadEnd\":1552252536749,\"scriptInitStart\":1552252536752,\"settingsLoadStart\":1552252536754,\"settingsLoadEnd\":1552252540910}}]"
             },
             {
-              "payload": "422[\"events\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241906087,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\",\"X-Session\":\"1552241906002|Y2NlNmUwMGUtODhkZS00OWQ1LThiODEtNmE1ZTFhZGQyOTA2fA==\"},\"q\":{\"content\":[],\"impressions\":[{\"url\":\"http://www.ladbible.com/entertainment/film-and-tv-captain-marvel-movie-opening-features-stan-lees-best-cameos-20190305\",\"area\":17945,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":32246},{\"url\":\"http://www.ladbible.com/entertainment/film-and-tv-captain-marvel-movie-opening-features-stan-lees-best-cameos-20190305\",\"area\":54996,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":128588},{\"url\":\"http://www.ladbible.com/entertainment/film-and-tv-everything-you-might-have-missed-in-game-of-thrones-trailer-20190306\",\"area\":21510,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":162286},{\"url\":\"http://www.ladbible.com/entertainment/film-and-tv-everything-you-might-have-missed-in-game-of-thrones-trailer-20190306\",\"area\":65936,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":239234},{\"url\":\"http://www.ladbible.com/community/uk-i-just-wanted-to-die-a-male-victim-of-rape-speaks-out-20190307\",\"area\":42632,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":319225},{\"url\":\"http://www.ladbible.com/community/uk-i-just-wanted-to-die-a-male-victim-of-rape-speaks-out-20190307\",\"area\":126514,\"referer\":\"\",\"ts\":1552241906083,\"internalId\":373227},{\"url\":\"http://www.ladbible.com/extinct\",\"area\":9520,\"referer\":\"\",\"ts\":1552241906084,\"internalId\":410174},{\"url\":\"http://www.ladbible.com/freetobe\",\"area\":9520,\"referer\":\"\",\"ts\":1552241906084,\"internalId\":510676},{\"url\":\"http://www.ladbible.com/mental-health\",\"area\":9520,\"referer\":\"\",\"ts\":1552241906084,\"internalId\":554089},{\"url\":\"http://www.ladbible.com/trashisles\",\"area\":9520,\"referer\":\"\",\"ts\":1552241906085,\"internalId\":638745},{\"url\":\"http://www.ladbible.com/\",\"area\":6735,\"referer\":\"\",\"ts\":1552241906085,\"internalId\":713162}]}}]"
+              "payload": "2"
             },
             {
-              "payload": "423[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241906333,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"eventsLoadStart\":1552241906086,\"eventsLoadEnd\":1552241906332}}]"
-            },
-            {
-              "payload": "424[\"events\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241912896,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\",\"X-Session\":\"1552241911009|Y2NlNmUwMGUtODhkZS00OWQ1LThiODEtNmE1ZTFhZGQyOTA2fA==\"},\"q\":{\"content\":[{\"url\":\"http://www.ladbible.com/\",\"readPercent\":0.82,\"durationSeconds\":9.2,\"referer\":\"\",\"ts\":1552241912889,\"articleHeight\":628.5156402587891,\"canonicalUrl\":\"http://www.ladbible.com/\",\"nextUrl\":null,\"internalId\":730290}],\"impressions\":[]}}]"
-            },
-            {
-              "payload": "425[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552241913074,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"eventsLoadStart\":1552241912891,\"eventsLoadEnd\":1552241913073}}]"
+              "payload": "2"
             }
           ],
           "framesReceived": [
             {
-              "payload": "0{\"sid\":\"LxevoXao1ysFULaPZ-Rt\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
+              "payload": "0{\"sid\":\"7yoFZquvG9YGKMG0aRIT\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
               "origin": "wss://api.native.ai"
             },
             {
@@ -284,7 +306,7 @@
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"doNotTrack\":false,\"serverTimestamp\":1552241905688}]",
+              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"a154cbd0-a155-4e79-b9ea-72b43aa294d0\",\"doNotTrack\":false,\"serverTimestamp\":1552252540940}]",
               "origin": "wss://api.native.ai"
             },
             {
@@ -292,19 +314,11 @@
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "432[null]",
+              "payload": "3",
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "433[null]",
-              "origin": "wss://api.native.ai"
-            },
-            {
-              "payload": "434[null]",
-              "origin": "wss://api.native.ai"
-            },
-            {
-              "payload": "435[null]",
+              "payload": "3",
               "origin": "wss://api.native.ai"
             }
           ]
@@ -358,11 +372,11 @@
     },
     "https://www.livejasmin.com/en/girls/": {
       "title": "https://www.livejasmin.com/en/girls/",
-      "numberWS": 2,
+      "numberWS": 8,
       "WSConnections": {
         "wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket": {
-          "numFramesSent": 17,
-          "numFramesReceived": 7,
+          "numFramesSent": 37,
+          "numFramesReceived": 31,
           "framesSent": [
             {
               "payload": "40/notifications"
@@ -401,24 +415,84 @@
               "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
             },
             {
-              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552241999368-gb8b2a5866bb1224f7514105a627cfa09\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
             },
             {
-              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552241999368-gb8b2a5866bb1224f7514105a627cfa09\",\"serverRelay\":\"109.71.162.37:443\",\"serverStream\":\"109.71.162.37:443\",\"type\":10,\"runtime\":759}]"
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":10,\"runtime\":646}]"
             },
             {
-              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552241999368-gb8b2a5866bb1224f7514105a627cfa09\",\"serverRelay\":\"109.71.162.37:443\",\"serverStream\":\"109.71.162.37:443\",\"type\":10,\"runtime\":759}]"
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":10,\"runtime\":646}]"
             },
             {
-              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552241999368-gb8b2a5866bb1224f7514105a627cfa09\",\"serverRelay\":\"109.71.162.37:443\",\"serverStream\":\"109.71.162.37:443\",\"type\":20,\"runtime\":410}]"
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":20,\"runtime\":784}]"
             },
             {
-              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552241999368-gb8b2a5866bb1224f7514105a627cfa09\",\"serverRelay\":\"109.71.162.37:443\",\"serverStream\":\"109.71.162.37:443\",\"type\":30,\"runtime\":97}]"
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":30,\"runtime\":71}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":20,\"runtime\":415}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":30,\"runtime\":42}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":20,\"runtime\":240}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":30,\"runtime\":121}]"
+            },
+            {
+              "payload": "2"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":20,\"runtime\":229}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":30,\"runtime\":43}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":20,\"runtime\":766}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.94:443\",\"serverStream\":\"109.71.162.94:443\",\"type\":30,\"runtime\":52}]"
+            },
+            {
+              "payload": "2"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":20,\"runtime\":167}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.31:443\",\"serverStream\":\"109.71.162.31:443\",\"type\":30,\"runtime\":86}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.33:443\",\"serverStream\":\"109.71.162.33:443\",\"type\":1000,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.33:443\",\"serverStream\":\"109.71.162.33:443\",\"type\":20,\"runtime\":374}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552253186262-g421dd73a28201c833cec08021a30a8c1\",\"serverRelay\":\"109.71.162.33:443\",\"serverStream\":\"109.71.162.33:443\",\"type\":30,\"runtime\":57}]"
             }
           ],
           "framesReceived": [
             {
-              "payload": "0{\"sid\":\"X4adU8s6Caze5nZhJrUu\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "payload": "0{\"sid\":\"5AV09wrCB7vVlM-HTQsO\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
               "origin": "wss://jaws.dditscdn.com"
             },
             {
@@ -430,29 +504,125 @@
               "origin": "wss://jaws.dditscdn.com"
             },
             {
-              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"8272280\":3,\"19467020\":1,\"19719160\":1,\"20404960\":3,\"22713630\":2,\"23444290\":3,\"23925860\":1,\"24163620\":2,\"24199260\":2,\"24392990\":2,\"25163050\":3,\"25884500\":3,\"26092950\":1,\"26093860\":2}]",
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"8155000\":2,\"13702970\":1,\"20535790\":1,\"24776390\":1,\"24937630\":1,\"25117100\":0,\"25798990\":2,\"25958720\":1,\"26087360\":0,\"26107640\":2}]",
               "origin": "wss://jaws.dditscdn.com"
             },
             {
-              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"8272280\":2,\"19467020\":1,\"19719160\":1,\"20404960\":2,\"22713630\":2,\"23444290\":2,\"23925860\":1,\"24163620\":2,\"24199260\":2,\"24392990\":2,\"25163050\":2,\"25884500\":2,\"26092950\":1,\"26093860\":2}]",
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"8155000\":2,\"13702970\":1,\"20535790\":1,\"24776390\":1,\"24937630\":1,\"25117100\":0,\"25798990\":2,\"25958720\":1,\"26087360\":0,\"26107640\":2}]",
               "origin": "wss://jaws.dditscdn.com"
             },
             {
-              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"3318450\":2,\"17494150\":2,\"19467010\":1,\"25055730\":3,\"25109170\":3,\"25138150\":2,\"25288430\":0,\"25932680\":3}]",
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"868220\":0,\"2020810\":1,\"7564530\":3,\"9759460\":1,\"9864810\":0,\"20372140\":0,\"23099260\":3,\"23127640\":2,\"24439470\":1,\"24499230\":1,\"24570240\":3,\"24608940\":3,\"24854530\":1,\"24882180\":1,\"25076900\":1,\"25605740\":3,\"25722900\":2}]",
               "origin": "wss://jaws.dditscdn.com"
             },
             {
-              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"3318450\":2,\"17494150\":2,\"19467010\":1,\"25055730\":2,\"25109170\":2,\"25138150\":2,\"25288430\":0,\"25932680\":2}]",
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"868220\":0,\"2020810\":1,\"7564530\":2,\"9759460\":1,\"9864810\":0,\"20372140\":0,\"23099260\":2,\"23127640\":2,\"24439470\":1,\"24499230\":1,\"24570240\":2,\"24608940\":2,\"24854530\":1,\"24882180\":1,\"25076900\":1,\"25605740\":2,\"25722900\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"19832350\":2,\"20248860\":2,\"20260660\":2,\"20260680\":3,\"20335310\":1,\"24141630\":3,\"24885820\":3,\"24885840\":3,\"25093090\":3,\"25232610\":3,\"25682120\":3,\"25765250\":2,\"26093960\":0,\"26154760\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"19832350\":2,\"20248860\":2,\"20260660\":2,\"20260680\":2,\"20335310\":1,\"24141630\":2,\"24885820\":2,\"24885840\":2,\"25093090\":2,\"25232610\":2,\"25682120\":2,\"25765250\":2,\"26093960\":0,\"26154760\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"dh.jasmin.performer.show.cancelled.withperformer\",{\"event\":\"dh.jasmin.performer.show.cancelled.withperformer\"},{\"createdAt\":\"2019-03-10T22:26:40Z\",\"showId\":2842216,\"status\":\"cancelled\",\"showType\":\"vip\",\"scheduledStartAt\":\"2019-03-10T21:26:40Z\",\"scheduledEndAt\":\"2019-03-10T21:36:40Z\",\"minimumBuyInCredits\":5,\"performerId\":24794810}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"8765960\":1,\"12292530\":3,\"18098850\":2,\"20837840\":3,\"21127890\":3,\"21628660\":1,\"22319110\":3,\"23584560\":3,\"24022970\":1,\"24192400\":0,\"24376780\":1,\"24596930\":1,\"24608940\":1,\"25138410\":1,\"25205970\":2,\"25291600\":0,\"25649100\":1,\"25846540\":1,\"25877590\":1,\"26087920\":1,\"26132190\":3,\"26179850\":1,\"26185640\":3}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"8765960\":1,\"12292530\":2,\"18098850\":2,\"20837840\":2,\"21127890\":2,\"21628660\":1,\"22319110\":2,\"23584560\":2,\"24022970\":1,\"24192400\":0,\"24376780\":1,\"24596930\":1,\"24608940\":1,\"25138410\":1,\"25205970\":2,\"25291600\":0,\"25649100\":1,\"25846540\":1,\"25877590\":1,\"26087920\":1,\"26132190\":2,\"26179850\":1,\"26185640\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"20610800\":1,\"21476950\":1,\"24023350\":1,\"24113360\":2,\"24729220\":0,\"24888440\":1,\"24937630\":2,\"25025270\":1,\"25315270\":1,\"26146080\":1,\"26153890\":1,\"26185640\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"20610800\":1,\"21476950\":1,\"24023350\":1,\"24113360\":2,\"24729220\":0,\"24888440\":1,\"24937630\":2,\"25025270\":1,\"25315270\":1,\"26146080\":1,\"26153890\":1,\"26185640\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "3",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"7253160\":1,\"13924930\":1,\"13924970\":1,\"20500320\":0,\"21496480\":0,\"22286930\":0,\"23803710\":0,\"24469970\":1,\"24473000\":3,\"24473030\":3,\"25138410\":3,\"25444300\":1,\"25588510\":1,\"25723580\":1,\"25750490\":3,\"25860700\":2,\"25948480\":3,\"26132190\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"7253160\":1,\"13924930\":1,\"13924970\":1,\"20500320\":0,\"21496480\":0,\"22286930\":0,\"23803710\":0,\"24469970\":1,\"24473000\":2,\"24473030\":2,\"25138410\":2,\"25444300\":1,\"25588510\":1,\"25723580\":1,\"25750490\":2,\"25860700\":2,\"25948480\":2,\"26132190\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"17150060\":3,\"21265600\":2,\"21361040\":2,\"22030490\":2,\"22058900\":1,\"23500400\":1,\"23600160\":1,\"24445490\":3,\"25106250\":1,\"25122800\":2,\"25163050\":2,\"25470450\":0,\"25723460\":1,\"25750760\":1,\"25813920\":1,\"25814130\":1,\"25851590\":2,\"25874070\":0,\"25889410\":2,\"25948480\":1,\"26185640\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"17150060\":2,\"21265600\":2,\"21361040\":2,\"22030490\":2,\"22058900\":1,\"23500400\":1,\"23600160\":1,\"24445490\":2,\"25106250\":1,\"25122800\":2,\"25163050\":2,\"25470450\":0,\"25723460\":1,\"25750760\":1,\"25813920\":1,\"25814130\":1,\"25851590\":2,\"25874070\":0,\"25889410\":2,\"25948480\":1,\"26185640\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"20493680\":3,\"22648510\":2,\"23873630\":2,\"24126080\":3,\"25272720\":3,\"25378030\":2,\"25739080\":3,\"25739140\":3,\"25884050\":3}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"20493680\":2,\"22648510\":2,\"23873630\":2,\"24126080\":2,\"25272720\":2,\"25378030\":2,\"25739080\":2,\"25739140\":2,\"25884050\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"21307480\":1,\"22424990\":2,\"23292640\":0,\"24089240\":0,\"24233310\":1,\"24233400\":1,\"24520110\":3,\"25093270\":2,\"25188440\":3,\"25188580\":3,\"25409350\":2,\"25808740\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"21307480\":1,\"22424990\":2,\"23292640\":0,\"24089240\":0,\"24233310\":1,\"24233400\":1,\"24520110\":2,\"25093270\":2,\"25188440\":2,\"25188580\":2,\"25409350\":2,\"25808740\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"7564530\":1,\"16571970\":1,\"18758630\":2,\"21060800\":0,\"21459520\":3,\"23099260\":0,\"23514890\":1,\"23526670\":2,\"24206300\":0,\"25104670\":1,\"25172450\":2,\"25557950\":3,\"25769940\":0,\"25815170\":1,\"26116410\":2,\"26123040\":1,\"26195980\":3,\"26201670\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"7564530\":1,\"16571970\":1,\"18758630\":2,\"21060800\":0,\"21459520\":2,\"23099260\":0,\"23514890\":1,\"23526670\":2,\"24206300\":0,\"25104670\":1,\"25172450\":2,\"25557950\":2,\"25769940\":0,\"25815170\":1,\"26116410\":2,\"26123040\":1,\"26195980\":2,\"26201670\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "3",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"dh.jasmin.performer.show.cancelled.withperformer\",{\"event\":\"dh.jasmin.performer.show.cancelled.withperformer\"},{\"createdAt\":\"2019-03-10T22:27:16Z\",\"showId\":2842336,\"status\":\"cancelled\",\"showType\":\"vip\",\"scheduledStartAt\":\"2019-03-10T21:27:15Z\",\"scheduledEndAt\":\"2019-03-10T21:31:15Z\",\"minimumBuyInCredits\":3,\"performerId\":25732340}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"5140930\":2,\"18953820\":1,\"20868980\":0,\"21751310\":3,\"23709450\":3,\"23862130\":2,\"24802740\":3,\"25173400\":1,\"25188890\":1,\"25232110\":1,\"25306470\":1,\"25333710\":1,\"25343290\":3,\"25405720\":1,\"25587180\":3,\"25705580\":1,\"25890570\":3,\"25971270\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"5140930\":2,\"18953820\":1,\"20868980\":0,\"21751310\":2,\"23709450\":2,\"23862130\":2,\"24802740\":2,\"25173400\":1,\"25188890\":1,\"25232110\":1,\"25306470\":1,\"25333710\":1,\"25343290\":2,\"25405720\":1,\"25587180\":2,\"25705580\":1,\"25890570\":2,\"25971270\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"13042520\":3,\"15165000\":3,\"20021900\":3,\"21359390\":2,\"22691690\":2,\"23099260\":3,\"23176670\":2,\"24301120\":2,\"24445490\":2,\"24467180\":1,\"24800230\":2,\"24802740\":1,\"24897310\":3,\"24897350\":3,\"25091110\":2,\"25251290\":3,\"25276980\":1,\"25490330\":1,\"25647010\":1,\"25665000\":1,\"25702640\":1,\"25884050\":2,\"25907950\":2,\"25911360\":3,\"26093940\":0,\"26195980\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"13042520\":2,\"15165000\":2,\"20021900\":2,\"21359390\":2,\"22691690\":2,\"23099260\":2,\"23176670\":2,\"24301120\":2,\"24445490\":2,\"24467180\":1,\"24800230\":2,\"24802740\":1,\"24897310\":2,\"24897350\":2,\"25091110\":2,\"25251290\":2,\"25276980\":1,\"25490330\":1,\"25647010\":1,\"25665000\":1,\"25702640\":1,\"25884050\":2,\"25907950\":2,\"25911360\":2,\"26093940\":0,\"26195980\":1}]",
               "origin": "wss://jaws.dditscdn.com"
             }
           ]
         },
-        "wss://dss-relay-109-71-162-37.dditscdn.com/?random=02254070171503474529390451883091": {
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=66938598526216497038562104782231": {
           "numFramesSent": 6,
-          "numFramesReceived": 12,
+          "numFramesReceived": 15,
           "framesSent": [
             {
-              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminSelinaSuavee3865418d99f6604d042372803d0f236\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"3761166e539513afeb83a4c12cc26c93\",\"jsm2SessionId\":\"gb8b2a5866bb1224f7514105a627cfa09\",\"userType\":\"user\",\"performerId\":\"SelinaSuave\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"24191357420505640609195744403261\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminDeisyNuman2873d59f989355256873522683b8b158\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d2018f62021a930859944776cc74e17d\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"DeisyNuman\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
             },
             {
               "payload": "{\"event\":\"ping\"}"
@@ -473,51 +643,555 @@
           "framesReceived": [
             {
               "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
               "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
               "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
               "payload": "{\"event\":\"accept\"}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[0]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[{\"streamwidth\":848,\"streamheight\":480}]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[{\"streamwidth\":1280,\"streamheight\":720}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[\"guest43\",\"GUEST\"]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[\"$2.49\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[false]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"DeisyNuman is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"BOK1967\",\"spending\":37}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":561216},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":888,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":115},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"640x360|864x480|1024x576|1280x720\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":720,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":1173,\"type\":\"nano\",\"width\":1280}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[{\"bitrate\":2000,\"height\":720,\"isDefault\":true,\"name\":\"stream_1280_720_2000\",\"streamNameWithFolder\":\"published/stream_1280_720_2000\",\"width\":1280},{\"bitrate\":850,\"height\":480,\"isDefault\":true,\"name\":\"stream_864_480_850\",\"streamNameWithFolder\":\"published/stream_864_480_850\",\"width\":864}]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[\"$1.99\"]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"FookinEthan\",\"spending\":2}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":574738},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":848}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":101},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|848x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":6,\"qualityScore\":777,\"type\":\"nano\",\"width\":848}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[\"guest139\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
             },
             {
-              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"agrfuwk6n70qly3l7prosyhxl2osmsb80g00tom5z2kq56rdggjhbcz3t482j2p7\",\"data\":[]}",
-              "origin": "wss://dss-relay-109-71-162-37.dditscdn.com"
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[{\"brandID\":\"jasmin\",\"broadcastOnly\":true,\"id\":\"189319\",\"isFanClubMember\":false,\"ismobile\":1,\"jasminSpamResult\":false,\"memberType\":\"activeMember\",\"msg\":\"Geez\",\"msgCheck\":\"\",\"performerID\":\"DeisyNuman\",\"platform\":\"mobile\",\"senderLanguage\":null,\"sid\":\"oy30v8t6x73j4fuc369bvh6rg237yo6s4o517ao4b6lo2it8nu447h6pvv4o6412\",\"type\":\"member\",\"userNick\":\"louie1978\",\"translated\":0,\"loyaltyLevel\":5}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":888,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280},\"newValue\":{\"bitrate\":920,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"9j4b8ipgy7m2w32mzjsyhdn4wl52xaoyc4youda87cetsxkwwchf2odr8w9ma98c\",\"data\":[{\"brandID\":\"jasmin\",\"id\":\"193421\",\"jasminSpamResult\":false,\"msg\":\"  yeah\",\"performerID\":\"DeisyNuman\",\"type\":\"performer\",\"userNick\":\"DeisyNuman\",\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-31.dditscdn.com/?random=87956793444279250049690728896085": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminAwesomeAsssdf9526e209851fc987730517f11be747\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"AwesomeAsss\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[\"guest64\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[\"$3.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"AwesomeAsss is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"crazyhorny79\",\"spending\":15}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":576338},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":101},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|800x450|864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":792,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":101,\"newValue\":103}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"qpw1uw5vb2sn72qlcs7tzna06ulcuw04a2oduv80muhddve5sbq32v4yy0gakw7z\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864},\"newValue\":{\"bitrate\":824,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=2944777010338242128378916066919": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminTefyRodriguez0b86d28aed89dc4c149e31673a6bc270\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"TefyRodriguez\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[{\"streamwidth\":800,\"streamheight\":448}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initVipShow\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[{\"status\":\"pre-show\",\"description\":\"Come on guys ! i know you all waiting to see this pussy cum, dont be shy and get those dicks here ! lets have fun !!\",\"goal\":35,\"minimumBuy\":3,\"preShowLength\":11,\"preShowRemainingTime\":549,\"mainShowLength\":6,\"mainShowRemainingTime\":0,\"topMembers\":[],\"collectedCredits\":0}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[\"guest222\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"mikehms\",\"spending\":62}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":580010},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":102},{\"name\":\"remoteDeviceStatus\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"available\":true,\"memberId\":\"\",\"prevMemberId\":\"\",\"prevPublicSessionId\":\"\",\"price\":1,\"publicSessionId\":\"\",\"remoteDeviceSessionId\":\"\",\"selectedDeviceMac\":\"DC0D3009F1D7\",\"socketIp\":\"\"}},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"vip\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|848x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":448,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"s9bqko3635b10s5xw58uu2j4tetihu00v4clcejcj7mqa50dihxkslfjxbbv5qmw\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800},\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=12742549484447707386773991315221": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminDeisyNuman2873d59f989355256873522683b8b158\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"DeisyNuman\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[{\"streamwidth\":1280,\"streamheight\":720}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[\"$2.49\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"DeisyNuman is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"BOK1967\",\"spending\":37}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":561216},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":904,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":109},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"640x360|864x480|1024x576|1280x720\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":720,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":1173,\"type\":\"nano\",\"width\":1280}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[{\"bitrate\":2000,\"height\":720,\"isDefault\":true,\"name\":\"stream_1280_720_2000\",\"streamNameWithFolder\":\"published/stream_1280_720_2000\",\"width\":1280},{\"bitrate\":850,\"height\":480,\"isDefault\":true,\"name\":\"stream_864_480_850\",\"streamNameWithFolder\":\"published/stream_864_480_850\",\"width\":864}]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[\"guest271\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"53myq606apne44kx4xg39lkyawugux0kuyz1q47e1sbxm9pccucichnn78anqtwg\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":109,\"newValue\":113}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-94.dditscdn.com/?random=36199932119066053944892857010829": {
+          "numFramesSent": 6,
+          "numFramesReceived": 17,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminTefyRodriguez0b86d28aed89dc4c149e31673a6bc270\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"TefyRodriguez\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[{\"streamwidth\":800,\"streamheight\":448}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initVipShow\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[{\"status\":\"pre-show\",\"description\":\"Come on guys ! i know you all waiting to see this pussy cum, dont be shy and get those dicks here ! lets have fun !!\",\"goal\":35,\"minimumBuy\":3,\"preShowLength\":11,\"preShowRemainingTime\":528,\"mainShowLength\":6,\"mainShowRemainingTime\":0,\"topMembers\":[],\"collectedCredits\":0}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"mikehms\",\"spending\":62}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":580010},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":102},{\"name\":\"remoteDeviceStatus\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"available\":true,\"memberId\":\"\",\"prevMemberId\":\"\",\"prevPublicSessionId\":\"\",\"price\":1,\"publicSessionId\":\"\",\"remoteDeviceSessionId\":\"\",\"selectedDeviceMac\":\"DC0D3009F1D7\",\"socketIp\":\"\"}},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"vip\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|848x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":448,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[\"guest207\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":102,\"newValue\":101}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[{\"msg\":\"Jeans ass baby\",\"msgCheck\":\"\",\"broadcastOnly\":true,\"id\":\"228479\",\"memberType\":\"guest\",\"isFanClubMember\":false,\"ismobile\":1,\"type\":\"guest\",\"userNick\":\"guest15\",\"performerID\":\"TefyRodriguez\",\"platform\":\"mobile\",\"sid\":\"j416hyrm05hf27hm9t2fdq56z572uq81015hk1a669624dkw705lgujj8i3h2l8v\",\"brandID\":\"jasmin\",\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"list\":[{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800},\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"i9vosizvkenlr0jj9ix3l1hz41ca4yx3nh2q1uk0ftq6ccooyz0yjcdwc4nyh5i8\",\"data\":[{\"msg\":\"Yeah\",\"msgCheck\":\"\",\"broadcastOnly\":true,\"id\":\"987847\",\"memberType\":\"guest\",\"isFanClubMember\":false,\"ismobile\":1,\"type\":\"guest\",\"userNick\":\"guest146\",\"performerID\":\"TefyRodriguez\",\"platform\":\"mobile\",\"sid\":\"v576n87p28g2tn1o6eoxpp73d6340ue110l38e52dnkje8njt7643id2wom2q2k0\",\"brandID\":\"jasmin\",\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-94.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-31.dditscdn.com/?random=46357032894705365781132563153697": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminmonyquex90f9d457b33c288a09b96510674567e3\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"monyquex\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[{\"streamwidth\":848,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[\"guest11\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"monyquex is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"WRoweIII\",\"spending\":10}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":578872},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":816,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":848}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":103},{\"name\":\"remoteDeviceStatus\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"available\":true,\"memberId\":\"\",\"prevMemberId\":\"Will23\",\"prevPublicSessionId\":\"45b3j45mw3x6j2212de4w27ri3eb9l9gi8x868yt4us9tee3kkn7l482eoi4pf06\",\"price\":1,\"publicSessionId\":\"\",\"remoteDeviceSessionId\":0,\"selectedDeviceMac\":\"DC0D3001B7BF\",\"socketIp\":\"\"}},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|848x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":777,\"type\":\"nano\",\"width\":848}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"6qglt0y7p74lncyw178tl7t4ra80n4626wffm85djkxdr8n55asx46url5oulpjg\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":103,\"newValue\":99}]}",
+              "origin": "wss://dss-relay-109-71-162-31.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-33.dditscdn.com/?random=45094176016560143906700961344964": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminJasmineNoirr33f33bcfdb050beee2b10ca45b43b4a8\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"d3858aa506e1543486f9af094a414cf8\",\"jsm2SessionId\":\"g421dd73a28201c833cec08021a30a8c1\",\"userType\":\"user\",\"performerId\":\"JasmineNoirr\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"62377955638347766274604283597551\",\"armaVersion\":\"34.13.11\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initVipShow\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[{\"status\":\"pre-show\",\"description\":\"When is the last time you jacked off? I think its the right time to have some fun with yourself\",\"goal\":25,\"minimumBuy\":2,\"preShowLength\":10,\"preShowRemainingTime\":28,\"mainShowLength\":10,\"mainShowRemainingTime\":0,\"topMembers\":[{\"credits\":2,\"memberId\":\"kosti90\",\"time\":1552252944138},{\"credits\":2,\"memberId\":\"zzorlando\",\"time\":1552253131240},{\"credits\":2,\"memberId\":\"LexyHowe\",\"time\":1552253169983}],\"collectedCredits\":8}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[\"guest444\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"JasmineNoirr is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"crazyhorny79\",\"spending\":15}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":581408},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":104},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"vip\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":6,\"qualityScore\":792,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"jm404xwinrjyosjn3d9q0z8f1960q0pj98tfs0cq4rup6rudl37lxvmb226g64lu\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-33.dditscdn.com"
             }
           ]
         }
@@ -615,9 +1289,53 @@
     },
     "https://www.hellomagazine.com/": {
       "title": "https://www.hellomagazine.com",
-      "numberWS": 1,
+      "numberWS": 5,
       "WSConnections": {
-        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=2E93409B3C42F4D2&cId=8EDD&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=iMvELMURYqjc-pPPUepqLA": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=E3717E4220E7C851&cId=A5B4&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=impzlQh-B07WAdga84TMbQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=E3717E4220E7C851&cId=A5B4&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=Fw1iGjGzT0lBexR8WsHchA": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=E3717E4220E7C851&cId=A5B4&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=EyV8uesZrUgv7ijDd5uELg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=E3717E4220E7C851&cId=A5B4&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=91LzPJbhOpyTerEvQENf9Q": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"error\":\"Handshake was canceled.\"}\u001e",
+              "origin": "wss://messaging.insurads.com"
+            }
+          ]
+        },
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=E3717E4220E7C851&cId=A5B4&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=SiikQZOP_IFhPvGPF5vELw": {
           "numFramesSent": 0,
           "numFramesReceived": 0,
           "framesSent": [],
@@ -629,32 +1347,26 @@
       "title": "www.sportbible.com",
       "numberWS": 1,
       "WSConnections": {
-        "wss://api.native.ai/socket.io/?installationId=37437ea1-0d8f-4b8d-b0e3-eff417d07e72&appKey=449b18d6-5b9f-4feb-a7dd-f23d1475a4a1&EIO=3&transport=websocket": {
-          "numFramesSent": 6,
-          "numFramesReceived": 8,
+        "wss://api.native.ai/socket.io/?installationId=8b8be2f2-5a37-41f2-9158-2e49ea11744e&appKey=449b18d6-5b9f-4feb-a7dd-f23d1475a4a1&EIO=3&transport=websocket": {
+          "numFramesSent": 4,
+          "numFramesReceived": 6,
           "framesSent": [
             {
-              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"37437ea1-0d8f-4b8d-b0e3-eff417d07e72\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242163434,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
+              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"8b8be2f2-5a37-41f2-9158-2e49ea11744e\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552254401000,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
             },
             {
-              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242163640,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1552242160755,\"scriptLoadStart\":1552242161519,\"scriptLoadEnd\":1552242162700,\"scriptInitStart\":1552242162702,\"settingsLoadStart\":1552242162762,\"settingsLoadEnd\":1552242163639}}]"
+              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"a154cbd0-a155-4e79-b9ea-72b43aa294d0\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552254401199,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1552254397620,\"scriptLoadStart\":1552254398565,\"scriptLoadEnd\":1552254399612,\"scriptInitStart\":1552254399617,\"settingsLoadStart\":1552254399619,\"settingsLoadEnd\":1552254401196}}]"
             },
             {
-              "payload": "422[\"events\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242163967,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\",\"X-Session\":\"1552242163872|MjlhZDFlYmYtNWUzOC00NDRkLThmNmYtYzgxNTkyZTJmMDExfA==\"},\"q\":{\"content\":[],\"impressions\":[{\"url\":\"http://www.sportbible.com/football/news-former-man-united-youngster-is-helping-the-talent-of-tomorrow-20190204\",\"area\":21402,\"referer\":\"\",\"ts\":1552242163963,\"internalId\":20977},{\"url\":\"http://www.sportbible.com/football/news-former-man-united-youngster-is-helping-the-talent-of-tomorrow-20190204\",\"area\":62817,\"referer\":\"\",\"ts\":1552242163963,\"internalId\":78052},{\"url\":\"http://www.sportbible.com/football/gaming-reactions-man-breaks-guinness-world-record-for-longest-marathon-on-a-20190225\",\"area\":20596,\"referer\":\"\",\"ts\":1552242163964,\"internalId\":147855},{\"url\":\"http://www.sportbible.com/football/gaming-reactions-man-breaks-guinness-world-record-for-longest-marathon-on-a-20190225\",\"area\":58817,\"referer\":\"\",\"ts\":1552242163964,\"internalId\":258405},{\"url\":\"http://www.sportbible.com/football/gaming-reactions-take-a-bow-where-are-they-now-the-wonderkid-list-on-football-manager-2009-20190308\",\"area\":37917,\"referer\":\"\",\"ts\":1552242163964,\"internalId\":300871},{\"url\":\"http://www.sportbible.com/football/gaming-reactions-take-a-bow-where-are-they-now-the-wonderkid-list-on-football-manager-2009-20190308\",\"area\":158092,\"referer\":\"\",\"ts\":1552242163964,\"internalId\":344687},{\"url\":\"http://www.sportbible.com/\",\"area\":7005,\"referer\":\"\",\"ts\":1552242163965,\"internalId\":458000}]}}]"
+              "payload": "2"
             },
             {
-              "payload": "423[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242164188,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"eventsLoadStart\":1552242163966,\"eventsLoadEnd\":1552242164187}}]"
-            },
-            {
-              "payload": "424[\"events\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242170206,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\",\"X-Session\":\"1552242168878|MjlhZDFlYmYtNWUzOC00NDRkLThmNmYtYzgxNTkyZTJmMDExfA==\"},\"q\":{\"content\":[{\"url\":\"http://www.sportbible.com/\",\"readPercent\":1,\"durationSeconds\":8.9,\"referer\":\"\",\"ts\":1552242170201,\"articleHeight\":314.1532440185547,\"canonicalUrl\":\"http://www.sportbible.com/\",\"nextUrl\":null,\"internalId\":504773}],\"impressions\":[]}}]"
-            },
-            {
-              "payload": "425[\"timing\",{\"h\":{\"N360-Installation-Id\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.9.2 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1552242170377,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"eventsLoadStart\":1552242170203,\"eventsLoadEnd\":1552242170376}}]"
+              "payload": "2"
             }
           ],
           "framesReceived": [
             {
-              "payload": "0{\"sid\":\"wI7nrcra94yucOEoZ-yp\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
+              "payload": "0{\"sid\":\"liHvLWi9reuygi-maTt7\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
               "origin": "wss://api.native.ai"
             },
             {
@@ -662,7 +1374,7 @@
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"65e79a94-eb71-4825-b10a-c0a906ad770f\",\"doNotTrack\":false,\"serverTimestamp\":1552242163554}]",
+              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"a154cbd0-a155-4e79-b9ea-72b43aa294d0\",\"doNotTrack\":false,\"serverTimestamp\":1552254401241}]",
               "origin": "wss://api.native.ai"
             },
             {
@@ -670,19 +1382,11 @@
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "432[null]",
+              "payload": "3",
               "origin": "wss://api.native.ai"
             },
             {
-              "payload": "433[null]",
-              "origin": "wss://api.native.ai"
-            },
-            {
-              "payload": "434[null]",
-              "origin": "wss://api.native.ai"
-            },
-            {
-              "payload": "435[null]",
+              "payload": "3",
               "origin": "wss://api.native.ai"
             }
           ]
@@ -736,13 +1440,28 @@
     },
     "https://www.skysports.com/roi": {
       "title": "https://www.skysports.com/roi",
-      "numberWS": 11,
+      "numberWS": 6,
       "WSConnections": {
-        "wss://zagent364.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+        "wss://zagent298.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
           "numFramesSent": 0,
           "numFramesReceived": 0,
           "framesSent": [],
           "framesReceived": []
+        },
+        "wss://zagent1642.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"__id\":0,\"cmd\":\"get_links_info\",\"route\":{\"ver\":\"1.125.773\",\"customer\":\"sky_uk\",\"url\":\"https://www.skysports.com/roi\"},\"data\":{\"items\":[{\"url\":\"https://www.skysports.com/watch/video/sports/11661514/who-has-toughest-run-in\",\"type\":\"page\",\"size\":\"416x416\",\"description\":\"Who has toughest run-in?\"},{\"url\":\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Klopp: Nobody gets rid of us\"},{\"url\":\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Grealish: My 'best day' despite attack\"},{\"url\":\"https://www.skysports.com/football/arsenal-vs-man-utd/report/391047\",\"type\":\"page\",\"size\":\"330x186\",\"nat_size\":\"288x162\",\"poster\":\"https://e1.365dm.com/19/03/768x432/skysports-aubameyang-arsenal_4603915.jpg?20190310181333\",\"description\":\"Football Arsenal end Ole's unbeaten league run\"}]}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"cmd\":\"get_links_info\",\"res\":{\"https://www.skysports.com/watch/video/sports/11661514/who-has-toughest-run-in\":{\"description\":\"Who has toughest run-in?\",\"poster\":\"https://e1.365dm.com/19/03/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4604101.jpg?20190310201224\",\"poster_size\":\"466x262\",\"poster_nat_size\":\"1966x1106\",\"video_poster\":\"https://e3.365dm.com/19/03/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4604101.jpg?20190310201224\",\"video_title\":\"Who has toughest run-in?\",\"video_size\":\"360x202\",\"video_nat_size\":\"640x360\",\"video_url\":\"/hls/player/all/NkaHJlaDE629cTBZvkrcgWy8pJ38r73h.m3u8\",\"duration\":248,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FNkaHJlaDE629cTBZvkrcgWy8pJ38r73h.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DMHVCN21rajFFUCtTWUNvU1ptOGREK3dSN2d2QzBUakRjdGIrWGFXSW1CZHlBRW5mVXllNVV1ZmNXNlFNCkc3YURwZ1UvMW56Z1lmYzBMaTMvaVlXR01RPT0K&preview_ver=1_1&size=416x416\",\"cdns\":[{\"host\":\"199.115.115.133\",\"hostname\":\"zagent1606.h-cdn.com\"},{\"host\":\"147.135.222.145\",\"hostname\":\"zagent870.h-cdn.com\"},{\"host\":\"64.120.46.58\",\"hostname\":\"zagent812.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\":{\"description\":\"Football Klopp: Nobody gets rid of us\",\"poster\":\"https://e2.365dm.com/19/03/768x432/skysports-jurgen-klopp-klopp_4603737.jpg?20190310160228\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e1.365dm.com/19/03/150x150/skysports-jurgen-klopp-klopp_4603737.jpg\",\"video_title\":\"Jurgen Klopp says 'nobody gets rid of us' after Liverpool beat Burnley\",\"video_size\":\"100x100\",\"video_nat_size\":\"640x360\",\"video_url\":\"/hls/player/all/45dHBlaDE6-E82IQuaEpy8u812Oik3lg.m3u8\",\"duration\":63,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F45dHBlaDE6-E82IQuaEpy8u812Oik3lg.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DUUhxNWJHMW00ZnpicFhDZGw2aXIrQWtJQkZIQXdnc29WTEliYzJDcFo3MWM3Tzl6RndXWEtxUjhVK1hxCnZxQmVMSmZGYW13ZE9MVUo3bzA3ay9mTnJnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"108.59.14.130\",\"hostname\":\"zagent891.h-cdn.com\"},{\"host\":\"209.58.144.150\",\"hostname\":\"zagent298.h-cdn.com\"},{\"host\":\"5.79.110.98\",\"hostname\":\"zagent917.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\":{\"description\":\"Football Grealish: My 'best day' despite attack\",\"poster\":\"https://e1.365dm.com/19/03/384x216/skysports-jack-grealish-aston-villa_4603630.jpg?20190310144847\",\"poster_size\":\"176x99\",\"poster_nat_size\":\"384x216\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-jack-grealish-aston-villa_4603630.jpg\",\"video_title\":\"Aston Villa's Jack Grealish hails 'best day of his life' despite fan attack during Birmingham game\",\"video_size\":\"768x432\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/04a3BlaDE64Ig51DRjsSi0aUDa47IZkd.m3u8\",\"duration\":166,\"videos\":[{\"url\":\"/hls/player/all/xmOXBlaDE6Q_1VAK5FzsWPXHnbSE4WPh.m3u8\",\"duration\":34},{\"url\":\"/hls/player/all/RxY3BlaDE6A75c-C4WtC2O28q8cf5Kst.m3u8\",\"duration\":73}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F04a3BlaDE64Ig51DRjsSi0aUDa47IZkd.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DVEh0K2NhbXBmamFiU1FPTUp6bHFjK1JvZGpMOWJMQjRISDFCL2Z2cHR0aTV6aWxPRHJJMDNWL1JKWnU2CkZ1OXdsYzFsOFJhZm03N0VjZzhvb05UaVFRPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"142.44.212.30\",\"hostname\":\"zagent1643.h-cdn.com\"},{\"host\":\"5.79.110.99\",\"hostname\":\"zagent918.h-cdn.com\"},{\"host\":\"88.212.250.132\",\"hostname\":\"zagent730.h-cdn.com\"}]}},\"https://www.skysports.com/football/arsenal-vs-man-utd/report/391047\":{\"description\":\"Football Arsenal end Ole's unbeaten league run\",\"poster\":\"https://e1.365dm.com/19/03/768x432/skysports-aubameyang-arsenal_4603915.jpg?20190310181333\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e1.365dm.com/19/03/150x150/skysports-aubameyang-arsenal_4603915.jpg\",\"video_title\":\"Match Report - Arsenal 2 - 0 Man Utd\",\"video_size\":\"768x432\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/B5NnJlaDE6BS0Eu3gdx4rINYIFhGDNS8.m3u8\",\"duration\":228,\"videos\":[{\"url\":\"/hls/player/all/FyNXJlaDE6rtY8Gf1RXtgzt7BczOFCRD.m3u8\",\"duration\":1.0216666666666667},{\"url\":\"/hls/player/all/FyNXJlaDE6rtY8Gf1RXtgzt7BczOFCRD.m3u8\",\"duration\":165}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FB5NnJlaDE6BS0Eu3gdx4rINYIFhGDNS8.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DRXdPMEF2eUY4aTFhcHh1KzkxdXBFYkgrQm5TNjg5anJNMGUxcnd6Y0F6UXFXWmtqNHpjOFpMSTY1ZDUzCk5STEIza1FYZ05jSkpDVk9rc2FNZnJaM1F3PT0K&preview_ver=1_1&size=330x186\",\"cdns\":[{\"host\":\"54.36.176.167\",\"hostname\":\"zagent1667.h-cdn.com\"},{\"host\":\"50.7.74.138\",\"hostname\":\"zagent352.h-cdn.com\"},{\"host\":\"81.171.3.168\",\"hostname\":\"zagent900.h-cdn.com\"}]}}},\"opt\":{\"__id\":0,\"items\":[{\"url\":\"https://www.skysports.com/watch/video/sports/11661514/who-has-toughest-run-in\",\"type\":\"page\",\"size\":\"416x416\",\"description\":\"Who has toughest run-in?\"},{\"url\":\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Klopp: Nobody gets rid of us\"},{\"url\":\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Grealish: My 'best day' despite attack\"},{\"url\":\"https://www.skysports.com/football/arsenal-vs-man-utd/report/391047\",\"type\":\"page\",\"size\":\"330x186\",\"nat_size\":\"288x162\",\"poster\":\"https://e1.365dm.com/19/03/768x432/skysports-aubameyang-arsenal_4603915.jpg?20190310181333\",\"description\":\"Football Arsenal end Ole's unbeaten league run\"}]},\"__id\":0}",
+              "origin": "wss://zagent1642.h-cdn.com"
+            }
+          ]
         },
         "wss://zagent907.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
           "numFramesSent": 0,
@@ -762,56 +1481,20 @@
           "framesSent": [],
           "framesReceived": []
         },
-        "wss://zagent298.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
-        },
-        "wss://zagent1642.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+        "wss://zagent364.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
           "numFramesSent": 1,
           "numFramesReceived": 1,
           "framesSent": [
             {
-              "payload": "{\"__id\":0,\"cmd\":\"get_links_info\",\"route\":{\"ver\":\"1.125.773\",\"customer\":\"sky_uk\",\"url\":\"https://www.skysports.com/roi\"},\"data\":{\"items\":[{\"url\":\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Grealish: My 'best day' despite attack\"},{\"url\":\"https://www.skysports.com/football/news/11095/11660843/should-men-and-women-players-be-paid-the-same-the-sunday-supplement-panel-discuss\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Equal play, equal pay?\"},{\"url\":\"https://www.skysports.com/football/news/11661/11660427/watch-premier-league-goals-and-highlights\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football PL goals: Sterling treble, Vardy ton up\"},{\"url\":\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Klopp: Nobody gets rid of us\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660523/oles-arsenal-vs-man-utd-memories\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Ole's Arsenal vs Man Utd memories\"}]}}"
+              "payload": "{\"__id\":0,\"cmd\":\"get_links_info\",\"route\":{\"ver\":\"1.125.773\",\"customer\":\"sky_uk\",\"url\":\"https://www.skysports.com/roi\"},\"data\":{\"items\":[{\"url\":\"https://www.skysports.com/football/chelsea-vs-wolves/report/391049\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Hazard strikes late to earn Chelsea draw\"},{\"url\":\"https://www.skysports.com/football/liverpool-vs-burnley/report/391053\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Firmino, Mane inspire Liverpool win\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11661504/are-arsenal-different\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Are Arsenal different?\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660955/grealish-attacked-by-fan\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Grealish attacked by fan\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660995/grealishs-iopener-in-second-city-derby\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Grealish's Second City derby winner\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11661055/neville-slams-grealish-attack\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Neville: Birmingham have to be punished\"},{\"url\":\"https://www.skysports.com/roi\",\"type\":\"page\",\"current\":true}]}}"
             }
           ],
           "framesReceived": [
             {
-              "payload": "{\"cmd\":\"get_links_info\",\"res\":{\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\":{\"description\":\"Football Grealish: My 'best day' despite attack\",\"poster\":\"https://e2.365dm.com/19/03/768x432/skysports-jack-grealish-aston-villa_4603630.jpg?20190310144847\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-jack-grealish-aston-villa_4603630.jpg\",\"video_title\":\"Aston Villa's Jack Grealish hails 'best day of his life' despite fan attack during Birmingham game\",\"video_size\":\"360x202\",\"video_nat_size\":\"640x360\",\"video_url\":\"/hls/player/all/RxY3BlaDE6A75c-C4WtC2O28q8cf5Kst.m3u8\",\"duration\":73,\"videos\":[{\"url\":\"/hls/player/all/04a3BlaDE64Ig51DRjsSi0aUDa47IZkd.m3u8\",\"duration\":1.0216666666666667},{\"url\":\"/hls/player/all/xmOXBlaDE6Q_1VAK5FzsWPXHnbSE4WPh.m3u8\",\"duration\":34},{\"url\":\"/hls/player/all/04a3BlaDE64Ig51DRjsSi0aUDa47IZkd.m3u8\",\"duration\":166},{\"url\":\"/hls/player/all/xmOXBlaDE6Q_1VAK5FzsWPXHnbSE4WPh.m3u8\",\"duration\":1.0216666666666667}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FRxY3BlaDE6A75c-C4WtC2O28q8cf5Kst.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DYUc4QVIzeWpEVlgvK1A1UFhnbG5BWWFyT0JVNFJlY3hUdG9aMmlIMzJ4UVh0dXJDSXp5SkVRVVk5ZnRhCkVudU1GcjVTQVBQVlora0NhdSt2M2NHeGp3PT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"147.135.130.174\",\"hostname\":\"zagent1641.h-cdn.com\"},{\"host\":\"209.58.144.150\",\"hostname\":\"zagent298.h-cdn.com\"},{\"host\":\"173.208.120.210\",\"hostname\":\"zagent296.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11095/11660843/should-men-and-women-players-be-paid-the-same-the-sunday-supplement-panel-discuss\":{\"description\":\"Football Equal play, equal pay?\",\"poster\":\"https://e2.365dm.com/19/03/768x432/skysports-usa-uswnt-us-womens-team_4601514.jpg?20190308163431\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e0.365dm.com/19/03/150x150/skysports-usa-uswnt-us-womens-team_4601514.jpg\",\"video_title\":\"Should men and women players be paid the same? The Sunday Supplement panel discuss\",\"video_size\":\"628x353\",\"video_nat_size\":\"640x360\",\"video_url\":\"/hls/player/all/x1MnBlaDE6DRshtiN6cfqvt7k_i9-4rp.m3u8\",\"duration\":208,\"videos\":[{\"url\":\"/hls/player/all/Z0c3ZkaDE6-utKA1t591_iUVsY_QdLew.m3u8\",\"duration\":5.967}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2Fx1MnBlaDE6DRshtiN6cfqvt7k_i9-4rp.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DbUtjRkx4VU0rS3VCN2RROXpCT09LR3FTdXJ5akd4bGRlaVhqWUhnYVcyQ2ZsVDUydXREU0puYk1BUXVyCndMclMwVlhZWVJocElySk5uQUptWlVQN2hBPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"50.7.77.50\",\"hostname\":\"zagent1047.h-cdn.com\"},{\"host\":\"147.135.222.138\",\"hostname\":\"zagent1358.h-cdn.com\"},{\"host\":\"217.182.174.166\",\"hostname\":\"zagent867.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11661/11660427/watch-premier-league-goals-and-highlights\":{\"description\":\"Football PL goals: Sterling treble, Vardy ton up\",\"poster\":\"https://e1.365dm.com/19/03/768x432/skysports-raheem-sterling-manchester-city_4602990.jpg?20190309201837\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-raheem-sterling-manchester-city_4602990.jpg\",\"video_title\":\"WATCH: Premier League goals and highlights\",\"video_size\":\"198x113\",\"video_nat_size\":\"256x144\",\"video_url\":\"/hls/player/all/12ZmxlaDE6YSfcITrTnd6xiPETJCKZJ3.m3u8\",\"duration\":1.001,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F12ZmxlaDE6YSfcITrTnd6xiPETJCKZJ3.m3u8%3Fssl%3Dtrue%26secure_ios_token%3DU1k0ejRZdHFoR1NOc2F0SmRNUHNTeWpMMXZheWx2RGY3TWFYNzcrQmZlOVVTTlpoVzduZkVaUUMxVWNpCklKZklCaVVmZnMzelp3RDNkZGlDUXdWMzVnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"54.36.176.169\",\"hostname\":\"zagent1669.h-cdn.com\"},{\"host\":\"173.208.120.210\",\"hostname\":\"zagent296.h-cdn.com\"},{\"host\":\"217.182.174.166\",\"hostname\":\"zagent867.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\":{\"description\":\"Football Klopp: Nobody gets rid of us\",\"poster\":\"https://e2.365dm.com/19/03/768x432/skysports-jurgen-klopp-klopp_4603737.jpg?20190310160228\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e1.365dm.com/19/03/150x150/skysports-jurgen-klopp-klopp_4603737.jpg\",\"video_title\":\"Jurgen Klopp says 'nobody gets rid of us' after Liverpool beat Burnley\",\"video_size\":\"628x353\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/45dHBlaDE6-E82IQuaEpy8u812Oik3lg.m3u8\",\"duration\":63,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F45dHBlaDE6-E82IQuaEpy8u812Oik3lg.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DWEtTVDgxZUszOGZpMmVWaVFrOGdkY2ZzMnhiNE9GTDluVE1aakl2WFJZcVRiOE9UWit2dmZjZy9vaGpFCjlJNkJuTkdldFEwT1Jyanl5UElqMnVKQVBnPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"209.58.144.150\",\"hostname\":\"zagent298.h-cdn.com\"},{\"host\":\"5.79.110.98\",\"hostname\":\"zagent917.h-cdn.com\"},{\"host\":\"217.182.174.167\",\"hostname\":\"zagent866.h-cdn.com\"}]}},\"https://www.skysports.com/watch/video/sports/11660523/oles-arsenal-vs-man-utd-memories\":{\"description\":\"Ole's Arsenal vs Man Utd memories\",\"poster\":\"https://e0.365dm.com/19/03/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4603054.jpg?20190309211732\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e3.365dm.com/19/03/768x432/Ut_HKthATH4eww8X4xMDoxOjBzMTt2bJ_4603054.jpg?20190309211732\",\"video_title\":\"Ole's Arsenal vs Man Utd memories\",\"video_size\":\"996x560\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/FuaW1laDE6aVN4ArIRzovi_ReSpEx-dh.m3u8\",\"duration\":276,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FFuaW1laDE6aVN4ArIRzovi_ReSpEx-dh.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3Db0tBMnRObEN6aGw4M3BZWk81QlNHdlRUei9iM1lBTHVpR2ZKWmd2SGtMU2Q1NVNkWWozVGJSUTMzVVRxCndtMkxrUDJhNEtXUnd5SjhSMUVNZ1R5VkRRPT0K&preview_ver=1_1&size=330x330\",\"cdns\":[{\"host\":\"142.44.212.30\",\"hostname\":\"zagent1643.h-cdn.com\"},{\"host\":\"81.171.3.168\",\"hostname\":\"zagent900.h-cdn.com\"},{\"host\":\"23.108.191.211\",\"hostname\":\"zagent892.h-cdn.com\"}]}}},\"opt\":{\"__id\":0,\"items\":[{\"url\":\"https://www.skysports.com/football/news/11677/11661056/aston-villas-jack-grealish-hails-best-day-of-his-life-despite-fan-attack-during-birmingham-game\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Grealish: My 'best day' despite attack\"},{\"url\":\"https://www.skysports.com/football/news/11095/11660843/should-men-and-women-players-be-paid-the-same-the-sunday-supplement-panel-discuss\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Equal play, equal pay?\"},{\"url\":\"https://www.skysports.com/football/news/11661/11660427/watch-premier-league-goals-and-highlights\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football PL goals: Sterling treble, Vardy ton up\"},{\"url\":\"https://www.skysports.com/football/news/11669/11661198/jurgen-klopp-says-nobody-gets-rid-of-us-after-liverpool-beat-burnley\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Klopp: Nobody gets rid of us\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660523/oles-arsenal-vs-man-utd-memories\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Ole's Arsenal vs Man Utd memories\"}]},\"__id\":0}",
-              "origin": "wss://zagent1642.h-cdn.com"
+              "payload": "{\"cmd\":\"get_links_info\",\"res\":{\"error\":\"toobusy_disk\"},\"opt\":{\"__id\":0,\"items\":[{\"url\":\"https://www.skysports.com/football/chelsea-vs-wolves/report/391049\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Hazard strikes late to earn Chelsea draw\"},{\"url\":\"https://www.skysports.com/football/liverpool-vs-burnley/report/391053\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Football Firmino, Mane inspire Liverpool win\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11661504/are-arsenal-different\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Are Arsenal different?\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660955/grealish-attacked-by-fan\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Grealish attacked by fan\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11660995/grealishs-iopener-in-second-city-derby\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Grealish's Second City derby winner\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11661055/neville-slams-grealish-attack\",\"type\":\"page\",\"size\":\"330x330\",\"description\":\"Neville: Birmingham have to be punished\"},{\"url\":\"https://www.skysports.com/roi\",\"type\":\"page\",\"current\":true}]},\"__id\":0}",
+              "origin": "wss://zagent364.h-cdn.com"
             }
           ]
-        },
-        "wss://zagent870.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
-        },
-        "wss://zagent11.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
-        },
-        "wss://zagent871.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
-        },
-        "wss://zagent866.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
-        },
-        "wss://zagent1669.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
-          "numFramesSent": 0,
-          "numFramesReceived": 0,
-          "framesSent": [],
-          "framesReceived": []
         }
       }
     },
@@ -985,8 +1668,8 @@
       "numberWS": 0,
       "WSConnections": {}
     },
-    "https://www.premierleague.com/matchweek/3289/blog": {
-      "title": "https://www.premierleague.com/matchweek/3289/blog",
+    "https://www.premierleague.com/": {
+      "title": "https://www.premierleague.com",
       "numberWS": 0,
       "WSConnections": {}
     },
