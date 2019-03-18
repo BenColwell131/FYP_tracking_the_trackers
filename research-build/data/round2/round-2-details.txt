@@ -1,0 +1,5 @@
+Visited all countries and stayed 1 minute on each page.
+
+Failed to visit a few sites due to sub-domains, need to see how big an issue this is.
+Major concern is login pages e.g: facebook.
+  - Plan to run a photo test to see how big an issue this is.

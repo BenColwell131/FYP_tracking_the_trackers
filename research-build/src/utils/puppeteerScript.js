@@ -5,6 +5,8 @@ const path = require('path');
 
 // Settings:
 const COUNTRY = process.argv[2];
+const COLLECT_SCREENSHOTS = true;
+const TIME_ON_PAGE = 5000; //milliseconds
 
 // Globals:
 let domainList = [];
@@ -43,10 +45,15 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
     headless: false,
     args: [
      `--disable-extensions-except=${pathToExtension}`,
-     `--load-extension=${pathToExtension}`
+     `--load-extension=${pathToExtension}`,
+     `--window-size=1920,1080`
    ]
   });
   const page = await browser.newPage();
+  await page.setViewport({
+       width  : 1920,
+       height : 1080
+   });
 
   // Access Extension background page.
   const targets = await browser.targets();
@@ -68,7 +75,12 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
                        logError(domainList[i], err)
                      });
       await pageLoad;
-      await delay(60000); //Waiting 60s on each page
+      if(COLLECT_SCREENSHOTS){
+        const screenshotPath = path.join(__dirname, '../../', "data", "screenshots", COUNTRY, (i+1) + "_" + domainList[i] + ".png");
+        console.log(screenshotPath);
+        page.screenshot({path: screenshotPath})
+      }
+      await delay(TIME_ON_PAGE); //Waiting on each page
       console.log("Visited: " + domainList[i]);
   }
 
