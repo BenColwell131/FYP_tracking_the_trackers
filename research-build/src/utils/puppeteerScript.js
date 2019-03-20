@@ -11,6 +11,8 @@ const TIME_ON_PAGE = 5000; //milliseconds
 // Globals:
 let domainList = [];
 let errorLog = [];
+// A few sites can't handle www subdomain:
+const noWwwSites = { "Detail.tmall.com": 1, "Himado.in": 1,"Login.tmall.com": 1, "B9good.com": 1, "Abema.tv": 1, "Animevost.org": 1, "Redd.it": 1}
 
 // Functions
 function loadDomainList() {
@@ -41,12 +43,15 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
   // TODO: was here -> moved into country loop
   await loadDomainList();
   const pathToExtension = path.join(__dirname, '../../', 'build');
+  const pathToUserDir = path.join(__dirname, '../../', 'assets', 'puppeteer-profile');
   const browser = await puppeteer.launch({
     headless: false,
+    userDataDir: pathToUserDir,
     args: [
      `--disable-extensions-except=${pathToExtension}`,
      `--load-extension=${pathToExtension}`,
-     `--window-size=1920,1080`
+     `--window-size=1920,1080`,
+     `--ignore-certificate-errors`
    ]
   });
   const page = await browser.newPage();
@@ -69,7 +74,7 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
   // Visit all domains in list.
   const pageLoad = page.waitForFunction('document.readyState === "complete"');
   for(let i = 0; i < 100; i++){
-      await page.goto('http://www.' + domainList[i], {waitUntil: ['networkidle2', 'load', 'domcontentloaded']})
+      await page.goto((noWwwSites[domainList[i]] ? 'http://' + domainList[i] : 'http://www.' + domainList[i]), {waitUntil: ['networkidle2', 'load', 'domcontentloaded']})
                      .catch(err => {
                        // console.log(err);
                        logError(domainList[i], err)
@@ -84,7 +89,6 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
       console.log("Visited: " + domainList[i]);
   }
 
-  // TODO: Post process data
   console.log("Finished gathering data for: ", COUNTRY);
   await browser.close();
 })();

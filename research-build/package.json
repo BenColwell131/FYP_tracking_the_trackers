@@ -9,7 +9,9 @@
     "puppeteer": "node src/utils/puppeteerScript.js",
     "puppeteer-all": "node src/utils/puppeteerScript.js hong-kong && node src/utils/puppeteerScript.js ireland && node src/utils/puppeteerScript.js japan && node src/utils/puppeteerScript.js russia && node src/utils/puppeteerScript.js spain && node src/utils/puppeteerScript.js usa",
     "validate-data": "node src/utils/validateData.js",
-    "post-process": "node src/utils/postProcessData.js"
+    "post-process": "node src/utils/postProcessData.js",
+    "post-process-all": "node src/utils/postProcessData.js hong-kong && node src/utils/postProcessData.js ireland && node src/utils/postProcessData.js japan && node src/utils/postProcessData.js russia && node src/utils/postProcessData.js spain && node src/utils/postProcessData.js usa"
+
   },
   "repository": {
     "type": "git",

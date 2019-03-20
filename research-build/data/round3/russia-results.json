@@ -1,0 +1,669 @@
+{
+  "country": "Russia",
+  "totalNumSitesVisited": 102,
+  "totalWSConnections": 7,
+  "totalFramesSent": 10,
+  "totalFramesReceieved": 15,
+  "details": {
+    "https://www.yandex.ru/": {
+      "title": "https://www.yandex.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/": {
+      "title": "https://vk.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "https://www.google.com/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mail.ru/": {
+      "title": "https://mail.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.avito.ru/rossiya": {
+      "title": "https://www.avito.ru/rossiya",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ok.ru/": {
+      "title": "https://www.ok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/?gws_rd=ssl": {
+      "title": "https://www.google.ru/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.aliexpress.com/": {
+      "title": "www.aliexpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gosuslugi.ru/": {
+      "title": "https://www.gosuslugi.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rambler.ru/": {
+      "title": "https://www.rambler.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kinopoisk.ru/": {
+      "title": "https://www.kinopoisk.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sberbank.ru/en/individualclients": {
+      "title": "https://www.sberbank.ru/en/individualclients",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "https://www.facebook.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejournal.com/": {
+      "title": "https://www.livejournal.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gismeteo.ru/": {
+      "title": "https://www.gismeteo.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.userapi.com/": {
+      "title": "www.userapi.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drom.ru/": {
+      "title": "https://www.drom.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://infourok.ru/": {
+      "title": "https://infourok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://pikabu.ru/": {
+      "title": "https://pikabu.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://lordfilms.tv/": {
+      "title": "lordfilms.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ria.ru/": {
+      "title": "https://ria.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://cm.ria.ru/chat/186/j2udzax2/websocket": {
+          "numFramesSent": 1,
+          "numFramesReceived": 3,
+          "framesSent": [
+            {
+              "payload": "[\"{\\\"type\\\":\\\"user_join\\\",\\\"message\\\":{\\\"user_id\\\":null,\\\"obj_id\\\":\\\"main\\\",\\\"lang\\\":\\\"rus\\\",\\\"project\\\":\\\"ria.ru\\\"}}\"]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "o",
+              "origin": "wss://cm.ria.ru"
+            },
+            {
+              "payload": "a[\"{\\\"type\\\":\\\"bus_notify\\\",\\\"subtype\\\":\\\"new_article\\\",\\\"domain\\\":\\\"ria_ru\\\",\\\"article_id\\\":1551892273,\\\"article_title\\\":\\\"Определены страны, из которых в Россию активно едут туристы\\\",\\\"article_date\\\":\\\"2019-03-18 22:02:00 +0300\\\",\\\"article_priority\\\":\\\"3\\\",\\\"article_url\\\":\\\"https://ria.ru/20190318/1551892273.html\\\"}\"]",
+              "origin": "wss://cm.ria.ru"
+            },
+            {
+              "payload": "a[\"{\\\"type\\\":\\\"bus_notify\\\",\\\"subtype\\\":\\\"new_article\\\",\\\"domain\\\":\\\"ria_ru\\\",\\\"article_id\\\":1551892273,\\\"article_title\\\":\\\"Определены страны, из которых в Россию активно едут туристы\\\",\\\"article_date\\\":\\\"2019-03-18 22:02:00 +0300\\\",\\\"article_priority\\\":\\\"3\\\",\\\"article_url\\\":\\\"https://ria.ru/20190318/1551892273.html\\\"}\"]",
+              "origin": "wss://cm.ria.ru"
+            }
+          ]
+        }
+      }
+    },
+    "https://znanija.com/": {
+      "title": "https://znanija.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://ru-comet.z-dn.net:7879/socket.io/1/websocket/1090471552935766762352": {
+          "numFramesSent": 2,
+          "numFramesReceived": 4,
+          "framesSent": [
+            {
+              "payload": "5:::{\"name\":\"auth\",\"args\":[{\"uid\":\"anon\",\"id\":\"anon\",\"client\":\"desktop\",\"version\":\"2.1\",\"hash\":\"0d43f1ff649a388be8c69bc4c8062d01\",\"auth_hash\":\"dc22307fa17ca55762ced16f7d00cee2\"}]}"
+            },
+            {
+              "payload": "5:::{\"name\":\"pubsub.resubscribe\",\"args\":[{\"notify.subject\":{\"subjects\":[29,17,30,16,31,33,10,9,3,42,13,15,46,8,37,32,41,44,22,48,25,43,47,45,51,52,53,54,55,56,57],\"grades\":[1,2,3,4]}}]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "1:::",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            },
+            {
+              "payload": "5:::{\"name\":\"auth\",\"args\":[{\"result\":\"authorized\",\"version\":\"2.1\"}]}",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            },
+            {
+              "payload": "5:::{\"name\":\"pubsub.news\",\"args\":[{\"channel\":\"notify.subject.32.2\",\"event\":\"task_new_ext\",\"payload\":{\"task\":{\"id\":\"31961232\",\"subject_id\":32,\"subject_slug\":\"informatika\",\"grade_id\":\"2\",\"content\":\"\\u041f\\u043e\\u043c\\u043e\\u0433\\u0438\\u0442\\u0435!\\u0427\\u0442\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043d\\u0430\\u043f\\u0435\\u0447\\u0430\\u0442\\u0430\\u043d\\u043e \\u0432 \\u0440\\u0435\\u0437\\u0443\\u043b\\u044c\\u0442\\u0430\\u0442\\u0435 \\u0432\\u044b\\u043f\\u043e\\u043b\\u043d\\u0435\\u043d\\u0438\\u044f \\u0441\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0435\\u0433\\u043e \\u0444\\u0440\\u0430\\u0433\\u043c\\u0435\\u043d\\u0442\\u0430 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u044b:\\u200b\",\"created\":\"2019-03-18 22:02:50\",\"source\":10,\"client_type\":1,\"points\":{\"ptsForTask\":10,\"ptsForResp\":5,\"ptsForBest\":3},\"asker\":{\"id\":\"5223037\",\"nick\":\"MatveyJozh\",\"avatar\":null,\"ranks\":{\"color\":\"6ed6a2\",\"names\":[\"\\u0441\\u0435\\u0440\\u0435\\u0434\\u043d\\u044f\\u0447\\u043e\\u043a\"]}},\"attachments\":[{\"type\":\"image/jpeg\",\"size\":\"1369672\",\"full\":\"https://ru-static.z-dn.net/files/db0/2f5bf15d5cd8d00fef8d3603bbddc03d.jpg\",\"thumbnail\":\"https://ru-static.z-dn.net/files/d4d/c404bbb73de7bda8d1e5d4ec8f53d3da.jpg\"}],\"is_bumped\":false}}}]}",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            },
+            {
+              "payload": "5:::{\"name\":\"pubsub.news\",\"args\":[{\"channel\":\"notify.subject.9.2\",\"event\":\"task_new_ext\",\"payload\":{\"task\":{\"id\":\"31961233\",\"subject_id\":9,\"subject_slug\":\"fizika\",\"grade_id\":\"2\",\"content\":\"\\u0417\\u043d\\u0430\\u044f \\u0441\\u0432\\u043e\\u044e \\u043c\\u0430\\u0441\\u0441\\u0443 \\u0438 \\u043f\\u043b\\u043e\\u0449\\u0430\\u0434\\u044c \\u0431\\u043e\\u0442\\u0438\\u043d\\u043a\\u0430,\\u0432\\u044b\\u0447\\u0438\\u0441\\u043b\\u0438\\u0442\\u0435,\\u043a\\u0430\\u043a\\u043e\\u0435 \\u0434\\u0430\\u0432\\u043b\\u0435\\u043d\\u0438\\u0435 \\u0432\\u044b \\u043f\\u0440\\u043e\\u0438\\u0437\\u0432\\u043e\\u0434\\u0438\\u0442\\u0435 \\u043f\\u0440\\u0438 \\u0445\\u043e\\u0434\\u044c\\u0431\\u0435 \\u0438 \\u0441\\u0442\\u043e\\u044f \\u043d\\u0430 \\u043c\\u0435\\u0441\\u0442\\u0435. \\n\\u0423\\u043a\\u0430\\u0437\\u0430\\u043d\\u0438\\u0435. \\u041f\\u043b\\u043e\\u0449\\u0430\\u0434\\u044c \\u043e\\u043f\\u043e\\u0440\\u044b \\u0431\\u043e\\u0442\\u0438\\u043d\\u043a\\u0430 \\u043e\\u043f\\u0440\\u0435\\u0434\\u0435\\u043b\\u0438\\u0442\\u0435 \\u0441\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0438\\u043c \\u043e\\u0431\\u0440\\u0430\\u0437\\u043e\\u043c. \\u041f\\u043e\\u0441\\u0442\\u0430\\u0432\\u044c\\u0442\\u0435 \\u043d\\u043e\\u0433\\u0443 \\u043d\\u0430 \\u043b\\u0438\\u0441\\u0442 \\u043a\\u043b\\u0435\\u0442\\u0447\\u0430\\u0442\\u043e\\u0439 \\u0431\\u0443\\u043c\\u0430\\u0433\\u0438 \\u0438 \\u043e\\u0431\\u0432\\u0435\\u0434\\u0438\\u0442\\u0435 \\u043a\\u043e\\u043d\\u0442\\u0443\\u0440 \\u0442\\u043e\\u0439 \\u0447\\u0430\\u0441\\u0442\\u0438 \\u043f\\u043e\\u0434\\u043e\\u0448\\u0432\\u044b,\\u043d\\u0430 \\u043a\\u043e\\u0442\\u043e\\u0440\\u0443\\u044e...\",\"created\":\"2019-03-18 22:02:52\",\"source\":10,\"client_type\":5,\"points\":{\"ptsForTask\":10,\"ptsForResp\":5,\"ptsForBest\":3},\"asker\":{\"id\":\"11512086\",\"nick\":\"gregor368\",\"avatar\":null,\"ranks\":{\"color\":\"6ed6a2\",\"names\":[\"\\u0441\\u0435\\u0440\\u0435\\u0434\\u043d\\u044f\\u0447\\u043e\\u043a\"]}},\"attachments\":[],\"is_bumped\":false}}}]}",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.wildberries.ru/": {
+      "title": "https://www.wildberries.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dnevnik.ru/": {
+      "title": "https://dnevnik.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://fb.ru/": {
+      "title": "fb.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hh.ru/": {
+      "title": "https://hh.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drive2.ru/": {
+      "title": "https://www.drive2.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://disk.yandex.com/": {
+      "title": "https://disk.yandex.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hdlava.com/": {
+      "title": "https://hdlava.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://sdamgia.ru/": {
+      "title": "https://sdamgia.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ozon.ru/": {
+      "title": "https://www.ozon.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dns-shop.ru/": {
+      "title": "https://www.dns-shop.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://auto.ru/": {
+      "title": "https://auto.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://youla.ru/": {
+      "title": "https://youla.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://studfiles.net/": {
+      "title": "https://studfiles.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://nsportal.ru/": {
+      "title": "https://nsportal.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kp.ru/": {
+      "title": "https://www.kp.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://www.kp.ru/ws": {
+          "numFramesSent": 3,
+          "numFramesReceived": 3,
+          "framesSent": [
+            {
+              "payload": "[1,\"kpcdn\",{\"roles\":{\"caller\":{\"features\":{\"caller_identification\":true,\"progressive_call_results\":true}},\"callee\":{\"features\":{\"progressive_call_results\":true}},\"publisher\":{\"features\":{\"subscriber_blackwhite_listing\":true,\"publisher_exclusion\":true,\"publisher_identification\":true}},\"subscriber\":{\"features\":{\"publisher_identification\":true}}},\"authmethods\":[\"ticket\"],\"authid\":\"9155293591524736\"}]"
+            },
+            {
+              "payload": "[5,\"1b4ac16477bb48d624b8b80aded198a8\",{}]"
+            },
+            {
+              "payload": "[32,4118568498160244,{},\"net.kpcdn.subscribe.notify\"]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "[4,\"ticket\",{}]",
+              "origin": "wss://www.kp.ru"
+            },
+            {
+              "payload": "[2,8353143912092152,{\"roles\":{\"broker\":{\"features\":{\"subscription_revocation\":true,\"publisher_exclusion\":true,\"subscriber_blackwhite_listing\":true,\"subscription_meta_api\":true,\"session_meta_api\":true,\"pattern_based_subscription\":true,\"publisher_identification\":true}},\"dealer\":{\"features\":{\"registration_revocation\":true,\"progressive_call_results\":true,\"shared_registration\":true,\"registration_meta_api\":true,\"session_meta_api\":true,\"pattern_based_registration\":true,\"caller_identification\":true}}},\"authid\":\"9155293591524736\",\"authrole\":\"frontend\",\"authmethod\":\"ticket\",\"authprovider\":\"net.kpcdn.identity.auth\"}]",
+              "origin": "wss://www.kp.ru"
+            },
+            {
+              "payload": "[33,4118568498160244,5058305679034789]",
+              "origin": "wss://www.kp.ru"
+            }
+          ]
+        }
+      }
+    },
+    "http://vseigru.net/": {
+      "title": "vseigru.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lenta.ru/": {
+      "title": "https://lenta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ivi.tv/": {
+      "title": "https://www.ivi.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mvideo.ru/": {
+      "title": "https://www.mvideo.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.yaplakal.com/": {
+      "title": "www.yaplakal.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/": {
+      "title": "https://2gis.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/moscow": {
+      "title": "Карта Москвы: улицы, дома и организации города — 2ГИС",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "https://steamcommunity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/#scrollTop=0": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.roblox.com/": {
+      "title": "https://www.roblox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.citilink.ru/": {
+      "title": "https://www.citilink.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://gdz.ru/": {
+      "title": "https://gdz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gazeta.ru/": {
+      "title": "https://www.gazeta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://zaycev.net/": {
+      "title": "zaycev.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.vesti.ru/": {
+      "title": "www.vesti.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rbc.ru/": {
+      "title": "https://www.rbc.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mos.ru/": {
+      "title": "https://www.mos.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://uchi.ru/": {
+      "title": "https://uchi.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.consultant.ru/": {
+      "title": "www.consultant.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.playground.ru/": {
+      "title": "www.playground.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rt.com/": {
+      "title": "https://www.rt.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.rt.ru/": {
+      "title": "www.rt.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mosreg.ru/": {
+      "title": "https://mosreg.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://rutracker.org/forum/index.php": {
+      "title": "rutracker.org/forum/index.php",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pochta.ru/": {
+      "title": "https://www.pochta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.championat.com/": {
+      "title": "https://www.championat.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://na.wargaming.net/": {
+      "title": "https://na.wargaming.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mk.ru/": {
+      "title": "https://www.mk.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ficbook.net/": {
+      "title": "https://ficbook.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://worldoftanks.ru/": {
+      "title": "https://worldoftanks.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.bolshoyvopros.ru/": {
+      "title": "www.bolshoyvopros.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tiu.ru/": {
+      "title": "https://tiu.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://chat.my.tiu.ru/ws?chat_version=v2": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "[\"chat.v2.subscribe\",{\"request_id\":1,\"active\":120},[],{\"role\":\"buyer\",\"offset\":0,\"limit\":20,\"status\":\"active\"}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "[\"hello\",{},{\"anonymous\":true,\"user_id\":\"anonymous-anonymous-f71f0b58f1310b231733fbc25758a93c65357057\"}]",
+              "origin": "wss://chat.my.tiu.ru"
+            },
+            {
+              "payload": "[\"error\",{\"error_kind\":\"http_error\",\"http_error\":401,\"active\":120,\"request_id\":1},{\"errors\":{\"anonymous\":\"User is not authorized\"}}]",
+              "origin": "wss://chat.my.tiu.ru"
+            }
+          ]
+        }
+      }
+    },
+    "http://4pda.ru/": {
+      "title": "4pda.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rp5.ru/": {
+      "title": "https://rp5.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://moskva.mts.ru/personal": {
+      "title": "https://moskva.mts.ru/personal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rutube.ru/": {
+      "title": "https://rutube.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.animevost.org/": {
+      "title": "www.animevost.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.otzovik.com/": {
+      "title": "www.otzovik.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sports.ru/": {
+      "title": "https://www.sports.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://socket.trbna.com/connection/websocket": {
+          "numFramesSent": 2,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"method\":\"connect\",\"params\":{\"user\":\"\",\"info\":\"\",\"timestamp\":\"1552936390\",\"token\":\"53ba0562aa33802a456bb95602bfe656ea3fcbf0502bfb3e059880b6bb95cb91\"},\"uid\":\"1\"}"
+            },
+            {
+              "payload": "[{\"method\":\"subscribe\",\"params\":{\"channel\":\"my#\"},\"uid\":\"2\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1271382\"},\"uid\":\"3\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1271383\"},\"uid\":\"4\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1271384\"},\"uid\":\"5\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1271385\"},\"uid\":\"6\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1298423\"},\"uid\":\"7\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1298426\"},\"uid\":\"8\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1331809\"},\"uid\":\"9\"},{\"method\":\"subscribe\",\"params\":{\"channel\":\"public:ru_teaser_1331810\"},\"uid\":\"10\"}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"uid\":\"1\",\"method\":\"connect\",\"body\":{\"version\":\"1.7.9\",\"client\":\"62c1f51f-30c4-4349-b076-513bbcaccc0b\",\"expires\":false,\"expired\":false,\"ttl\":0}}",
+              "origin": "wss://socket.trbna.com"
+            },
+            {
+              "payload": "[{\"uid\":\"2\",\"method\":\"subscribe\",\"error\":\"permission denied\",\"advice\":\"fix\",\"body\":{\"channel\":\"my#\",\"status\":false,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"3\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1271382\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"4\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1271383\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"5\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1271384\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"6\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1271385\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"7\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1298423\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"8\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1298426\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"9\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1331809\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}},{\"uid\":\"10\",\"method\":\"subscribe\",\"body\":{\"channel\":\"public:ru_teaser_1331810\",\"status\":true,\"last\":\"\",\"messages\":null,\"recovered\":false}}]",
+              "origin": "wss://socket.trbna.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://multiurok.ru/": {
+      "title": "https://multiurok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nalog.ru/rn77/": {
+      "title": "https://www.nalog.ru/rn77/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://zvooq.online/": {
+      "title": "https://zvooq.online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adme.ru/": {
+      "title": "https://www.adme.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rg.ru/": {
+      "title": "https://rg.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "https://www.booking.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://store.steampowered.com/": {
+      "title": "https://store.steampowered.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ucoz.ru/": {
+      "title": "https://www.ucoz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lamoda.ru/": {
+      "title": "https://www.lamoda.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ru/": {
+      "title": "https://www.pinterest.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://irecommend.ru/": {
+      "title": "https://irecommend.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://iz.ru/": {
+      "title": "https://iz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.sportbox.ru/": {
+      "title": "https://news.sportbox.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://porno365.sex/": {
+      "title": "porno365.sex",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fotostrana.ru/signup/": {
+      "title": "https://fotostrana.ru/signup/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cian.ru/": {
+      "title": "https://www.cian.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.maam.ru/": {
+      "title": "https://www.maam.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

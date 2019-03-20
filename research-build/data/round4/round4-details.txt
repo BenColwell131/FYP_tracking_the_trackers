@@ -1,0 +1,28 @@
+Round 4:
+Attempting to reduce the number of error cases with this run.
+Not for actual data collection.
+
+Staying 5s on each page and capturing screenshot.
+Adapting for a few niche sites that cant handle www subdomain by not including on those particular sites.
+Using a user agent with logins to the following sites:
+    facebook.com
+    twitter.com
+    linkedin
+    instagram
+    amazon
+    office365
+    live.com
+    netflix
+    yahoo
+    gmail
+    quora
+    tripadvisor
+    tumblr
+    spotify
+    dropbox
+    vk
+    vimeo
+    pintrest
+    discord
+    soundcloud
+    paypal
