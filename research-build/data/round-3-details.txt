@@ -1,2 +1,3 @@
 Round 3:
 Just used to take screenshots of all visited pages to see if we can catch any more errors.
+Only waited 5s on each page.
