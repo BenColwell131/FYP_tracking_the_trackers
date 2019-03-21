@@ -1,0 +1,844 @@
+{
+  "country": "Spain",
+  "totalNumSitesVisited": 106,
+  "totalWSConnections": 11,
+  "totalFramesSent": 26,
+  "totalFramesReceieved": 24,
+  "details": {
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.es/?gws_rd=ssl": {
+      "title": "https://www.google.es/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.es/": {
+      "title": "https://www.amazon.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://okdiario.com/": {
+      "title": "https://okdiario.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://elpais.com/": {
+      "title": "https://elpais.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aliexpress.com/": {
+      "title": "https://www.aliexpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.marca.com/": {
+      "title": "https://www.marca.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elmundo.es/": {
+      "title": "https://www.elmundo.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://as.com/": {
+      "title": "https://as.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "https://www.livejasmin.com/en/girls/",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket": {
+          "numFramesSent": 17,
+          "numFramesReceived": 7,
+          "framesSent": [
+            {
+              "payload": "40/notifications"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.performer.message.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.messenger.message-updated.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.message.sent.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level_points.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.legacy.performer.status.change.raw\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.started.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553111275203-g842f0086ee34b72c1a75cb6082cb922d\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553111275203-g842f0086ee34b72c1a75cb6082cb922d\",\"serverRelay\":\"109.71.162.41:443\",\"serverStream\":\"109.71.162.41:443\",\"type\":10,\"runtime\":1187}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553111275203-g842f0086ee34b72c1a75cb6082cb922d\",\"serverRelay\":\"109.71.162.41:443\",\"serverStream\":\"109.71.162.41:443\",\"type\":10,\"runtime\":1187}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553111275203-g842f0086ee34b72c1a75cb6082cb922d\",\"serverRelay\":\"109.71.162.41:443\",\"serverStream\":\"109.71.162.41:443\",\"type\":20,\"runtime\":278}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553111275203-g842f0086ee34b72c1a75cb6082cb922d\",\"serverRelay\":\"109.71.162.41:443\",\"serverStream\":\"109.71.162.41:443\",\"type\":30,\"runtime\":96}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"Op3jRmOx9uCwdbIxONQy\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40/notifications",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"20324790\":1,\"20724740\":3,\"20778200\":3,\"21188220\":2,\"21888860\":3,\"22724980\":0,\"24111010\":1,\"24242290\":1,\"24860980\":0,\"25034950\":1,\"25035040\":1,\"25059430\":3,\"25059470\":2,\"25876460\":3,\"26127600\":3}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"20324790\":1,\"20724740\":2,\"20778200\":2,\"21188220\":2,\"21888860\":2,\"22724980\":0,\"24111010\":1,\"24242290\":1,\"24860980\":0,\"25034950\":1,\"25035040\":1,\"25059430\":2,\"25059470\":2,\"25876460\":2,\"26127600\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"16134670\":3,\"19468450\":2,\"20724740\":1,\"22442020\":1,\"24116940\":3,\"24420270\":3,\"24800260\":2,\"25473730\":3,\"25554150\":2,\"25625050\":3,\"25635500\":1,\"25845400\":1,\"25944270\":0,\"25968590\":1,\"25985920\":2,\"26089140\":1,\"26187550\":3,\"26245620\":1,\"26284260\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"16134670\":2,\"19468450\":2,\"20724740\":1,\"22442020\":1,\"24116940\":2,\"24420270\":2,\"24800260\":2,\"25473730\":2,\"25554150\":2,\"25625050\":2,\"25635500\":1,\"25845400\":1,\"25944270\":0,\"25968590\":1,\"25985920\":2,\"26089140\":1,\"26187550\":2,\"26245620\":1,\"26284260\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": false
+        },
+        "wss://dss-relay-109-71-162-41.dditscdn.com/?random=26478571366704372006334965849134": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminTefyRodriguez0e74c7315336558e26b243644df33d3f\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"f10248776a54939fb6108ea6f648dce7\",\"jsm2SessionId\":\"g842f0086ee34b72c1a75cb6082cb922d\",\"userType\":\"user\",\"performerId\":\"TefyRodriguez\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"3732406791755945859384725158765\",\"armaVersion\":\"34.14.1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[{\"streamwidth\":800,\"streamheight\":448}]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[\"guest81\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"Tomsaywer\",\"spending\":6}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":651450},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":800,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":800}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":100},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"800x448|640x360|848x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":448,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":733,\"type\":\"nano\",\"width\":800}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[{\"base64Msg\":null,\"brandID\":\"jasmin\",\"broadcastOnly\":true,\"id\":\"280674\",\"isFanClubMember\":false,\"ismobile\":1,\"jasminSpamResult\":false,\"memberType\":\"guest\",\"msg\":\"I love you baby\",\"msgCheck\":\"\",\"performerID\":\"TefyRodriguez\",\"platform\":\"mobile\",\"senderLanguage\":\"en\",\"sid\":\"c2ophckhqj7e35h32nsx32p7w65n5xc6oexp4l26105u72h12390vtb55pp34r61\",\"translated\":0,\"type\":\"guest\",\"userNick\":\"guest48\",\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"2bg7e07tr42ad4nrm3tzej5nc39ci8v8hyin2u06f6y95eulpddyl03hnzlezjq9\",\"data\":[{\"base64Msg\":null,\"brandID\":\"jasmin\",\"id\":\"282166\",\"jasminSpamResult\":false,\"msg\":\"mm nop :)\",\"performerID\":\"TefyRodriguez\",\"type\":\"performer\",\"userNick\":\"TefyRodriguez\",\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-41.dditscdn.com"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 2,
+      "siteHitFilter": true
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.milanuncios.com/": {
+      "title": "https://www.milanuncios.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.caixabank.es/index_es.html": {
+      "title": "https://www.caixabank.es/index_es.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "https://xhamster.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/#back_url": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.es/": {
+      "title": "https://www.ebay.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/feed": {
+      "title": "https://vk.com/feed",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.abc.es/": {
+      "title": "https://www.abc.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "https://www.msn.com/en-ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lavanguardia.com/": {
+      "title": "https://www.lavanguardia.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "https://www.whatsapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.mejortorrent.tv/": {
+      "title": "www.mejortorrent.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elconfidencial.com/": {
+      "title": "https://www.elconfidencial.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=115&sId=EAD71B7D127BD071&cId=4C13&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=2s6EIUiT6of5T7hyQO93_w": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "https://www.divxtotal3.net/": {
+      "title": "https://www.divxtotal3.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elitetorrent.biz/": {
+      "title": "https://www.elitetorrent.biz",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "https://www.booking.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.wordreference.com/": {
+      "title": "www.wordreference.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 2,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.idealista.com/": {
+      "title": "https://www.idealista.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.filmaffinity.com/en/main.html": {
+      "title": "https://www.filmaffinity.com/en/main.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.20minutos.es/": {
+      "title": "https://www.20minutos.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eldiario.es/": {
+      "title": "https://www.eldiario.es",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=98&sId=EAD71B7D127BD071&cId=F2C0&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=Hn-vgh6O9bFJkEv_baRsvg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "https://yandex.ru/": {
+      "title": "https://yandex.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.juntadeandalucia.es/": {
+      "title": "https://www.juntadeandalucia.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.rtve.es/": {
+      "title": "www.rtve.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wease.im/": {
+      "title": "https://www.wease.im",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.popads.net/app/webroot/": {
+      "title": "https://www.popads.net/app/webroot/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbva.es/particulares/index.jsp": {
+      "title": "https://www.bbva.es/particulares/index.jsp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elespanol.com/": {
+      "title": "https://www.elespanol.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.es/": {
+      "title": "https://www.pinterest.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.es/?autologin=true": {
+      "title": "https://www.pinterest.es/?autologin=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mundodeportivo.com/": {
+      "title": "https://www.mundodeportivo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wallapop.com/": {
+      "title": "https://www.wallapop.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sport.es/es/": {
+      "title": "https://www.sport.es/es/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.forocoches.com/": {
+      "title": "https://www.forocoches.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=82&sId=EAD71B7D127BD071&cId=6D55&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=q_TeT6x-5sqXNRQqKWZirg": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "http://www.elcorteingles.es/": {
+      "title": "www.elcorteingles.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancsabadell.com/": {
+      "title": "https://www.bancsabadell.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancsabadell.com/cs/Satellite/SabAtl/": {
+      "title": "https://www.bancsabadell.com/cs/Satellite/SabAtl/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://bongacams.com/": {
+      "title": "https://bongacams.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.resultados-futbol.com/": {
+      "title": "www.resultados-futbol.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://grantorrent.net/": {
+      "title": "https://grantorrent.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "https://www.imdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.redsys.es/": {
+      "title": "www.redsys.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.exosrv.com/": {
+      "title": "www.exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bankia.es/es/particulares": {
+      "title": "https://www.bankia.es/es/particulares",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wetransfer.com/": {
+      "title": "https://wetransfer.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/": {
+      "title": "https://www.bing.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://porn555.com/": {
+      "title": "https://porn555.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.gva.es/va/inicio/presentacion;jsessionid=S1wQcSbWGp1nLh0tK27DXpF3ypkz72s1PJjZQ3zkJF2Xq5TmSXrt!-996548920!1553111894116": {
+      "title": "www.gva.es/va/inicio/presentacion;jsessionid=S1wQcSbWGp1nLh0tK27DXpF3ypkz72s1PJjZQ3zkJF2Xq5TmSXrt!-996548920!1553111894116",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xnxx.com/": {
+      "title": "https://www.xnxx.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.megadede.com/": {
+      "title": "https://www.megadede.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.escapadarural.com/": {
+      "title": "https://www.escapadarural.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bancosantander.es/es/particulares": {
+      "title": "https://www.bancosantander.es/es/particulares",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OjhjNTE0NjgwYzMyNTRjMjdlZDFmYmM3OWQwNDBlZTkwYzU3OTMzYzA2MGI4MTg5YmQwMGE2NzI1MjM4ZjBkNjE=--545ecde93ee660c512c65eef47b7c6e2e11328d8": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"ba1c01f11e992967138ea55ad197d9f0d401f4ff12f43db6fe32ac91d65a30df\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"bf070ca1cd90530dd9576266d8964d9d3033f2d0dab1a54ad02d090abb3639c1\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"ba1c01f11e992967138ea55ad197d9f0d401f4ff12f43db6fe32ac91d65a30df\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 3,
+      "siteHitFilter": true
+    },
+    "http://www.googleusercontent.com/": {
+      "title": "www.googleusercontent.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mail.ru/": {
+      "title": "https://mail.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mega.nz/": {
+      "title": "https://mega.nz",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eltiempo.es/": {
+      "title": "https://www.eltiempo.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vimeo.com/": {
+      "title": "https://vimeo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/": {
+      "title": "https://www.google.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.infojobs.net/": {
+      "title": "https://www.infojobs.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.libertaddigital.com/": {
+      "title": "https://www.libertaddigital.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xataka.com/": {
+      "title": "https://www.xataka.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.movistar.es/particulares/movistarplus": {
+      "title": "www.movistar.es/particulares/movistarplus",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://aws.amazon.com/": {
+      "title": "https://aws.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.loteriasyapuestas.es/es": {
+      "title": "https://www.loteriasyapuestas.es/es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.movistar.es/": {
+      "title": "https://www.movistar.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://openload.co/": {
+      "title": "https://openload.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.elperiodico.com/es/": {
+      "title": "https://www.elperiodico.com/es/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.publico.es/": {
+      "title": "https://www.publico.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eleconomista.es/": {
+      "title": "https://www.eleconomista.es",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  },
+  "sitesWithWS": 7,
+  "numFirstPartyWS": 3,
+  "numThirdPartyWS": 8,
+  "numSitesHitFilter": 2,
+  "numWSHitFilter": 4,
+  "numWSPassedFilter": 7
+}

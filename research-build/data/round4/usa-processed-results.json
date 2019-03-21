@@ -1,0 +1,825 @@
+{
+  "country": "USA",
+  "totalNumSitesVisited": 106,
+  "totalWSConnections": 11,
+  "totalFramesSent": 26,
+  "totalFramesReceieved": 25,
+  "details": {
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "https://www.facebook.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "https://www.ebay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 2,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.instructure.com/": {
+      "title": "https://www.instructure.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dublin.craigslist.org/": {
+      "title": "https://dublin.craigslist.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "https://imgur.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.chase.com/": {
+      "title": "https://www.chase.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://edition.cnn.com/": {
+      "title": "https://edition.cnn.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/": {
+      "title": "https://www.bing.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.espn.com/": {
+      "title": "www.espn.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "https://www.imdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "https://www.pinterest.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "https://www.livejasmin.com/en/girls/",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket": {
+          "numFramesSent": 17,
+          "numFramesReceived": 8,
+          "framesSent": [
+            {
+              "payload": "40/notifications"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.performer.message.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.messenger.message-updated.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.message.sent.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level_points.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.legacy.performer.status.change.raw\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.started.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553112467305-g3c301a99debd0fe6fa074769153148ae\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553112467305-g3c301a99debd0fe6fa074769153148ae\",\"serverRelay\":\"109.71.162.82:443\",\"serverStream\":\"109.71.162.82:443\",\"type\":10,\"runtime\":753}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553112467305-g3c301a99debd0fe6fa074769153148ae\",\"serverRelay\":\"109.71.162.82:443\",\"serverStream\":\"109.71.162.82:443\",\"type\":10,\"runtime\":753}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553112467305-g3c301a99debd0fe6fa074769153148ae\",\"serverRelay\":\"109.71.162.82:443\",\"serverStream\":\"109.71.162.82:443\",\"type\":20,\"runtime\":354}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553112467305-g3c301a99debd0fe6fa074769153148ae\",\"serverRelay\":\"109.71.162.82:443\",\"serverStream\":\"109.71.162.82:443\",\"type\":30,\"runtime\":90}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"ShXHBtFIcqLG_wIUOGOM\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40/notifications",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"23128050\":1,\"23139670\":1,\"23378260\":0,\"23621010\":3,\"24091460\":0,\"24190610\":0,\"24271850\":2,\"24752660\":1,\"25157260\":2,\"25331670\":2,\"25792110\":1,\"25971170\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"23128050\":1,\"23139670\":1,\"23378260\":0,\"23621010\":2,\"24091460\":0,\"24190610\":0,\"24271850\":2,\"24752660\":1,\"25157260\":2,\"25331670\":2,\"25792110\":1,\"25971170\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"dh.jasmin.performer.show.ended.withperformer\",{\"event\":\"dh.jasmin.performer.show.ended.withperformer\"},{\"createdAt\":\"2019-03-20T21:07:52Z\",\"showId\":2951664,\"status\":\"ended\",\"showType\":\"vip\",\"scheduledStartAt\":\"2019-03-20T20:02:38Z\",\"scheduledEndAt\":\"2019-03-20T20:07:38Z\",\"minimumBuyInCredits\":5,\"performerId\":24384570}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"2270650\":3,\"11560340\":0,\"14394880\":2,\"22057280\":1,\"23334520\":3,\"23910350\":1,\"24098430\":2,\"24752220\":3,\"24985470\":2,\"24993420\":3,\"25838510\":1,\"26269490\":3}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"2270650\":2,\"11560340\":0,\"14394880\":2,\"22057280\":1,\"23334520\":2,\"23910350\":1,\"24098430\":2,\"24752220\":2,\"24985470\":2,\"24993420\":2,\"25838510\":1,\"26269490\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": false
+        },
+        "wss://dss-relay-109-71-162-82.dditscdn.com/?random=33171630660922439552675397880672": {
+          "numFramesSent": 6,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminShannonMonaco3e90284aeb7980f6084ed03d207c1b35\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"4a3e4f237f02b8bdeac6c75d927baa9d\",\"jsm2SessionId\":\"g3c301a99debd0fe6fa074769153148ae\",\"userType\":\"user\",\"performerId\":\"ShannonMonaco\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"52267597974508663607833998131253\",\"armaVersion\":\"34.14.1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[{\"streamwidth\":864,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[\"guest56\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[\"$1.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"69steve69\",\"spending\":1}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":656372},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":568,\"bufferOver\":0,\"fps\":30,\"new_quality\":90,\"resolution\":864}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":73},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"864x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":792,\"type\":\"nano\",\"width\":864}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"ofvdy0p1gvmxscl56btu5tfa9tdk4lcn09vaktialssr88prvt3g1luno7z88hr9\",\"list\":[{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":73,\"newValue\":74}]}",
+              "origin": "wss://dss-relay-109-71-162-82.dditscdn.com"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 2,
+      "siteHitFilter": true
+    },
+    "https://www.nytimes.com/": {
+      "title": "https://www.nytimes.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OmI0YzJhY2E3NzkzODM1NWM2OTBjNGFjMTkxZmUzNTE1MWRkY2YyNWJkZTQzNzM1Nzc4YTg4OTQyZjYxZTlkZTA=--57a0d196b66947428e0aad97792f92632ab7c050": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI": {
+      "title": "https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.intuit.com/": {
+      "title": "https://www.intuit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zillow.com/": {
+      "title": "https://www.zillow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true": {
+      "title": "https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/eu/?ir=1": {
+      "title": "https://www.salesforce.com/eu/?ir=1",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hulu.com/welcome": {
+      "title": "https://www.hulu.com/welcome",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yelp.ie/dublin": {
+      "title": "https://www.yelp.ie/dublin",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://quizlet.com/": {
+      "title": "https://quizlet.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "https://www.apple.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bankofamerica.com/": {
+      "title": "https://www.bankofamerica.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.walmart.com/": {
+      "title": "https://www.walmart.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tumblr.com/dashboard": {
+      "title": "https://www.tumblr.com/dashboard",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "https://www.quora.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://tch324423.tch.quora.com/up/chan43-8888/updates?min_seq=0&channel=main-w-chan43-8888-mHSBjlj&hash=11922465120106098439": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"messages\":[\"{\\\"message_type\\\": \\\"broadcastReloadDirtiedDepkeys\\\", \\\"payload\\\": {\\\"dirtied_depkeys\\\": [[\\\"M.user.setup_.UserStepStateChanged:b454d511a3c4f371fecf23a75e3912ab\\\", 13]]}}\"],\"min_seq\":1770833475}\n",
+              "origin": "wss://tch324423.tch.quora.com"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"4b12cba2bcd7bac0dbcaab44816ab33b1d35533feb950fabf9410149f67c71e7\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"bbb6382860630703f7f6e85ff50c50651e6e4f20ba5fb7f289ae11cdaa876f77\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"4b12cba2bcd7bac0dbcaab44816ab33b1d35533feb950fabf9410149f67c71e7\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 3,
+      "siteHitFilter": true
+    },
+    "https://aws.amazon.com/": {
+      "title": "https://aws.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wellsfargo.com/": {
+      "title": "https://www.wellsfargo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.googleusercontent.com/": {
+      "title": "www.googleusercontent.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.indeed.com/?r=us": {
+      "title": "https://ie.indeed.com/?r=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.foxnews.com/": {
+      "title": "https://www.foxnews.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.etsy.com/": {
+      "title": "https://www.etsy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.spotify.com/ie/": {
+      "title": "https://www.spotify.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "https://www.msn.com/en-ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.breitbart.com/": {
+      "title": "https://www.breitbart.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xfinity.com/": {
+      "title": "https://www.xfinity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://discordapp.com/": {
+      "title": "https://discordapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackexchange.com/": {
+      "title": "https://stackexchange.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nih.gov/": {
+      "title": "https://www.nih.gov",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://soundcloud.com/discover": {
+      "title": "https://soundcloud.com/discover",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.usps.com/": {
+      "title": "https://www.usps.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "https://xhamster.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/#back_url": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.capitalone.com/": {
+      "title": "https://www.capitalone.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.okta.com/": {
+      "title": "https://www.okta.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.homedepot.com/": {
+      "title": "https://www.homedepot.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bestbuy.com/": {
+      "title": "https://www.bestbuy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.vice.com/en_uk": {
+      "title": "https://www.vice.com/en_uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f": {
+      "title": "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f&utm_term=.106fa2e28f49": {
+      "title": "- The Washington Post",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://patch.com/": {
+      "title": "https://patch.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.airbnb.ie/": {
+      "title": "https://www.airbnb.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zoom.us/": {
+      "title": "https://www.zoom.us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "https://www.bbc.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blackboard.com/index.html": {
+      "title": "https://www.blackboard.com/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://slickdeals.net/": {
+      "title": "https://slickdeals.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://chaturbate.com/": {
+      "title": "https://chaturbate.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.godaddy.com/": {
+      "title": "https://ie.godaddy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tripadvisor.ie/": {
+      "title": "https://www.tripadvisor.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.glassdoor.ie/index.htm?countryRedirect=true": {
+      "title": "https://www.glassdoor.ie/index.htm?countryRedirect=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://slack.com/": {
+      "title": "https://slack.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irs.gov/": {
+      "title": "https://www.irs.gov",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aol.com/": {
+      "title": "https://www.aol.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://consent.yahoo.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_d1738f9c-441a-43e7-a38e-4df75a3f7080&lang=en-US&inline=false": {
+      "title": "https://consent.yahoo.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_d1738f9c-441a-43e7-a38e-4df75a3f7080&lang=en-US&inline=false",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "https://steamcommunity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/#scrollTop=0": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://online.citi.com/US/login.do": {
+      "title": "https://online.citi.com/US/login.do",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://intl.target.com/": {
+      "title": "https://intl.target.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vimeo.com/": {
+      "title": "https://vimeo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.myshopify.com/": {
+      "title": "www.myshopify.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.forbes.com/": {
+      "title": "https://www.forbes.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.roblox.com/": {
+      "title": "https://www.roblox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.chegg.com/": {
+      "title": "https://www.chegg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.americanexpress.com/": {
+      "title": "https://www.americanexpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://medium.com/": {
+      "title": "https://medium.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://gfycat.com/": {
+      "title": "https://gfycat.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.buzzfeed.com/": {
+      "title": "https://www.buzzfeed.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  },
+  "sitesWithWS": 5,
+  "numFirstPartyWS": 4,
+  "numThirdPartyWS": 5,
+  "numSitesHitFilter": 2,
+  "numWSHitFilter": 4,
+  "numWSPassedFilter": 5
+}

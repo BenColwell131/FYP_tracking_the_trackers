@@ -1,0 +1,760 @@
+{
+  "country": "Hong-Kong",
+  "totalNumSitesVisited": 108,
+  "totalWSConnections": 10,
+  "totalFramesSent": 10,
+  "totalFramesReceieved": 14,
+  "details": {
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com.hk/": {
+      "title": "https://www.google.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.discuss.com.hk/": {
+      "title": "https://www.discuss.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.baidu.com/": {
+      "title": "www.baidu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pixnet.net/": {
+      "title": "https://www.pixnet.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://world.taobao.com/": {
+      "title": "https://world.taobao.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.aastocks.com/": {
+      "title": "www.aastocks.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hkgolden.com/": {
+      "title": "https://www.hkgolden.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hk.appledaily.com/": {
+      "title": "https://hk.appledaily.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bastillepost.com/hongkong/": {
+      "title": "https://www.bastillepost.com/hongkong/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.qq.com/": {
+      "title": "https://www.qq.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dcfever.com/": {
+      "title": "https://www.dcfever.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.price.com.hk/": {
+      "title": "https://www.price.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.etnet.com.hk/www/tc/home/index.php": {
+      "title": "www.etnet.com.hk/www/tc/home/index.php",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tmall.com/": {
+      "title": "https://www.tmall.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hsbc.com.hk/": {
+      "title": "https://www.hsbc.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hk.on.cc/hk/news/index.html": {
+      "title": "https://hk.on.cc/hk/news/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ettoday.net/": {
+      "title": "https://www.ettoday.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.presslogic.com/": {
+      "title": "https://www.presslogic.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hk01.com/": {
+      "title": "https://www.hk01.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hangseng.com/en-hk/home/": {
+      "title": "https://www.hangseng.com/en-hk/home/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "https://www.whatsapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bilibili.com/": {
+      "title": "https://www.bilibili.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://broadcast.chat.bilibili.com:7823/sub": {
+          "numFramesSent": 4,
+          "numFramesReceived": 5,
+          "framesSent": [
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.hkjc.com/home/chinese/index.aspx": {
+      "title": "https://www.hkjc.com/home/chinese/index.aspx",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://unwire.hk/": {
+      "title": "https://unwire.hk",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://artisan.wishpond.com/socket/websocket?mid=1118072&write_key=98f9fa26083f&cid=zm4qjd0z4dvf7x0y&vsn=2.0.0": {
+          "numFramesSent": 3,
+          "numFramesReceived": 3,
+          "framesSent": [
+            {
+              "payload": "[\"1\",\"1\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_join\",{}]"
+            },
+            {
+              "payload": "[\"1\",\"4\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"get:js\",{}]"
+            },
+            {
+              "payload": "[\"1\",\"5\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"get:trackable\",{}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "[\"1\",\"1\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{},\"status\":\"ok\"}]",
+              "origin": "wss://artisan.wishpond.com"
+            },
+            {
+              "payload": "[\"1\",\"4\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"zm4qjd0z4dvf7x0y\",\"merchant_id\":1118072},\"payload\":{\"lead\":[],\"scripts\":{}},\"type\":\"lead:js\"}]},\"status\":\"ok\"}]",
+              "origin": "wss://artisan.wishpond.com"
+            },
+            {
+              "payload": "[\"1\",\"5\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"zm4qjd0z4dvf7x0y\",\"merchant_id\":1118072},\"payload\":{\"trackable\":false,\"wp_trackable\":false},\"type\":\"lead:trackable\"}]},\"status\":\"ok\"}]",
+              "origin": "wss://artisan.wishpond.com"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "https://www.weibo.com/overseas": {
+      "title": "https://www.weibo.com/overseas",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sina.com.cn/": {
+      "title": "https://www.sina.com.cn",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://newspush.sinajs.cn/wskt?list=live_NEWSPUSH": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "live_NEWSPUSH=[{\"i\":\"1551747590\",\"m\":\"\",\"u\":\"\",\"l\":\"\",\"c\":\"\",\"t\":-1}]\n",
+              "origin": "wss://newspush.sinajs.cn"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "https://www.gamer.com.tw/": {
+      "title": "https://www.gamer.com.tw",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 2,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.menclub.hk/": {
+      "title": "https://www.menclub.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://err.tmall.com/error1.html": {
+      "title": "err.tmall.com/error1.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "https://www.apple.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.openrice.com/zh/hongkong": {
+      "title": "https://www.openrice.com/zh/hongkong",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.cocomy.net/": {
+      "title": "www.cocomy.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lihkg.com/": {
+      "title": "https://lihkg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lihkg.com/category/1": {
+      "title": "LIHKG",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bochk.com/": {
+      "title": "https://www.bochk.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bochk.com/en/home.html": {
+      "title": "https://www.bochk.com/en/home.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ulifestyle.com.hk/": {
+      "title": "https://www.ulifestyle.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.uwants.com/": {
+      "title": "https://www.uwants.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jd.com/": {
+      "title": "https://www.jd.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.alipay.com/": {
+      "title": "https://www.alipay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ppshk.com/": {
+      "title": "https://www.ppshk.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ppshk.com/index_c.html": {
+      "title": "https://www.ppshk.com/index_c.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://kknews.cc/": {
+      "title": "https://kknews.cc",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://avgle.com/": {
+      "title": "https://avgle.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://8maple.ru/": {
+      "title": "8maple.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zhihu.com/signup?next=%2F": {
+      "title": "https://www.zhihu.com/signup?next=%2F",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OjAzMmVmMDhjNDU0N2U0YTRhNWI3NGI3NzhkYWNhZDc3Njk1NWZlNjg2ZGVhODBmNTI4YWQyNTg3YmJhY2YzOWU=--6e2a16c8a14132e5cdbd5debf2237c907665160d": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "http://www.google.cn/": {
+      "title": "www.google.cn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hku.hk/": {
+      "title": "https://www.hku.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mytvsuper.com/tc": {
+      "title": "https://www.mytvsuper.com/tc",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mingpao.com/": {
+      "title": "https://www.mingpao.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.beautyexchange.com.hk/": {
+      "title": "https://www.beautyexchange.com.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "https://www.pinterest.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hket.com/": {
+      "title": "https://www.hket.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.cuhk.edu.hk/": {
+      "title": "www.cuhk.edu.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.cuhk.edu.hk/english/index.html": {
+      "title": "www.cuhk.edu.hk/english/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.thestandnews.com/": {
+      "title": "www.thestandnews.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.sohu.com/": {
+      "title": "www.sohu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hktvmall.com/": {
+      "title": "https://www.hktvmall.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hko.gov.hk/": {
+      "title": "https://www.hko.gov.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hko.gov.hk/contente.htm": {
+      "title": "https://www.hko.gov.hk/contente.htm",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "https://www.imdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.tvboxnow.com/": {
+      "title": "www.tvboxnow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "https://www.bbc.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.exosrv.com/": {
+      "title": "www.exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.manhuagui.com/": {
+      "title": "https://www.manhuagui.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cambridge.org/": {
+      "title": "https://www.cambridge.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.r18.com/": {
+      "title": "https://www.r18.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.javjunkies.com/main/attention/": {
+      "title": "www.javjunkies.com/main/attention/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "https://www.ebay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jobsdb.com/": {
+      "title": "https://www.jobsdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.myshopify.com/": {
+      "title": "www.myshopify.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"dc1bc3978d182e2607f645e041246df6c4907778bc530d7046ac70be327879f5\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"f494aa9b04a75293195183851e16effd11c6cdc5d4e2a5337f2a616414be9d40\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"dc1bc3978d182e2607f645e041246df6c4907778bc530d7046ac70be327879f5\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 3,
+      "siteHitFilter": true
+    },
+    "https://www.koreastardaily.com/": {
+      "title": "https://www.koreastardaily.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.douban.com/": {
+      "title": "https://www.douban.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.jp/": {
+      "title": "https://www.amazon.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.csdn.net/": {
+      "title": "https://www.csdn.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "https://www.quora.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://tch36869.tch.quora.com/up/chan43-8888/updates?min_seq=0&channel=main-w-chan43-8888-i8FsUHx&hash=6036277125411958280": {
+          "numFramesSent": 0,
+          "numFramesReceived": 2,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"messages\":[\"{\\\"message_type\\\": \\\"broadcastReloadDirtiedDepkeys\\\", \\\"payload\\\": {\\\"dirtied_depkeys\\\": [[\\\"M.user.setup_.UserStepStateChanged:b454d511a3c4f371fecf23a75e3912ab\\\", 7]]}}\"],\"min_seq\":2896166710}\n",
+              "origin": "wss://tch36869.tch.quora.com"
+            },
+            {
+              "payload": "{\"messages\":[\"{\\\"message_type\\\": \\\"broadcastReloadDirtiedDepkeys\\\", \\\"payload\\\": {\\\"dirtied_depkeys\\\": [[\\\"M.user.setup_.UserStepStateChanged:b454d511a3c4f371fecf23a75e3912ab\\\", 7]]}}\"],\"min_seq\":2896176388}\n",
+              "origin": "wss://tch36869.tch.quora.com"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.tvb.com/": {
+      "title": "www.tvb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cathaypacific.com/cx/en_IE.html": {
+      "title": "https://www.cathaypacific.com/cx/en_IE.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  },
+  "sitesWithWS": 7,
+  "numFirstPartyWS": 5,
+  "numThirdPartyWS": 5,
+  "numSitesHitFilter": 1,
+  "numWSHitFilter": 3,
+  "numWSPassedFilter": 7
+}

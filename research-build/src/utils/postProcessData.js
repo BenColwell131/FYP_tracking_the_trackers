@@ -6,7 +6,7 @@ const ABPFilterParser = require('abp-filter-parser');
 
 //Settings
 const COUNTRY = process.argv[2];
-const ROUND = 2;
+const ROUND = 4;
 
 //Globals
 let results = {};
@@ -17,6 +17,15 @@ let parsedFilterLists = {};
 let numWSHitFilter    = 0;
 let numWSPassedFilter = 0;
 let numSitesHitFilter = 0;
+
+
+// ********************************************************************
+// Currently does:
+//  -- Counts number of sites that open 1+ WS
+//  -- Checks first vs third party (ignores subdomains)
+//  -- Checks WS urls against filter lists (easyList & easyPrivacy)
+//  -- Saves results to a new file
+// ********************************************************************
 
 // Tallys up all sites that open 1+ websockets.
 function tallySitesWithWS(){

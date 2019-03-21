@@ -1,0 +1,699 @@
+{
+  "country": "Japan",
+  "totalNumSitesVisited": 107,
+  "totalWSConnections": 8,
+  "totalFramesSent": 7,
+  "totalFramesReceieved": 9,
+  "details": {
+    "about:blank": {
+      "title": "about:blank",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yahoo.co.jp/": {
+      "title": "https://www.yahoo.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.jp/": {
+      "title": "https://www.amazon.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.co.jp/?gws_rd=ssl": {
+      "title": "https://www.google.co.jp/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rakuten.co.jp/": {
+      "title": "https://www.rakuten.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nicovideo.jp/": {
+      "title": "https://www.nicovideo.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fc2.com/": {
+      "title": "https://fc2.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://kakaku.com/": {
+      "title": "https://kakaku.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.livedoor.com/": {
+      "title": "www.livedoor.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.baidu.com/": {
+      "title": "www.baidu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ameblo.jp/www/": {
+      "title": "https://ameblo.jp/www/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.dmm.co.jp/": {
+      "title": "www.dmm.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.goo.ne.jp/": {
+      "title": "https://www.goo.ne.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.blog.jp/": {
+      "title": "www.blog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.hatenablog.com/": {
+      "title": "www.hatenablog.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.qq.com/": {
+      "title": "https://www.qq.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weblio.jp/": {
+      "title": "https://www.weblio.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OjQ1ZDljMTc5ODlmMjcwMTQxM2Y4MjNhNDRkMjQ0OGI1NGQyMjc1NGQ5NTc5M2Y3ZGFkNzZmMWRjZTFiOTYzM2Y=--fa3b59f9977310fd848cb55a1ca7f647865e5172": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mercari.com/": {
+      "title": "https://www.mercari.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "https://www.apple.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pixiv.net/": {
+      "title": "https://www.pixiv.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tmall.com/": {
+      "title": "https://www.tmall.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "https://www.msn.com/en-ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.5ch.net/": {
+      "title": "www.5ch.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://world.taobao.com/": {
+      "title": "https://world.taobao.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.impress.co.jp/": {
+      "title": "https://www.impress.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.japanpost.jp/": {
+      "title": "https://www.japanpost.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dmm.com/": {
+      "title": "https://www.dmm.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nikkei.com/": {
+      "title": "https://www.nikkei.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://matome.naver.jp/": {
+      "title": "https://matome.naver.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.nhk.or.jp/": {
+      "title": "www.nhk.or.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nhk.or.jp/": {
+      "title": "https://www.nhk.or.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tabelog.com/": {
+      "title": "https://tabelog.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://line.me/en-US/": {
+      "title": "https://line.me/en-US/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.asahi.com/": {
+      "title": "https://www.asahi.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.doorblog.jp/": {
+      "title": "www.doorblog.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.hatena.ne.jp/": {
+      "title": "www.hatena.ne.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://go.chatwork.com/": {
+      "title": "https://go.chatwork.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.sohu.com/": {
+      "title": "www.sohu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"961dfc787f12cbcaa1f746f60f807525fd87f4670144adb51bdc84fa7c0b637f\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"736065806765c0ee5a00a36528c1bf7d614d9bebd024bc24cd56075e9cf7f31e\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"961dfc787f12cbcaa1f746f60f807525fd87f4670144adb51bdc84fa7c0b637f\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "Third",
+          "WSHitFilter": true
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 3,
+      "siteHitFilter": true
+    },
+    "https://avgle.com/": {
+      "title": "https://avgle.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.itmedia.co.jp/": {
+      "title": "https://www.itmedia.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.jd.com/": {
+      "title": "https://www.jd.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.weibo.com/overseas": {
+      "title": "https://www.weibo.com/overseas",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "https://www.ebay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yodobashi.com/": {
+      "title": "https://www.yodobashi.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.exosrv.com/": {
+      "title": "www.exosrv.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sina.com.cn/": {
+      "title": "https://www.sina.com.cn",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://newspush.sinajs.cn/wskt?list=live_NEWSPUSH": {
+          "numFramesSent": 0,
+          "numFramesReceived": 1,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "live_NEWSPUSH=[{\"i\":\"1551747590\",\"m\":\"\",\"u\":\"\",\"l\":\"\",\"c\":\"\",\"t\":-1}]\n",
+              "origin": "wss://newspush.sinajs.cn"
+            }
+          ],
+          "partyType": "Third",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 0,
+      "siteNumThirdParty": 1,
+      "siteHitFilter": false
+    },
+    "http://www.livedoor.biz/": {
+      "title": "www.livedoor.biz",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toHttps=1&redig=DFA45A8797194AFC851C728070E76559": {
+      "title": "https://www.bing.com/?toHttps=1&redig=DFA45A8797194AFC851C728070E76559",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mynavi.jp/": {
+      "title": "https://www.mynavi.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://nyaa.si/": {
+      "title": "https://nyaa.si",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": [],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 2,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "http://himado.in/": {
+      "title": "himado.in",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "https://imgur.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/eu/?ir=1": {
+      "title": "https://www.salesforce.com/eu/?ir=1",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nifty.com/": {
+      "title": "https://www.nifty.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://login.tmall.com/": {
+      "title": "https://login.tmall.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eroterest.net/": {
+      "title": "https://www.eroterest.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tenki.jp/": {
+      "title": "https://tenki.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://syosetu.com/": {
+      "title": "https://syosetu.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.nta.go.jp/": {
+      "title": "www.nta.go.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ameba.jp/": {
+      "title": "https://www.ameba.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bilibili.com/": {
+      "title": "https://www.bilibili.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://broadcast.chat.bilibili.com:7823/sub": {
+          "numFramesSent": 4,
+          "numFramesReceived": 5,
+          "framesSent": [
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            },
+            {
+              "payload": {}
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            },
+            {
+              "payload": {},
+              "origin": "wss://broadcast.chat.bilibili.com:7823"
+            }
+          ],
+          "partyType": "First",
+          "WSHitFilter": false
+        }
+      },
+      "siteNumFirstParty": 1,
+      "siteNumThirdParty": 0,
+      "siteHitFilter": false
+    },
+    "https://www.asos.com/": {
+      "title": "https://www.asos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mufg.jp/": {
+      "title": "https://www.mufg.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.valuecommerce.co.jp/en/": {
+      "title": "https://www.valuecommerce.co.jp/en/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.biglobe.ne.jp/": {
+      "title": "https://www.biglobe.ne.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.twimg.com/": {
+      "title": "www.twimg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tumblr.com/dashboard": {
+      "title": "https://www.tumblr.com/dashboard",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.360.cn/": {
+      "title": "https://www.360.cn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://b9good.com/": {
+      "title": "b9good.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tver.jp/check.html": {
+      "title": "https://www.tver.jp/check.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tver.jp/": {
+      "title": "https://www.tver.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymotion.com/": {
+      "title": "https://www.dailymotion.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymotion.com/us": {
+      "title": "Dailymotion - Explore and watch videos online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "https://xhamster.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/#back_url": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.kuronekoyamato.co.jp/": {
+      "title": "www.kuronekoyamato.co.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://abema.tv/": {
+      "title": "https://abema.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sakura.ne.jp/": {
+      "title": "https://www.sakura.ne.jp",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  },
+  "sitesWithWS": 5,
+  "numFirstPartyWS": 4,
+  "numThirdPartyWS": 4,
+  "numSitesHitFilter": 1,
+  "numWSHitFilter": 3,
+  "numWSPassedFilter": 5
+}

@@ -4,7 +4,7 @@ const path = require('path');
 
 //Settings
 const COUNTRIES = ["hong-kong", "ireland", "japan", "russia", "spain", "usa"];
-const ROUND = 2;
+const ROUND = 4;
 
 //Globals
 let results = {};
