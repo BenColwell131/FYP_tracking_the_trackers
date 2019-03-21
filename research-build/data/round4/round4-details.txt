@@ -1,6 +1,6 @@
 Round 4:
+**NB: Not for actual data collection.**
 Attempting to reduce the number of error cases with this run.
-Not for actual data collection.
 
 Staying 5s on each page and capturing screenshot.
 Adapting for a few niche sites that cant handle www subdomain by not including on those particular sites.

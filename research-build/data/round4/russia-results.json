@@ -1,0 +1,635 @@
+{
+  "country": "Russia",
+  "totalNumSitesVisited": 103,
+  "totalWSConnections": 6,
+  "totalFramesSent": 8,
+  "totalFramesReceieved": 9,
+  "details": {
+    "https://yandex.ru/": {
+      "title": "https://yandex.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/feed": {
+      "title": "https://vk.com/feed",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mail.ru/": {
+      "title": "https://mail.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.avito.ru/rossiya": {
+      "title": "https://www.avito.ru/rossiya",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ok.ru/": {
+      "title": "https://www.ok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/": {
+      "title": "https://www.google.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aliexpress.com/": {
+      "title": "https://www.aliexpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gosuslugi.ru/": {
+      "title": "https://www.gosuslugi.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rambler.ru/": {
+      "title": "https://www.rambler.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kinopoisk.ru/": {
+      "title": "https://www.kinopoisk.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sberbank.ru/en/individualclients": {
+      "title": "https://www.sberbank.ru/en/individualclients",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejournal.com/": {
+      "title": "https://www.livejournal.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gismeteo.ru/": {
+      "title": "https://www.gismeteo.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.userapi.com/": {
+      "title": "www.userapi.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drom.ru/": {
+      "title": "https://www.drom.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://infourok.ru/": {
+      "title": "https://infourok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://pikabu.ru/": {
+      "title": "https://pikabu.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://lordfilms.tv/": {
+      "title": "lordfilms.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ria.ru/": {
+      "title": "https://ria.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://cm.ria.ru/chat/621/ovhqwr4v/websocket": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "[\"{\\\"type\\\":\\\"user_join\\\",\\\"message\\\":{\\\"user_id\\\":null,\\\"obj_id\\\":\\\"main\\\",\\\"lang\\\":\\\"rus\\\",\\\"project\\\":\\\"ria.ru\\\"}}\"]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "o",
+              "origin": "wss://cm.ria.ru"
+            }
+          ]
+        }
+      }
+    },
+    "https://znanija.com/": {
+      "title": "https://znanija.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://ru-comet.z-dn.net:7879/socket.io/1/websocket/7766571553110193748861": {
+          "numFramesSent": 2,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "5:::{\"name\":\"auth\",\"args\":[{\"uid\":\"anon\",\"id\":\"anon\",\"client\":\"desktop\",\"version\":\"2.1\",\"hash\":\"7354962f21a10d9110c75e4fac640535\",\"auth_hash\":\"c828cf60fd045a13aa9626cae1cc93af\"}]}"
+            },
+            {
+              "payload": "5:::{\"name\":\"pubsub.resubscribe\",\"args\":[{\"notify.subject\":{\"subjects\":[29,17,30,16,31,33,10,9,3,42,13,15,46,8,37,32,41,44,22,48,25,43,47,45,51,52,53,54,55,56,57],\"grades\":[1,2,3,4]}}]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "1:::",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            },
+            {
+              "payload": "5:::{\"name\":\"auth\",\"args\":[{\"result\":\"authorized\",\"version\":\"2.1\"}]}",
+              "origin": "wss://ru-comet.z-dn.net:7879"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.wildberries.ru/": {
+      "title": "https://www.wildberries.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dnevnik.ru/": {
+      "title": "https://dnevnik.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://fb.ru/": {
+      "title": "fb.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hh.ru/": {
+      "title": "https://hh.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.drive2.ru/": {
+      "title": "https://www.drive2.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://disk.yandex.com/": {
+      "title": "https://disk.yandex.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://hdlava.com/": {
+      "title": "https://hdlava.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://sdamgia.ru/": {
+      "title": "https://sdamgia.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ozon.ru/": {
+      "title": "https://www.ozon.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dns-shop.ru/": {
+      "title": "https://www.dns-shop.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://auto.ru/": {
+      "title": "https://auto.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://youla.ru/": {
+      "title": "https://youla.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://studfiles.net/": {
+      "title": "https://studfiles.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://nsportal.ru/": {
+      "title": "https://nsportal.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.kp.ru/": {
+      "title": "https://www.kp.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://www.kp.ru/ws": {
+          "numFramesSent": 3,
+          "numFramesReceived": 3,
+          "framesSent": [
+            {
+              "payload": "[1,\"kpcdn\",{\"roles\":{\"caller\":{\"features\":{\"caller_identification\":true,\"progressive_call_results\":true}},\"callee\":{\"features\":{\"progressive_call_results\":true}},\"publisher\":{\"features\":{\"subscriber_blackwhite_listing\":true,\"publisher_exclusion\":true,\"publisher_identification\":true}},\"subscriber\":{\"features\":{\"publisher_identification\":true}}},\"authmethods\":[\"ticket\"],\"authid\":\"9155311035232680\"}]"
+            },
+            {
+              "payload": "[5,\"b54c2717ca8b3cc1c5ec04d6c6d56dc5\",{}]"
+            },
+            {
+              "payload": "[32,2049644579032878,{},\"net.kpcdn.subscribe.notify\"]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "[4,\"ticket\",{}]",
+              "origin": "wss://www.kp.ru"
+            },
+            {
+              "payload": "[2,7618209012598636,{\"roles\":{\"broker\":{\"features\":{\"subscription_revocation\":true,\"publisher_exclusion\":true,\"subscriber_blackwhite_listing\":true,\"subscription_meta_api\":true,\"session_meta_api\":true,\"pattern_based_subscription\":true,\"publisher_identification\":true}},\"dealer\":{\"features\":{\"registration_revocation\":true,\"progressive_call_results\":true,\"shared_registration\":true,\"registration_meta_api\":true,\"session_meta_api\":true,\"pattern_based_registration\":true,\"caller_identification\":true}}},\"authid\":\"9155311035232680\",\"authrole\":\"frontend\",\"authmethod\":\"ticket\",\"authprovider\":\"net.kpcdn.identity.auth\"}]",
+              "origin": "wss://www.kp.ru"
+            },
+            {
+              "payload": "[33,2049644579032878,3788376089343146]",
+              "origin": "wss://www.kp.ru"
+            }
+          ]
+        }
+      }
+    },
+    "http://vseigru.net/": {
+      "title": "vseigru.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://lenta.ru/": {
+      "title": "https://lenta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ivi.tv/": {
+      "title": "https://www.ivi.tv",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mvideo.ru/": {
+      "title": "https://www.mvideo.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.yaplakal.com/": {
+      "title": "www.yaplakal.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/": {
+      "title": "https://2gis.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://2gis.ru/moscow": {
+      "title": "Карта Москвы: улицы, дома и организации города — 2ГИС",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "https://steamcommunity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/#scrollTop=0": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.roblox.com/": {
+      "title": "https://www.roblox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.citilink.ru/": {
+      "title": "https://www.citilink.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://gdz.ru/": {
+      "title": "https://gdz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.gazeta.ru/": {
+      "title": "https://www.gazeta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://zaycev.net/": {
+      "title": "zaycev.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.vesti.ru/": {
+      "title": "www.vesti.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rbc.ru/": {
+      "title": "https://www.rbc.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mos.ru/": {
+      "title": "https://www.mos.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://uchi.ru/": {
+      "title": "https://uchi.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.consultant.ru/": {
+      "title": "www.consultant.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.playground.ru/": {
+      "title": "www.playground.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rt.com/": {
+      "title": "https://www.rt.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://nnovgorod.rt.ru/": {
+      "title": "https://nnovgorod.rt.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://mosreg.ru/": {
+      "title": "https://mosreg.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://rutracker.org/forum/index.php": {
+      "title": "rutracker.org/forum/index.php",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pochta.ru/": {
+      "title": "https://www.pochta.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.championat.com/": {
+      "title": "https://www.championat.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://eu.wargaming.net/": {
+      "title": "https://eu.wargaming.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.mk.ru/": {
+      "title": "https://www.mk.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ficbook.net/": {
+      "title": "https://ficbook.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://worldoftanks.ru/": {
+      "title": "https://worldoftanks.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.bolshoyvopros.ru/": {
+      "title": "www.bolshoyvopros.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://tiu.ru/": {
+      "title": "https://tiu.ru",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://chat.my.tiu.ru/ws?chat_version=v2": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "[\"chat.v2.subscribe\",{\"request_id\":1,\"active\":120},[],{\"role\":\"buyer\",\"offset\":0,\"limit\":20,\"status\":\"active\"}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "[\"hello\",{},{\"anonymous\":true,\"user_id\":\"anonymous-anonymous-19ed5f42d10a1337b8632caebe9c72b2e2aa50fd\"}]",
+              "origin": "wss://chat.my.tiu.ru"
+            },
+            {
+              "payload": "[\"error\",{\"error_kind\":\"http_error\",\"http_error\":401,\"active\":120,\"request_id\":1},{\"errors\":{\"anonymous\":\"User is not authorized\"}}]",
+              "origin": "wss://chat.my.tiu.ru"
+            }
+          ]
+        }
+      }
+    },
+    "http://4pda.ru/": {
+      "title": "4pda.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rp5.ru/": {
+      "title": "https://rp5.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://moskva.mts.ru/personal": {
+      "title": "https://moskva.mts.ru/personal",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rutube.ru/": {
+      "title": "https://rutube.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://animevost.org/": {
+      "title": "animevost.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.otzovik.com/": {
+      "title": "www.otzovik.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.sports.ru/": {
+      "title": "https://www.sports.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://multiurok.ru/": {
+      "title": "https://multiurok.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nalog.ru/rn77/": {
+      "title": "https://www.nalog.ru/rn77/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://zvooq.online/": {
+      "title": "https://zvooq.online",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adme.ru/": {
+      "title": "https://www.adme.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rg.ru/": {
+      "title": "https://rg.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "https://www.booking.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://store.steampowered.com/": {
+      "title": "https://store.steampowered.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ucoz.ru/": {
+      "title": "https://www.ucoz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lamoda.ru/": {
+      "title": "https://www.lamoda.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ru/": {
+      "title": "https://www.pinterest.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ru/?autologin=true": {
+      "title": "https://www.pinterest.ru/?autologin=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://irecommend.ru/": {
+      "title": "https://irecommend.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.iz.ru/": {
+      "title": "www.iz.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://news.sportbox.ru/": {
+      "title": "https://news.sportbox.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://porno365.sex/": {
+      "title": "porno365.sex",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://fotostrana.ru/signup/": {
+      "title": "https://fotostrana.ru/signup/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.cian.ru/": {
+      "title": "https://www.cian.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.maam.ru/": {
+      "title": "https://www.maam.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

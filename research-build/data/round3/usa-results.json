@@ -1,1 +1,994 @@
-{"country":"Russia","totalNumSitesVisited":104,"totalWSConnections":8,"totalFramesSent":110,"totalFramesReceieved":22,"details":{"https://www.google.com/?gws_rd=ssl":{"title":"https://www.google.com/?gws_rd=ssl","numberWS":0,"WSConnections":{}},"https://www.youtube.com/":{"title":"https://www.youtube.com","numberWS":0,"WSConnections":{}},"https://www.facebook.com/":{"title":"https://www.facebook.com","numberWS":0,"WSConnections":{}},"https://www.amazon.com/":{"title":"https://www.amazon.com","numberWS":0,"WSConnections":{}},"https://www.wikipedia.org/":{"title":"https://www.wikipedia.org","numberWS":0,"WSConnections":{}},"https://www.reddit.com/":{"title":"https://www.reddit.com","numberWS":0,"WSConnections":{}},"https://twitter.com/":{"title":"https://twitter.com","numberWS":0,"WSConnections":{}},"https://guce.oath.com/collectConsent?sessionId=3_cc-session_85d88a57-4820-4f89-b171-e1359148f8c4&lang=en-IE&inline=false":{"title":"https://guce.oath.com/collectConsent?sessionId=3_cc-session_85d88a57-4820-4f89-b171-e1359148f8c4&lang=en-IE&inline=false","numberWS":0,"WSConnections":{}},"https://www.linkedin.com/":{"title":"https://www.linkedin.com","numberWS":0,"WSConnections":{}},"https://www.instagram.com/":{"title":"https://www.instagram.com","numberWS":0,"WSConnections":{}},"https://www.ebay.com/":{"title":"https://www.ebay.com","numberWS":0,"WSConnections":{}},"https://www.netflix.com/ie/":{"title":"https://www.netflix.com/ie/","numberWS":0,"WSConnections":{}},"https://www.twitch.tv/":{"title":"https://www.twitch.tv","numberWS":4,"WSConnections":{"wss://pubsub-edge.twitch.tv/v1":{"numFramesSent":1,"numFramesReceived":1,"framesSent":[{"payload":"{\"type\":\"PING\"}"}],"framesReceived":[{"payload":"{ \"type\": \"PONG\" }\r\n\r\n","origin":"wss://pubsub-edge.twitch.tv"}]},"wss://irc-ws.chat.twitch.tv/":{"numFramesSent":0,"numFramesReceived":0,"framesSent":[],"framesReceived":[]}}},"https://www.instructure.com/":{"title":"https://www.instructure.com","numberWS":0,"WSConnections":{}},"https://www.pornhub.com/":{"title":"https://www.pornhub.com","numberWS":0,"WSConnections":{}},"https://www.pornhub.com/#!":{"title":"Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub","numberWS":0,"WSConnections":{}},"https://outlook.live.com/owa/":{"title":"https://outlook.live.com/owa/","numberWS":0,"WSConnections":{}},"https://dublin.craigslist.org/":{"title":"https://dublin.craigslist.org","numberWS":0,"WSConnections":{}},"https://imgur.com/":{"title":"https://imgur.com","numberWS":0,"WSConnections":{}},"https://www.chase.com/":{"title":"https://www.chase.com","numberWS":0,"WSConnections":{}},"https://www.paypal.com/ie/home":{"title":"https://www.paypal.com/ie/home","numberWS":0,"WSConnections":{}},"https://edition.cnn.com/":{"title":"https://edition.cnn.com","numberWS":0,"WSConnections":{}},"http://www.t.co/":{"title":"www.t.co","numberWS":0,"WSConnections":{}},"https://www.bing.com/?toHttps=1&redig=F6FF66EDD24F406B8D20DEE1FC33A64D":{"title":"https://www.bing.com/?toHttps=1&redig=F6FF66EDD24F406B8D20DEE1FC33A64D","numberWS":0,"WSConnections":{}},"http://www.espn.com/":{"title":"www.espn.com","numberWS":0,"WSConnections":{}},"https://www.imdb.com/":{"title":"https://www.imdb.com","numberWS":0,"WSConnections":{}},"https://www.pinterest.ie/":{"title":"https://www.pinterest.ie","numberWS":0,"WSConnections":{}},"https://www.office.com/":{"title":"https://www.office.com","numberWS":0,"WSConnections":{}},"https://www.fandom.com/":{"title":"https://www.fandom.com","numberWS":0,"WSConnections":{}},"https://www.livejasmin.com/en/girls/":{"title":"https://www.livejasmin.com/en/girls/","numberWS":2,"WSConnections":{"wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket":{"numFramesSent":17,"numFramesReceived":7,"framesSent":[{"payload":"40/notifications"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.performer.message.delivery.live\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.notification.messenger.message-updated.delivery.live\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.message.sent.delivery.live\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level.changed.delivery.live\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level_points.changed.delivery.live\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.legacy.performer.status.change.raw\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.started.withperformer\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"},{"payload":"42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"},{"payload":"42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"},{"payload":"42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":10,\"runtime\":531}]"},{"payload":"42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":10,\"runtime\":531}]"},{"payload":"42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":20,\"runtime\":259}]"},{"payload":"42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":30,\"runtime\":47}]"}],"framesReceived":[{"payload":"0{\"sid\":\"Dtw8BPw7OLs-S5XwYrmO\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}","origin":"wss://jaws.dditscdn.com"},{"payload":"40","origin":"wss://jaws.dditscdn.com"},{"payload":"40/notifications","origin":"wss://jaws.dditscdn.com"},{"payload":"42/notifications,[\"legacy.performer.status.change.raw\",{\"24091510\":3,\"24415310\":3,\"24415390\":3,\"25784380\":0,\"25854080\":1,\"25915260\":1,\"26166650\":0,\"26246770\":3,\"26272050\":3}]","origin":"wss://jaws.dditscdn.com"},{"payload":"42/notifications,[\"legacy.performer.status.change\",{\"24091510\":2,\"24415310\":2,\"24415390\":2,\"25784380\":0,\"25854080\":1,\"25915260\":1,\"26166650\":0,\"26246770\":2,\"26272050\":2}]","origin":"wss://jaws.dditscdn.com"},{"payload":"42/notifications,[\"legacy.performer.status.change.raw\",{\"8096340\":3,\"21897550\":1,\"23913860\":0,\"23913870\":0,\"24183940\":3,\"24188420\":3,\"25189460\":3,\"25204470\":1,\"25566550\":3,\"25789340\":1,\"25941150\":1,\"25946290\":1,\"26091440\":2,\"26256050\":1}]","origin":"wss://jaws.dditscdn.com"},{"payload":"42/notifications,[\"legacy.performer.status.change\",{\"8096340\":2,\"21897550\":1,\"23913860\":0,\"23913870\":0,\"24183940\":2,\"24188420\":2,\"25189460\":2,\"25204470\":1,\"25566550\":2,\"25789340\":1,\"25941150\":1,\"25946290\":1,\"26091440\":2,\"26256050\":1}]","origin":"wss://jaws.dditscdn.com"}]},"wss://dss-relay-109-71-162-27.dditscdn.com/?random=82777896309483072891997114715372":{"numFramesSent":6,"numFramesReceived":12,"framesSent":[{"payload":"{\"event\":\"register\",\"applicationId\":\"memberChat/jasminElizaPearl58ae4937979e10a4b57daf5622ef13d4\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"8265ec7ea434a00f27645acf9164d73a\",\"jsm2SessionId\":\"gab9e2a2be71d7066dcb5b54259c6978e\",\"userType\":\"user\",\"performerId\":\"ElizaPearl\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"90214813588800726633527919084969\",\"armaVersion\":\"34.14.0-AR5998-1\",\"isPassive\":true}}"},{"payload":"{\"event\":\"ping\"}"},{"payload":"{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"},{"payload":"{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"},{"payload":"{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"},{"payload":"{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"}],"framesReceived":[{"payload":"{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"pong\",\"nextPing\":30000}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"accept\"}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[0]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[{\"streamwidth\":852,\"streamheight\":480}]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[\"guest17\",\"GUEST\"]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[false]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[\"$2.99\"]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"HAZE9000\",\"spending\":1}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":636114},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":852}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":104},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"852x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":781,\"type\":\"nano\",\"width\":852}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"},{"payload":"{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[]}","origin":"wss://dss-relay-109-71-162-27.dditscdn.com"}]}}},"https://www.nytimes.com/":{"title":"https://www.nytimes.com","numberWS":0,"WSConnections":{}},"https://github.com/":{"title":"https://github.com","numberWS":0,"WSConnections":{}},"https://www.microsoft.com/en-us/":{"title":"https://www.microsoft.com/en-us/","numberWS":0,"WSConnections":{}},"https://stackoverflow.com/":{"title":"https://stackoverflow.com","numberWS":0,"WSConnections":{}},"https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI":{"title":"https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI","numberWS":0,"WSConnections":{}},"https://www.intuit.com/":{"title":"https://www.intuit.com","numberWS":0,"WSConnections":{}},"https://www.zillow.com/":{"title":"https://www.zillow.com","numberWS":0,"WSConnections":{}},"https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true":{"title":"https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true","numberWS":0,"WSConnections":{}},"https://www.salesforce.com/eu/?ir=1":{"title":"https://www.salesforce.com/eu/?ir=1","numberWS":0,"WSConnections":{}},"https://www.hulu.com/welcome":{"title":"https://www.hulu.com/welcome","numberWS":0,"WSConnections":{}},"https://www.yelp.ie/dublin":{"title":"https://www.yelp.ie/dublin","numberWS":0,"WSConnections":{}},"https://quizlet.com/":{"title":"https://quizlet.com","numberWS":0,"WSConnections":{}},"https://www.apple.com/":{"title":"https://www.apple.com","numberWS":0,"WSConnections":{}},"https://www.bankofamerica.com/":{"title":"https://www.bankofamerica.com","numberWS":0,"WSConnections":{}},"https://www.walmart.com/":{"title":"https://www.walmart.com","numberWS":0,"WSConnections":{}},"https://www.tumblr.com/":{"title":"https://www.tumblr.com","numberWS":0,"WSConnections":{}},"https://www.quora.com/":{"title":"https://www.quora.com","numberWS":0,"WSConnections":{}},"https://www.dropbox.com/":{"title":"https://www.dropbox.com","numberWS":0,"WSConnections":{}},"https://aws.amazon.com/":{"title":"https://aws.amazon.com","numberWS":0,"WSConnections":{}},"https://www.wellsfargo.com/":{"title":"https://www.wellsfargo.com","numberWS":0,"WSConnections":{}},"http://www.googleusercontent.com/":{"title":"www.googleusercontent.com","numberWS":0,"WSConnections":{}},"https://www.blogger.com/about/?r=1-null_user":{"title":"https://www.blogger.com/about/?r=1-null_user","numberWS":0,"WSConnections":{}},"https://www.xvideos.com/":{"title":"https://www.xvideos.com","numberWS":0,"WSConnections":{}},"https://ie.indeed.com/?r=us":{"title":"https://ie.indeed.com/?r=us","numberWS":0,"WSConnections":{}},"https://www.foxnews.com/":{"title":"https://www.foxnews.com","numberWS":0,"WSConnections":{}},"https://www.etsy.com/":{"title":"https://www.etsy.com","numberWS":0,"WSConnections":{}},"https://www.spotify.com/ie/":{"title":"https://www.spotify.com/ie/","numberWS":0,"WSConnections":{}},"https://www.adobe.com/":{"title":"https://www.adobe.com","numberWS":0,"WSConnections":{}},"https://www.msn.com/en-ie/":{"title":"https://www.msn.com/en-ie/","numberWS":0,"WSConnections":{}},"https://wordpress.com/":{"title":"https://wordpress.com","numberWS":0,"WSConnections":{}},"https://www.breitbart.com/":{"title":"https://www.breitbart.com","numberWS":0,"WSConnections":{}},"https://www.xfinity.com/":{"title":"https://www.xfinity.com","numberWS":0,"WSConnections":{}},"https://discordapp.com/":{"title":"https://discordapp.com","numberWS":0,"WSConnections":{}},"https://stackexchange.com/":{"title":"https://stackexchange.com","numberWS":0,"WSConnections":{}},"https://www.nih.gov/":{"title":"https://www.nih.gov","numberWS":0,"WSConnections":{}},"https://soundcloud.com/":{"title":"https://soundcloud.com","numberWS":0,"WSConnections":{}},"https://www.usps.com/":{"title":"https://www.usps.com","numberWS":0,"WSConnections":{}},"https://xhamster.com/":{"title":"https://xhamster.com","numberWS":0,"WSConnections":{}},"https://xhamster.com/#back_url":{"title":"Free Porn Videos & Sex Tube Movies at xHamster","numberWS":0,"WSConnections":{}},"https://www.capitalone.com/":{"title":"https://www.capitalone.com","numberWS":0,"WSConnections":{}},"https://www.okta.com/":{"title":"https://www.okta.com","numberWS":0,"WSConnections":{}},"https://www.homedepot.com/":{"title":"https://www.homedepot.com","numberWS":0,"WSConnections":{}},"https://www.bestbuy.com/":{"title":"https://www.bestbuy.com","numberWS":0,"WSConnections":{}},"https://www.vice.com/en_uk":{"title":"https://www.vice.com/en_uk","numberWS":0,"WSConnections":{}},"https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f":{"title":"https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f","numberWS":0,"WSConnections":{}},"https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f&utm_term=.6e8e9002d1c9":{"title":"- The Washington Post","numberWS":0,"WSConnections":{}},"https://patch.com/":{"title":"https://patch.com","numberWS":0,"WSConnections":{}},"https://www.airbnb.ie/":{"title":"https://www.airbnb.ie","numberWS":0,"WSConnections":{}},"https://www.zoom.us/":{"title":"https://www.zoom.us","numberWS":0,"WSConnections":{}},"https://www.bbc.com/":{"title":"https://www.bbc.com","numberWS":0,"WSConnections":{}},"https://www.blackboard.com/index.html":{"title":"https://www.blackboard.com/index.html","numberWS":0,"WSConnections":{}},"https://slickdeals.net/":{"title":"https://slickdeals.net","numberWS":0,"WSConnections":{}},"https://chaturbate.com/":{"title":"https://chaturbate.com","numberWS":0,"WSConnections":{}},"https://ie.godaddy.com/":{"title":"https://ie.godaddy.com","numberWS":0,"WSConnections":{}},"https://www.tripadvisor.ie/":{"title":"https://www.tripadvisor.ie","numberWS":0,"WSConnections":{}},"http://www.redd.it/":{"title":"www.redd.it","numberWS":0,"WSConnections":{}},"https://www.glassdoor.ie/index.htm?countryRedirect=true":{"title":"https://www.glassdoor.ie/index.htm?countryRedirect=true","numberWS":0,"WSConnections":{}},"https://slack.com/":{"title":"https://slack.com","numberWS":0,"WSConnections":{}},"https://www.irs.gov/":{"title":"https://www.irs.gov","numberWS":0,"WSConnections":{}},"https://www.aol.com/":{"title":"https://www.aol.com","numberWS":0,"WSConnections":{}},"https://guce.oath.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_e4a6d325-dc2f-4c23-8a53-cc959dad34d0&lang=en-US&inline=false":{"title":"https://guce.oath.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_e4a6d325-dc2f-4c23-8a53-cc959dad34d0&lang=en-US&inline=false","numberWS":0,"WSConnections":{}},"https://steamcommunity.com/":{"title":"https://steamcommunity.com","numberWS":0,"WSConnections":{}},"https://steamcommunity.com/#scrollTop=0":{"title":"Steam Community","numberWS":0,"WSConnections":{}},"https://online.citi.com/US/login.do":{"title":"https://online.citi.com/US/login.do","numberWS":0,"WSConnections":{}},"https://intl.target.com/":{"title":"https://intl.target.com","numberWS":0,"WSConnections":{}},"https://vimeo.com/":{"title":"https://vimeo.com","numberWS":0,"WSConnections":{}},"http://www.myshopify.com/":{"title":"www.myshopify.com","numberWS":0,"WSConnections":{}},"https://www.forbes.com/":{"title":"https://www.forbes.com","numberWS":0,"WSConnections":{}},"https://www.roblox.com/":{"title":"https://www.roblox.com","numberWS":0,"WSConnections":{}},"https://www.chegg.com/":{"title":"https://www.chegg.com","numberWS":0,"WSConnections":{}},"https://www.americanexpress.com/":{"title":"https://www.americanexpress.com","numberWS":2,"WSConnections":{"wss://iwmap.americanexpress.com/monitoring/958/iknsujzm/websocket":{"numFramesSent":0,"numFramesReceived":0,"framesSent":[],"framesReceived":[]},"wss://iwmap.americanexpress.com/monitoring/078/oqhegz53/websocket":{"numFramesSent":86,"numFramesReceived":2,"framesSent":[{"payload":"[\"CONNECT\\naccept-version:1.2,1.1,1.0\\nheart-beat:10000,10000\\n\\n\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:120\\n\\n{\\\"type\\\":\\\"performance-navigation\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:20.700Z\\\",\\\"navigation\\\":{\\\"type\\\":0,\\\"redirectCount\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:554\\n\\n{\\\"type\\\":\\\"performance-timing\\\",\\\"timings\\\":{\\\"navigationStart\\\":0,\\\"unloadEventStart\\\":null,\\\"unloadEventEnd\\\":null,\\\"redirectStart\\\":null,\\\"redirectEnd\\\":null,\\\"fetchStart\\\":50,\\\"domainLookupStart\\\":53,\\\"domainLookupEnd\\\":53,\\\"connectStart\\\":53,\\\"connectEnd\\\":93,\\\"secureConnectionStart\\\":64,\\\"requestStart\\\":93,\\\"responseStart\\\":138,\\\"responseEnd\\\":258,\\\"domLoading\\\":243,\\\"domInteractive\\\":609,\\\"domContentLoadedEventStart\\\":976,\\\"domContentLoadedEventEnd\\\":986,\\\"domComplete\\\":2542,\\\"loadEventStart\\\":2542,\\\"loadEventEnd\\\":2563},\\\"start\\\":1552938499967,\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:22.531Z\\\"}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:271\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/dls/dls.min.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":184,\\\"transferSize\\\":49569}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:303\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/homepage/clientlibs.min.6268c4423a1fcb00fa46f32497b7ab90.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":152,\\\"transferSize\\\":2292}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/homepage/ie-fix/US_homepage_fixes.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":190,\\\"transferSize\\\":864}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-bluebox-solid.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":131,\\\"transferSize\\\":1585}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-stack.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":142,\\\"transferSize\\\":1418}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:310\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-stack-white.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":153,\\\"transferSize\\\":1416}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:300\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.5.2/package/dist/img/dls_flags/dls-flag-us.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":150,\\\"transferSize\\\":1962}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:313\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/gem/gem-onestream-analytics.min.21db3b9897354127b77da9dfb1cba9d1.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":246,\\\"transferSize\\\":34944}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-line.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":98,\\\"transferSize\\\":1410}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:272\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/dls/dls.min.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":316,\\\"transferSize\\\":60890}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/enterprise/clientlibs.min.830d2e7ec9f8ac239832d4bbd4555ada.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":352,\\\"transferSize\\\":91748}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:305\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/homepage/clientlibs.min.044eac588bd56a1906d27132cbe3c5d8.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":324,\\\"transferSize\\\":35178}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:301\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/login/clientlibs.min.1e79a666bb1c3f7d14926b36a1d59aea.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":314,\\\"transferSize\\\":5646}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:289\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/homepage/ie-fix/homepage_fixes.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":333,\\\"transferSize\\\":561}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:250\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/adobedtm-global/\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":462,\\\"transferSize\\\":54639}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:264\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/akamai/ali/lib/ali-metrics.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":101,\\\"transferSize\\\":3219}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/iconfont/dls-icons.woff?v=5.10.0\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":75,\\\"transferSize\\\":35250}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:298\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/fonts/Roboto-Regular.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":121,\\\"transferSize\\\":77377}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/fonts/Roboto-Medium.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":115,\\\"transferSize\\\":73532}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:155\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"paint\\\",\\\"name\\\":\\\"first-paint\\\",\\\"startTime\\\":558,\\\"duration\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:166\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"paint\\\",\\\"name\\\":\\\"first-contentful-paint\\\",\\\"startTime\\\":558,\\\"duration\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:261\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/rum-telemetry/0.2.1.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":42,\\\"transferSize\\\":26947}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/akamai/one/statics/@americanexpress/trackit/0.1.4/package/dist/trackit.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":41,\\\"transferSize\\\":6837}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":631,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:253\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":1011,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:350\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11188/AMEX_Banner_125SmallBiz_HPHeroAcquisition_XL-Desktop_1440x500_LH_012519.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":234,\\\"transferSize\\\":145239}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:305\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11328/1500x350_Background_021619v2.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":28,\\\"transferSize\\\":19656}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:277\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/tagline.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":42,\\\"transferSize\\\":2189}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11349/AmexHP_Banner_Amazon_1500350_BG.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":455,\\\"transferSize\\\":5229}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:289\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11349/Other_tagline.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":58,\\\"transferSize\\\":2065}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11442/hro-dell-1500.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":468,\\\"transferSize\\\":19307}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11305/Delta-Initial-Banner_Desktop_2.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":100,\\\"transferSize\\\":24845}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/img-tagline1.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":109,\\\"transferSize\\\":2292}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:296\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/chg_gold_metal_di_315x200.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":109,\\\"transferSize\\\":19854}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/en-us-hp-ca-cards-small-business-plum.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":135,\\\"transferSize\\\":29166}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/en-us-hp-ca-cards-corporate-green.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":139,\\\"transferSize\\\":42454}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/serve-sku1-amex-com-315x200.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":134,\\\"transferSize\\\":6820}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-Surfer-760x430-01-v3.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":418,\\\"transferSize\\\":96965}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-GBS_1029-b.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":804,\\\"transferSize\\\":25688}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-iStock-843764706_resize-a.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":418,\\\"transferSize\\\":67814}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/nav/ngn/fonts/325e6ad0-38fb-4bad-861c-d965eab101d5-3.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":41,\\\"transferSize\\\":70153}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/nav/ngn/fonts/3be50273-0b2e-4aef-ae68-882eacd611f9-3.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":30,\\\"transferSize\\\":37450}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:335\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/dfp/v2/dfpASync.js?dfpArguments=tid:HPUSLOGON-a54f3e8a-7004-42c9-ba6f-dc6a42c7f8d6&ts=1552938500811\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":762,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:372\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://dpm.demdex.net/id?d_visid_ver=3.0.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=5C36123F5245AF470A490D45%40AdobeOrg&d_nsid=17&ts=1552938500938\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":64,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:330\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://assets.adobedtm.com/98caf8fccc463fd7e47088b35e73b27720bb5cc1/s-code-contents-5170e83f55dbf9e73b77518dae1761a1e83d2cf3.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":231,\\\"transferSize\\\":36296}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:384\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://omns.americanexpress.com/id?d_visid_ver=3.0.0&d_fieldgroup=A&mcorgid=5C36123F5245AF470A490D45%40AdobeOrg&mid=43596521261032419112602222565692587098&ts=1552938501009\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":341,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":111,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:517\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://dpm.demdex.net/id?d_visid_ver=3.0.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5C36123F5245AF470A490D45%40AdobeOrg&d_nsid=17&d_mid=43596521261032419112602222565692587098&d_blob=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&d_cid_ic=AVID%012E47FB028531133C-60000128A0002C3A&ts=1552938501353\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":62,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:1287\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://omns.americanexpress.com/b/ss/amexpressprod,amexpressenterpriseprod/10/JS-2.8.2-D7QN/s053369689630?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F2%2F2019%2019%3A48%3A21%201%200&d.&nsid=17&jsonv=1&.d&D=D%3D&mid=43596521261032419112602222565692587098&aid=2E47FB028531133C-60000128A0002C3A&aamlh=6&ce=UTF-8&ns=1americanexpress&pageName=US%7CAMEX%7CHome%7CHomepage&g=https%3A%2F%2Fwww.americanexpress.com%2F&c.&omn.&lob=acquisition&.omn&visitorCheck=VisitorAPI%20Present&gvs=1&.c&server=www.americanexpress.com&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&h1=US%7CAMEX%7CHome&c4=US&c10=prospect&c19=US%7CAMEX&v22=D%3Dgctrac&c24=US%7CAMEX%7CHome&v27=US&c30=US%7CAMEX%7CHome&c31=US%7CAMEX&c38=US%7CAMEX%7CHome&v45=prospect&c48=D%3Dgctrac&c49=DTM-OneCMS%3Av2.0-AM%3A2.8.2-VISID%3A3.0.0-DIL%3A7.0-Mbox%3ANA-CSVisID%3Afalse-msuite%3Atrue-PD%3A2%2F28%2F2019&v60=1903&v61=landscape&v74=US%7CAMEX%7CHome%7CHomepage&c75=DTM&v75=43596521261032419112602222565692587098&s=1536x864&c=24&j=1.6&v=N&k=Y&bw=1920&bh=1080&mcorgid=5C36123F5245AF470A490D45%40AdobeOrg&AQE=1\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":53,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:258\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aexp.demdex.net/event?_ts=1552938501495\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":99,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:251\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/collector/cc.js\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":246,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":117,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:243\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://laas.americanexpress.com/v1/log\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"beacon\\\",\\\"duration\\\":781,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:288\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aexp.demdex.net/dest5.html?d_nsid=17#https%3A%2F%2Fwww.americanexpress.com%2F\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":17,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:355\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/collector/s2?t=AalXOZmBpdRT1psqA8U4XW%2B%2B&x=1&sid=ee490b8fb9a4d570&tid=HPUSLOGON-a54f3e8a-7004-42c9-ba6f-dc6a42c7f8d6\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":337,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:281\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://cdaas.americanexpress.com/cdaas/myca/flash-flood/lib/flash-flood.html\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":713,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:259\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/Bootstrap.js?ens_mk=us\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":252,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/favicon.ico\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"other\\\",\\\"duration\\\":62,\\\"transferSize\\\":899}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:368\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/serverComponent.php?clientID=218&PageID=https%3A%2F%2Fwww.americanexpress.com%2F%3FensMarket%3DUS%26ens_env%3D3%26deviceType%3DNONE\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":291,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:301\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/809e5ca566f08aae5011fced84536e68.js?conditionId0=181208\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":14,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/0914e6b862ce975603357570ebccff63.js?conditionId0=209422\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":108,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/a2fc3cc6e6702146822b54c474c22cce.js?conditionId0=181097\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":366,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/fa9c97346dd014a2c3a20e334d5bcf3b.js?conditionId0=218963\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":123,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:272\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/content/dam/search/ioa/launcher/aaLauncher.css?43\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":86,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:274\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/content/dam/search/ioa/launcher/aaLauncher.js?43\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":101,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:263\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.facebook.com/tr?id=333619020577900&ev=PageView&noscript=1\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":66,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:259\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/gatekeeper/gtkp_aa.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":189,\\\"transferSize\\\":3801}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:296\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://ad.doubleclick.net/ddm/activity/src=189445;type=2015b0;cat=amexland;ord=1;num=1?\\\",\\\"nextHopProtocol\\\":\\\"http/2+quic/43\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":140,\\\"transferSize\\\":87}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.googleadservices.com/pagead/conversion/826584552/?label=96d-CKTQ8X4Q6NuSigM&guid=ON&script=0\\\",\\\"nextHopProtocol\\\":\\\"http/2+quic/43\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":205,\\\"transferSize\\\":87}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://bat.bing.com/action/0?ti=53000035&Ver=2\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":28,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://pt.ispot.tv/v2/TC-2208-1.gif?type=visit\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":33,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:226\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://id.rlcdn.com/480409.gif\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":308,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.facebook.com/tr?id=210478579309263&ev=PageView&cd[page_description]=AMEXHP&noscript=1\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":23,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:267\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/oo_tab_rwd.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":245,\\\"transferSize\\\":13176}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:264\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/gatekeeper/gtkp_aa.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":171,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:267\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/pzn/js/cs/v1.0.6/pzncs.min.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":292,\\\"transferSize\\\":3214}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:258\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/GCT/gct_us.js?gct=us\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":315,\\\"transferSize\\\":5287}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:274\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_style_rwd.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":95,\\\"transferSize\\\":3159}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:268\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_tab.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":457,\\\"transferSize\\\":2390}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:273\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_tab_icon.gif\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":478,\\\"transferSize\\\":2929}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:260\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/Internet/US/DARE/ClickStreamVars.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":70,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:978\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aeopprodvip.acxiom.com/services/clickStream?d_gctId=2019-03-18%2F19%3A48%3A24-cc63a2d0-4c1d-5cd2-94f0-49b1682e8409&d_pageName=US%7CAMEX%7C%7CHome%7C%7C%7CHomepage&d_products=null&d_pageId=US%7CAMEX%7CHome%7CHomepage&d_language=&d_abTest=null&d_events=null&d_intLinkImp=null&d_linkNav=null&d_pcnNumber=undefined&d_market=US&d_ppvPage=US%7CAMEX%7CHome%7CHomepage&d_ppvTotal=54&d_ppvInitial=54&d_iNav=null&d_intLink=undefined&d_referrer=&d_url=https%3A%2F%2Fwww.americanexpress.com%2F&d_ts=1552938507&d_tzo=0&d_plugins=Chromium%20PDF%20Plugin%3BChromium%20PDF%20Viewer%3BNative%20Client%3B&d_publicGuId=null&d_mid=43596521261032419112602222565692587098&d_prMdAvl=false&d_uuid=null&d_prMdInd=undefined&d_reqId=undefined&d_bw=1920&d_bh=1080&d_sr=1536x864&d_pznid=\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":971,\\\"transferSize\\\":0}}\\u0000\"]"},{"payload":"[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:277\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/ensighten/liveengage-lp/le-mtagconfig.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":18,\\\"transferSize\\\":1053}}\\u0000\"]"}],"framesReceived":[{"payload":"o","origin":"wss://iwmap.americanexpress.com"},{"payload":"a[\"CONNECTED\\nversion:1.2\\nheart-beat:0,0\\n\\n\\u0000\"]","origin":"wss://iwmap.americanexpress.com"}]}}},"https://medium.com/":{"title":"https://medium.com","numberWS":0,"WSConnections":{}},"https://gfycat.com/":{"title":"https://gfycat.com","numberWS":0,"WSConnections":{}},"https://www.buzzfeed.com/":{"title":"https://www.buzzfeed.com","numberWS":0,"WSConnections":{}}}}
+{
+  "country": "USA",
+  "totalNumSitesVisited": 104,
+  "totalWSConnections": 8,
+  "totalFramesSent": 110,
+  "totalFramesReceieved": 22,
+  "details": {
+    "https://www.google.com/?gws_rd=ssl": {
+      "title": "https://www.google.com/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/": {
+      "title": "https://www.facebook.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_85d88a57-4820-4f89-b171-e1359148f8c4&lang=en-IE&inline=false": {
+      "title": "https://guce.oath.com/collectConsent?sessionId=3_cc-session_85d88a57-4820-4f89-b171-e1359148f8c4&lang=en-IE&inline=false",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "https://www.ebay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 4,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.instructure.com/": {
+      "title": "https://www.instructure.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://dublin.craigslist.org/": {
+      "title": "https://dublin.craigslist.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "https://imgur.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.chase.com/": {
+      "title": "https://www.chase.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://edition.cnn.com/": {
+      "title": "https://edition.cnn.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bing.com/?toHttps=1&redig=F6FF66EDD24F406B8D20DEE1FC33A64D": {
+      "title": "https://www.bing.com/?toHttps=1&redig=F6FF66EDD24F406B8D20DEE1FC33A64D",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.espn.com/": {
+      "title": "www.espn.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.imdb.com/": {
+      "title": "https://www.imdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "https://www.pinterest.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "https://www.livejasmin.com/en/girls/",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket": {
+          "numFramesSent": 17,
+          "numFramesReceived": 7,
+          "framesSent": [
+            {
+              "payload": "40/notifications"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.performer.message.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.messenger.message-updated.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.message.sent.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level_points.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.legacy.performer.status.change.raw\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.started.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":10,\"runtime\":531}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":10,\"runtime\":531}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":20,\"runtime\":259}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1552937884549-gab9e2a2be71d7066dcb5b54259c6978e\",\"serverRelay\":\"109.71.162.27:443\",\"serverStream\":\"109.71.162.27:443\",\"type\":30,\"runtime\":47}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"Dtw8BPw7OLs-S5XwYrmO\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40/notifications",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"24091510\":3,\"24415310\":3,\"24415390\":3,\"25784380\":0,\"25854080\":1,\"25915260\":1,\"26166650\":0,\"26246770\":3,\"26272050\":3}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"24091510\":2,\"24415310\":2,\"24415390\":2,\"25784380\":0,\"25854080\":1,\"25915260\":1,\"26166650\":0,\"26246770\":2,\"26272050\":2}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"8096340\":3,\"21897550\":1,\"23913860\":0,\"23913870\":0,\"24183940\":3,\"24188420\":3,\"25189460\":3,\"25204470\":1,\"25566550\":3,\"25789340\":1,\"25941150\":1,\"25946290\":1,\"26091440\":2,\"26256050\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"8096340\":2,\"21897550\":1,\"23913860\":0,\"23913870\":0,\"24183940\":2,\"24188420\":2,\"25189460\":2,\"25204470\":1,\"25566550\":2,\"25789340\":1,\"25941150\":1,\"25946290\":1,\"26091440\":2,\"26256050\":1}]",
+              "origin": "wss://jaws.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-27.dditscdn.com/?random=82777896309483072891997114715372": {
+          "numFramesSent": 6,
+          "numFramesReceived": 12,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminElizaPearl58ae4937979e10a4b57daf5622ef13d4\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"8265ec7ea434a00f27645acf9164d73a\",\"jsm2SessionId\":\"gab9e2a2be71d7066dcb5b54259c6978e\",\"userType\":\"user\",\"performerId\":\"ElizaPearl\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"90214813588800726633527919084969\",\"armaVersion\":\"34.14.0-AR5998-1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[{\"streamwidth\":852,\"streamheight\":480}]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[\"guest17\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[\"$2.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"HAZE9000\",\"spending\":1}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":636114},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":808,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":852}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":104},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"852x480\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":480,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":781,\"type\":\"nano\",\"width\":852}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"b56xdmnvfr8z5ibyuyclkalmfnerhe2y0xbqum35m22lz04u9qs2bruasqts7duu\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-27.dditscdn.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.nytimes.com/": {
+      "title": "https://www.nytimes.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI": {
+      "title": "https://weather.com/en-IE/weather/today/l/EIXX0014:1:EI",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.intuit.com/": {
+      "title": "https://www.intuit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zillow.com/": {
+      "title": "https://www.zillow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true": {
+      "title": "https://www.salesforce.com/products/platform/products/force/?d=70130000000f27V&internal=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.salesforce.com/eu/?ir=1": {
+      "title": "https://www.salesforce.com/eu/?ir=1",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hulu.com/welcome": {
+      "title": "https://www.hulu.com/welcome",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yelp.ie/dublin": {
+      "title": "https://www.yelp.ie/dublin",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://quizlet.com/": {
+      "title": "https://quizlet.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "https://www.apple.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bankofamerica.com/": {
+      "title": "https://www.bankofamerica.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.walmart.com/": {
+      "title": "https://www.walmart.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tumblr.com/": {
+      "title": "https://www.tumblr.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "https://www.quora.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://aws.amazon.com/": {
+      "title": "https://aws.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wellsfargo.com/": {
+      "title": "https://www.wellsfargo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.googleusercontent.com/": {
+      "title": "www.googleusercontent.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.indeed.com/?r=us": {
+      "title": "https://ie.indeed.com/?r=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.foxnews.com/": {
+      "title": "https://www.foxnews.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.etsy.com/": {
+      "title": "https://www.etsy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.spotify.com/ie/": {
+      "title": "https://www.spotify.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "https://www.msn.com/en-ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.breitbart.com/": {
+      "title": "https://www.breitbart.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xfinity.com/": {
+      "title": "https://www.xfinity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://discordapp.com/": {
+      "title": "https://discordapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackexchange.com/": {
+      "title": "https://stackexchange.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nih.gov/": {
+      "title": "https://www.nih.gov",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://soundcloud.com/": {
+      "title": "https://soundcloud.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.usps.com/": {
+      "title": "https://www.usps.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "https://xhamster.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/#back_url": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.capitalone.com/": {
+      "title": "https://www.capitalone.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.okta.com/": {
+      "title": "https://www.okta.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.homedepot.com/": {
+      "title": "https://www.homedepot.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bestbuy.com/": {
+      "title": "https://www.bestbuy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.vice.com/en_uk": {
+      "title": "https://www.vice.com/en_uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f": {
+      "title": "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.washingtonpost.com/gdpr-consent/?destination=%2f%3f&utm_term=.6e8e9002d1c9": {
+      "title": "- The Washington Post",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://patch.com/": {
+      "title": "https://patch.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.airbnb.ie/": {
+      "title": "https://www.airbnb.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.zoom.us/": {
+      "title": "https://www.zoom.us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "https://www.bbc.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blackboard.com/index.html": {
+      "title": "https://www.blackboard.com/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://slickdeals.net/": {
+      "title": "https://slickdeals.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://chaturbate.com/": {
+      "title": "https://chaturbate.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.godaddy.com/": {
+      "title": "https://ie.godaddy.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tripadvisor.ie/": {
+      "title": "https://www.tripadvisor.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.redd.it/": {
+      "title": "www.redd.it",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.glassdoor.ie/index.htm?countryRedirect=true": {
+      "title": "https://www.glassdoor.ie/index.htm?countryRedirect=true",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://slack.com/": {
+      "title": "https://slack.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irs.gov/": {
+      "title": "https://www.irs.gov",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aol.com/": {
+      "title": "https://www.aol.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://guce.oath.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_e4a6d325-dc2f-4c23-8a53-cc959dad34d0&lang=en-US&inline=false": {
+      "title": "https://guce.oath.com/collectConsent?brandType=nonEu&.done=https%3A%2F%2Fwww.aol.com%2F%3Fguccounter%3D1&sessionId=3_cc-session_e4a6d325-dc2f-4c23-8a53-cc959dad34d0&lang=en-US&inline=false",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "https://steamcommunity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/#scrollTop=0": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://online.citi.com/US/login.do": {
+      "title": "https://online.citi.com/US/login.do",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://intl.target.com/": {
+      "title": "https://intl.target.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vimeo.com/": {
+      "title": "https://vimeo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.myshopify.com/": {
+      "title": "www.myshopify.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.forbes.com/": {
+      "title": "https://www.forbes.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.roblox.com/": {
+      "title": "https://www.roblox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.chegg.com/": {
+      "title": "https://www.chegg.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.americanexpress.com/": {
+      "title": "https://www.americanexpress.com",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://iwmap.americanexpress.com/monitoring/958/iknsujzm/websocket": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://iwmap.americanexpress.com/monitoring/078/oqhegz53/websocket": {
+          "numFramesSent": 86,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "[\"CONNECT\\naccept-version:1.2,1.1,1.0\\nheart-beat:10000,10000\\n\\n\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:120\\n\\n{\\\"type\\\":\\\"performance-navigation\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:20.700Z\\\",\\\"navigation\\\":{\\\"type\\\":0,\\\"redirectCount\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:554\\n\\n{\\\"type\\\":\\\"performance-timing\\\",\\\"timings\\\":{\\\"navigationStart\\\":0,\\\"unloadEventStart\\\":null,\\\"unloadEventEnd\\\":null,\\\"redirectStart\\\":null,\\\"redirectEnd\\\":null,\\\"fetchStart\\\":50,\\\"domainLookupStart\\\":53,\\\"domainLookupEnd\\\":53,\\\"connectStart\\\":53,\\\"connectEnd\\\":93,\\\"secureConnectionStart\\\":64,\\\"requestStart\\\":93,\\\"responseStart\\\":138,\\\"responseEnd\\\":258,\\\"domLoading\\\":243,\\\"domInteractive\\\":609,\\\"domContentLoadedEventStart\\\":976,\\\"domContentLoadedEventEnd\\\":986,\\\"domComplete\\\":2542,\\\"loadEventStart\\\":2542,\\\"loadEventEnd\\\":2563},\\\"start\\\":1552938499967,\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:22.531Z\\\"}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:271\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/dls/dls.min.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":184,\\\"transferSize\\\":49569}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:303\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/homepage/clientlibs.min.6268c4423a1fcb00fa46f32497b7ab90.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":152,\\\"transferSize\\\":2292}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/homepage/ie-fix/US_homepage_fixes.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":190,\\\"transferSize\\\":864}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-bluebox-solid.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":131,\\\"transferSize\\\":1585}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-stack.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":142,\\\"transferSize\\\":1418}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:310\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-stack-white.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":153,\\\"transferSize\\\":1416}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:300\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.5.2/package/dist/img/dls_flags/dls-flag-us.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":150,\\\"transferSize\\\":1962}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:313\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/gem/gem-onestream-analytics.min.21db3b9897354127b77da9dfb1cba9d1.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":246,\\\"transferSize\\\":34944}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/img/dls_logos/dls-logo-line.svg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":98,\\\"transferSize\\\":1410}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:272\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/dls/dls.min.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":316,\\\"transferSize\\\":60890}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/enterprise/clientlibs.min.830d2e7ec9f8ac239832d4bbd4555ada.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":352,\\\"transferSize\\\":91748}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:305\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/homepage/clientlibs.min.044eac588bd56a1906d27132cbe3c5d8.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":324,\\\"transferSize\\\":35178}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:301\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/etc/designs/login/clientlibs.min.1e79a666bb1c3f7d14926b36a1d59aea.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":314,\\\"transferSize\\\":5646}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:289\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/common/homepage/ie-fix/homepage_fixes.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":333,\\\"transferSize\\\":561}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:250\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/adobedtm-global/\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":462,\\\"transferSize\\\":54639}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:264\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/akamai/ali/lib/ali-metrics.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":101,\\\"transferSize\\\":3219}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/iconfont/dls-icons.woff?v=5.10.0\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":75,\\\"transferSize\\\":35250}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:298\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/fonts/Roboto-Regular.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":121,\\\"transferSize\\\":77377}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/statics/axp-dls/5.10.0/package/dist/fonts/Roboto-Medium.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":115,\\\"transferSize\\\":73532}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:155\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"paint\\\",\\\"name\\\":\\\"first-paint\\\",\\\"startTime\\\":558,\\\"duration\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:166\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"paint\\\",\\\"name\\\":\\\"first-contentful-paint\\\",\\\"startTime\\\":558,\\\"duration\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:261\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/one/rum-telemetry/0.2.1.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":42,\\\"transferSize\\\":26947}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/cdaas/akamai/one/statics/@americanexpress/trackit/0.1.4/package/dist/trackit.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":41,\\\"transferSize\\\":6837}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":631,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:253\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":1011,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:350\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11188/AMEX_Banner_125SmallBiz_HPHeroAcquisition_XL-Desktop_1440x500_LH_012519.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":234,\\\"transferSize\\\":145239}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:305\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11328/1500x350_Background_021619v2.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":28,\\\"transferSize\\\":19656}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:277\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/tagline.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":42,\\\"transferSize\\\":2189}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11349/AmexHP_Banner_Amazon_1500350_BG.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":455,\\\"transferSize\\\":5229}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:289\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11349/Other_tagline.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":58,\\\"transferSize\\\":2065}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11442/hro-dell-1500.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":468,\\\"transferSize\\\":19307}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/11305/Delta-Initial-Banner_Desktop_2.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":100,\\\"transferSize\\\":24845}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/heroes/img-tagline1.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":109,\\\"transferSize\\\":2292}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:296\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/chg_gold_metal_di_315x200.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":109,\\\"transferSize\\\":19854}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:308\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/en-us-hp-ca-cards-small-business-plum.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":135,\\\"transferSize\\\":29166}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:304\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/en-us-hp-ca-cards-corporate-green.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":139,\\\"transferSize\\\":42454}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/cards/serve-sku1-amex-com-315x200.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":134,\\\"transferSize\\\":6820}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:307\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-Surfer-760x430-01-v3.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":418,\\\"transferSize\\\":96965}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:297\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-GBS_1029-b.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":804,\\\"transferSize\\\":25688}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/content/dam/amex/us/home-page/offers/en-us-hp-offer-iStock-843764706_resize-a.jpg\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":418,\\\"transferSize\\\":67814}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/nav/ngn/fonts/325e6ad0-38fb-4bad-861c-d965eab101d5-3.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":41,\\\"transferSize\\\":70153}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:283\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/nav/ngn/fonts/3be50273-0b2e-4aef-ae68-882eacd611f9-3.woff\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":30,\\\"transferSize\\\":37450}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:335\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/dfp/v2/dfpASync.js?dfpArguments=tid:HPUSLOGON-a54f3e8a-7004-42c9-ba6f-dc6a42c7f8d6&ts=1552938500811\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":762,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:372\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://dpm.demdex.net/id?d_visid_ver=3.0.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=5C36123F5245AF470A490D45%40AdobeOrg&d_nsid=17&ts=1552938500938\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":64,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:330\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://assets.adobedtm.com/98caf8fccc463fd7e47088b35e73b27720bb5cc1/s-code-contents-5170e83f55dbf9e73b77518dae1761a1e83d2cf3.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":231,\\\"transferSize\\\":36296}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:384\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://omns.americanexpress.com/id?d_visid_ver=3.0.0&d_fieldgroup=A&mcorgid=5C36123F5245AF470A490D45%40AdobeOrg&mid=43596521261032419112602222565692587098&ts=1552938501009\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":341,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":111,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:517\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://dpm.demdex.net/id?d_visid_ver=3.0.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5C36123F5245AF470A490D45%40AdobeOrg&d_nsid=17&d_mid=43596521261032419112602222565692587098&d_blob=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&d_cid_ic=AVID%012E47FB028531133C-60000128A0002C3A&ts=1552938501353\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":62,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:1287\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://omns.americanexpress.com/b/ss/amexpressprod,amexpressenterpriseprod/10/JS-2.8.2-D7QN/s053369689630?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F2%2F2019%2019%3A48%3A21%201%200&d.&nsid=17&jsonv=1&.d&D=D%3D&mid=43596521261032419112602222565692587098&aid=2E47FB028531133C-60000128A0002C3A&aamlh=6&ce=UTF-8&ns=1americanexpress&pageName=US%7CAMEX%7CHome%7CHomepage&g=https%3A%2F%2Fwww.americanexpress.com%2F&c.&omn.&lob=acquisition&.omn&visitorCheck=VisitorAPI%20Present&gvs=1&.c&server=www.americanexpress.com&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&h1=US%7CAMEX%7CHome&c4=US&c10=prospect&c19=US%7CAMEX&v22=D%3Dgctrac&c24=US%7CAMEX%7CHome&v27=US&c30=US%7CAMEX%7CHome&c31=US%7CAMEX&c38=US%7CAMEX%7CHome&v45=prospect&c48=D%3Dgctrac&c49=DTM-OneCMS%3Av2.0-AM%3A2.8.2-VISID%3A3.0.0-DIL%3A7.0-Mbox%3ANA-CSVisID%3Afalse-msuite%3Atrue-PD%3A2%2F28%2F2019&v60=1903&v61=landscape&v74=US%7CAMEX%7CHome%7CHomepage&c75=DTM&v75=43596521261032419112602222565692587098&s=1536x864&c=24&j=1.6&v=N&k=Y&bw=1920&bh=1080&mcorgid=5C36123F5245AF470A490D45%40AdobeOrg&AQE=1\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":53,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:258\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aexp.demdex.net/event?_ts=1552938501495\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":99,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:251\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/collector/cc.js\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":246,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:252\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://iwmap.americanexpress.com/beacon\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":117,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:243\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://laas.americanexpress.com/v1/log\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"beacon\\\",\\\"duration\\\":781,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:288\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aexp.demdex.net/dest5.html?d_nsid=17#https%3A%2F%2Fwww.americanexpress.com%2F\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":17,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:355\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aug.americanexpress.com/collector/s2?t=AalXOZmBpdRT1psqA8U4XW%2B%2B&x=1&sid=ee490b8fb9a4d570&tid=HPUSLOGON-a54f3e8a-7004-42c9-ba6f-dc6a42c7f8d6\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":337,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:281\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://cdaas.americanexpress.com/cdaas/myca/flash-flood/lib/flash-flood.html\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"iframe\\\",\\\"duration\\\":713,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:259\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/Bootstrap.js?ens_mk=us\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":252,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.americanexpress.com/favicon.ico\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"other\\\",\\\"duration\\\":62,\\\"transferSize\\\":899}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:368\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/serverComponent.php?clientID=218&PageID=https%3A%2F%2Fwww.americanexpress.com%2F%3FensMarket%3DUS%26ens_env%3D3%26deviceType%3DNONE\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":291,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:301\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/809e5ca566f08aae5011fced84536e68.js?conditionId0=181208\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":14,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/0914e6b862ce975603357570ebccff63.js?conditionId0=209422\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":108,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/a2fc3cc6e6702146822b54c474c22cce.js?conditionId0=181097\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":366,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:302\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://nexus.ensighten.com/amex/prod/code/fa9c97346dd014a2c3a20e334d5bcf3b.js?conditionId0=218963\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":123,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:272\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/content/dam/search/ioa/launcher/aaLauncher.css?43\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":86,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:274\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/content/dam/search/ioa/launcher/aaLauncher.js?43\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":101,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:263\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.facebook.com/tr?id=333619020577900&ev=PageView&noscript=1\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":66,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:259\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/gatekeeper/gtkp_aa.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":189,\\\"transferSize\\\":3801}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:296\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://ad.doubleclick.net/ddm/activity/src=189445;type=2015b0;cat=amexland;ord=1;num=1?\\\",\\\"nextHopProtocol\\\":\\\"http/2+quic/43\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":140,\\\"transferSize\\\":87}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:312\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.googleadservices.com/pagead/conversion/826584552/?label=96d-CKTQ8X4Q6NuSigM&guid=ON&script=0\\\",\\\"nextHopProtocol\\\":\\\"http/2+quic/43\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":205,\\\"transferSize\\\":87}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://bat.bing.com/action/0?ti=53000035&Ver=2\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":28,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:241\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://pt.ispot.tv/v2/TC-2208-1.gif?type=visit\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":33,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:226\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://id.rlcdn.com/480409.gif\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":308,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:291\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.facebook.com/tr?id=210478579309263&ev=PageView&cd[page_description]=AMEXHP&noscript=1\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"img\\\",\\\"duration\\\":23,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:267\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/oo_tab_rwd.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":245,\\\"transferSize\\\":13176}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:264\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/gatekeeper/gtkp_aa.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":171,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:267\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/pzn/js/cs/v1.0.6/pzncs.min.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":292,\\\"transferSize\\\":3214}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:258\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/GCT/gct_us.js?gct=us\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":315,\\\"transferSize\\\":5287}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:274\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_style_rwd.css\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"link\\\",\\\"duration\\\":95,\\\"transferSize\\\":3159}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:268\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_tab.png\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":457,\\\"transferSize\\\":2390}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:273\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:25.702Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/online-opinion/5.8/tab/oo_tab_icon.gif\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"css\\\",\\\"duration\\\":478,\\\"transferSize\\\":2929}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:260\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://icm.aexp-static.com/Internet/US/DARE/ClickStreamVars.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":70,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:978\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://aeopprodvip.acxiom.com/services/clickStream?d_gctId=2019-03-18%2F19%3A48%3A24-cc63a2d0-4c1d-5cd2-94f0-49b1682e8409&d_pageName=US%7CAMEX%7C%7CHome%7C%7C%7CHomepage&d_products=null&d_pageId=US%7CAMEX%7CHome%7CHomepage&d_language=&d_abTest=null&d_events=null&d_intLinkImp=null&d_linkNav=null&d_pcnNumber=undefined&d_market=US&d_ppvPage=US%7CAMEX%7CHome%7CHomepage&d_ppvTotal=54&d_ppvInitial=54&d_iNav=null&d_intLink=undefined&d_referrer=&d_url=https%3A%2F%2Fwww.americanexpress.com%2F&d_ts=1552938507&d_tzo=0&d_plugins=Chromium%20PDF%20Plugin%3BChromium%20PDF%20Viewer%3BNative%20Client%3B&d_publicGuId=null&d_mid=43596521261032419112602222565692587098&d_prMdAvl=false&d_uuid=null&d_prMdInd=undefined&d_reqId=undefined&d_bw=1920&d_bh=1080&d_sr=1536x864&d_pznid=\\\",\\\"nextHopProtocol\\\":\\\"http/1.1\\\",\\\"initiatorType\\\":\\\"xmlhttprequest\\\",\\\"duration\\\":971,\\\"transferSize\\\":0}}\\u0000\"]"
+            },
+            {
+              "payload": "[\"SEND\\nreferrer:https://www.americanexpress.com/\\npublicGuid:undefined\\nvisitorId:43596521261032419112602222565692587098\\ndestination:/app/monitoring\\ncontent-length:277\\n\\n{\\\"type\\\":\\\"performance-entries\\\",\\\"clientTimestamp\\\":\\\"2019-03-18T19:48:30.700Z\\\",\\\"entry\\\":{\\\"entryType\\\":\\\"resource\\\",\\\"name\\\":\\\"https://www.aexp-static.com/api/axpi/ensighten/liveengage-lp/le-mtagconfig.js\\\",\\\"nextHopProtocol\\\":\\\"h2\\\",\\\"initiatorType\\\":\\\"script\\\",\\\"duration\\\":18,\\\"transferSize\\\":1053}}\\u0000\"]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "o",
+              "origin": "wss://iwmap.americanexpress.com"
+            },
+            {
+              "payload": "a[\"CONNECTED\\nversion:1.2\\nheart-beat:0,0\\n\\n\\u0000\"]",
+              "origin": "wss://iwmap.americanexpress.com"
+            }
+          ]
+        }
+      }
+    },
+    "https://medium.com/": {
+      "title": "https://medium.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://gfycat.com/": {
+      "title": "https://gfycat.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.buzzfeed.com/": {
+      "title": "https://www.buzzfeed.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

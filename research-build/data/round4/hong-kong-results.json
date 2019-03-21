@@ -1,12 +1,12 @@
 {
   "country": "Hong-Kong",
-  "totalNumSitesVisited": 104,
-  "totalWSConnections": 5,
-  "totalFramesSent": 8,
-  "totalFramesReceieved": 10,
+  "totalNumSitesVisited": 108,
+  "totalWSConnections": 10,
+  "totalFramesSent": 10,
+  "totalFramesReceieved": 14,
   "details": {
-    "https://www.google.com/?gws_rd=ssl": {
-      "title": "https://www.google.com/?gws_rd=ssl",
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -15,13 +15,13 @@
       "numberWS": 0,
       "WSConnections": {}
     },
-    "https://www.facebook.com/": {
-      "title": "https://www.facebook.com",
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
       "numberWS": 0,
       "WSConnections": {}
     },
-    "https://www.google.com.hk/?gws_rd=ssl": {
-      "title": "https://www.google.com.hk/?gws_rd=ssl",
+    "https://www.google.com.hk/": {
+      "title": "https://www.google.com.hk",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -30,8 +30,8 @@
       "numberWS": 0,
       "WSConnections": {}
     },
-    "https://guce.oath.com/collectConsent?sessionId=3_cc-session_5533e3bd-d546-4050-afad-689a8d39a83d&lang=en-IE&inline=false": {
-      "title": "https://guce.oath.com/collectConsent?sessionId=3_cc-session_5533e3bd-d546-4050-afad-689a8d39a83d&lang=en-IE&inline=false",
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -175,13 +175,18 @@
       "numberWS": 0,
       "WSConnections": {}
     },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
     "https://www.bilibili.com/": {
       "title": "https://www.bilibili.com",
       "numberWS": 1,
       "WSConnections": {
         "wss://broadcast.chat.bilibili.com:7823/sub": {
           "numFramesSent": 4,
-          "numFramesReceived": 6,
+          "numFramesReceived": 5,
           "framesSent": [
             {
               "payload": {}
@@ -197,10 +202,6 @@
             }
           ],
           "framesReceived": [
-            {
-              "payload": {},
-              "origin": "wss://broadcast.chat.bilibili.com:7823"
-            },
             {
               "payload": {},
               "origin": "wss://broadcast.chat.bilibili.com:7823"
@@ -234,31 +235,31 @@
       "title": "https://unwire.hk",
       "numberWS": 1,
       "WSConnections": {
-        "wss://artisan.wishpond.com/socket/websocket?mid=1118072&write_key=98f9fa26083f&cid=t7hntq4ky7uhn8tb&vsn=2.0.0": {
+        "wss://artisan.wishpond.com/socket/websocket?mid=1118072&write_key=98f9fa26083f&cid=zm4qjd0z4dvf7x0y&vsn=2.0.0": {
           "numFramesSent": 3,
           "numFramesReceived": 3,
           "framesSent": [
             {
-              "payload": "[\"1\",\"1\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"phx_join\",{}]"
+              "payload": "[\"1\",\"1\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_join\",{}]"
             },
             {
-              "payload": "[\"1\",\"4\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"get:js\",{}]"
+              "payload": "[\"1\",\"4\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"get:js\",{}]"
             },
             {
-              "payload": "[\"1\",\"5\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"get:trackable\",{}]"
+              "payload": "[\"1\",\"5\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"get:trackable\",{}]"
             }
           ],
           "framesReceived": [
             {
-              "payload": "[\"1\",\"1\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"phx_reply\",{\"response\":{},\"status\":\"ok\"}]",
+              "payload": "[\"1\",\"1\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{},\"status\":\"ok\"}]",
               "origin": "wss://artisan.wishpond.com"
             },
             {
-              "payload": "[\"1\",\"4\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"t7hntq4ky7uhn8tb\",\"merchant_id\":1118072},\"payload\":{\"lead\":[],\"scripts\":{}},\"type\":\"lead:js\"}]},\"status\":\"ok\"}]",
+              "payload": "[\"1\",\"4\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"zm4qjd0z4dvf7x0y\",\"merchant_id\":1118072},\"payload\":{\"lead\":[],\"scripts\":{}},\"type\":\"lead:js\"}]},\"status\":\"ok\"}]",
               "origin": "wss://artisan.wishpond.com"
             },
             {
-              "payload": "[\"1\",\"5\",\"lead:1118072:t7hntq4ky7uhn8tb\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"t7hntq4ky7uhn8tb\",\"merchant_id\":1118072},\"payload\":{\"trackable\":false,\"wp_trackable\":false},\"type\":\"lead:trackable\"}]},\"status\":\"ok\"}]",
+              "payload": "[\"1\",\"5\",\"lead:1118072:zm4qjd0z4dvf7x0y\",\"phx_reply\",{\"response\":{\"actions\":[{\"params\":{\"cid\":\"zm4qjd0z4dvf7x0y\",\"merchant_id\":1118072},\"payload\":{\"trackable\":false,\"wp_trackable\":false},\"type\":\"lead:trackable\"}]},\"status\":\"ok\"}]",
               "origin": "wss://artisan.wishpond.com"
             }
           ]
@@ -276,9 +277,14 @@
       "WSConnections": {
         "wss://newspush.sinajs.cn/wskt?list=live_NEWSPUSH": {
           "numFramesSent": 0,
-          "numFramesReceived": 0,
+          "numFramesReceived": 1,
           "framesSent": [],
-          "framesReceived": []
+          "framesReceived": [
+            {
+              "payload": "live_NEWSPUSH=[{\"i\":\"1551747590\",\"m\":\"\",\"u\":\"\",\"l\":\"\",\"c\":\"\",\"t\":-1}]\n",
+              "origin": "wss://newspush.sinajs.cn"
+            }
+          ]
         }
       }
     },
@@ -324,8 +330,8 @@
       "numberWS": 0,
       "WSConnections": {}
     },
-    "http://www.detail.tmall.com/": {
-      "title": "www.detail.tmall.com",
+    "http://err.tmall.com/error1.html": {
+      "title": "err.tmall.com/error1.html",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -409,6 +415,11 @@
       "numberWS": 0,
       "WSConnections": {}
     },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
     "https://kknews.cc/": {
       "title": "https://kknews.cc",
       "numberWS": 0,
@@ -431,8 +442,19 @@
     },
     "https://github.com/": {
       "title": "https://github.com",
-      "numberWS": 0,
-      "WSConnections": {}
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OjAzMmVmMDhjNDU0N2U0YTRhNWI3NGI3NzhkYWNhZDc3Njk1NWZlNjg2ZGVhODBmNTI4YWQyNTg3YmJhY2YzOWU=--6e2a16c8a14132e5cdbd5debf2237c907665160d": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": []
+        }
+      }
     },
     "http://www.google.cn/": {
       "title": "www.google.cn",
@@ -506,6 +528,11 @@
     },
     "https://www.hko.gov.hk/": {
       "title": "https://www.hko.gov.hk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hko.gov.hk/contente.htm": {
+      "title": "https://www.hko.gov.hk/contente.htm",
       "numberWS": 0,
       "WSConnections": {}
     },
@@ -584,6 +611,43 @@
       "numberWS": 0,
       "WSConnections": {}
     },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"dc1bc3978d182e2607f645e041246df6c4907778bc530d7046ac70be327879f5\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"f494aa9b04a75293195183851e16effd11c6cdc5d4e2a5337f2a616414be9d40\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"dc1bc3978d182e2607f645e041246df6c4907778bc530d7046ac70be327879f5\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ]
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
     "https://www.koreastardaily.com/": {
       "title": "https://www.koreastardaily.com",
       "numberWS": 0,
@@ -611,8 +675,24 @@
     },
     "https://www.quora.com/": {
       "title": "https://www.quora.com",
-      "numberWS": 0,
-      "WSConnections": {}
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://tch36869.tch.quora.com/up/chan43-8888/updates?min_seq=0&channel=main-w-chan43-8888-i8FsUHx&hash=6036277125411958280": {
+          "numFramesSent": 0,
+          "numFramesReceived": 2,
+          "framesSent": [],
+          "framesReceived": [
+            {
+              "payload": "{\"messages\":[\"{\\\"message_type\\\": \\\"broadcastReloadDirtiedDepkeys\\\", \\\"payload\\\": {\\\"dirtied_depkeys\\\": [[\\\"M.user.setup_.UserStepStateChanged:b454d511a3c4f371fecf23a75e3912ab\\\", 7]]}}\"],\"min_seq\":2896166710}\n",
+              "origin": "wss://tch36869.tch.quora.com"
+            },
+            {
+              "payload": "{\"messages\":[\"{\\\"message_type\\\": \\\"broadcastReloadDirtiedDepkeys\\\", \\\"payload\\\": {\\\"dirtied_depkeys\\\": [[\\\"M.user.setup_.UserStepStateChanged:b454d511a3c4f371fecf23a75e3912ab\\\", 7]]}}\"],\"min_seq\":2896176388}\n",
+              "origin": "wss://tch36869.tch.quora.com"
+            }
+          ]
+        }
+      }
     },
     "https://www.adobe.com/": {
       "title": "https://www.adobe.com",

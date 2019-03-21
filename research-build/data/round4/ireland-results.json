@@ -1,0 +1,1012 @@
+{
+  "country": "Ireland",
+  "totalNumSitesVisited": 108,
+  "totalWSConnections": 21,
+  "totalFramesSent": 44,
+  "totalFramesReceieved": 46,
+  "details": {
+    "https://www.google.com/": {
+      "title": "https://www.google.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.youtube.com/": {
+      "title": "https://www.youtube.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.facebook.com/checkpoint/block/": {
+      "title": "https://www.facebook.com/checkpoint/block/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ie/": {
+      "title": "https://www.google.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.wikipedia.org/": {
+      "title": "https://www.wikipedia.org",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.reddit.com/": {
+      "title": "https://www.reddit.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://twitter.com/": {
+      "title": "https://twitter.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.co.uk/": {
+      "title": "https://www.amazon.co.uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.netflix.com/ie/": {
+      "title": "https://www.netflix.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://outlook.live.com/owa/": {
+      "title": "https://outlook.live.com/owa/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.instagram.com/": {
+      "title": "https://www.instagram.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/": {
+      "title": "https://www.linkedin.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.linkedin.com/feed/": {
+      "title": "LinkedIn",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://ie.yahoo.com/?p=us": {
+      "title": "https://ie.yahoo.com/?p=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.com/": {
+      "title": "https://www.bbc.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.rte.ie/": {
+      "title": "https://www.rte.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/": {
+      "title": "https://www.pornhub.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pornhub.com/#!": {
+      "title": "Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.independent.ie/": {
+      "title": "https://www.independent.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.twitch.tv/": {
+      "title": "https://www.twitch.tv",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://pubsub-edge.twitch.tv/v1": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"type\":\"PING\"}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{ \"type\": \"PONG\" }\r\n\r\n",
+              "origin": "wss://pubsub-edge.twitch.tv"
+            }
+          ]
+        },
+        "wss://irc-ws.chat.twitch.tv/": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://aib.ie/": {
+      "title": "https://aib.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.irishtimes.com/": {
+      "title": "https://www.irishtimes.com",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://sub.viafoura.co/?site_uuid=00000000-0000-4000-8000-077217628b05": {
+          "numFramesSent": 13,
+          "numFramesReceived": 13,
+          "framesSent": [
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":null}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"6b95b73c-4208-2c41-8712-23205fcf8863\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"unsubscribe\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":null}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"be2c25a9-8b5f-568e-410c-7cf0ac05f4bc\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":{\"user_uuid\":[\"00000000-0000-4000-8000-000000000000\"],\"event_type\":[\"tray.notification.user\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"7651100018694:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-06f569194806\"],\"event_type\":[\"comment.enable\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"1542700018568:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-016730162b88\"],\"event_type\":[\"comment.enable\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"2430700018711:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-0235f102dc17\"],\"event_type\":[\"comment.enable\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"7863600018716:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-0726e315f51c\"],\"event_type\":[\"comment.enable\"]}}}"
+            },
+            {
+              "payload": "{\"action\":\"subscribe\",\"filters\":{\"2372700018546:comment.enable\":{\"page_uuid\":[\"00000000-0000-4000-8000-02286ff11772\"],\"event_type\":[\"comment.enable\"]}}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"6b95b73c-4208-2c41-8712-23205fcf8863\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"a4004f77-2c2d-7b10-8c10-e390f8d2608b\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":{\"status\":\"OK\",\"message\":\"Removed\",\"code\":\"0\",\"action\":\"unsubscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"be2c25a9-8b5f-568e-410c-7cf0ac05f4bc\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"8725c511-4d32-c963-7a25-53de14e96fa6\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"7651100018694:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"1542700018568:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"2430700018711:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"7863600018716:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            },
+            {
+              "payload": "{\"sub_msgtype\":\"filters\",\"filters\":{\"2372700018546:comment.enable\":{\"status\":\"OK\",\"message\":\"\",\"code\":\"0\",\"action\":\"subscribe\"}}}",
+              "origin": "wss://sub.viafoura.co"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.imdb.com/": {
+      "title": "https://www.imdb.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.donedeal.ie/": {
+      "title": "https://www.donedeal.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.ladbible.com/": {
+      "title": "www.ladbible.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://api.native.ai/socket.io/?installationId=d4ed4ee8-56e1-4987-823d-fbae7ceb5997&appKey=6423c747-769b-4ea3-9215-643ae48aec6f&EIO=3&transport=websocket": {
+          "numFramesSent": 2,
+          "numFramesReceived": 4,
+          "framesSent": [
+            {
+              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"d4ed4ee8-56e1-4987-823d-fbae7ceb5997\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.10.1 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1553108023376,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
+            },
+            {
+              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"d4ed4ee8-56e1-4987-823d-fbae7ceb5997\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"6423c747-769b-4ea3-9215-643ae48aec6f\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.10.1 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1553108023583,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1553108019337,\"scriptLoadStart\":1553108020503,\"scriptLoadEnd\":1553108022184,\"scriptInitStart\":1553108022213,\"settingsLoadStart\":1553108022356,\"settingsLoadEnd\":1553108023581}}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"YjSBGX37bZQUmVEUCinZ\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"d4ed4ee8-56e1-4987-823d-fbae7ceb5997\",\"doNotTrack\":false,\"serverTimestamp\":1553108025132}]",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "431[null]",
+              "origin": "wss://api.native.ai"
+            }
+          ]
+        }
+      }
+    },
+    "https://www.theguardian.com/international": {
+      "title": "https://www.theguardian.com/international",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.t.co/": {
+      "title": "www.t.co",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.amazon.com/": {
+      "title": "https://www.amazon.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.ie/": {
+      "title": "https://www.ebay.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.365online.com/online365/spring/authentication?execution=e1s1": {
+      "title": "https://www.365online.com/online365/spring/authentication?execution=e1s1",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.daft.ie/": {
+      "title": "https://www.daft.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blackboard.com/index.html": {
+      "title": "https://www.blackboard.com/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.thejournal.ie/": {
+      "title": "https://www.thejournal.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://imgur.com/": {
+      "title": "https://imgur.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.livejasmin.com/en/girls/": {
+      "title": "https://www.livejasmin.com/en/girls/",
+      "numberWS": 2,
+      "WSConnections": {
+        "wss://jaws.dditscdn.com/socket.io/?EIO=3&transport=websocket": {
+          "numFramesSent": 17,
+          "numFramesReceived": 7,
+          "framesSent": [
+            {
+              "payload": "40/notifications"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.performer.message.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.messenger.message-updated.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.message.sent.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.notification.member.loyalty.level_points.changed.delivery.live\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.legacy.performer.status.change.raw\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.started.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.cancelled.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"subscribe\",[\"dh.jasmin.performer.show.ended.withperformer\"]]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553108121776-g6062ac8b7e25887638cf508d7e156742\",\"serverRelay\":\":443\",\"serverStream\":\":443\",\"type\":300,\"runtime\":1}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553108121776-g6062ac8b7e25887638cf508d7e156742\",\"serverRelay\":\"109.71.162.86:443\",\"serverStream\":\"109.71.162.86:443\",\"type\":10,\"runtime\":648}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553108121776-g6062ac8b7e25887638cf508d7e156742\",\"serverRelay\":\"109.71.162.86:443\",\"serverStream\":\"109.71.162.86:443\",\"type\":10,\"runtime\":648}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553108121776-g6062ac8b7e25887638cf508d7e156742\",\"serverRelay\":\"109.71.162.86:443\",\"serverStream\":\"109.71.162.86:443\",\"type\":20,\"runtime\":298}]"
+            },
+            {
+              "payload": "42/notifications,[\"stat\",\"armageddon\",{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\",\"isInPrivate\":false,\"connection\":\"{downlink:10, effectiveType:4g, rtt:50}\",\"platform\":\"desktop\",\"requestId\":\"1553108121776-g6062ac8b7e25887638cf508d7e156742\",\"serverRelay\":\"109.71.162.86:443\",\"serverStream\":\"109.71.162.86:443\",\"type\":30,\"runtime\":77}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"QDF-ctnYL_GvvR1BOLI-\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":60000}",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "40/notifications",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"dh.jasmin.performer.show.cancelled.withperformer\",{\"event\":\"dh.jasmin.performer.show.cancelled.withperformer\"},{\"createdAt\":\"2019-03-20T19:55:25Z\",\"showId\":2951156,\"status\":\"cancelled\",\"showType\":\"vip\",\"scheduledStartAt\":\"2019-03-20T18:55:25Z\",\"scheduledEndAt\":\"2019-03-20T19:00:25Z\",\"minimumBuyInCredits\":2,\"performerId\":26093820}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change.raw\",{\"14537790\":1,\"14802350\":1,\"21725740\":1,\"21795770\":0,\"22181660\":2,\"22315150\":1,\"23418790\":2,\"23494530\":1,\"24207970\":2,\"24804010\":1,\"25129100\":1,\"25671370\":2,\"25723580\":1,\"26183060\":0,\"26228380\":0,\"26282150\":0}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"legacy.performer.status.change\",{\"14537790\":1,\"14802350\":1,\"21725740\":1,\"21795770\":0,\"22181660\":2,\"22315150\":1,\"23418790\":2,\"23494530\":1,\"24207970\":2,\"24804010\":1,\"25129100\":1,\"25671370\":2,\"25723580\":1,\"26183060\":0,\"26228380\":0,\"26282150\":0}]",
+              "origin": "wss://jaws.dditscdn.com"
+            },
+            {
+              "payload": "42/notifications,[\"dh.jasmin.performer.show.cancelled.withperformer\",{\"event\":\"dh.jasmin.performer.show.cancelled.withperformer\"},{\"createdAt\":\"2019-03-20T19:55:28Z\",\"showId\":2951204,\"status\":\"cancelled\",\"showType\":\"vip\",\"scheduledStartAt\":\"2019-03-20T18:55:27Z\",\"scheduledEndAt\":\"2019-03-20T19:05:27Z\",\"minimumBuyInCredits\":4,\"performerId\":21464110}]",
+              "origin": "wss://jaws.dditscdn.com"
+            }
+          ]
+        },
+        "wss://dss-relay-109-71-162-86.dditscdn.com/?random=85685470953863949114594524213424": {
+          "numFramesSent": 6,
+          "numFramesReceived": 14,
+          "framesSent": [
+            {
+              "payload": "{\"event\":\"register\",\"applicationId\":\"memberChat/jasminPatriciaGoddessb7210db70a4066414a598dd4d1be4944\",\"connectionData\":{\"jasmin2App\":true,\"isMobileClient\":false,\"platform\":\"desktop\",\"chatID\":\"freechat\",\"sessionID\":\"334c0c38a015016bf3de819271018b00\",\"jsm2SessionId\":\"g6062ac8b7e25887638cf508d7e156742\",\"userType\":\"user\",\"performerId\":\"PatriciaGoddess\",\"clientRevision\":\"\",\"proxyIP\":\"\",\"playerVer\":\"nanoPlayerVersion: 3.15.4 appCodeName: Mozilla appName: Netscape appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36 platform: Win32\",\"livejasminTvmember\":false,\"newApplet\":true,\"livefeedtype\":null,\"gravityCookieId\":\"\",\"passparam\":\"\",\"brandID\":\"jasmin\",\"cobrandId\":\"\",\"subbrand\":\"livejasmin\",\"siteName\":\"LiveJasmin\",\"siteUrl\":\"https://www.livejasmin.com\",\"clientInstanceId\":\"92144130565106317428351102842141\",\"armaVersion\":\"34.14.1\",\"isPassive\":true}}"
+            },
+            {
+              "payload": "{\"event\":\"ping\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"performerMoney\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"connectSharedObject\",\"name\":\"data/chat_so\"}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"checkSnapshotEnabled\",\"data\":[]}"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeLanguage\",\"data\":[null]}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":1,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"pong\",\"nextPing\":30000}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"stateReport\",\"state\":2,\"attempt\":1}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"accept\"}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"initParams\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[{\"prices\":{\"peek\":1,\"priv\":2.99,\"snapshot\":2.99,\"surprises\":[1,5,10],\"tip\":10}}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerfBirthday\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[0]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setCommonData\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[{\"streamwidth\":1280,\"streamheight\":720}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setPerformerMoney\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[\"$6.99\"]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"updateSharedObject\",\"name\":\"data/chat_so\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"list\":[{\"code\":\"clear\",\"name\":\"undefined\",\"newValue\":\"undefined\",\"oldValue\":\"undefined\"},{\"name\":\"bestFreeSexCamModelsForMeEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"chattext\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"PatriciaGoddess is back.\"},{\"name\":\"hasSound\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"isEnabledOnTipModels\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"isPrivateBlocked\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"kingOfTheRoom\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":[{\"memberNick\":\"Jrels77\",\"spending\":11}]},{\"name\":\"kingOfTheRoomId\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":657110},{\"name\":\"onAdminPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivate\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateAll\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"onPrivateLJ\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":false},{\"name\":\"privateGameAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"privateGameAvailableInFree\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"realQualityData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"bitrate\":896,\"bufferOver\":0,\"fps\":30,\"new_quality\":100,\"resolution\":1280}},{\"name\":\"recommendedBandwidth\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":113},{\"name\":\"runningShowType\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":\"none\"},{\"name\":\"streamInfoData\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"availableCamRes\":\"640x360|864x480|1024x576|1280x720\",\"bandwidth\":850,\"bitrate\":850,\"codecId\":\"nano\",\"forceQuality\":false,\"fps\":30,\"height\":720,\"ishd\":true,\"keyFrameInterval\":30,\"level\":\"3.1\",\"newForce\":\"1\",\"noFpsSettings\":false,\"profile\":\"baseline\",\"qsratio\":3,\"qualityScore\":1173,\"type\":\"nano\",\"width\":1280}},{\"name\":\"streamList\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":{\"patterns\":{\"free\":\"free/{$streamname}\",\"pch\":\"published/{$streamname}\",\"peek\":\"peekstreams/peek_{$session}/{$streamname}\",\"private\":\"private/{$streamname}\"},\"streams\":[{\"bitrate\":2000,\"height\":720,\"isDefault\":false,\"name\":\"stream_1280_720_2000\",\"streamNameWithFolder\":\"published/stream_1280_720_2000\",\"width\":1280},{\"bitrate\":850,\"height\":480,\"isDefault\":true,\"name\":\"stream_864_480_850\",\"streamNameWithFolder\":\"published/stream_864_480_850\",\"width\":864}]}},{\"name\":\"twoWayAvailable\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true},{\"name\":\"twoWayEnabled\",\"code\":\"change\",\"oldValue\":\"undefined\",\"newValue\":true}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setSnapshotEnabled\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"setName\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[\"guest245\",\"GUEST\"]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"changeNickFunc\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[false]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[{\"base64Msg\":null,\"brandID\":\"jasmin\",\"broadcastOnly\":true,\"id\":\"078648\",\"isFanClubMember\":false,\"ismobile\":0,\"jasminSpamResult\":false,\"memberType\":\"guest\",\"msg\":\"you look at earrings??????\",\"performerID\":\"PatriciaGoddess\",\"platform\":\"desktop\",\"sid\":\"wdj3tmz232bo2a32rsc4n34lyt42n1t0k52x04v6w5wha4nz7eaq11964j4uin56\",\"type\":\"guest\",\"userNick\":\"guest201\",\"translated\":0,\"loyaltyLevel\":-1}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            },
+            {
+              "payload": "{\"event\":\"call\",\"funcName\":\"addLine\",\"userId\":\"6ljhlnd23n29hvrf3mvq52631bie4sn3xkm16p5yff42zv3l3lk4ngbd55m4r9n7\",\"data\":[{\"msg\":\"Love you\",\"msgCheck\":\"\",\"broadcastOnly\":true,\"id\":\"127771\",\"memberType\":\"inactiveMember\",\"isFanClubMember\":false,\"ismobile\":1,\"base64Msg\":null,\"performerID\":\"PatriciaGoddess\",\"type\":\"member\",\"userNick\":\"dendanny\",\"sid\":\"rw16x788h9z37rrj13obaxk3n7ks3l5558js344hgr8724e6at6ujv6gb9160dpj\",\"platform\":\"mobile\",\"brandID\":\"jasmin\",\"senderLanguage\":null,\"jasminSpamResult\":false,\"translated\":0,\"loyaltyLevel\":0}]}",
+              "origin": "wss://dss-relay-109-71-162-86.dditscdn.com"
+            }
+          ]
+        }
+      }
+    },
+    "http://www.ucd.ie/": {
+      "title": "www.ucd.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adverts.ie/": {
+      "title": "https://www.adverts.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.aliexpress.com/": {
+      "title": "www.aliexpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://github.com/": {
+      "title": "https://github.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://live.github.com/_sockets/VjI6Mzg1MDkzMzE5OmFhYmViNWVlNjEzNmRkYjk5YTRhM2VmYjU0Y2NkNzBkYzJjZmVmYTdmZTI1ZmI4MzNlMGFjNTA2YjkzM2NjMGU=--e81cf57daf41b781b41958f6b9542996dabb09b4": {
+          "numFramesSent": 1,
+          "numFramesReceived": 0,
+          "framesSent": [
+            {
+              "payload": "subscribe:notification-changed:48767889"
+            }
+          ],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.microsoft.com/en-us/": {
+      "title": "https://www.microsoft.com/en-us/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackoverflow.com/": {
+      "title": "https://stackoverflow.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.co.uk/": {
+      "title": "https://www.ebay.co.uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.eir.ie/": {
+      "title": "https://www.eir.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/": {
+      "title": "https://www.office.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.office.com/?auth=2": {
+      "title": "https://www.office.com/?auth=2",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/": {
+      "title": "https://xhamster.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://xhamster.com/#back_url": {
+      "title": "Free Porn Videos & Sex Tube Movies at xHamster",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dailymail.co.uk/home/index.html": {
+      "title": "https://www.dailymail.co.uk/home/index.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.fandom.com/": {
+      "title": "https://www.fandom.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.paypal.com/ie/home": {
+      "title": "https://www.paypal.com/ie/home",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.open24.ie/": {
+      "title": "www.open24.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.booking.com/": {
+      "title": "https://www.booking.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.bbc.co.uk/": {
+      "title": "https://www.bbc.co.uk",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.boards.ie/": {
+      "title": "https://www.boards.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.hellomagazine.com/": {
+      "title": "https://www.hellomagazine.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://messaging.insurads.com/rt-pub/node/hub?appId=81&sId=EAD71B7D127BD071&cId=9840&dev=Personal%20computer&br=Chrome&os=Windows&v=0.1&id=DekqMaGzFY3IzMs-bStyoQ": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "http://www.sportbible.com/": {
+      "title": "www.sportbible.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://api.native.ai/socket.io/?installationId=351b046f-023e-4206-9d96-0a47d88f5fad&appKey=449b18d6-5b9f-4feb-a7dd-f23d1475a4a1&EIO=3&transport=websocket": {
+          "numFramesSent": 2,
+          "numFramesReceived": 4,
+          "framesSent": [
+            {
+              "payload": "420[\"settings\",{\"h\":{\"N360-Installation-Id\":\"351b046f-023e-4206-9d96-0a47d88f5fad\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.10.1 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1553108292970,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"}}]"
+            },
+            {
+              "payload": "421[\"timing\",{\"h\":{\"N360-Installation-Id\":\"d4ed4ee8-56e1-4987-823d-fbae7ceb5997\",\"N360-Advertisement-Id\":\"\",\"N360-App-Key\":\"449b18d6-5b9f-4feb-a7dd-f23d1475a4a1\",\"N360-Api-Version\":\"1.0\",\"N360-Is-Test-Mode\":false,\"User-Agent\":\"NativeAI/1.10.1 (desktop; Chrome 73; Windows 10; 1536x864)\",\"X-Device-Model\":\"\",\"X-Device-Vendor\":\"\",\"X-Color-Depth\":24,\"X-Client-Timezone-Offset\":0,\"X-Touch-Supported\":false,\"X-Client-Timestamp\":1553108293164,\"Cookies-Enabled\":true,\"Accept-Language\":\"en-US,en;q=0\"},\"q\":{\"pageLoadStart\":1553108289721,\"scriptLoadStart\":1553108290608,\"scriptLoadEnd\":1553108292141,\"scriptInitStart\":1553108292144,\"settingsLoadStart\":1553108292147,\"settingsLoadEnd\":1553108293162}}]"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "0{\"sid\":\"p3V0NpfewR1txKxYCjHE\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":5000}",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "40",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "430[{\"sessionDuration\":600,\"installationId\":\"d4ed4ee8-56e1-4987-823d-fbae7ceb5997\",\"doNotTrack\":false,\"serverTimestamp\":1553108294731}]",
+              "origin": "wss://api.native.ai"
+            },
+            {
+              "payload": "431[null]",
+              "origin": "wss://api.native.ai"
+            }
+          ]
+        }
+      }
+    },
+    "https://ie.indeed.com/?r=us": {
+      "title": "https://ie.indeed.com/?r=us",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xvideos.com/": {
+      "title": "https://www.xvideos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.blogger.com/about/?r=1-null_user": {
+      "title": "https://www.blogger.com/about/?r=1-null_user",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/": {
+      "title": "https://www.ros.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/oidc/login?client_id=rosint_rp": {
+      "title": "https://www.ros.ie/oidc/login?client_id=rosint_rp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ros.ie/oidc/login/noCertsFound?lang=en&client_id=rosint_rp": {
+      "title": "https://www.ros.ie/oidc/login/noCertsFound?lang=en&client_id=rosint_rp",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ucc.ie/": {
+      "title": "https://www.ucc.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.quora.com/": {
+      "title": "https://www.quora.com",
+      "numberWS": 1,
+      "WSConnections": {
+        "wss://tch42036.tch.quora.com/up/chan41-8888/updates?min_seq=0&channel=main-w-chan41-8888-2wNSNZG&hash=6297322403526495766": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.tcd.ie/": {
+      "title": "https://www.tcd.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.skysports.com/roi": {
+      "title": "https://www.skysports.com/roi",
+      "numberWS": 7,
+      "WSConnections": {
+        "wss://zagent298.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent1642.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 1,
+          "numFramesReceived": 1,
+          "framesSent": [
+            {
+              "payload": "{\"__id\":0,\"cmd\":\"get_links_info\",\"route\":{\"ver\":\"1.127.124\",\"customer\":\"sky_uk\",\"url\":\"https://www.skysports.com/roi\"},\"data\":{\"items\":[{\"url\":\"https://www.skysports.com/watch/video/sports/11670817/happy-pogba-give-ole-the-job\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Pogba: We want Ole to stay\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11670622/sancho-hits-panenka-in-england-shootout\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Sancho hits panenka in England shootout\"},{\"url\":\"https://www.skysports.com/boxing/news/32414/11671139/toe-2-toe-podcast-katie-taylor-kell-brook-joshua-buatsi-and-more-are-on-this-weeks-show\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Boxing Toe 2 Toe podcast\"},{\"url\":\"https://www.skysports.com/boxing/news/12183/11670931/katie-taylor-says-delfine-persoon-would-be-hardest-fight-yet\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Boxing Taylor: Persoon would be hardest yet\"},{\"url\":\"https://www.skysports.com/football/news/12020/11671023/matt-doherty-hopes-for-republic-of-ireland-boost-under-mick-mccarthy\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Football Doherty hopes for McCarthy boost\"},{\"url\":\"https://www.skysports.com/f1/news/12433/11670725/f1-2019-ross-brawn-encouraged-by-overtaking-following-aero-changes\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Formula 1 F1's new rules: Has racing improved?\"},{\"url\":\"https://www.skysports.com/football/news/12016/11670853/callum-hudson-odoi-and-declan-rice-among-london-born-england-talent\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Football London hotbed for England talent\"}]}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"cmd\":\"get_links_info\",\"res\":{\"https://www.skysports.com/watch/video/sports/11670817/happy-pogba-give-ole-the-job\":{\"description\":\"Pogba: We want Ole to stay\",\"poster\":\"https://e0.365dm.com/19/01/768x432/skysports-pogba-solskjaer_4549226.jpg?20190117183804\",\"poster_size\":\"453x255\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e3.365dm.com/19/01/768x432/skysports-pogba-solskjaer_4549226.jpg?20190117183804\",\"video_title\":\"Pogba: We want Ole to stay\",\"video_size\":\"996x560\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/E0aTJoaDE6BvWxChQL2RMtcGABhwGTqX.m3u8\",\"duration\":56,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FE0aTJoaDE6BvWxChQL2RMtcGABhwGTqX.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DejQ4eHNRbVc0WElTUG0xYkowTmJnL3JrWVgvaXljRXE4OUZDSmJDc1pZdGIzcytRS2Z0Y3l3NUVxY0t3CmNVNHV3ekptZ0I1SHE5NEgvWDZEN3JpM2NBPT0K&preview_ver=1_1&size=466x466\",\"cdns\":[{\"host\":\"81.171.3.168\",\"hostname\":\"zagent900.h-cdn.com\"},{\"host\":\"144.217.255.209\",\"hostname\":\"zagent1249.h-cdn.com\"},{\"host\":\"147.135.130.174\",\"hostname\":\"zagent1641.h-cdn.com\"}]}},\"https://www.skysports.com/watch/video/sports/11670622/sancho-hits-panenka-in-england-shootout\":{\"description\":\"Sancho hits panenka in England shootout\",\"poster\":\"https://e0.365dm.com/19/03/768x432/skysports-jadon-sancho-panenka_4614014.jpg?20190320070019\",\"poster_size\":\"458x257\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e3.365dm.com/19/03/768x432/skysports-jadon-sancho-panenka_4614014.jpg?20190320070019\",\"video_title\":\"Sancho hits panenka in England shootout\",\"video_size\":\"996x560\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/ZlaDFoaDE66oy-qEkWP_1zZAb7K24vyL.m3u8\",\"duration\":18.738502,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FZlaDFoaDE66oy-qEkWP_1zZAb7K24vyL.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DRzBZZmNhVVMxK2QwWWtmajVUMVlQSmRvREY2WDhHb1BXblR3OWZ0V2Y1eHJ0M0xGNkZKSXhJWk1wMjlVCjA5b2VudkFaNTc3d2RBWmJRQmtiMVJRMDJ3PT0K&preview_ver=1_1&size=466x466\",\"cdns\":[{\"host\":\"147.135.130.174\",\"hostname\":\"zagent1641.h-cdn.com\"},{\"host\":\"209.58.144.150\",\"hostname\":\"zagent298.h-cdn.com\"},{\"host\":\"23.83.129.212\",\"hostname\":\"zagent1356.h-cdn.com\"}]}},\"https://www.skysports.com/boxing/news/32414/11671139/toe-2-toe-podcast-katie-taylor-kell-brook-joshua-buatsi-and-more-are-on-this-weeks-show\":{\"description\":\"Boxing Toe 2 Toe podcast\",\"poster\":\"https://e0.365dm.com/17/08/768x432/skysports-ringside-toe_4079916.jpg?20181108091304\",\"poster_size\":\"458x257\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e2.365dm.com/17/08/150x150/skysports-ringside-toe_4079916.jpg\",\"video_title\":\"Toe 2 Toe podcast: Katie Taylor, Kell Brook, Joshua Buatsi and more are on this week's show\",\"video_size\":\"375x210\",\"video_nat_size\":\"512x288\",\"video_url\":\"/hls/player/all/NxajNoaDE6WILppQwDFJi43Mi5goYdIM.m3u8\",\"duration\":30.07,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FNxajNoaDE6WILppQwDFJi43Mi5goYdIM.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DWjNXUi9DVnQzY1J6ZkhWdytvdWw0d2I0UE1uM01UVDVIdjkwa1lsejNEZi8zYzNWRXF3TC8vOTg3KzU4CmJjQmdlcW9xM2JRRHpqMzRUMzVUeWQvdzBRPT0K&preview_ver=1_1&size=466x466\",\"cdns\":[{\"host\":\"64.120.46.58\",\"hostname\":\"zagent812.h-cdn.com\"},{\"host\":\"5.79.110.98\",\"hostname\":\"zagent917.h-cdn.com\"},{\"host\":\"199.115.115.133\",\"hostname\":\"zagent1606.h-cdn.com\"}]}},\"https://www.skysports.com/boxing/news/12183/11670931/katie-taylor-says-delfine-persoon-would-be-hardest-fight-yet\":{\"description\":\"Boxing Taylor: Persoon would be hardest yet\",\"poster\":\"https://e0.365dm.com/19/03/768x432/skysports-katie-taylor-rose-volante-fight_4609895.jpg?20190316032548\",\"poster_size\":\"112x84\",\"poster_nat_size\":\"192x144\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-katie-taylor-rose-volante-fight_4609895.jpg\",\"video_title\":\"Katie Taylor says Delfine Persoon would be hardest fight yet\",\"video_size\":\"375x210\",\"video_nat_size\":\"320x180\",\"video_url\":\"/hls/player/all/1lOTNoaDE6J391_E38f5P9VX4tTdkcZo.m3u8\",\"duration\":79,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F1lOTNoaDE6J391_E38f5P9VX4tTdkcZo.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DMlZnaWU3KzFndGwzNVU0bkkvZ2Y5K3ZLaVc0bHltVlVzdnFldWp0aWZuTGt6ZFUvaVNKQW9CaHE5TlNtCjVMMGowdDgzYXN0VklGUWM3RWtOVTRKZkJRPT0K&preview_ver=1_1&size=299x299\",\"cdns\":[{\"host\":\"54.36.176.166\",\"hostname\":\"zagent1666.h-cdn.com\"},{\"host\":\"217.182.174.167\",\"hostname\":\"zagent866.h-cdn.com\"},{\"host\":\"81.171.3.168\",\"hostname\":\"zagent900.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/12020/11671023/matt-doherty-hopes-for-republic-of-ireland-boost-under-mick-mccarthy\":{\"description\":\"Football Doherty hopes for McCarthy boost\",\"poster\":\"https://e0.365dm.com/19/03/768x432/skysports-matt-doherty-republic-of-ireland_4614455.jpg?20190320151335\",\"poster_size\":\"299x168\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-matt-doherty-republic-of-ireland_4614455.jpg\",\"video_title\":\"Matt Doherty hopes for Republic of Ireland boost under Mick McCarthy\",\"video_size\":\"375x210\",\"video_nat_size\":\"640x360\",\"video_url\":\"/hls/player/all/5pYTRoaDE6BKWe7vEdgkKaq1eUrBNvVq.m3u8\",\"duration\":34,\"videos\":[{\"url\":\"/hls/player/all/BqOTRoaDE6QIUhYzDOtTRKDu0KmZn3yP.m3u8\",\"duration\":25.983128}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2F5pYTRoaDE6BKWe7vEdgkKaq1eUrBNvVq.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DOWZ4NlR4RnJnalEvc3dJRVBqRXljRSs1MllXeXRLOVhGdzBkaGtTSW9IdXFpRWRrdGFNVm9JQVFibGhpCm50MDlpYXJ2dDBFTHRjNzh5bGhiR2tlcVNBPT0K&preview_ver=1_1&size=299x299\",\"cdns\":[{\"host\":\"88.212.245.12\",\"hostname\":\"zagent364.h-cdn.com\"},{\"host\":\"209.58.144.150\",\"hostname\":\"zagent298.h-cdn.com\"},{\"host\":\"50.7.74.138\",\"hostname\":\"zagent352.h-cdn.com\"}]}},\"https://www.skysports.com/f1/news/12433/11670725/f1-2019-ross-brawn-encouraged-by-overtaking-following-aero-changes\":{\"description\":\"Formula 1 F1's new rules: Has racing improved?\",\"poster\":\"https://e0.365dm.com/19/03/768x432/skysports-lewis-hamilton-max_4614221.jpg?20190320105848\",\"poster_size\":\"300x169\",\"poster_nat_size\":\"288x162\",\"video_poster\":\"https://e2.365dm.com/19/03/150x150/skysports-lewis-hamilton-max_4614221.jpg\",\"video_title\":\"F1 2019: Ross Brawn encouraged by overtaking following aero changes\",\"video_size\":\"628x353\",\"video_nat_size\":\"1920x1080\",\"video_url\":\"/hls/player/all/g0eDZnaDE6bzgbXuMvCtLR1h90PiEx93.m3u8\",\"duration\":82,\"videos\":[{\"url\":\"/hls/player/all/U1YWVnaDE6o55wIvj0C-A2dKFC0nolWg.m3u8\",\"duration\":79}],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2Fg0eDZnaDE6bzgbXuMvCtLR1h90PiEx93.m3u8%3FtargetBitrate%3D1200%26ssl%3Dtrue%26secure_ios_token%3DeWZZclFINCs4UGZZb1BCOWhYNlFhSTJObjRsQzNlYklLQzlEUlRMaUdTcGxBaEE0SXZHK0MrN0R2dE82CmF4Q0JrSldJbWUwb0VGaEp0Q1BVa0pqek13PT0K&preview_ver=1_1&size=299x299\",\"cdns\":[{\"host\":\"108.59.8.35\",\"hostname\":\"zagent897.h-cdn.com\"},{\"host\":\"50.7.74.138\",\"hostname\":\"zagent352.h-cdn.com\"},{\"host\":\"5.79.110.99\",\"hostname\":\"zagent918.h-cdn.com\"}]}},\"https://www.skysports.com/football/news/12016/11670853/callum-hudson-odoi-and-declan-rice-among-london-born-england-talent\":{\"description\":\"Football London hotbed for England talent\",\"poster\":\"https://e0.365dm.com/19/03/768x432/skysports-london-graphic-hudson-odoi_4614374.jpg?20190320141006\",\"poster_size\":\"294x165\",\"poster_nat_size\":\"768x432\",\"video_poster\":\"https://e0.365dm.com/19/03/150x150/skysports-london-graphic-hudson-odoi_4614374.jpg\",\"video_title\":\"Callum Hudson-Odoi and Declan Rice among London-born England talent\",\"video_size\":\"628x353\",\"video_nat_size\":\"1280x720\",\"video_url\":\"/hls/player/all/dlZzJoaDE6DFbK2OiZ_PXEnLAcPRiT74.m3u8\",\"duration\":82,\"videos\":[],\"preview\":{\"url\":\"/preview.mp4?customer=sky_uk&url=https%3A%2F%2Fplayer.ooyala.com%2Fhls%2Fplayer%2Fall%2FdlZzJoaDE6DFbK2OiZ_PXEnLAcPRiT74.m3u8%3FtargetBitrate%3D2000%26ssl%3Dtrue%26secure_ios_token%3DNWcrYlprVnV6STIvQk5ITzB0alJzdk1DeXRyTU1vQ1M1RVdnWXcxQmpZU0lqL2piUm1QQXcyQUFxamU1ClAyOFFJWWltcUs4RmgweU9PV1UyNVlwbGFnPT0K&preview_ver=1_1&size=299x299\",\"cdns\":[{\"host\":\"5.79.110.98\",\"hostname\":\"zagent917.h-cdn.com\"},{\"host\":\"173.208.120.210\",\"hostname\":\"zagent296.h-cdn.com\"},{\"host\":\"54.36.176.169\",\"hostname\":\"zagent1669.h-cdn.com\"}]}}},\"opt\":{\"__id\":0,\"items\":[{\"url\":\"https://www.skysports.com/watch/video/sports/11670817/happy-pogba-give-ole-the-job\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Pogba: We want Ole to stay\"},{\"url\":\"https://www.skysports.com/watch/video/sports/11670622/sancho-hits-panenka-in-england-shootout\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Sancho hits panenka in England shootout\"},{\"url\":\"https://www.skysports.com/boxing/news/32414/11671139/toe-2-toe-podcast-katie-taylor-kell-brook-joshua-buatsi-and-more-are-on-this-weeks-show\",\"type\":\"page\",\"size\":\"466x466\",\"description\":\"Boxing Toe 2 Toe podcast\"},{\"url\":\"https://www.skysports.com/boxing/news/12183/11670931/katie-taylor-says-delfine-persoon-would-be-hardest-fight-yet\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Boxing Taylor: Persoon would be hardest yet\"},{\"url\":\"https://www.skysports.com/football/news/12020/11671023/matt-doherty-hopes-for-republic-of-ireland-boost-under-mick-mccarthy\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Football Doherty hopes for McCarthy boost\"},{\"url\":\"https://www.skysports.com/f1/news/12433/11670725/f1-2019-ross-brawn-encouraged-by-overtaking-following-aero-changes\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Formula 1 F1's new rules: Has racing improved?\"},{\"url\":\"https://www.skysports.com/football/news/12016/11670853/callum-hudson-odoi-and-declan-rice-among-london-born-england-talent\",\"type\":\"page\",\"size\":\"299x299\",\"description\":\"Football London hotbed for England talent\"}]},\"__id\":0}",
+              "origin": "wss://zagent1642.h-cdn.com"
+            }
+          ]
+        },
+        "wss://zagent907.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent891.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent1356.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent87.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "wss://zagent364.h-cdn.com/ws_client?customer=sky_uk&zone=gen": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://www.revenue.ie/en/Home.aspx": {
+      "title": "https://www.revenue.ie/en/Home.aspx",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tripadvisor.ie/": {
+      "title": "https://www.tripadvisor.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.tumblr.com/dashboard": {
+      "title": "https://www.tumblr.com/dashboard",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.spotify.com/ie/": {
+      "title": "https://www.spotify.com/ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.msn.com/en-ie/": {
+      "title": "https://www.msn.com/en-ie/",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/": {
+      "title": "https://www.dropbox.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.dropbox.com/h": {
+      "title": "Dropbox",
+      "numberWS": 3,
+      "WSConnections": {
+        "ws://127.0.0.1:17600/ws": {
+          "numFramesSent": 1,
+          "numFramesReceived": 2,
+          "framesSent": [
+            {
+              "payload": "{\"func\":\"initiate_handshake\",\"header\":{\"message_id\":1,\"should_respond\":false,\"log_data\":{\"web_unity_version\":15,\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3679.0 Safari/537.36\"}},\"data\":{\"secure_web\":true}}"
+            }
+          ],
+          "framesReceived": [
+            {
+              "payload": "{\"func\": \"check_unity_version\", \"data\": {\"client_version\": 15}, \"header\": {\"message_id\": 2, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"2a1b422b30a82c8da9ca3bd77fcaaf5c6737a445763588df35be09828f0a1bf4\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            },
+            {
+              "payload": "{\"func\": \"fetch_unity_nonce\", \"data\": {\"nonce_key\": \"d4e563864d486683371dc297499a18a2688a27aa0e68c0053cc5b604eb9e6bbe\"}, \"header\": {\"message_id\": 4, \"should_respond\": false, \"log_data\": {\"unity_session_id\": \"2a1b422b30a82c8da9ca3bd77fcaaf5c6737a445763588df35be09828f0a1bf4\", \"buildno\": \"Dropbox-win-69.4.102\", \"client_unity_version\": 15, \"os_version\": \"win\"}}}",
+              "origin": "ws://127.0.0.1:17600"
+            }
+          ]
+        },
+        "ws://127.0.0.1:17601/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        },
+        "ws://127.0.0.1:17602/ws": {
+          "numFramesSent": 0,
+          "numFramesReceived": 0,
+          "framesSent": [],
+          "framesReceived": []
+        }
+      }
+    },
+    "https://wordpress.com/": {
+      "title": "https://wordpress.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ryanair.com/": {
+      "title": "https://www.ryanair.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ryanair.com/ie/en/": {
+      "title": "Official Ryanair website | Cheap flights from Ireland | Ryanair",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.googleusercontent.com/": {
+      "title": "www.googleusercontent.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://pirateproxy.id/": {
+      "title": "https://pirateproxy.id",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.apple.com/": {
+      "title": "https://www.apple.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vk.com/": {
+      "title": "https://vk.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.skyscanner.ie/": {
+      "title": "https://www.skyscanner.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://vimeo.com/": {
+      "title": "https://vimeo.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "http://www.ul.ie/": {
+      "title": "www.ul.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.yandex.ru/": {
+      "title": "https://www.yandex.ru",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.asos.com/": {
+      "title": "https://www.asos.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.nih.gov/": {
+      "title": "https://www.nih.gov",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.ebay.com/": {
+      "title": "https://www.ebay.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.airbnb.ie/": {
+      "title": "https://www.airbnb.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.pinterest.ie/": {
+      "title": "https://www.pinterest.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.argos.ie/": {
+      "title": "https://www.argos.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://stackexchange.com/": {
+      "title": "https://stackexchange.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://discordapp.com/": {
+      "title": "https://discordapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.three.ie/": {
+      "title": "https://www.three.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://soundcloud.com/discover": {
+      "title": "https://soundcloud.com/discover",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://rip.ie/": {
+      "title": "https://rip.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/": {
+      "title": "https://steamcommunity.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://steamcommunity.com/#scrollTop=0": {
+      "title": "Steam Community",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.whatsapp.com/": {
+      "title": "https://www.whatsapp.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.xnxx.com/": {
+      "title": "https://www.xnxx.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.adobe.com/": {
+      "title": "https://www.adobe.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.lottery.ie/": {
+      "title": "https://www.lottery.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.premierleague.com/": {
+      "title": "https://www.premierleague.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.researchgate.net/": {
+      "title": "https://www.researchgate.net",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.breakingnews.ie/": {
+      "title": "https://www.breakingnews.ie",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.google.ru/?gws_rd=ssl": {
+      "title": "https://www.google.ru/?gws_rd=ssl",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://chaturbate.com/": {
+      "title": "https://chaturbate.com",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aerlingus.com/html/home.html": {
+      "title": "https://www.aerlingus.com/html/home.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    },
+    "https://www.aerlingus.com/html/en-US/home.html": {
+      "title": "https://www.aerlingus.com/html/en-US/home.html",
+      "numberWS": 0,
+      "WSConnections": {}
+    }
+  }
+}

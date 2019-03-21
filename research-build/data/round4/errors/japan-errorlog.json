@@ -1,0 +1,18 @@
+[
+  {
+    "domain": "Dmm.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Microsoftonline.com",
+    "error": "TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded"
+  },
+  {
+    "domain": "Exosrv.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://www.Exosrv.com"
+  },
+  {
+    "domain": "Twimg.com",
+    "error": "Error: net::ERR_NAME_NOT_RESOLVED at http://www.Twimg.com"
+  }
+]
