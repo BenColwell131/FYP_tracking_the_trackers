@@ -9,7 +9,17 @@ script.onload = function() {
 
 // Pass on any messages from page to background.js
 window.addEventListener("message", function(event) {
-    // console.log("Content script has recieved a message: " + JSON.stringify(event.data));
-    // console.log("Message type: " + event.data.type);
     chrome.runtime.sendMessage(event.data);
 });
+
+// Listen for messages from background.js
+chrome.runtime.onMessage.addListener(
+  (message, sender, sendResponse) => {
+    // console.log("CS received chrome message");
+    if(message.type === "CLOSE_WS"){
+      window.postMessage(message, "*");
+    }
+  }
+);
+
+// ||demos.kaazing.com^

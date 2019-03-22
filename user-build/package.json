@@ -28,6 +28,7 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "abp-filter-parser": "^0.2.0"
+    "abp-filter-parser": "^0.2.0",
+    "psl": "^1.1.31"
   }
 }

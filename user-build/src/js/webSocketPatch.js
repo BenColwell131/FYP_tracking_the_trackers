@@ -21,30 +21,74 @@ function interceptWebSockets() {
 
     // Attach listener for incoming messages.
     newWS.addEventListener('message', (event) => {
-      // ***RECEIVED FRAMES***
-      window.postMessage({type: "WS_FRAME_RECIEVED", data: event.data}, "*");
+
+      // *** RECEIVED FRAME ***
+      window.postMessage({type: "WS_FRAME_RECIEVED",
+                          payload: event.data,
+                          origin: event.origin,
+                          webSocketURL: newWS.url,
+                          tabURL: window.location.href
+                         }, "*");
     });
 
     // TODO: Potentially need to *not* open the websocket here rather than terminate it later
-    // console.log("New WS Opened: " + url);
-    window.postMessage({ type: "NEW_WS", text: "New web socket opened", url: url}, "*");
+    console.log(newWS);
+
+    // *** NEW WEBSOCKET ***
+    window.postMessage({ type: "NEW_WS",
+                         text: "New web socket opened",
+                         url: newWS.url,
+                         tabURL: window.location.href
+                        }, "*");
+
+    // Simple helper function to add delays
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+
+    window.addEventListener('message', function(event) {
+      if(event.data.type === "CLOSE_WS" && event.data.wsURL === newWS.url){
+        (async() => {
+          console.log("Ready state: " + newWS.readyState);
+          // if(newWS.readyState === 0){
+          //   await delay(100);
+          // }
+          if(event.data.method === "polite"){
+            console.log("Closing politely.");
+            newWS.close();
+          }
+          else {
+            console.log("Disabling send/receive.");
+            ActualWebSocket.prototype.send = function() {};
+            newWS.onmessage = null;
+          }
+        })();
+      }
+    }, true);
+
     return newWS;
   };
 
   // Patch WebSocket send function
   var sendWsFrame = ActualWebSocket.prototype.send;
   ActualWebSocket.prototype.send = function(data) {
-    // ***SENT FRAMES***
-    window.postMessage({type: "WS_FRAME_SENT", text: data}, "*");
+
+    // *** SENT FRAME ***
+    window.postMessage({type: "WS_FRAME_SENT",
+                        payload: data,
+                        webSocketURL: this.url,
+                        tabURL: window.location.href
+                       }, "*");
     return sendWsFrame.apply(this, arguments);
   };
 
-  // Patch websocket close function
+  // Patch WebSocket close function
   var closeWS = ActualWebSocket.prototype.close;
   ActualWebSocket.prototype.close = function() {
-    // ***WEBSOCKET CLOSED***
-    // console.log("WebSocket closed.");
-    window.postMessage({type: "WS_CLOSED", text: "WebSocket closed."}, "*");
+
+    // *** WEBSOCKET CLOSED ***
+    window.postMessage({type: "WS_CLOSED",
+                        text: "WebSocket closed.",
+                        wsURL: this.url
+                       }, "*");
     return closeWS.apply(this, arguments);
   };
 };

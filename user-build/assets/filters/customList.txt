@@ -1,0 +1,6 @@
+! Custom testing
+||socketo.me^
+/chat^
+*facebook*
+||facebook.com^
+|wss://edge-chat.facebook.com/chat?region=lla|

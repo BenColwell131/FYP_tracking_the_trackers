@@ -1,5 +1,6 @@
 // Imports
-let ABPFilterParser = require('abp-filter-parser');
+const ABPFilterParser = require('abp-filter-parser');
+const psl = require('psl');
 
 // *** Global variables *** //
   //Popup variables
@@ -12,7 +13,13 @@ let ABPFilterParser = require('abp-filter-parser');
   //Filtering variables
   let parsedFilterList = {};
 
+  // User setting
+  //TODO: Temporarily just globals
+  const IGNORE_SUBDOMAINS = true;
+  const FILTER_FIRST_PARTY = true;
+  const CLOSE_SOCKETS_POLITELY = true;
 
+// ********************** Handling popup **************************************
 function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
@@ -33,6 +40,9 @@ chrome.runtime.onConnect.addListener( (port) => {
   popupOpen = true;
 })
 
+// ****************************************************************************
+
+// ********************** Post-processing urls ********************************
 function fetchFilterLists(){
   console.time("Fetching lists & parsing");
   let easyprivacyURL = chrome.runtime.getURL('assets/filters/easyprivacy.txt');
@@ -41,59 +51,112 @@ function fetchFilterLists(){
   let easylistURL = chrome.runtime.getURL('assets/filters/easylist.txt');
   const fetch2 = fetch(easylistURL).then(response => response.text());
 
-  Promise.all([fetch1, fetch2])
+  let customListURL = chrome.runtime.getURL('assets/filters/customList.txt');
+  const fetch3 = fetch(customListURL).then(response => response.text());
+
+  Promise.all([fetch1, fetch2, fetch3])
     .then(filterLists => {
       //Add each list to the parsed list
+      // console.log("Parsed: ");
+      // console.log(parsedFilterList);
       filterLists.forEach(filterList => {
         ABPFilterParser.parse(filterList, parsedFilterList);
+        debugger;
       });
       console.timeEnd("Fetching lists & parsing");
     })
     .catch(err => console.log(err));
+
+  let customListURL = chrome.runtime.getURL('assets/filters/customList.txt');
+  const fetch3 = fetch(customListURL).then(response => response.text()).then(res => ABPFilterParser.parse(res, parsedFilterList));
 }
-//TODO: not sure when this should be called.
+// Call this right away
 fetchFilterLists();
 
-function filterURL(wsURL){
+// Returns true if the WS is a first party one.
+// Ignores subdomains by default.
+function checkFirstParty(wsURLString, siteURLString){
+      console.log("Checking WS url: " + wsURLString);
+
+      // Convert to URL object and pull out hostname
+      // This removes all scheme, paths, & parameters/queries
+      // e.g: https://www.google.com/search?q=google => www.google.com
+      // N.B: This retains any subdomains
+      let siteURL = new URL(siteURLString);
+      let wsURL   = new URL(wsURLString);
+      siteURL = siteURL.hostname;
+      wsURL   = wsURL.hostname;
+
+      if(IGNORE_SUBDOMAINS){
+        // Using psl to remove any subdomains
+        // e.g: www.google.com   => google.com
+        //      a.b.c.google.com => google.com
+        const parsedSiteURL = psl.parse(siteURL);
+        const parsedWSURL   = psl.parse(wsURL);
+        siteURL = parsedSiteURL.domain;
+        wsURL   = parsedWSURL.domain;
+      }
+
+      if(siteURL != wsURL){
+        // WS is third party:
+        console.log(wsURL + ": Third party WS connection. Caution.");
+        return false;
+      }
+      else{
+        // WS is first party
+        console.log(wsURL + ": First party WS connection. Safe to proceed.");
+        return true;
+      }
+}
+
+// Returns true if the WS hit our filter lists.
+function filterWSURL(wsURL){
       // Check Websocket URL against our lists.
-      let wsURLString = wsURL.toString();
-      console.time("Filter matching");
-      if (ABPFilterParser.matches(parsedFilterList, wsURLString, {
-        // domain: //TODO
-        elementTypeMask: ABPFilterParser.elementTypes.SCRIPT
-      })) {
+      debugger;
+      if (ABPFilterParser.matches(parsedFilterList, wsURL
+        // { domain: //TODO
+        // elementTypeMask: ABPFilterParser.elementTypes.SCRIPT}
+      )) {
         console.log("Matched URL to list. You should block this URL!");
+        console.log(wsURL);
+        return true;
       }
       else {
         console.log("Didn't match URL to list. Safe to proceed.");
+        console.log(wsURL);
+        return false;
       }
-      console.timeEnd("Filter matching");
 }
 
-function checkFirstPartyURL(wsURL){
-    return new Promise((resolve, reject) => {
-      console.log("Checking WS url: " + wsURL);
+function closeWS(wsURLString){
+    let method;
+    if(CLOSE_SOCKETS_POLITELY){
+      method = "polite";
+    }else{
+      method = "standard";
+    }
 
-      //Fetch tab url
-      let tabURL;
-      chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs){
-        tabURL = tabs[0].url;
-        // Convert to URL object for easy parsing.
-        tabURL = new URL(tabURL);
-
-        console.log("wsURL.hostname: " + wsURL.hostname);
-        console.log("tabURL.hostname: " + tabURL.hostname);
-        if(wsURL.hostname != tabURL.hostname){
-          console.log("Third Party WS Connection. Caution!");
-        }
-        else if (wsURL.hostname === tabURL.hostname){
-          console.log("First Party WS Connection. Safe to proceed.");
-        }
-
-        resolve('End of tabs.query');
-      });
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      chrome.tabs.sendMessage(tabs[0].id, {type: "CLOSE_WS", wsURL: wsURLString, method: method});
     });
 }
+
+function postProcessWS(wsURLString, siteURLString){
+  const firstParty = checkFirstParty(wsURLString, siteURLString);
+
+  if(!firstParty || FILTER_FIRST_PARTY){
+    console.log("Should be filtered");
+    const hitFilterLists = filterWSURL(wsURLString);
+    if(hitFilterLists){
+      chrome.browserAction.setBadgeBackgroundColor({color: '#F60000'});
+      closeWS(wsURLString);
+      return;
+    }
+  }
+}
+// ****************************************************************************
+
+
 
 chrome.runtime.onMessage.addListener(
   (message, sender, sendResponse) => {
@@ -108,22 +171,19 @@ chrome.runtime.onMessage.addListener(
           }
           numWS++;
           console.log("New WS opened.");
-
-          // Convert to URL object for easy parsing.
-          let wsURL = new URL(message.url);
-          checkFirstPartyURL(wsURL)
-            .then(filterURL(wsURL));
-
+          console.log("Tab url: " + message.tabURL);
+          console.log("WS url: " + message.url);
+          postProcessWS(message.url, message.tabURL);
           break;
 
         case "WS_FRAME_SENT":
           numWSSent++;
-          // console.log("WS frame sent. #" + numWSSent);
+          console.log("WS frame sent. #" + numWSSent);
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
-          // console.log("WS frame received. #" + numWSReceived);
+          console.log("WS frame received. #" + numWSReceived);
           break;
 
         case "WS_CLOSED":
@@ -132,16 +192,15 @@ chrome.runtime.onMessage.addListener(
             chrome.browserAction.setBadgeText({text: ''});
           }
           numWS--;
-          console.log("WS Closed.");
+          console.log("WS Closed: " + message.wsURL);
           break;
 
         case "UPDATE_POPUP":
-          // Popup update done by default when popup open so no need to do anything.
           updatePopup();
           break;
 
         default:
-          console.log("Uncaught message type in background: " + message);
+          // console.log("Uncaught message type in background: " + message);
       }
       if(popupOpen){
         updatePopup();

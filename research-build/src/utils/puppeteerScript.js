@@ -6,7 +6,7 @@ const path = require('path');
 // Settings:
 const COUNTRY = process.argv[2];
 const COLLECT_SCREENSHOTS = true;
-const TIME_ON_PAGE = 5000; //milliseconds
+const TIME_ON_PAGE = 60000; //milliseconds
 
 // Globals:
 let domainList = [];
