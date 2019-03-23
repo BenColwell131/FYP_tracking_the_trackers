@@ -4,3 +4,4 @@
 *facebook*
 ||facebook.com^
 |wss://edge-chat.facebook.com/chat?region=lla|
+|ws://socketo.me/chat|

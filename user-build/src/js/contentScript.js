@@ -15,11 +15,8 @@ window.addEventListener("message", function(event) {
 // Listen for messages from background.js
 chrome.runtime.onMessage.addListener(
   (message, sender, sendResponse) => {
-    // console.log("CS received chrome message");
-    if(message.type === "CLOSE_WS"){
+    if(message.type === "CLOSE_WS" || message.type === "ALLOW_WS" || message.type === "BLOCK_WS"){
       window.postMessage(message, "*");
     }
   }
 );
-
-// ||demos.kaazing.com^

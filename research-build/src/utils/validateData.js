@@ -4,7 +4,7 @@ const path = require('path');
 
 //Settings
 const COUNTRIES = ["hong-kong", "ireland", "japan", "russia", "spain", "usa"];
-const ROUND = 4;
+const ROUND = 5;
 
 //Globals
 let results = {};
@@ -60,9 +60,9 @@ function validateData(country){
     }
   }
   if(results.totalWSConnections === wsCount){
-    console.log("Total number of websockets matched.");
+    console.log("Total number of websockets matched site totals.");
   }else{
-    console.error("ERROR: Total number of websockets did not match.");
+    console.error("ERROR: Total number of websockets did not match site totals.");
   }
 
   checkForDuplicates();

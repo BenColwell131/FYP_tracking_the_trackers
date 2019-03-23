@@ -1,56 +1,53 @@
 function interceptWebSockets() {
+  const ALLOW_WS_BY_DEFAULT = true;
   // Preserve actual WebSocket object as we will be altering it
   var ActualWebSocket = window.WebSocket;
 
   // Create new WebSocket constructor function
   window.WebSocket = function WebSocket(url, protocols){
-    var newWS;
-    if(!(this instanceof WebSocket)) {
-        // This catches error calls to constructor.
-        // Need browser to throw an error so we call constructor without 'new'
-        newWS = ActualWebSocket.apply(this, arguments);
-    } else if (arguments.length === 1){
-        // No optional protocols specified
-        newWS = new ActualWebSocket(url);
-    } else if (arguments.length >= 2){
-        // Optional protocols have been specified
-        newWS = new ActualWebSocket(url, protocols);
-    } else {
-        newWS = new ActualWebSocket();
+    function createSocket(url, protocols) {
+      var newWS;
+      if(!(this instanceof WebSocket)) {
+          // This catches error calls to constructor.
+          // Need browser to throw an error so we call constructor without 'new'
+          newWS = ActualWebSocket.apply(this, arguments);
+      } else if (arguments.length === 1){
+          // No optional protocols specified
+          newWS = new ActualWebSocket(url);
+      } else if (arguments.length >= 2){
+          // Optional protocols have been specified
+          newWS = new ActualWebSocket(url, protocols);
+      } else {
+          newWS = new ActualWebSocket();
+      }
+
+      // Attach listener for incoming messages.
+      newWS.addEventListener('message', (event) => {
+        // *** RECEIVED FRAME ***
+        window.postMessage({type: "WS_FRAME_RECIEVED",
+                            payload: event.data,
+                            origin: event.origin,
+                            webSocketURL: newWS.url,
+                            tabURL: window.location.href
+                           }, "*");
+      });
+
+      return newWS;
     }
-
-    // Attach listener for incoming messages.
-    newWS.addEventListener('message', (event) => {
-
-      // *** RECEIVED FRAME ***
-      window.postMessage({type: "WS_FRAME_RECIEVED",
-                          payload: event.data,
-                          origin: event.origin,
-                          webSocketURL: newWS.url,
-                          tabURL: window.location.href
-                         }, "*");
-    });
-
-    // TODO: Potentially need to *not* open the websocket here rather than terminate it later
-    console.log(newWS);
 
     // *** NEW WEBSOCKET ***
     window.postMessage({ type: "NEW_WS",
                          text: "New web socket opened",
-                         url: newWS.url,
+                         url: url,
                          tabURL: window.location.href
                         }, "*");
 
-    // Simple helper function to add delays
-    const delay = ms => new Promise(res => setTimeout(res, ms));
-
-    window.addEventListener('message', function(event) {
-      if(event.data.type === "CLOSE_WS" && event.data.wsURL === newWS.url){
-        (async() => {
-          console.log("Ready state: " + newWS.readyState);
-          // if(newWS.readyState === 0){
-          //   await delay(100);
-          // }
+    let boundCreateSocket = createSocket.bind(this, url, protocols);
+    if(ALLOW_WS_BY_DEFAULT){
+      // Listen for close event
+      window.addEventListener('message', function(event) {
+        // ** CLOSE WS **
+        if(event.data.type === "CLOSE_WS" && event.data.wsURL === url){
           if(event.data.method === "polite"){
             console.log("Closing politely.");
             newWS.close();
@@ -60,10 +57,32 @@ function interceptWebSockets() {
             ActualWebSocket.prototype.send = function() {};
             newWS.onmessage = null;
           }
-        })();
+        }
+      }, true);
+
+      // Create the socket - this may be closed shortly if it hits our filter.
+      return boundCreateSocket();
+    }
+
+    // ****** ! ALLOW_WS_BY_DEFAULT *******
+
+    // Listen for updates from url checking (allow/block).
+    let newWS;
+    window.addEventListener('message', function(event) {
+      // ** ALLOW WS **
+      if(event.data.type === "ALLOW_WS" && event.data.wsURL === url){
+        console.log("Received an allow message for: ", url);
+        newWS = boundCreateSocket();
+      }
+      // ** BLOCK WS **
+      else if(event.data.type === "BLOCK_WS" && event.data.wsURL === url){
+        console.log("Received a block message for: ", url);
+        //TODO: Implement void path.
+        newWS = null;
       }
     }, true);
 
+    // console.log("newWS", newWS);
     return newWS;
   };
 

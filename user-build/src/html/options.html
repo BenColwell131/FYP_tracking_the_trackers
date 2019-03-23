@@ -1,20 +1,38 @@
 <!DOCTYPE html>
  <html>
    <head>
-     <style>
-       button {
-         height: 30px;
-         width: 30px;
-         outline: none;
-         margin: 10px;
-       }
-     </style>
+
    </head>
    <body>
-     <div id="buttonDiv">
-     </div>
-     <div>
-       <p>Choose a different background color!</p>
-     </div>
+    <div class="tile">
+      <img id="title" src="" alt="WebSocket Analyser">
+      <h1>Options</h1>
+      <hr class="divider-1">
+      <h2>First / Third party options</h2>
+      <div class="option">
+        <p>Ignore sub-domains in first/third party decisions</p>
+        <input type="checkbox" name="ignoreSubdomains">
+      </div>
+      <hr class="divider-2">
+      <h2>Filtration options</h2>
+      <div class="option">
+        <p>Filter first party connections?</p>
+        <input type="checkbox" name="filterFirstParty">
+      </div>
+      <hr class="divider-2">
+      <div class="option">
+        <p>Terminate sockets that hit filter?</p>
+        <input type="checkbox" name="closeSockets">
+      </div>
+      <hr class="divider-2">
+      <div class="option">
+        <p>How to terminate sockets:</p>
+        <div class="radio">
+          <input type="radio" name="closeSocketsPolitely" value="polite" checked> Close politely<br>
+          <input type="radio" name="closeSocketsPolitely" value="standard"> Drop connection<br>
+        </div>
+      </div>
+
+    </div>
    </body>
  </html>

@@ -15,9 +15,13 @@ const psl = require('psl');
 
   // User setting
   //TODO: Temporarily just globals
-  const IGNORE_SUBDOMAINS = true;
-  const FILTER_FIRST_PARTY = true;
-  const CLOSE_SOCKETS_POLITELY = true;
+  let IGNORE_SUBDOMAINS = true;
+  let FILTER_FIRST_PARTY = false;
+  let ALLOW_WS_BY_DEFAULT = true; //TODO: update patch when this is updated
+  let CLOSE_SOCKETS = true;
+  let CLOSE_SOCKETS_POLITELY = true;
+  let BLOCK_SOCKETS_POLITELY = true;
+
 
 // ********************** Handling popup **************************************
 function updatePopup(){
@@ -42,6 +46,46 @@ chrome.runtime.onConnect.addListener( (port) => {
 
 // ****************************************************************************
 
+// ********************** Handling options ************************************
+//Initialise storage
+chrome.storage.sync.set({ignoreSubdomains: IGNORE_SUBDOMAINS,
+                         filterFirstParty: FILTER_FIRST_PARTY,
+                         closeSockets: CLOSE_SOCKETS,
+                         closeSocketsPolitely: CLOSE_SOCKETS_POLITELY}, () => {
+                           console.log("Updated settings in storage.");
+                         });
+chrome.storage.onChanged.addListener((changes, area) => {
+  if(area === "sync"){
+    console.log("Detected storage change.");
+    let changedItems = Object.keys(changes);
+    for (let item of changedItems){
+      console.log("Detected change: " + item + " : " + changes[item].newValue);
+      switch(item){
+        case "ignoreSubdomains":
+          IGNORE_SUBDOMAINS = changes[item].newValue;
+          break;
+        case "filterFirstParty":
+          FILTER_FIRST_PARTY = changes[item].newValue;
+          break;
+        case "closeSockets":
+          CLOSE_SOCKETS = changes[item].newValue;
+          break;
+        case "closeSocketsPolitely":
+          CLOSE_SOCKETS_POLITELY = changes[item].newValue;
+          break;
+        default:
+          // Do nothing
+      }
+      console.log("IGNORE_SUBDOMAINS: " + IGNORE_SUBDOMAINS);
+      console.log("FILTER_FIRST_PARTY: " + FILTER_FIRST_PARTY);
+      console.log("CLOSE_SOCKETS: " + CLOSE_SOCKETS);
+      console.log("CLOSE_SOCKETS_POLITELY: " + CLOSE_SOCKETS_POLITELY);
+
+    }
+  }
+});
+// ****************************************************************************
+
 // ********************** Post-processing urls ********************************
 function fetchFilterLists(){
   console.time("Fetching lists & parsing");
@@ -61,14 +105,13 @@ function fetchFilterLists(){
       // console.log(parsedFilterList);
       filterLists.forEach(filterList => {
         ABPFilterParser.parse(filterList, parsedFilterList);
-        debugger;
       });
       console.timeEnd("Fetching lists & parsing");
     })
     .catch(err => console.log(err));
 
-  let customListURL = chrome.runtime.getURL('assets/filters/customList.txt');
-  const fetch3 = fetch(customListURL).then(response => response.text()).then(res => ABPFilterParser.parse(res, parsedFilterList));
+  // let customListURL = chrome.runtime.getURL('assets/filters/customList.txt');
+  // const fetch3 = fetch(customListURL).then(response => response.text()).then(res => ABPFilterParser.parse(res, parsedFilterList));
 }
 // Call this right away
 fetchFilterLists();
@@ -113,9 +156,9 @@ function checkFirstParty(wsURLString, siteURLString){
 function filterWSURL(wsURL){
       // Check Websocket URL against our lists.
       debugger;
-      if (ABPFilterParser.matches(parsedFilterList, wsURL
-        // { domain: //TODO
-        // elementTypeMask: ABPFilterParser.elementTypes.SCRIPT}
+      if (ABPFilterParser.matches(parsedFilterList, wsURL, {
+        // domain: //TODO
+        elementTypeMask: ABPFilterParser.elementTypes.SCRIPT}
       )) {
         console.log("Matched URL to list. You should block this URL!");
         console.log(wsURL);
@@ -126,6 +169,24 @@ function filterWSURL(wsURL){
         console.log(wsURL);
         return false;
       }
+}
+
+function allowWS(wsURLString){
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {type: "ALLOW_WS", wsURL: wsURLString});
+  });
+}
+
+function blockWS(wsURLString){
+  let method;
+  if(BLOCK_SOCKETS_POLITELY){
+    method = "polite";
+  }else{
+    method = "standard";
+  }
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {type: "BLOCK_WS", wsURL: wsURLString, method: method});
+  });
 }
 
 function closeWS(wsURLString){
@@ -149,9 +210,22 @@ function postProcessWS(wsURLString, siteURLString){
     const hitFilterLists = filterWSURL(wsURLString);
     if(hitFilterLists){
       chrome.browserAction.setBadgeBackgroundColor({color: '#F60000'});
-      closeWS(wsURLString);
+      if(!ALLOW_WS_BY_DEFAULT){
+        // WS is waiting for either allow or block response before connection.
+        blockWS(wsURLString);
+      }
+      else if(CLOSE_SOCKETS){
+        // WS will have been allowed to connect so we must close.
+        closeWS(wsURLString);
+      }
       return;
     }
+  }
+  // Connection is safe.
+  if (!ALLOW_WS_BY_DEFAULT){
+    // WS is waiting for either allow or block response before connection.
+    console.log("Sending allow");
+    allowWS(wsURLString);
   }
 }
 // ****************************************************************************
