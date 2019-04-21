@@ -1,7 +1,7 @@
 import "../css/options.css";
 
 // Load title image
-var imgURL = chrome.extension.getURL("assets/images/title.png");
+var imgURL = chrome.extension.getURL("assets/images/title-logo.svg");
 document.getElementById("title").src = imgURL;
 
 // Select input objects

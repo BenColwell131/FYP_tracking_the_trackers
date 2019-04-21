@@ -4,7 +4,7 @@ const path = require('path');
 
 //Settings
 const COUNTRIES = ["hong-kong", "ireland", "japan", "russia", "spain", "usa"];
-const ROUND = 5;
+const ROUND = 6;
 
 //Globals
 let results = {};
@@ -47,6 +47,7 @@ function validateData(country){
     console.log("Number of sites visited matched.");
   }else{
     console.error("ERROR: Number of sites visited did not match.");
+    console.log("Actual number of sites visited: ", Object.keys(results.details).length);
   }
 
   let wsCount = 0;

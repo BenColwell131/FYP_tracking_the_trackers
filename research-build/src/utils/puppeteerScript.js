@@ -40,7 +40,6 @@ function logError(domain, err){
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 (async() => {
-  // TODO: was here -> moved into country loop
   await loadDomainList();
   const pathToExtension = path.join(__dirname, '../../', 'build');
   const pathToUserDir = path.join(__dirname, '../../', 'assets', 'puppeteer-profile');

@@ -35,6 +35,8 @@ function interceptWebSockets() {
       return newWS;
     }
 
+    console.log("Construct socket: ", url);
+
     // *** NEW WEBSOCKET ***
     window.postMessage({ type: "NEW_WS",
                          text: "New web socket opened",
@@ -49,7 +51,7 @@ function interceptWebSockets() {
         // ** CLOSE WS **
         if(event.data.type === "CLOSE_WS" && event.data.wsURL === url){
           if(event.data.method === "polite"){
-            console.log("Closing politely.");
+            console.log("Closing politely. ", url);
             newWS.close();
           }
           else {
@@ -61,7 +63,8 @@ function interceptWebSockets() {
       }, true);
 
       // Create the socket - this may be closed shortly if it hits our filter.
-      return boundCreateSocket();
+      let newWS =  boundCreateSocket();
+      return newWS;
     }
 
     // ****** ! ALLOW_WS_BY_DEFAULT *******
@@ -82,7 +85,8 @@ function interceptWebSockets() {
       }
     }, true);
 
-    // console.log("newWS", newWS);
+    // TODO: This object usually returns undefined as Event Listener happens async
+    // Need to find a way to wait for either allow/block message.
     return newWS;
   };
 
@@ -106,7 +110,8 @@ function interceptWebSockets() {
     // *** WEBSOCKET CLOSED ***
     window.postMessage({type: "WS_CLOSED",
                         text: "WebSocket closed.",
-                        wsURL: this.url
+                        wsURL: this.url,
+                        readyState: this.readyState
                        }, "*");
     return closeWS.apply(this, arguments);
   };

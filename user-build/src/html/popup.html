@@ -4,16 +4,44 @@
     <title>WebSocket Analyser</title>
   </head>
   <body>
-    <h1>WebSocket Info.</h1>
+    <img src="" alt="WebSocket Analyser" id="title">
     <div>
-      <h2>Number of WebSockets open:</h2>
-      <p id="numWS">0</p>
-      <h2>WebSocket Frames sent:</h2>
-      <p id="numWSSent">0</p>
-      <h2>WebSocket Frames received:</h2>
-      <p id="numWSReceived">0</p>
-      <h2>Number of blockable WebSockets:</h2>
-      <p id="numBlockableWS">0</p>
+      <div class="row">
+        <h2>WebSockets opened:</h2>
+        <p class="digit" id="numWSOpened">0</p>
+      </div>
+      <hr class="divider">
+      <!-- <div class="row">
+        <h2>WebSockets open now:</h2>
+        <p class="digit" id="numWS">0</p>
+      </div>
+      <hr class="divider"> -->
+      <div class="row ">
+        <div class="col ">
+          <p class="digit" id="numFPWS">0</p>
+          <h2>First party</h2>
+        </div>
+        <div class="col ">
+          <p class="digit" id="numTPWS">0</p>
+          <h2>Third party</h2>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="row ">
+        <div class="col ">
+          <p class="digit" id="numWSSent">0</p>
+          <h2>Frames sent</h2>
+        </div>
+        <div class="col ">
+          <p class="digit" id="numWSReceived">0</p>
+          <h2>Frames received</h2>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="row">
+        <h2>WebSockets blocked:</h2>
+        <p class="digit" id="numBlockedWS">0</p>
+      </div>
     </div>
   </body>
 </html>

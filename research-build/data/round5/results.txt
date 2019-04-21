@@ -1,0 +1,14 @@
+Number of sites to open WS:   41
+Total WS connections:         133
+
+//Below wont equal total ws connections due to duplicate url issue.
+Total FP:                     25
+Total TP:                     80
+% TP:                         76.19%
+Total WS hit filter:          41
+Total WS missed filter:       64
+% hit filter:                 39.04%
+
+
+Maybe list sites
+Does blocking HTTP block WS - what value does this add?

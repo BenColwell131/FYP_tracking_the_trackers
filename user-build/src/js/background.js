@@ -5,19 +5,21 @@ const psl = require('psl');
 // *** Global variables *** //
   //Popup variables
   let numWS = 0;
+  let numWSOpened = 0;
+  let numFPWS = 0;
+  let numTPWS = 0;
   let numWSSent = 0;
   let numWSReceived = 0;
-  let numBlockableWS = 0;
+  let numBlockedWS = 0;
   let popupOpen = false;
 
   //Filtering variables
   let parsedFilterList = {};
 
-  // User setting
-  //TODO: Temporarily just globals
+  // Settings
   let IGNORE_SUBDOMAINS = true;
   let FILTER_FIRST_PARTY = false;
-  let ALLOW_WS_BY_DEFAULT = true; //TODO: update patch when this is updated
+  let ALLOW_WS_BY_DEFAULT = true;
   let CLOSE_SOCKETS = true;
   let CLOSE_SOCKETS_POLITELY = true;
   let BLOCK_SOCKETS_POLITELY = true;
@@ -28,9 +30,12 @@ function updatePopup(){
   chrome.runtime.sendMessage({
     type: "POPUP_UPDATE",
     numWS: numWS,
+    numWSOpened: numWSOpened,
+    numFPWS: numFPWS,
+    numTPWS: numTPWS,
     numWSSent: numWSSent,
     numWSReceived: numWSReceived,
-    numBlockableWS: numBlockableWS
+    numBlockedWS: numBlockedWS
   });
 }
 
@@ -47,13 +52,15 @@ chrome.runtime.onConnect.addListener( (port) => {
 // ****************************************************************************
 
 // ********************** Handling options ************************************
-//Initialise storage
+//Initialise storage on extension reload.
 chrome.storage.sync.set({ignoreSubdomains: IGNORE_SUBDOMAINS,
                          filterFirstParty: FILTER_FIRST_PARTY,
                          closeSockets: CLOSE_SOCKETS,
                          closeSocketsPolitely: CLOSE_SOCKETS_POLITELY}, () => {
                            console.log("Updated settings in storage.");
                          });
+
+//Listen for option changes.
 chrome.storage.onChanged.addListener((changes, area) => {
   if(area === "sync"){
     console.log("Detected storage change.");
@@ -100,9 +107,6 @@ function fetchFilterLists(){
 
   Promise.all([fetch1, fetch2, fetch3])
     .then(filterLists => {
-      //Add each list to the parsed list
-      // console.log("Parsed: ");
-      // console.log(parsedFilterList);
       filterLists.forEach(filterList => {
         ABPFilterParser.parse(filterList, parsedFilterList);
       });
@@ -142,12 +146,12 @@ function checkFirstParty(wsURLString, siteURLString){
 
       if(siteURL != wsURL){
         // WS is third party:
-        console.log(wsURL + ": Third party WS connection. Caution.");
+        console.log("Third party WS connection. Caution.");
         return false;
       }
       else{
         // WS is first party
-        console.log(wsURL + ": First party WS connection. Safe to proceed.");
+        console.log("First party WS connection. Safe to proceed.");
         return true;
       }
 }
@@ -155,56 +159,62 @@ function checkFirstParty(wsURLString, siteURLString){
 // Returns true if the WS hit our filter lists.
 function filterWSURL(wsURL){
       // Check Websocket URL against our lists.
-      debugger;
       if (ABPFilterParser.matches(parsedFilterList, wsURL, {
         // domain: //TODO
         elementTypeMask: ABPFilterParser.elementTypes.SCRIPT}
       )) {
-        console.log("Matched URL to list. You should block this URL!");
-        console.log(wsURL);
+        console.log("Matched URL to list. You should block this URL!\n", wsURL);
         return true;
       }
       else {
-        console.log("Didn't match URL to list. Safe to proceed.");
-        console.log(wsURL);
+        console.log("Didn't match URL to list. Safe to proceed.\n", wsURL);
         return false;
       }
 }
 
+// Allow the WS to open.
+// Only used if ALLOW_WS_BY_DEFAULT is false.
 function allowWS(wsURLString){
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     chrome.tabs.sendMessage(tabs[0].id, {type: "ALLOW_WS", wsURL: wsURLString});
   });
 }
 
+// Block the WS from opening.
+// Only used if ALLOW_WS_BY_DEFAULT is false.
 function blockWS(wsURLString){
+  console.log("Blocking WS: ", wsURLString);
   let method;
   if(BLOCK_SOCKETS_POLITELY){
     method = "polite";
   }else{
     method = "standard";
   }
-  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+
+  chrome.tabs.query({url: siteURLString}, function(tabs) {
     chrome.tabs.sendMessage(tabs[0].id, {type: "BLOCK_WS", wsURL: wsURLString, method: method});
   });
 }
 
-function closeWS(wsURLString){
-    let method;
-    if(CLOSE_SOCKETS_POLITELY){
-      method = "polite";
-    }else{
-      method = "standard";
-    }
+// Close an open/opening WS.
+function closeWS(wsURLString, siteURLString){
+  console.log("Closing WS: ", wsURLString);
+  let method;
+  if(CLOSE_SOCKETS_POLITELY){
+    method = "polite";
+  }else{
+    method = "standard";
+  }
 
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      chrome.tabs.sendMessage(tabs[0].id, {type: "CLOSE_WS", wsURL: wsURLString, method: method});
-    });
+  // chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+  chrome.tabs.query({url: siteURLString}, function(tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {type: "CLOSE_WS", wsURL: wsURLString, method: method});
+  });
 }
 
 function postProcessWS(wsURLString, siteURLString){
   const firstParty = checkFirstParty(wsURLString, siteURLString);
-
+  firstParty ? numFPWS++ : numTPWS++;
   if(!firstParty || FILTER_FIRST_PARTY){
     console.log("Should be filtered");
     const hitFilterLists = filterWSURL(wsURLString);
@@ -213,15 +223,23 @@ function postProcessWS(wsURLString, siteURLString){
       if(!ALLOW_WS_BY_DEFAULT){
         // WS is waiting for either allow or block response before connection.
         blockWS(wsURLString);
+        numWS--;  //Num WS counts the connection attempts - so need to decrement even if hasnt actually opened.
       }
       else if(CLOSE_SOCKETS){
-        // WS will have been allowed to connect so we must close.
-        closeWS(wsURLString);
+        // WS will have been allowed to connect (or start to) so we must close.
+        closeWS(wsURLString, siteURLString);
+        // TODO: Technically its still 'open'. Not sure if I should decrement
+        // if(!CLOSE_SOCKETS_POLITELY) {
+        //   numWS--; //Won't detect closure via normal means as close event not fired.
+        // }
       }
+
+      numBlockedWS++;
+      updatePopup(); // This updates all values that post-processing changes.
       return;
     }
   }
-  // Connection is safe.
+  // Connection is safe from here.
   if (!ALLOW_WS_BY_DEFAULT){
     // WS is waiting for either allow or block response before connection.
     console.log("Sending allow");
@@ -241,32 +259,34 @@ chrome.runtime.onMessage.addListener(
           if(numWS === 0){
             // Alter UI Badge
             chrome.browserAction.setBadgeText({text: '!'});
-            chrome.browserAction.setBadgeBackgroundColor({color: '#2aa4ff'});
+            // Only set label to blue if its not already red (ie: WS blocked).
+            if(numBlockedWS === 0) chrome.browserAction.setBadgeBackgroundColor({color: '#2aa4ff'});
           }
           numWS++;
+          numWSOpened++;
           console.log("New WS opened.");
-          console.log("Tab url: " + message.tabURL);
-          console.log("WS url: " + message.url);
           postProcessWS(message.url, message.tabURL);
           break;
 
         case "WS_FRAME_SENT":
           numWSSent++;
-          console.log("WS frame sent. #" + numWSSent);
+          // console.log("WS frame sent. #" + numWSSent);
           break;
 
         case "WS_FRAME_RECIEVED":
           numWSReceived++;
-          console.log("WS frame received. #" + numWSReceived);
+          // console.log("WS frame received. #" + numWSReceived);
           break;
 
         case "WS_CLOSED":
           if(numWS === 1){
-            // Alter UI Badge
-            chrome.browserAction.setBadgeText({text: ''});
+            // Alter UI Badge if no WS blocked
+            if(numBlockedWS === 0) chrome.browserAction.setBadgeText({text: ''});
           }
-          numWS--;
-          console.log("WS Closed: " + message.wsURL);
+          if(message.readyState != 3){
+            numWS--;
+            console.log("WS Closed: " + message.wsURL);
+          }
           break;
 
         case "UPDATE_POPUP":
